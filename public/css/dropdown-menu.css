@@ -1,0 +1,143 @@
+/* screen - dropdown-menu */
+
+.dropdown-menu {
+  background-color: transparent;
+  height: 5881px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+#overlay-dropdown-menu {
+  background-color: transparent;
+}
+
+.overlay .dropdown-menu {
+  background-color: #00000000;
+}
+
+#overlay-dropdown-menu .dropdown-menu {
+  left: 510.0000104904175px;
+  position: absolute;
+  top: 202.00000381469727px;
+}
+
+
+#overlay-dropdown-menu .container-center-horizontal {
+  justify-content: normal;
+}
+
+.dropdown-menu .dropdown-menu-ywJN3w {
+  background-color: transparent;
+  height: 162px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 178px;
+}
+
+.dropdown-menu .rectangle-112-jiK7Zy {
+  background-color: var(--white);
+  height: 162px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 178px;
+}
+
+.dropdown-menu .group-117-jiK7Zy {
+  background-color: transparent;
+  height: 31px;
+  left: 27px;
+  position: absolute;
+  top: 19px;
+  width: 134px;
+}
+
+.dropdown-menu .akar-iconsarrow-down-IGjln5 {
+  background-color: transparent;
+  height: 32px;
+  left: 103px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 29px;
+}
+
+.dropdown-menu .history-IGjln5 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  width: 86px;
+}
+
+.dropdown-menu .group-118-jiK7Zy {
+  background-color: transparent;
+  height: 31px;
+  left: 25px;
+  position: absolute;
+  top: 65px;
+  width: 135px;
+}
+
+.dropdown-menu .akar-iconsarrow-down-AYujpj {
+  background-color: transparent;
+  height: 32px;
+  left: 105px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 29px;
+}
+
+.dropdown-menu .leadership-AYujpj {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: 102px;
+}
+
+.dropdown-menu .group-119-jiK7Zy {
+  background-color: transparent;
+  height: 31px;
+  left: 27px;
+  position: absolute;
+  top: 107px;
+  width: 134px;
+}
+
+.dropdown-menu .akar-iconsarrow-down-ZDVNL2 {
+  background-color: transparent;
+  height: 33px;
+  left: 103px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+  width: 29px;
+}
+
+.dropdown-menu .careers-ZDVNL2 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: 59px;
+}

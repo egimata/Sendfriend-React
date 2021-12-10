@@ -1,0 +1,108 @@
+/* screen - frame-6 */
+
+.frame-6 {
+  background-color: #00000063;
+  height: 5881px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+#overlay-frame-6 {
+  background-color: #00000063;
+}
+
+.overlay .frame-6 {
+  background-color: #00000000;
+}
+
+.frame-6 .frame-6-MzyH1D {
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0px 7px 50px #0000001a;
+  height: 552px;
+  left: calc(50vw - 302.0px);
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+  top: calc(50vh - 276.0px);
+  width: 604px;
+}
+
+.frame-6 .our-platform-is-laun-zNGeUl {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 20px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 338px;
+  width: 584px;
+}
+
+.frame-6 .span0-D6bUCI {
+  font-style: normal;
+}
+
+.frame-6 .span1-D6bUCI {
+  color: var(--caribbean-green);
+  font-style: normal;
+}
+
+.frame-6 .span2-D6bUCI {
+  font-style: normal;
+}
+
+.frame-6 .span3-D6bUCI {
+  color: var(--caribbean-green);
+  font-style: normal;
+}
+
+.frame-6 .span4-D6bUCI {
+  font-style: normal;
+}
+
+.frame-6 .friend-zNGeUl {
+  background-color: transparent;
+  height: 33px;
+  left: 288px;
+  position: absolute;
+  top: 172px;
+  width: 122px;
+}
+
+.frame-6 .send-zNGeUl {
+  background-color: transparent;
+  height: 36px;
+  left: 288px;
+  position: absolute;
+  top: 122px;
+  width: 102px;
+}
+
+.frame-6 .line-16-zNGeUl {
+  background-color: transparent;
+  height: 1px;
+  left: 107px;
+  position: absolute;
+  top: 256px;
+  width: 408px;
+}
+
+.frame-6 .original-logo-zNGeUl {
+  background-color: transparent;
+  height: 92px;
+  left: 206px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 111px;
+  width: 68px;
+}
