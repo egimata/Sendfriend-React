@@ -638,13 +638,13 @@ transform: translate(0,0);
 .homepage .arrow-5-zYNucu {
   background-color: transparent;
   display: block;
-  height: 166px;
-  left: 1066px;
+  height: 389px;
+  left: 884px;
   opacity: 0;
   position: absolute;
-  top: 1307px;
+  top: 1152px;
   transform: translate(0, 25px);
-  width: 16px;
+  width: 159px;
 }
 
 .homepage .arrow-5-zYNucu.bp1-animate-enter4 {
@@ -812,13 +812,13 @@ transform: translate(0,0);
 .homepage .arrow-4-zYNucu {
   background-color: transparent;
   display: block;
-  height: 107px;
-  left: 892px;
+  height: 182px;
+  left: 999px;
   opacity: 0;
   position: absolute;
-  top: 1289px;
+  top: 1291px;
   transform: translate(-25px, 0);
-  width: 147px;
+  width: 144px;
 }
 
 .homepage .arrow-4-zYNucu.bp1-animate-enter9 {
@@ -2412,46 +2412,46 @@ transform: translate(0,0);
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 691px;
+  top: 78px;
   width: auto;
 }
 
 .homepage .faster-Ap9U61 {
   background-color: transparent;
   height: auto;
-  left: 283px;
+  left: 70px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 691px;
+  top: 78px;
   width: auto;
 }
 
 .homepage .multichain-Ap9U61 {
   background-color: transparent;
   height: auto;
-  left: 473px;
+  left: 49px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
-  top: 691px;
+  top: 78px;
   width: auto;
 }
 
 .homepage .more-secure-Ap9U61 {
   background-color: transparent;
   height: auto;
-  left: 675px;
+  left: 46px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
-  top: 691px;
+  top: 78px;
   width: auto;
 }
 
@@ -2466,7 +2466,7 @@ transform: translate(0,0);
   opacity: 0;
   pointer-events: auto;
   position: absolute;
-  top: 629px;
+  top: 14px;
   transition: all 0.2s ease-in;
   width: 56px;
 }
@@ -2492,10 +2492,10 @@ to{opacity: 1;
   background-color: transparent;
   cursor: pointer;
   height: 59px;
-  left: 710px;
+  left: 78px;
   pointer-events: auto;
   position: absolute;
-  top: 626px;
+  top: 14px;
   transition: all 0.2s ease;
   width: 53px;
 }
@@ -2509,13 +2509,13 @@ to{opacity: 1;
   cursor: pointer;
   display: block;
   height: 55px;
-  left: 285px;
+  left: 70px;
   mix-blend-mode: normal;
   object-fit: cover;
   opacity: 0;
   pointer-events: auto;
   position: absolute;
-  top: 629px;
+  top: 14px;
   transition: all 0.2s ease;
   width: 56px;
 }
@@ -2542,12 +2542,12 @@ to{opacity: 1;
   cursor: pointer;
   display: block;
   height: 59px;
-  left: 497px;
+  left: 72px;
   mix-blend-mode: normal;
   opacity: 0;
   pointer-events: auto;
   position: absolute;
-  top: 626px;
+  top: 14px;
   transition: all 0.2s ease;
   width: 59px;
 }
