@@ -1,4 +1,5 @@
 import React from "react";
+import historyBackgroundImg from '../img/background-img@1x.png';
 
 export const History = () => {
   return (
@@ -329,7 +330,7 @@ export const History = () => {
             </div>
             <img class="learn-more-iVdtxd" src="img/learn-more-1@2x.svg" />
           </div>
-          <img class="background-img-MaQ2GE" src="img/background-img@1x.png" />
+          <img class="background-img-MaQ2GE" src={historyBackgroundImg} />
           <div class="rectangle-87-MaQ2GE animate-enter1" show-on-scroll></div>
           <div class="header-text-MaQ2GE animate-enter2" show-on-scroll>
             <div class="one-connection-to-the-world-of-payments-5s6dz4">
@@ -434,9 +435,11 @@ export const History = () => {
                     <img class="vector-TiWjQN" src="img/vector@2x.svg" />
                   </div>
                 </div>
-                <div class="history-IGjln5 montserrat-normal-ebony-clay-13px">
+               <a href="#">
+               <div class="history-IGjln5 montserrat-normal-ebony-clay-13px">
                   History
                 </div>
+               </a>
               </div>
               <div class="group-118-jiK7Zy">
                 <div class="akar-iconsarrow-down-AYujpj">
