@@ -1,6 +1,24 @@
-import logo from './logo.svg';
+import logo from './img/original-logo@2x.svg';
 import './App.css';
-import testImg from './img/slider-homepage-1@1x.png'
+import testImg from './img/slider-homepage-1@1x.png';
+import facebook_icon from './img/bx-bxl-facebook@2x.svg';
+import twitter_icon from './img/ant-design-twitter-outlined@2x.svg';
+import linkedin_icon from './img/vector-8@2x.svg';
+import menu_bg from './img/vector-9@1x.svg';
+import logo_title from './img/logo-title@2x.svg';
+import cheaper_img from './img/3@1x.png';
+import faster_img from './img/2@2x.png';
+import section2_bg from './img/rectangle-106@1x.svg';
+import multichain_img from './img/eos-icons-blockchain-1@2x.svg';
+import moresecure_img from './img/group-6@2x.svg';
+import api_img from './img/carbon-api-1@2x.svg';
+import arrow1 from './img/arrow-6@2x.svg';
+import arrow2 from './img/arrow-2@2x.svg';
+import arrow3 from './img/arrow-3@2x.svg';
+import arrow4 from './img/arrow-4@2x.svg';
+import arrow5 from './img/arrow-5@2x.svg';
+import arrow6 from './img/arrow-1@2x.svg';
+import world_img from './img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png';
 
 function App() {
   return (
@@ -39,7 +57,7 @@ function App() {
             sec.
           </div>
         </div>
-        <img class="rectangle-106-zYNucu" src="img/rectangle-106@1x.svg" />
+        <img class="rectangle-106-zYNucu" src={section2_bg}/>
         <div class="group-92-zYNucu">
           <img class="ant-designcheck-circle-outlined-pMVTHP" src="img/ant-design-check-circle-outlined@2x.svg" />
           <img class="ant-designcheck-circle-outlined-LiPxAv" src="img/ant-design-check-circle-outlined@2x.svg" />
@@ -91,7 +109,7 @@ function App() {
         <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
           <img
             class="kisspng-clip-art-cit-8iKLl4"
-            src="img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png"
+            src={world_img}
           />
           <img class="group-101-8iKLl4" src="img/group-101-1@2x.svg" />
         </div>
@@ -102,21 +120,17 @@ function App() {
           </div>
           <img class="group-48-PZ1dm1" src="img/group-48@1x.png" />
         </div>
-        <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src="img/arrow-3@2x.svg" />
-        <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src="img/arrow-5@2x.svg" />
-        <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src="img/arrow-2@2x.svg" />
-        <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src="img/arrow-1@2x.svg" />
-        <img class="arrow-6-zYNucu" src="img/arrow-6@2x.svg" />
+        <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
+        <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
+        <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
+        <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
+        <img class="arrow-6-zYNucu" src={arrow1} />
         <img class="x3-zYNucu" src="img/3@2x.png" />
-        <img class="group-zYNucu" src="img/group-7@2x.svg" />
-        <img
-          class="eos-iconsblockchain-zYNucu bp1-animate-enter7"
-          show-on-scroll
-          src="img/eos-icons-blockchain@2x.svg"
-        />
-        <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src="img/carbon-api-1@2x.svg" />
-        <img class="x2-zYNucu" src="img/2@2x.png" />
-        <img class="arrow-4-zYNucu bp1-animate-enter9" show-on-scroll src="img/arrow-4@2x.svg" />
+        <img class="group-zYNucu" src={moresecure_img} />
+        <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img} />
+        <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
+        <img class="x2-zYNucu" src={faster_img} />
+        <img class="arrow-4-zYNucu bp1-animate-enter9" show-on-scroll src={arrow5} />
         <div class="platform-section-zYNucu" id="platform-section">
           <div class="a-flexible-cross-bor-ukK2kV montserrat-extra-bold-white-36px bp1-animate-enter10" show-on-scroll>
             <span class="span0-MPLrMf">A flexible cross-border payment solution<br /></span
@@ -257,7 +271,7 @@ function App() {
           <img class="asset-1bg1-1-2-bUVegb" src="img/asset-1bg1-1-2@2x.png" />
           <img class="friend-bUVegb" src="img/friend@2x.svg" />
           <img class="send-bUVegb" src="img/send@2x.svg" />
-          <img class="original-logo-bUVegb" src="img/original-logo@2x.svg" />
+          <img class="original-logo-bUVegb" src={logo} />
         </div>
         <div class="slider-homepage-1-zYNucu bp1-animate-enter16" ><img src={testImg} />
         <div class="slider-zYNucu">
@@ -279,30 +293,33 @@ function App() {
             </div>
           </div>
           <img class="line-13-Ap9U61 smart-layers-pointers" src="img/line-13@1x.svg" />
-          <div class="rectangle-101-Ap9U61 smart-layers-pointers border-1px-black-2"></div>
-          <div class="rectangle-102-Ap9U61 smart-layers-pointers border-1px-black-2"></div>
-          <div class="rectangle-103-Ap9U61 smart-layers-pointers border-1px-black-2"></div>
-          <div class="rectangle-104-Ap9U61 smart-layers-pointers border-1px-black-2"></div>
-          <div class="cheaper-Ap9U61">CHEAPER</div>
-          <div class="faster-Ap9U61 montserrat-bold-ebony-clay-16px">FASTER</div>
-          <div class="multichain-Ap9U61 montserrat-bold-ebony-clay-16px">MULTICHAIN</div>
-          <div class="more-secure-Ap9U61 montserrat-bold-ebony-clay-16px">MORE SECURE</div>
-          <img class="x3-Ap9U61 smart-layers-pointers bp1-animate-enter22" src="img/3@1x.png" />
-          <img class="group-Ap9U61 smart-layers-pointers" src="img/group-6@2x.svg" />
-          <img class="x2-Ap9U61 smart-layers-pointers bp1-animate-enter23" src="img/2@2x.png" />
-          <img
-            class="eos-iconsblockchain-Ap9U61 smart-layers-pointers bp1-animate-enter24"
-            src="img/eos-icons-blockchain-1@2x.svg"
-          />
+          <div class="rectangle-101-Ap9U61 smart-layers-pointers border-1px-black-2">
+            <img class="x3-Ap9U61 smart-layers-pointers bp1-animate-enter22" src={cheaper_img} />
+            <div class="cheaper-Ap9U61">CHEAPER</div>
+          </div>
+          <div class="rectangle-102-Ap9U61 smart-layers-pointers border-1px-black-2">
+            <div class="faster-Ap9U61 montserrat-bold-ebony-clay-16px">FASTER</div>
+            <img class="x2-Ap9U61 smart-layers-pointers bp1-animate-enter23" src={faster_img} />
+          </div>
+          <div class="rectangle-103-Ap9U61 smart-layers-pointers border-1px-black-2">
+            <img class="eos-iconsblockchain-Ap9U61 smart-layers-pointers bp1-animate-enter24" src={multichain_img}/>
+            <div class="multichain-Ap9U61 montserrat-bold-ebony-clay-16px">MULTICHAIN</div>
+          </div>
+          <div class="rectangle-104-Ap9U61 smart-layers-pointers border-1px-black-2">
+            <div class="more-secure-Ap9U61 montserrat-bold-ebony-clay-16px">MORE SECURE</div>
+            <img class="group-Ap9U61 smart-layers-pointers" src={moresecure_img} />
+          </div>
+          
+
         </div>
         <div class="top-header-zYNucu">
           <div class="rectangle-97-BtVIxE"></div>
           <a href="https://www.facebook.com/sendfriendinc/" target="_blank">
-          <img class="bxbxl-facebook-BtVIxE" src="img/bx-bxl-facebook@2x.svg" /></a>
+          <img class="bxbxl-facebook-BtVIxE" src={facebook_icon} /></a>
           <a href="https://twitter.com/sendfriendinc" target="_blank"
-            ><img class="ant-designtwitter-outlined-BtVIxE" src="img/ant-design-twitter-outlined@2x.svg" /> </a
+            ><img class="ant-designtwitter-outlined-BtVIxE" src={twitter_icon} /> </a
           ><a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
-            ><img class="vector-BtVIxE" src="img/vector-8@2x.svg" />
+            ><img class="vector-BtVIxE" src={linkedin_icon} />
           </a>
         </div>
         <div class="partnerships-zYNucu" id="partnerships">
@@ -324,7 +341,7 @@ function App() {
           <div class="partnerships-4kxDw7">Partnerships</div>
         </div>
         <div class="group-121-zYNucu">
-          <img class="vector-nccVGg" src="img/vector-9@1x.svg" />
+          <img class="vector-nccVGg" src={menu_bg} />
           <a href="javascript:ShowOverlay('dropdown-menu', 'animate-appear');">
             <div class="company-dropdown-nccVGg">
               <img class="vector-1kE7iM" src="img/vector-16@2x.svg" />
@@ -335,8 +352,8 @@ function App() {
               <div class="rectangle-100-UvC0Wk smart-layers-pointers"></div>
               <div class="login-UvC0Wk montserrat-bold-white-14px">LOGIN</div>
             </div></a
-          ><img class="original-logo-nccVGg" src="img/original-logo@2x.svg" />
-          <img class="logo-title-nccVGg" src="img/logo-title@2x.svg" />
+          ><img class="original-logo-nccVGg" src={logo} />
+          <img class="logo-title-nccVGg" src={logo_title} />
           <a href="#platform-section"><div class="platform-nccVGg montserrat-bold-white-14px">PLATFORM</div> </a
           ><a href="#partnerships"><div class="partners-nccVGg montserrat-bold-white-14px">PARTNERS</div> </a>
           <a style={{color: '#000000'}} href="/contact">
