@@ -1,0 +1,44 @@
+/* screen - login-button */
+
+.login-button {
+  background-color: transparent;
+  height: 70px;
+  overflow-x: hidden;
+  position: relative;
+  width: 187px;
+}
+
+.login-button .rectangle-100-OxpfZM {
+  background-color: var(--caribbean-green);
+  cursor: pointer;
+  height: 70px;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 187px;
+}
+
+.login-button .rectangle-100-OxpfZM:hover {
+  background-color: #0FCFB0
+}
+
+.login-button .login-OxpfZM {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  height: 70px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 187px;
+}
