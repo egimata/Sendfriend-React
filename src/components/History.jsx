@@ -466,59 +466,6 @@ export const History = () => {
         </div>
       </div>
 
-      <div id="overlay-frame-6" class="overlay" style={{ minHeight: "5003px" }}>
-        <div class="container-center-horizontal">
-          <div class="frame-6 screen">
-            <div class="frame-6-MzyH1D">
-              <div class="our-platform-is-laun-zNGeUl">
-                <span class="span0-D6bUCI montserrat-semi-bold-black-24px">
-                  Our{" "}
-                </span>
-                <span class="span1-D6bUCI">Platform</span>
-                <span class="span2-D6bUCI montserrat-semi-bold-black-24px">
-                  {" "}
-                  is launching soon. <br />
-                  Please{" "}
-                </span>
-                <span class="span3-D6bUCI">CONTACT US</span>
-                <span class="span4-D6bUCI montserrat-semi-bold-black-24px">
-                  for more details
-                </span>
-              </div>
-              <div class="friend-zNGeUl">
-                <img class="vector-RRGhSI" src="img/vector-57@2x.svg" />
-                <img class="vector-UsdEnF" src="img/vector-103@2x.svg" />
-                <img class="vector-VqmWB9" src="img/vector-104@2x.svg" />
-                <img class="vector-qzB2xg" src="img/vector-60@2x.svg" />
-                <img class="vector-P8xnxR" src="img/vector-61@2x.svg" />
-                <img class="vector-OpcqYB" src="img/vector-107@2x.svg" />
-                <img class="vector-PHkh4V" src="img/vector-63@2x.svg" />
-              </div>
-              <div class="send-zNGeUl">
-                <img class="vector-ylzRsR" src="img/vector-109@2x.svg" />
-                <img class="vector-VV5IT7" src="img/vector-110@2x.svg" />
-                <img class="vector-lIq9hk" src="img/vector-111@2x.svg" />
-                <img class="vector-EiAs0M" src="img/vector-112@2x.svg" />
-              </div>
-              <img class="line-16-zNGeUl" src="img/line-16@2x.svg" />
-              <div class="original-logo-zNGeUl">
-                <div class="layer-2-b02n07">
-                  <div class="logo-2PzRPx">
-                    <div class="group-106-xNKwpf">
-                      <img class="vector-ghks5H" src="img/vector-119@2x.svg" />
-                      <img class="vector-Sclyux" src="img/vector-120@2x.svg" />
-                      <img class="vector-NEEGJN" src="img/vector-70@2x.svg" />
-                      <img class="vector-MpUlKH" src="img/vector-71@2x.svg" />
-                      <img class="vector-rNasDf" src="img/vector-72@2x.svg" />
-                      <img class="vector-sb8vlQ" src="img/vector-124@2x.svg" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
