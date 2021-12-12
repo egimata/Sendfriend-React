@@ -42,13 +42,18 @@ import section5_vector3 from '../img/vector-6-1@2x.svg';
 import first_image from '../img/api-async@2x.png';
 import second_image from '../img/api-second.jpeg';
 import third_image from '../img/api-third.jpeg';
+import partners1 from '../img/black-logo-2@2x.svg';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import HideOverlay from 'jquery';
 
  
 export const Homepage = () => {
+
+ 
     return (
       <div>
+         
       <input type="hidden" id="anPageName" name="page" value="homepage" />
     <div class="container-center-horizontal">
       <div class="iphone-8-1 screen">
@@ -135,11 +140,15 @@ export const Homepage = () => {
                     route via our multi-chain network
                   </div>
                   <a style={{color: '#000000'}} href="/contact">
-                  <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
-                  <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
-                  <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                  <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                </a>
+                    <div>
+                    <div class="rectangle-1-pMVTHP smart-layers-pointers">
+                      <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                    </div>
+                    </div>
+                    <div class="rectangle-2-pMVTHP smart-layers-pointers">
+                      <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                    </div>
+                  </a>
                 </div>
                 <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
                 <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
@@ -472,9 +481,10 @@ export const Homepage = () => {
               ><span class="span1-J1gvkl">Seamlessly Connects Customers to a Suite of Multi-Chain Payment Tools</span>
             </div>
             <a style={{color: '#000000'}} href="/contact">
-              <div class="rectangle-108-iU7JjP smart-layers-pointers"></div>
-             <div class="learn-more-iU7JjP montserrat-bold-ebony-clay-14px">LEARN MORE</div>
-          </a>
+              <div class="rectangle-108-iU7JjP smart-layers-pointers">
+                <div class="learn-more-iU7JjP montserrat-bold-ebony-clay-14px">LEARN MORE</div>
+              </div>
+            </a>
           </div>
         </div>
         <div class="group-104-zYNucu">
@@ -482,10 +492,12 @@ export const Homepage = () => {
           <img class="vector-5-c0Knzr" src={section5_vector1} />
           <img class="vector-6-c0Knzr" src={section5_vector2} />
           <img class="vector-7-c0Knzr" src={section5_vector3} />
+
+          
             <Tabs>
               <TabList>
                   <Tab>
-                  <div class=" selected rectangle-110-c0Knzr smart-layers-pointers border-1px-black-2">
+                  <div class="rectangle-110-c0Knzr smart-layers-pointers border-1px-black-2">
                     <div class="smart-layers-pointers bp1-animate-enter22" />
                     <div class="code-c0Knzr montserrat-bold-white-14px">Code</div>
                   </div>
@@ -553,13 +565,15 @@ export const Homepage = () => {
             <div class="we-are-cheaper-faste-WSGfxf bp1-animate-enter19" show-on-scroll>
               We are cheaper, faster, and more reliable and secure.
             </div>
+            
             <div class="send-friend-WSGfxf bp1-animate-enter20" show-on-scroll>SendFriend</div>
-            <div class="group-120-WSGfxf bp1-animate-enter21" show-on-scroll>
-              <a style={{color: '#000000'}} href="/contact">
-              <div class="rectangle-1-PVUN6o smart-layers-pointers"></div>
-              <div class="contact-us-PVUN6o montserrat-bold-eerie-black-14px">CONTACT US</div>
+            <a style={{color: '#000000'}} href="/contact">
+              <div class="group-120-WSGfxf bp1-animate-enter21 smart-layers-pointers" show-on-scroll>
+                <div class="rectangle-1-PVUN6o smart-layers-pointers">
+                  <div class="contact-us-PVUN6o montserrat-bold-eerie-black-14px">CONTACT US</div>
+                </div>
+              </div>
             </a>
-            </div>
           </div>
           <img class="line-13-Ap9U61 smart-layers-pointers" src={black_line} />
           
@@ -583,7 +597,7 @@ export const Homepage = () => {
           <div class="group-100-4kxDw7">
             <div class="group-44-N30Bml">
               <img class="artboard-1-1-8CnJFc" src="img/artboard-1-1@2x.svg" />
-              <img class="black-logo-2-8CnJFc" src="img/black-logo-2@2x.svg" />
+              <img class="black-logo-2-8CnJFc" src={partners1} />
               <img class="rippl-8CnJFc" src="img/rippl@2x.svg" />
               <div class="celo-8CnJFc">CELO</div>
             </div>
@@ -601,13 +615,15 @@ export const Homepage = () => {
             <div class="company-dropdown-nccVGg">
               <img class="vector-1kE7iM" src="img/vector-16@2x.svg" />
               <div class="company-1kE7iM montserrat-bold-white-14px">COMPANY</div>
-            </div></a
-          ><a href="javascript:ShowOverlay('frame-6', 'animate-appear');">
+            </div></a>
+
+            <a href="javascript:ShowOverlay('frame-6', 'animate-appear');">
             <div class="login-button-default-nccVGg smart-layers-pointers">
-              <div class="rectangle-100-UvC0Wk smart-layers-pointers"></div>
-              <div class="login-UvC0Wk montserrat-bold-white-14px">LOGIN</div>
-            </div></a
-          ><img class="original-logo-nccVGg" src={logo} />
+              <div class="rectangle-100-UvC0Wk smart-layers-pointers">
+                <div class="login-UvC0Wk montserrat-bold-white-14px">LOGIN</div>
+              </div>
+            </div></a>
+            <img class="original-logo-nccVGg" src={logo} />
           <img class="logo-title-nccVGg" src={logo_title} />
           <a href="#platform-section"><div class="platform-nccVGg montserrat-bold-white-14px">PLATFORM</div> </a
           ><a href="#partnerships"><div class="partners-nccVGg montserrat-bold-white-14px">PARTNERS</div> </a>
@@ -632,13 +648,21 @@ export const Homepage = () => {
           <a href="javascript:HideOverlay('mobile-menu', 'animate-disappear');">
             <div class="close-jxzQz0">
               <img class="line-17-6rcJjs" src="img/line-17-1@2x.svg" />
-              <img class="line-18-6rcJjs" src="img/line-18-1@2x.svg" /></div
-          ></a>
+              <img class="line-18-6rcJjs" src="img/line-18-1@2x.svg" /></div></a>
         </div>
       </div>
     </div>
+        
     </div>
-
+          
+          
     </div>
+    
     )
+    
 }
+
+
+
+
+ 

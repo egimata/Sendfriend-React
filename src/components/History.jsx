@@ -482,7 +482,7 @@ export const History = () => {
                 </span>
                 <span class="span3-D6bUCI">CONTACT US</span>
                 <span class="span4-D6bUCI montserrat-semi-bold-black-24px">
-                   for more details
+                  for more details
                 </span>
               </div>
               <div class="friend-zNGeUl">

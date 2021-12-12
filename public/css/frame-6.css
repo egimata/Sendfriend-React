@@ -22,15 +22,15 @@
   background-color: var(--white);
   border-radius: 12px;
   box-shadow: 0px 7px 50px #0000001a;
-  height: 552px;
-  left: calc(50vw - 302.0px);
+  height: 527px;
+  left: 436px;
   mix-blend-mode: normal;
   overflow: hidden;
-  position: relative;
-  top: calc(50vh - 276.0px);
+  justify-content: center;
+  position: absolute;
+  top: calc(50vh - 272px);
   width: 604px;
 }
-
 .frame-6 .our-platform-is-laun-zNGeUl {
   background-color: transparent;
   color: transparent;

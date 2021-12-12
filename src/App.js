@@ -2,6 +2,7 @@ import { Homepage } from "./components/Homepage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { History } from "./components/History";
 import ScrollButton from './components/ScrollButton';
+import PopupLogin from './components/PopupLogin';
 import { Content, Heading } from './components/Styles';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/history" element={<History />} />
       </Routes>
       <ScrollButton />
+
     </Router>
   );
   
