@@ -1,5 +1,6 @@
 import React from "react";
 import historyBackgroundImg from '../img/background-img@1x.png';
+import learn_more_svg from '../img/learn-more-1@2x.svg';
 
 export const History = () => {
   return (
@@ -328,10 +329,11 @@ export const History = () => {
               build next-generation blockchain-based payment solutions for
               business and consumer customers
             </div>
-            <img class="learn-more-iVdtxd" src="img/learn-more-1@2x.svg" />
+            <img class="learn-more-iVdtxd" src={learn_more_svg} />
           </div>
           <img class="background-img-MaQ2GE" src={historyBackgroundImg} />
           <div class="rectangle-87-MaQ2GE animate-enter1" show-on-scroll></div>
+
           <div class="header-text-MaQ2GE animate-enter2" show-on-scroll>
             <div class="one-connection-to-the-world-of-payments-5s6dz4">
               <span class="span0-HC0PbN">One connection to the world of </span>
@@ -342,6 +344,7 @@ export const History = () => {
             </div>
             <div class="about-us-5s6dz4">ABOUT US</div>
           </div>
+
           <div class="navbar-MaQ2GE">
             <img class="vector-OBUuxy" src="img/vector-9@1x.svg" />
             <a href="javascript:ShowOverlay('dropdown-menu', 'animate-appear');">
@@ -465,7 +468,6 @@ export const History = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 }
