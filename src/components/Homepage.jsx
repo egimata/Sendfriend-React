@@ -22,8 +22,6 @@ import arrow4 from '../img/arrow-4@2x.svg';
 import arrow5 from '../img/arrow-5@2x.svg';
 import arrow6 from '../img/arrow-1@2x.svg';
 import world_img from '../img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png';
-import { Fragment } from 'react';
-
 import outlined_circle from '../img/ant-design-check-circle-outlined@2x.svg';
 import asset_1 from '../img/asset-1bg1-1-1@1x.png';
 import cost_effective from '../img/3@2x.png';
@@ -638,7 +636,6 @@ export const Homepage = () => {
       </div>
     </div>
     </div>
-
     </div>
     )
 }
