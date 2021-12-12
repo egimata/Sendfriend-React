@@ -190,6 +190,26 @@
   width: auto;
 }
 
+.homepage .send-friend-delivers-pMVTHP.bp1-animate-enter20 {
+  animation: bp1-animate-enter20-frames 0.70s ease-in-out 0.45s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.homepage .our-on-chain-solutio-pMVTHP.bp1-animate-enter20 {
+  animation: bp1-animate-enter20-frames 0.76s ease-in-out 0.45s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+.homepage .lower-fx-costs-fewer-pMVTHP.bp1-animate-enter20 {
+  animation: bp1-animate-enter20-frames 0.81s ease-in-out 0.45s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
 .homepage .span0-BMjjiJ {
   color: var(--eerie-black);
   font-family: var(--font-family-montserrat);
@@ -968,7 +988,7 @@ transform: translate(0,0);
 }
 
 .homepage .kisspng-web-developm-ukK2kV.bp1-animate-enter11 {
-  animation: bp1-animate-enter11-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter11-frames 0.50s ease-in-out 0.00s 1 normal forwards;
   display: block;
   opacity: 0;
 }
@@ -994,7 +1014,7 @@ to{opacity: 1;
   background-color: transparent;
   display: block;
   height: 377px;
-  left: 518px;
+  left: 503px;
   opacity: 0;
   position: absolute;
   top: 239px;
@@ -1002,7 +1022,7 @@ to{opacity: 1;
 }
 
 .homepage .group-102-ukK2kV.bp1-animate-enter12 {
-  animation: bp1-animate-enter12-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  animation: bp1-animate-enter12-frames 0.50s ease-in-out 0.00s 1 normal forwards;
   display: block;
   opacity: 0;
 }
@@ -1022,7 +1042,7 @@ to{opacity: 1;
   object-fit: cover;
   position: absolute;
   top: 0px;
-  width: 341px;
+  width: 363px;
 }
 
 .homepage .ellipse-18-z2RTyM {
@@ -1752,6 +1772,8 @@ transform: translate(0,0);
   left: 73px;
   mix-blend-mode: normal;
   object-fit: cover;
+  transition: all 1s ease-in-out;
+  transform: (25px, 0);
   opacity: 0;
   position: absolute;
   top: 64px;
@@ -1759,7 +1781,7 @@ transform: translate(0,0);
 }
 
 .homepage .api-async-c0Knzr.bp1-animate-enter14 {
-  animation: bp1-animate-enter14-frames 0.20s ease-in-out 0.70s 1 normal forwards;
+  animation: bp1-animate-enter14-frames 0.20s ease-in-out 0.50s 1 normal forwards;
   display: block;
   opacity: 0;
 }
@@ -1771,6 +1793,57 @@ to{opacity: 1;
 }
 }
 
+
+
+.homepage .rectangle-110-c0Knzr {
+  background-color: #252A30;
+  cursor: pointer;
+  height: 46px;
+  left: 19px;
+  mix-blend-mode: normal;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 0px;
+  width: 115px;
+}
+.homepage .rectangle-110-c0Knzr:hover{
+  transform: translate(0, -5px);
+}
+
+.homepage .rectangle-111-c0Knzr {
+  background-color: #252A30;
+  height: 46px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  left: 110px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 115px;
+}
+.homepage .rectangle-111-c0Knzr:hover{
+  transform: translate(0, -5px);
+}
+.homepage .rectangle-112-c0Knzr {
+  background-color: #252A30;
+  height: 46px;
+  left: 201px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 115px;
+}
+.homepage .rectangle-112-c0Knzr:hover{
+  transform: translate(0, -5px);
+}
+
+.homepage .rectangle-112-c0Knzr div:checked{
+  background-color: #252A30;
+}
+
+
 .homepage .vector-5-c0Knzr {
   background-color: transparent;
   height: 184px;
@@ -1780,42 +1853,23 @@ to{opacity: 1;
   width: 620px;
 }
 
-.homepage .rectangle-110-c0Knzr {
-  background-color: transparent;
-  height: 46px;
-  left: 19px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 115px;
-}
-
-.homepage .rectangle-111-c0Knzr {
-  background-color: transparent;
-  height: 46px;
-  left: 134px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 216px;
-}
 
 .homepage .vector-6-c0Knzr {
   background-color: transparent;
-  height: 79px;
-  left: 255px;
+  height: 214px;
+  left: -65px;
   position: absolute;
-  top: 359px;
-  width: 382px;
+  top: 226px;
+  width: 236px;
 }
 
 .homepage .vector-7-c0Knzr {
   background-color: transparent;
   height: 227px;
-  left: -1px;
+  left: 312px;
   position: absolute;
-  top: 211px;
-  width: 109px;
+  top: 291px;
+  width: 320px;
 }
 
 .homepage .code-c0Knzr {
@@ -1832,9 +1886,9 @@ to{opacity: 1;
 }
 
 .homepage .get-fx-rate-c0Knzr {
-  background-color: transparent;
+  color: #ffffff;
   height: auto;
-  left: 148px;
+  left: 14px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -1845,9 +1899,9 @@ to{opacity: 1;
 }
 
 .homepage .get-price-c0Knzr {
-  background-color: transparent;
+  color: #ffffff;
   height: auto;
-  left: 261px;
+  left: 21px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -2100,7 +2154,7 @@ to{opacity: 1;
 .homepage .rectangle-87-Ap9U61 {
   background-color: var(--eerie-black);
   display: block;
-  height: 666px;
+  height: 636px;
   left: 430px;
   mix-blend-mode: normal;
   opacity: 0;
@@ -2334,13 +2388,14 @@ transform: translate(0,0);
   background-color: var(--white);
   cursor: pointer;
   height: 116px;
-  left: 0px;
+  left: 280px;
   mix-blend-mode: normal;
   pointer-events: auto;
   position: absolute;
-  top: 611px;
+  top: 741px;
   transition: all 0.2s ease-in-out;
   width: 210px;
+  z-index: 1;
 }
 
 .homepage .rectangle-101-Ap9U61:hover {
@@ -2351,13 +2406,14 @@ transform: translate(0,0);
   background-color: var(--white);
   cursor: pointer;
   height: 116px;
-  left: 210px;
+  left: 464px;
   mix-blend-mode: normal;
   pointer-events: auto;
   position: absolute;
-  top: 611px;
+  top: 741px;
   transition: all 0.2s ease-in-out;
   width: 211px;
+  z-index: 1;
 }
 
 .homepage .rectangle-102-Ap9U61:hover {
@@ -2368,13 +2424,14 @@ transform: translate(0,0);
   background-color: var(--white);
   cursor: pointer;
   height: 116px;
-  left: 421px;
+  left: 648px;
   mix-blend-mode: normal;
   pointer-events: auto;
   position: absolute;
-  top: 611px;
+  top: 741px;
   transition: all 0.2s ease-in-out;
   width: 211px;
+  z-index: 1;
 }
 
 .homepage .rectangle-103-Ap9U61:hover {
@@ -2385,13 +2442,14 @@ transform: translate(0,0);
   background-color: var(--white);
   cursor: pointer;
   height: 116px;
-  left: 632px;
+  left: 833px;
   mix-blend-mode: normal;
   pointer-events: auto;
   position: absolute;
-  top: 611px;
+  top: 741px;
   transition: all 0.2s ease-in-out;
   width: 210px;
+  z-index: 1;
 }
 
 .homepage .rectangle-104-Ap9U61:hover {
@@ -2912,85 +2970,94 @@ to{opacity: 1;
   top: 31px;
   width: auto;
 }
+.group-46-8LCNNa{
+  display:none;
+}
 /* screen - iphone-8-1 */
 
-.iphone-8-1 {
-  background-color: var(--white);
-  height: 5818px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  overflow-x: hidden;
-  position: relative;
-  width: 375px;
+@media only screen and (max-width: 400px){
+  
+
+  .iphone-8-1 {
+    background-color: var(--white);
+    height: 5818px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 375px;
+  }
+
+  .iphone-8-1 .frame-8-TZ6asu {
+    background-color: var(--black);
+    height: 63px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    width: 375px;
+  }
+
+  .iphone-8-1 .group-46-8LCNNa {
+    background-color: transparent;
+    height: 23px;
+    left: 39px;
+    position: absolute;
+    top: 9px;
+    width: 17px;
+  }
+
+  .iphone-8-1 .friend-8LCNNa {
+    background-color: transparent;
+    height: 9px;
+    left: 52px;
+    position: absolute;
+    top: 39px;
+    width: 28px;
+  }
+
+  .iphone-8-1 .send-8LCNNa {
+    background-color: transparent;
+    height: 9px;
+    left: 15px;
+    position: absolute;
+    top: 39px;
+    width: 28px;
+  }
+
+  .iphone-8-1 .hamburger-8LCNNa {
+    background-color: transparent;
+    cursor: pointer;
+    height: 26px;
+    left: 299px;
+    position: absolute;
+    top: 19px;
+    width: 29px;
+  }
+
+  .iphone-8-1 .f-8LCNNa {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-neueradial-a-medium-regular);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 45px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 37px;
+    width: 8px;
+  }
 }
 
-.iphone-8-1 .frame-8-TZ6asu {
-  background-color: var(--black);
-  height: 63px;
-  left: 0px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 375px;
+.react-tabs__tab-list {
+  border-bottom: 1px solid #aaa;
+  margin: 0 0 10px;
+  padding: 0;
+  visibility: hidden;
 }
-
-.iphone-8-1 .group-46-8LCNNa {
-  background-color: transparent;
-  height: 23px;
-  left: 39px;
-  position: absolute;
-  top: 9px;
-  width: 17px;
-}
-
-.iphone-8-1 .friend-8LCNNa {
-  background-color: transparent;
-  height: 9px;
-  left: 52px;
-  position: absolute;
-  top: 39px;
-  width: 28px;
-}
-
-.iphone-8-1 .send-8LCNNa {
-  background-color: transparent;
-  height: 9px;
-  left: 15px;
-  position: absolute;
-  top: 39px;
-  width: 28px;
-}
-
-.iphone-8-1 .hamburger-8LCNNa {
-  background-color: transparent;
-  cursor: pointer;
-  height: 26px;
-  left: 299px;
-  position: absolute;
-  top: 19px;
-  width: 29px;
-}
-
-.iphone-8-1 .f-8LCNNa {
-  background-color: transparent;
-  color: var(--white);
-  font-family: var(--font-family-neueradial-a-medium-regular);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 45px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 37px;
-  width: 8px;
-}
-
-
-  .screen.iphone-8-1 { 
-    display: none;
-   }
