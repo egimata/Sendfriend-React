@@ -1,4 +1,5 @@
 import React from "react";
+import { HashLink } from 'react-router-hash-link';
 import header_img from "../img/unsplash-q8u1ygbarqk@1x.png"
 import green_bg from "../img/rectangle-107@2x.svg"
 import facebook_icon from '../img/bx-bxl-facebook@2x.svg';
@@ -68,13 +69,14 @@ export const Contact = () => {
 
                 <img class="original-logo-PUJjp0" src={logo} />
                 <img class="logo-title-PUJjp0" src={logo_title} />
-                <a href="/#platform-section"> 
-                    <div class="platform-PUJjp0 montserrat-bold-white-14px">PLATFORM</div>
-                </a>
-                <a href="#partnerships">
-                    <div class="partners-PUJjp0 montserrat-bold-white-14px">PARTNERS</div>
-                </a>
-                <a style={{color: '#000000'}} href="/contact">
+                <HashLink smooth to="/#platform-section">
+                <div class="platform-PUJjp0 montserrat-bold-white-14px">PLATFORM</div>
+            </HashLink>;
+            <HashLink smooth to="/#partnerships">
+            <div class="partners-PUJjp0 montserrat-bold-white-14px">PARTNERS</div>
+            </HashLink>;
+                
+                <a style={{color: '#000000'}} href="/#/contact">
                     <div class="contact-us-PUJjp0 montserrat-bold-white-14px">CONTACT US</div>
                 </a>
             </div>
@@ -165,7 +167,9 @@ export const Contact = () => {
                     Explain your question in details:
                 </div>
                 </div>
-                <button type="submit" class="send-button-q2xQ3x smart-layers-pointers" src={send_button} />
+                <button type="submit" class="send-button-q2xQ3x smart-layers-pointers"  >
+                    <div class="contact-us-xNdJvB">SEND</div>
+                </button>
             </form>
             <div class="footer-q2xQ3x">
                 <div class="rectangle-89-FjfUj9"></div>
@@ -214,10 +218,11 @@ export const Contact = () => {
                 <img class="vector-S7Nacb" src="img/vector-14@2x.svg" />
                 <img class="vector-cigqHK" src="img/vector-10@2x.svg" />
             </div>
-            <img
+            <div
                 class="contact-us-button-footer-FjfUj9 smart-layers-pointers"
-                src={footer_contact}
-            />
+                 >
+            <div class="contact-us-xNdJvB1 valign-text-middle">Contact Us</div>
+            </div>
             </div>
         </div>
         </div>

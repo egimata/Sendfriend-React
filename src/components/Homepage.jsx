@@ -1,4 +1,5 @@
 import React from 'react';
+import { HashLink } from 'react-router-hash-link';
 import testImg from '../img/slider-homepage-1@1x.png';
 import facebook_icon from '../img/bx-bxl-facebook@2x.svg';
 import twitter_icon from '../img/ant-design-twitter-outlined@2x.svg';
@@ -13,7 +14,7 @@ import section2_bg from '../img/rectangle-106@1x.svg';
 import multichain_img from '../img/eos-icons-blockchain-1@2x.svg';
 import multichain_img_section2 from '../img/eos-icons-blockchain-1@2x.png';
 import moresecure_img from '../img/group-6@2x.svg';
-import moresecure_img_section2 from '../img/group-6@2x.png';
+import moresecure_img_section2 from '../img/group-6@2.png';
 import api_img from '../img/carbon-api-1@2x.svg';
 import rectangle1 from '../img/rectangle-92-2@1x.svg';
 import rectangle2 from '../img/rectangle-88-2@1x.svg';
@@ -138,7 +139,7 @@ export const Homepage = () => {
                         pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
                         route via our multi-chain network
                       </div>
-                      <a style={{color: '#000000'}} href="/contact">
+                      <a style={{color: '#000000'}} href="/#/contact">
                         <div>
                         <div class="rectangle-1-pMVTHP smart-layers-pointers">
                           <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
@@ -220,7 +221,7 @@ export const Homepage = () => {
                       pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
                       route via our multi-chain network
                     </div>
-                    <a style={{color: '#000000'}} href="/contact">
+                    <a style={{color: '#000000'}} href="/#/contact">
                     <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
                     <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
                     <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
@@ -298,7 +299,7 @@ export const Homepage = () => {
                       pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
                       route via our multi-chain network
                     </div>
-                    <a style={{color: '#000000'}} href="/contact">
+                    <a style={{color: '#000000'}} href="/#/contact">
                     <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
                     <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
                     <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
@@ -376,7 +377,7 @@ export const Homepage = () => {
                       pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
                       route via our multi-chain network
                     </div>
-                    <a style={{color: '#000000'}} href="/contact">
+                    <a style={{color: '#000000'}} href="/#/contact">
                     <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
                     <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
                     <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
@@ -479,7 +480,7 @@ export const Homepage = () => {
                   <span class="span0-J1gvkl montserrat-extra-bold-white-36px-2">Our Remittance API </span
                   ><span class="span1-J1gvkl">Seamlessly Connects Customers to a Suite of Multi-Chain Payment Tools</span>
                 </div>
-                <a style={{color: '#000000'}} href="/contact">
+                <a style={{color: '#000000'}} href="/#/contact">
                   <div class="rectangle-108-iU7JjP smart-layers-pointers">
                     <div class="learn-more-iU7JjP montserrat-bold-ebony-clay-14px">LEARN MORE</div>
                   </div>
@@ -551,7 +552,7 @@ export const Homepage = () => {
             <span class="span0-khdqLV montserrat-bold-white-32px-2">To learn more about</span
             ><span class="span1-khdqLV montserrat-bold-caribbean-green-32px"> SendFriend</span>
           </div>
-          <a href='/contact'>
+          <a href='/#/contact'>
           <div class="group-127-bUVegb">
             <div class="rectangle-41-gExxdY">
             <div class="contact-us-gExxdY">Contact Us</div>
@@ -577,7 +578,7 @@ export const Homepage = () => {
                 </div>
                 
                 <div class="send-friend-WSGfxf bp1-animate-enter20" show-on-scroll>SendFriend</div>
-                <a style={{color: '#000000'}} href="/contact">
+                <a style={{color: '#000000'}} href="/#/contact">
                   <div class="group-120-WSGfxf bp1-animate-enter21 smart-layers-pointers" show-on-scroll>
                     <div class="rectangle-1-PVUN6o smart-layers-pointers">
                       <div class="contact-us-PVUN6o montserrat-bold-eerie-black-14px">CONTACT US</div>
@@ -636,9 +637,15 @@ export const Homepage = () => {
                 </a>
                 <img class="original-logo-nccVGg" src={logo} />
               <img class="logo-title-nccVGg" src={logo_title} />
-              <a href="#platform-section"><div class="platform-nccVGg montserrat-bold-white-14px">PLATFORM</div> </a
-              ><a href="#partnerships"><div class="partners-nccVGg montserrat-bold-white-14px">PARTNERS</div> </a>
-              <a style={{color: '#000000'}} href="/contact">
+              <HashLink smooth to="/#platform-section">
+              <div class="platform-nccVGg montserrat-bold-white-14px">PLATFORM</div>
+            </HashLink>;
+            <HashLink smooth to="/#partnerships">
+            <div class="partners-nccVGg montserrat-bold-white-14px">PARTNERS</div>
+            </HashLink>;
+
+             
+              <a style={{color: '#000000'}} href="/#/contact">
               <div class="contact-us-nccVGg montserrat-bold-white-14px">CONTACT US</div></a>
             </div>
           </div>
@@ -655,7 +662,7 @@ export const Homepage = () => {
               <div class="platform-jxzQz0 montserrat-bold-white-8px">Platform</div>
               <div class="partnership-jxzQz0 montserrat-bold-white-8px">Partnership</div>
               <div class="company-jxzQz0 montserrat-bold-white-8px">Company</div>
-              <div class="contact-jxzQz0 montserrat-bold-white-8px"> <a href="/contact">Contact</a>Contact</div>
+              <div class="contact-jxzQz0 montserrat-bold-white-8px"> <a href="/#/contact">Contact</a>Contact</div>
               <a href="javascript:HideOverlay('mobile-menu', 'animate-disappear');">
                 <div class="close-jxzQz0">
                   <img class="line-17-6rcJjs" src="img/line-17-1@2x.svg" />

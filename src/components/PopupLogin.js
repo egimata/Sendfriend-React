@@ -30,7 +30,7 @@ return (
                 <span class="span0-D6bUCI montserrat-semi-bold-black-24px">Our</span>
                 <span class="span1-D6bUCI">Platform</span>
                 <span class="span2-D6bUCI montserrat-semi-bold-black-24px"> is launching soon. <br />Please </span>
-                <a href="/contact">
+                <a href="/#/contact">
                     <span class="span3-D6bUCI">CONTACT US</span></a>
                     <span class="span4-D6bUCI montserrat-semi-bold-black-24px"> for more details</span>
                 </div>

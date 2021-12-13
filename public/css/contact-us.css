@@ -1036,7 +1036,7 @@ input:focus {
     position: absolute;
     resize: none;
     text-align: left;
-    top: 19px;
+    top: 0;
     width: 724px;
   }
   
@@ -1188,7 +1188,7 @@ input:focus {
     position: absolute;
     resize: none;
     text-align: left;
-    top: 19px;
+    top: 0;
     width: 336px;
   }
   
@@ -1338,9 +1338,11 @@ input:focus {
     top: 0px;
     width: 310px;
   }
-  
+
+
   .contact-us .send-button-q2xQ3x {
-    background-color: transparent;
+    background-color: #0FCFB0;
+    border: 5px solid #0FCFB0;
     cursor: pointer;
     height: 62px;
     left: 890px;
@@ -1352,7 +1354,9 @@ input:focus {
   }
   
   .contact-us .send-button-q2xQ3x:hover {
-    transform: scale(1.05);
+    background-color: #252A30;
+    border: 5px solid #ffffff;
+    color: #ffffff;
   
   }
   
@@ -1676,7 +1680,8 @@ input:focus {
   }
   
   .contact-us .contact-us-button-footer-FjfUj9 {
-    background-color: transparent;
+    background-color: #0FCFB0;
+    border: 5px solid #0FCFB0;
     cursor: pointer;
     height: 62px;
     left: 967px;
@@ -1688,7 +1693,45 @@ input:focus {
   }
   
   .contact-us .contact-us-button-footer-FjfUj9:hover {
-    transform: scale(1.05);
+    background-color: #252A30;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+  
+  }
+  .contact-us .contact-us-xNdJvB  {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    width: 100%;
+  
+  }
+  .contact-us .contact-us-xNdJvB1  {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
   
   }
   
