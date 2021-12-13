@@ -836,6 +836,22 @@ transform: translate(0,0);
   width: 26px;
 }
 
+.homepage .x2-zYNucu.bp1-animate-enter8{
+  animation: bp1-animate-enter8-frames 1.00s ease-in-out 0.40s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+@keyframes bp1-animate-enter8-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+
 .homepage .arrow-4-zYNucu {
   background-color: transparent;
   display: block;
@@ -1776,17 +1792,90 @@ transform: translate(0,0);
 .homepage .api-async-c0Knzr {
   background-color: transparent;
   display: block;
-  height: 358px;
-  left: 73px;
+  height: 346px;
+  left: 18px;
   mix-blend-mode: normal;
   object-fit: cover;
   transition: all 1s ease-in-out;
   transform: (25px, 0);
   opacity: 0;
   position: absolute;
-  top: 64px;
-  width: 502px;
+  top: 66px;
+  width: 589px;
 }
+
+.homepage .rectangle-40-bUVegb {
+  background-color: var(--shark);
+  box-shadow: 0px 12px 14px #0000001a;
+  height: 203px;
+  left: 225px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 51px;
+  width: 1025px;
+}
+
+.homepage .to-learn-more-about-send-friend-bUVegb {
+  background-color: transparent;
+  height: auto;
+  left: 313px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  top: 138px;
+  width: auto;
+}
+
+.homepage .span0-khdqLV {
+}
+
+.homepage .span1-khdqLV {
+}
+
+.homepage .group-127-bUVegb {
+  background-color: transparent;
+  height: 75px;
+  left: 989px;
+  position: absolute;
+  top: 120px;
+  width: 209px;
+}
+
+.homepage .rectangle-41-gExxdY {
+  background-color: var(--caribbean-green);
+  border: 5px solid var(--caribbean-green);
+  height: 62px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 193px;
+}
+.homepage .rectangle-41-gExxdY:hover {
+  background-color: #252A30;
+  border: 5px solid #0FCFB0;
+  color: #ffffff;
+}
+
+.homepage .contact-us-gExxdY{
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  padding-top: 15px;
+  width: 100%;
+}
+
 
 .homepage .api-async-c0Knzr.bp1-animate-enter14 {
   animation: bp1-animate-enter14-frames 0.20s ease-in-out 0.50s 1 normal forwards;
@@ -2994,91 +3083,2898 @@ to{opacity: 1;
 .group-46-8LCNNa{
   display:none;
 }
+.iphone-8-1.screen{
+  display:none;
+}
 /* screen - iphone-8-1 */
 
 @media only screen and (max-width: 400px){
-  
-
-  .iphone-8-1 {
-    background-color: var(--white);
-    height: 5818px;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    overflow-x: hidden;
-    position: relative;
-    width: 375px;
+  .iphone-8-1.screen{
+    display:block;
   }
 
-  .iphone-8-1 .frame-8-TZ6asu {
-    background-color: var(--black);
-    height: 63px;
-    left: 0px;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    position: relative;
-    top: 0px;
-    width: 375px;
-  }
-
-  .iphone-8-1 .group-46-8LCNNa {
-    background-color: transparent;
-    height: 23px;
-    left: 39px;
-    position: absolute;
-    top: 9px;
-    width: 17px;
-  }
-
-  .iphone-8-1 .friend-8LCNNa {
-    background-color: transparent;
-    height: 9px;
-    left: 52px;
-    position: absolute;
-    top: 39px;
-    width: 28px;
-  }
-
-  .iphone-8-1 .send-8LCNNa {
-    background-color: transparent;
-    height: 9px;
-    left: 15px;
-    position: absolute;
-    top: 39px;
-    width: 28px;
-  }
-
-  .iphone-8-1 .hamburger-8LCNNa {
-    background-color: transparent;
-    cursor: pointer;
-    height: 26px;
-    left: 299px;
-    position: absolute;
-    top: 19px;
-    width: 29px;
-  }
-
-  .iphone-8-1 .f-8LCNNa {
-    background-color: transparent;
-    color: var(--white);
-    font-family: var(--font-family-neueradial-a-medium-regular);
-    font-size: var(--font-size-s);
-    font-style: normal;
-    font-weight: 400;
-    height: auto;
-    left: 45px;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: left;
-    top: 37px;
-    width: 8px;
-  }
+.iphone-8-1 {
+  background-color: var(--white);
+  height: 5501px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 375px;
 }
 
-.react-tabs__tab-list {
-  border-bottom: 1px solid #aaa;
-  margin: 0 0 10px;
-  padding: 0;
-  visibility: hidden;
+.iphone-8-1 .frame-8-TZ6asu {
+  background-color: var(--black);
+  height: 63px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 375px;
+}
+
+.iphone-8-1 .hamburger-8LCNNa {
+  background-color: transparent;
+  cursor: pointer;
+  height: 26px;
+  left: 299px;
+  overflow: hidden;
+  position: relative;
+  top: 19px;
+  width: 29px;
+}
+
+.iphone-8-1 .vector-16-21wlxZ {
+  background-color: transparent;
+  height: 2px;
+  left: 6px;
+  position: absolute;
+  top: 8px;
+  width: 17px;
+}
+
+.iphone-8-1 .vector-17-21wlxZ {
+  background-color: transparent;
+  height: 2px;
+  left: 6px;
+  position: absolute;
+  top: 12px;
+  width: 17px;
+}
+
+.iphone-8-1 .vector-18-21wlxZ {
+  background-color: transparent;
+  height: 2px;
+  left: 6px;
+  position: absolute;
+  top: 16px;
+  width: 17px;
+}
+
+.iphone-8-1 .slider-homepage-1-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 526px;
+  left: 0px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  top: 63px;
+  width: 375px;
+}
+
+.iphone-8-1 .slider-homepage-1-TZ6asu.bp2-animate-enter {
+  animation: bp2-animate-enter-frames 1.00s ease-in-out 0.50s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp2-animate-enter-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .faster-cheaper-multi-TZ6asu {
+  background-color: transparent;
+  color: transparent;
+  display: block;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+  height: auto;
+  left: 77px;
+  letter-spacing: 0.00px;
+  line-height: 25.8px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 239px;
+  transform: scale(1.1);
+  width: 237px;
+}
+
+.iphone-8-1 .span0-SlmvD4 {
+  color: var(--white);
+  font-style: normal;
+}
+
+.iphone-8-1 .span1-SlmvD4 {
+  color: var(--caribbean-green);
+  font-style: normal;
+}
+
+.iphone-8-1 .faster-cheaper-multi-TZ6asu.bp2-animate-enter1 {
+  animation: bp2-animate-enter1-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes bp2-animate-enter1-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.iphone-8-1 .send-friend-TZ6asu {
+  background-color: transparent;
+  color: var(--caribbean-green);
+  display: block;
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 133px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: left;
+  top: 186px;
+  transform: scale(1.1);
+  width: 119px;
+}
+
+.iphone-8-1 .send-friend-TZ6asu.bp2-animate-enter2 {
+  animation: bp2-animate-enter2-frames 1.00s ease-in-out 0.45s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes bp2-animate-enter2-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.iphone-8-1 .we-are-cheaper-faste-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 87px;
+  letter-spacing: 0.00px;
+  line-height: 26.5px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 348px;
+  transform: scale(1.1);
+  width: 202px;
+}
+
+.iphone-8-1 .we-are-cheaper-faste-TZ6asu.bp2-animate-enter3 {
+  animation: bp2-animate-enter3-frames 1.10s ease-in-out 0.75s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+@keyframes bp2-animate-enter3-frames {
+  from{opacity: 0;
+transform: scale(1.1);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.iphone-8-1 .contact-us-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 42px;
+  left: 113px;
+  opacity: 0;
+  position: absolute;
+  top: 475px;
+  transform: translate(100px, 0);
+  width: 152px;
+}
+
+.iphone-8-1 .contact-us-TZ6asu.bp2-animate-enter4 {
+  animation: bp2-animate-enter4-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+
+@keyframes bp2-animate-enter4-frames {
+  from{opacity: 0;
+transform: translate(100px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .rectangle-1-BIxiSr {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 41px;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 150px;
+}
+
+.iphone-8-1 .rectangle-1-BIxiSr:hover {
+  background-color: #0FCFB0
+}
+
+.iphone-8-1 .contact-us-BIxiSr {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 150px;
+}
+
+.iphone-8-1 .rectangle-106-TZ6asu {
+  background-color: transparent;
+  height: 1163px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 584px;
+  width: 375px;
+}
+
+.iphone-8-1 .send-friend-delivers-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 59px;
+  letter-spacing: 0.00px;
+  line-height: 25.1px;
+  position: absolute;
+  text-align: center;
+  top: 656px;
+  width: 257px;
+}
+
+.iphone-8-1 .span0-xvsDj6 {
+  color: var(--eerie-black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.iphone-8-1 .span1-xvsDj6 {
+}
+
+.iphone-8-1 .span2-xvsDj6 {
+  color: var(--eerie-black);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.iphone-8-1 .secure-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 917px;
+  width: 50px;
+}
+
+.iphone-8-1 .multichain-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 150px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 842px;
+  width: 73px;
+}
+
+.iphone-8-1 .x1-api-connection-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 279px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 915px;
+  width: 66px;
+}
+
+.iphone-8-1 .blockchain-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 284px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1100px;
+  width: 61px;
+}
+
+.iphone-8-1 .cost-effective-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 158px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1159px;
+  width: 51px;
+}
+
+.iphone-8-1 .fast-payment-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 41px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1100px;
+  width: 51px;
+}
+
+.iphone-8-1 .world-group-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 214px;
+  left: 91px;
+  opacity: 0;
+  position: absolute;
+  top: 894px;
+  transform: rotate(90deg);
+  width: 190px;
+}
+
+.iphone-8-1 .world-group-TZ6asu.bp2-animate-enter5 {
+  animation: bp2-animate-enter5-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(90deg);
+}
+
+@keyframes bp2-animate-enter5-frames {
+  from{opacity: 0;
+transform: rotate(90deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+.iphone-8-1 .kisspng-clip-art-cit-lwl3Gh {
+  background-color: transparent;
+  height: 214px;
+  left: -0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: -0px;
+  width: 191px;
+}
+
+.iphone-8-1 .group-101-lwl3Gh {
+  background-color: transparent;
+  height: 112px;
+  left: 39px;
+  position: absolute;
+  top: 51px;
+  width: 112px;
+}
+
+.iphone-8-1 .vector-96OmQU {
+  background-color: transparent;
+  height: 41px;
+  left: 57px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 58px;
+  width: 41px;
+}
+
+.iphone-8-1 .vector-raFieP {
+  background-color: transparent;
+  height: 41px;
+  left: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 13px;
+  width: 41px;
+}
+
+.iphone-8-1 .vector-qdoAgK {
+  background-color: transparent;
+  height: 41px;
+  left: 57px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 13px;
+  width: 41px;
+}
+
+.iphone-8-1 .vector-5IYRCn {
+  background-color: transparent;
+  height: 41px;
+  left: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 58px;
+  width: 41px;
+}
+
+.iphone-8-1 .vector-EmqXLB {
+  background-color: transparent;
+  height: 83px;
+  left: 15px;
+  position: absolute;
+  top: 15px;
+  width: 83px;
+}
+
+.iphone-8-1 .uiwsetting-TZ6asu {
+  background-color: transparent;
+  height: 62px;
+  left: 155px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 970px;
+  width: 63px;
+}
+
+.iphone-8-1 .group-122-M00Nhc {
+  background-color: transparent;
+  display: block;
+  height: 62px;
+  left: -0px;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  transform: rotate(40deg);
+  width: 63px;
+}
+
+.iphone-8-1 .group-122-M00Nhc.bp2-animate-enter6 {
+  animation: bp2-animate-enter6-frames 2.00s ease-in-out 1.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: rotate(40deg);
+}
+
+@keyframes bp2-animate-enter6-frames {
+  from{opacity: 0;
+transform: rotate(40deg);
+}
+to{opacity: 1;
+transform: rotate(0);
+}
+}
+
+.iphone-8-1 .vector-8a7rby {
+  background-color: transparent;
+  height: 62px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 64px;
+}
+
+.iphone-8-1 .ellipse-16-8a7rby {
+  background-color: var(--eerie-black);
+  border-radius: 10.7px/10.53px;
+  height: 21px;
+  left: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 20px;
+  width: 21px;
+}
+
+.iphone-8-1 .group-48-M00Nhc {
+  background-color: transparent;
+  height: 43px;
+  left: 16px;
+  position: absolute;
+  top: 9px;
+  width: 31px;
+}
+
+.iphone-8-1 .arrow-3-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 68px;
+  left: 207px;
+  opacity: 0;
+  position: absolute;
+  top: 1020px;
+  transform: translate(-25px, 0);
+  width: 92px;
+}
+
+.iphone-8-1 .arrow-3-TZ6asu.bp2-animate-enter7 {
+  animation: bp2-animate-enter7-frames 0.50s ease-in-out 0.50s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes bp2-animate-enter7-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .arrow-5-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 99px;
+  left: 178px;
+  opacity: 0;
+  position: absolute;
+  top: 1030px;
+  transform: translate(0, 25px);
+  width: 16px;
+}
+
+.iphone-8-1 .arrow-5-TZ6asu.bp2-animate-enter8 {
+  animation: bp2-animate-enter8-frames 0.70s ease-in-out 0.50s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp2-animate-enter8-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .arrow-2-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 74px;
+  left: 209px;
+  opacity: 0;
+  position: absolute;
+  top: 907px;
+  width: 80px;
+}
+
+.iphone-8-1 .arrow-2-TZ6asu.bp2-animate-enter9 {
+  animation: bp2-animate-enter9-frames 1.00s ease-in-out 0.40s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp2-animate-enter9-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .arrow-1-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 74px;
+  left: 85px;
+  opacity: 0;
+  position: absolute;
+  top: 905px;
+  transform: scale(0.67);
+  width: 81px;
+}
+
+.iphone-8-1 .arrow-1-TZ6asu.bp2-animate-enter10 {
+  animation: bp2-animate-enter10-frames 0.70s ease-in-out 0.40s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(0.67);
+}
+
+@keyframes bp2-animate-enter10-frames {
+  from{opacity: 0;
+transform: scale(0.67);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.iphone-8-1 .arrow-6-TZ6asu {
+  background-color: transparent;
+  height: 109px;
+  left: 178px;
+  position: absolute;
+  top: 860px;
+  width: 16px;
+}
+
+.iphone-8-1 .x3-TZ6asu {
+  background-color: transparent;
+  height: 27px;
+  left: 170px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1130px;
+  width: 27px;
+}
+
+.iphone-8-1 .group-TZ6asu {
+  background-color: transparent;
+  height: 21px;
+  left: 59px;
+  position: absolute;
+  top: 888px;
+  width: 19px;
+}
+
+.iphone-8-1 .vector-FChqZe {
+  background-color: transparent;
+  height: 23px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 20px;
+}
+
+.iphone-8-1 .eos-iconsblockchain-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 22px;
+  left: 174px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  position: absolute;
+  top: 816px;
+  width: 23px;
+}
+
+.iphone-8-1 .eos-iconsblockchain-TZ6asu.bp2-animate-enter11 {
+  animation: bp2-animate-enter11-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp2-animate-enter11-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .carbonapi-1-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 24px;
+  left: 299px;
+  mix-blend-mode: normal;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 893px;
+  transform: translate(25px, 0);
+  width: 24px;
+}
+
+.iphone-8-1 .carbonapi-1-TZ6asu.bp2-animate-enter12 {
+  animation: bp2-animate-enter12-frames 1.00s ease-in-out 0.40s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes bp2-animate-enter12-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .vector-d4HukN {
+  background-color: transparent;
+  height: 12px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-x6Afhy {
+  background-color: transparent;
+  height: 12px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-8MvrRw {
+  background-color: transparent;
+  height: 12px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 6px;
+}
+
+.iphone-8-1 .x2-TZ6asu {
+  background-color: transparent;
+  height: 15px;
+  left: 59px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1081px;
+  width: 15px;
+}
+
+.iphone-8-1 .arrow-4-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 65px;
+  left: 78px;
+  opacity: 0;
+  position: absolute;
+  top: 1019px;
+  transform: translate(-25px, 0);
+  width: 88px;
+}
+
+.iphone-8-1 .arrow-4-TZ6asu.bp2-animate-enter13 {
+  animation: bp2-animate-enter13-frames 0.60s ease-in-out 0.50s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(-25px, 0);
+}
+
+@keyframes bp2-animate-enter13-frames {
+  from{opacity: 0;
+transform: translate(-25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .blockchain-1-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 20px;
+  left: 306px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 1080px;
+  transform: scale(0.9);
+  width: 20px;
+}
+
+.iphone-8-1 .blockchain-1-TZ6asu.bp2-animate-enter14 {
+  animation: bp2-animate-enter14-frames 1.00s ease-in 0.60s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+@keyframes bp2-animate-enter14-frames {
+  from{opacity: 0;
+transform: scale(0.9);
+}
+to{opacity: 1;
+transform: scale(1);
+}
+}
+
+.iphone-8-1 .ant-designcheck-circle-outlined-TZ6asu {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1247px;
+  width: 20px;
+}
+
+.iphone-8-1 .vector-7BacuC {
+  background-color: transparent;
+  height: 8px;
+  left: 6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-yAINcH {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
+
+.iphone-8-1 .ant-designcheck-circle-outlined-kbS05m {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1281px;
+  width: 20px;
+}
+
+.iphone-8-1 .vector-q5rVoA {
+  background-color: transparent;
+  height: 8px;
+  left: 6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-pJ0sN4 {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
+
+.iphone-8-1 .ant-designcheck-circle-outlined-TVjoxU {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1323px;
+  width: 20px;
+}
+
+.iphone-8-1 .vector-LgxvQ7 {
+  background-color: transparent;
+  height: 8px;
+  left: 6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-IfaS3y {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
+
+.iphone-8-1 .ant-designcheck-circle-outlined-3OxLCr {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1356px;
+  width: 20px;
+}
+
+.iphone-8-1 .vector-K2x2ot {
+  background-color: transparent;
+  height: 8px;
+  left: 6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 6px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-REYIVx {
+  background-color: transparent;
+  height: 18px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 18px;
+}
+
+.iphone-8-1 .lower-fx-costs-fewer-TZ6asu {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 80px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1247px;
+  width: 265px;
+}
+
+.iphone-8-1 .our-on-chain-solutio-TZ6asu {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1441px;
+  width: 297px;
+}
+
+.iphone-8-1 .group-121-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 42px;
+  left: 117px;
+  opacity: 0;
+  position: absolute;
+  top: 1547px;
+  transform: translate(100px, 0);
+  width: 152px;
+}
+
+.iphone-8-1 .group-121-TZ6asu.bp2-animate-enter15 {
+  animation: bp2-animate-enter15-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+
+@keyframes bp2-animate-enter15-frames {
+  from{opacity: 0;
+transform: translate(100px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .rectangle-1-imPfOu {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 41px;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 150px;
+}
+
+.iphone-8-1 .rectangle-1-imPfOu:hover {
+  background-color: #0FCFB0
+}
+
+.iphone-8-1 .learn-more-imPfOu {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 150px;
+}
+
+.iphone-8-1 .a-flexible-cross-bor-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.00px;
+  line-height: 22.6px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 1762px;
+  transform: translate(25px, 0);
+  width: 282px;
+}
+
+.iphone-8-1 .span0-GsHMgY {
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.iphone-8-1 .span1-GsHMgY {
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.iphone-8-1 .a-flexible-cross-bor-TZ6asu.bp2-animate-enter16 {
+  animation: bp2-animate-enter16-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(25px, 0);
+}
+
+@keyframes bp2-animate-enter16-frames {
+  from{opacity: 0;
+transform: translate(25px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .servicing-internatio-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 79px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1914px;
+  width: 212px;
+}
+
+.iphone-8-1 .our-network-is-expan-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 79px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2307px;
+  width: 212px;
+}
+
+.iphone-8-1 .left_image-1-TZ6asu {
+  background-color: transparent;
+  height: 314px;
+  left: 28px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1982px;
+  width: 314px;
+}
+
+.iphone-8-1 .settling-payments-mo-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 56px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2439px;
+  width: 257px;
+}
+
+.iphone-8-1 .line-15-TZ6asu {
+  background-color: transparent;
+  height: 1px;
+  left: 73px;
+  position: absolute;
+  top: 2396px;
+  width: 230px;
+}
+
+.iphone-8-1 .right_image-1-TZ6asu {
+  background-color: transparent;
+  height: 277px;
+  left: 49px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2526px;
+  width: 287px;
+}
+
+.iphone-8-1 .whether-fiat-to-fiat-TZ6asu {
+  background-color: transparent;
+  height: auto;
+  left: 55px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2834px;
+  width: 257px;
+}
+
+.iphone-8-1 .rectangle-124-TZ6asu {
+  background-color: transparent;
+  height: 1090px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2925px;
+  width: 375px;
+}
+
+.iphone-8-1 .group-122-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 42px;
+  left: 115px;
+  opacity: 0;
+  position: absolute;
+  top: 3227px;
+  transform: translate(100px, 0);
+  width: 152px;
+}
+
+.iphone-8-1 .group-122-TZ6asu.bp2-animate-enter17 {
+  animation: bp2-animate-enter17-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+
+@keyframes bp2-animate-enter17-frames {
+  from{opacity: 0;
+transform: translate(100px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .rectangle-1-7P4uO2 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 41px;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 150px;
+}
+
+.iphone-8-1 .rectangle-1-7P4uO2:hover {
+  background-color: #0FCFB0
+}
+
+.iphone-8-1 .learn-more-7P4uO2 {
+  background-color: transparent;
+  height: 42px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 150px;
+}
+
+.iphone-8-1 .servicing-a-variety-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: 137px;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 22.6px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 3049px;
+  width: 292px;
+}
+
+.iphone-8-1 .span0-JdbhGp {
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.iphone-8-1 .span1-JdbhGp {
+}
+
+.iphone-8-1 .servicing-a-variety-TZ6asu.bp2-animate-enter18 {
+  animation: bp2-animate-enter18-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp2-animate-enter18-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .our-api-based-platfo-TZ6asu {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 48px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3325px;
+  width: 281px;
+}
+
+.iphone-8-1 .in-short-we-are-buil-TZ6asu {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 47px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3425px;
+  width: 281px;
+}
+
+.iphone-8-1 .section-4-nifty-1-TZ6asu {
+  background-color: transparent;
+  height: 344px;
+  left: 1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3491px;
+  width: 372px;
+}
+
+.iphone-8-1 .rectangle-42-TZ6asu {
+  background-color: var(--shark);
+  box-shadow: 0px 12px 14px #0000001a;
+  height: 640px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4632px;
+  width: 375px;
+}
+
+.iphone-8-1 .rectangle-92-TZ6asu {
+  background-color: transparent;
+  height: 1100px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3806px;
+  width: 375px;
+}
+
+.iphone-8-1 .our-remittance-api-s-TZ6asu {
+  background-color: transparent;
+  display: block;
+  height: auto;
+  left: 49px;
+  letter-spacing: 0.00px;
+  line-height: 22.6px;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 3973px;
+  transform: translate(0, 25px);
+  width: 278px;
+}
+
+.iphone-8-1 .span0-jsb053 {
+}
+
+.iphone-8-1 .span1-jsb053 {
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.iphone-8-1 .our-remittance-api-s-TZ6asu.bp2-animate-enter19 {
+  animation: bp2-animate-enter19-frames 0.20s ease-in-out 0.70s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(0, 25px);
+}
+
+@keyframes bp2-animate-enter19-frames {
+  from{opacity: 0;
+transform: translate(0, 25px);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .tabs-TZ6asu {
+  background-color: transparent;
+  height: 246px;
+  left: 8px;
+  position: absolute;
+  top: 4123px;
+  width: 359px;
+}
+
+.iphone-8-1 .vector-5-TpxI4K {
+  background-color: transparent;
+  height: 103px;
+  left: 24px;
+  position: absolute;
+  top: 26px;
+  width: 336px;
+}
+
+.iphone-8-1 .vector-6-TpxI4K {
+  background-color: transparent;
+  height: 45px;
+  left: 145px;
+  position: absolute;
+  top: 202px;
+  width: 215px;
+}
+
+.iphone-8-1 .vector-7-TpxI4K {
+  background-color: transparent;
+  height: 128px;
+  left: -1px;
+  position: absolute;
+  top: 119px;
+  width: 62px;
+}
+
+.iphone-8-1 .image-TpxI4K {
+  background-color: transparent;
+  height: 194px;
+  left: 12px;
+  position: absolute;
+  top: 37px;
+  width: 331px;
+}
+
+.iphone-8-1 .rectangle-109-wMX5Ub {
+  background-color: var(--shark);
+  box-shadow: 11px 12px 16px #0000009e;
+  height: 194px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 331px;
+}
+
+.iphone-8-1 .api-async-wMX5Ub {
+  background-color: transparent;
+  display: block;
+  height: 194px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  width: 331px;
+}
+
+.iphone-8-1 .api-async-wMX5Ub.bp2-animate-enter20 {
+  animation: bp2-animate-enter20-frames 0.20s ease-in-out 0.70s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp2-animate-enter20-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .get-fx-TpxI4K {
+  background-color: transparent;
+  height: 26px;
+  left: 128px;
+  position: absolute;
+  top: 0px;
+  width: 105px;
+}
+
+.iphone-8-1 .rectangle-111-tNaOob {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 103px;
+}
+
+.iphone-8-1 .get-fx-rate-tNaOob {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 103px;
+}
+
+.iphone-8-1 .get-price-TpxI4K {
+  background-color: transparent;
+  height: 26px;
+  left: 232px;
+  position: absolute;
+  top: 0px;
+  width: 105px;
+}
+
+.iphone-8-1 .rectangle-112-HyHaRj {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 103px;
+}
+
+.iphone-8-1 .get-price-HyHaRj {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 103px;
+}
+
+.iphone-8-1 .code-TpxI4K {
+  background-color: transparent;
+  height: 26px;
+  left: 24px;
+  position: absolute;
+  top: 0px;
+  width: 105px;
+}
+
+.iphone-8-1 .rectangle-111-t81O5L {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 103px;
+}
+
+.iphone-8-1 .code-t81O5L {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  height: 26px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 103px;
+}
+
+.iphone-8-1 .bottom-texts-TZ6asu {
+  background-color: transparent;
+  height: 302px;
+  left: 51px;
+  position: absolute;
+  top: 4426px;
+  width: 312px;
+}
+
+.iphone-8-1 .our-api-architecture-OWBGC1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 33px;
+  width: 279px;
+}
+
+.iphone-8-1 .robust-OWBGC1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: 68px;
+}
+
+.iphone-8-1 .secure-OWBGC1 {
+  background-color: transparent;
+  height: auto;
+  left: 1px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 226px;
+  width: 257px;
+}
+
+.iphone-8-1 .following-latest-sec-OWBGC1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 259px;
+  width: 300px;
+}
+
+.iphone-8-1 .scalable-OWBGC1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 116px;
+  width: 257px;
+}
+
+.iphone-8-1 .serve-millions-of-us-OWBGC1 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 149px;
+  width: 257px;
+}
+
+.iphone-8-1 .partnerships-TZ6asu {
+  background-color: transparent;
+  height: 391px;
+  left: 18px;
+  position: absolute;
+  top: 4759px;
+  width: 343px;
+}
+
+.iphone-8-1 .rectangle-91-LIMP1Y {
+  background-color: var(--shark);
+  border: 5px solid var(--white);
+  height: 391px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 339px;
+}
+
+.iphone-8-1 .line-2-LIMP1Y {
+  background-color: transparent;
+  height: 1px;
+  left: 25px;
+  position: absolute;
+  top: 186px;
+  width: 282px;
+}
+
+.iphone-8-1 .group-100-LIMP1Y {
+  background-color: transparent;
+  height: 162px;
+  left: 45px;
+  position: absolute;
+  top: 152px;
+  width: 254px;
+}
+
+.iphone-8-1 .group-44-Fn5SCT {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 243px;
+}
+
+.iphone-8-1 .artboard-1-1-CJYd2x {
+  background-color: transparent;
+  height: 26px;
+  left: 176px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 26px;
+}
+
+.iphone-8-1 .bottom_-ring-t5n1Ov {
+  background-color: transparent;
+  height: 22px;
+  left: -1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5px;
+  width: 22px;
+}
+
+.iphone-8-1 .top_-ring-t5n1Ov {
+  background-color: transparent;
+  height: 21px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 21px;
+}
+
+.iphone-8-1 .rings_-overlap-t5n1Ov {
+  background-color: transparent;
+  height: 16px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.iphone-8-1 .black-logo-2-CJYd2x {
+  background-color: transparent;
+  height: 25px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 68px;
+}
+
+.iphone-8-1 .group-14-fLT1uJ {
+  background-color: transparent;
+  height: 20px;
+  left: 9px;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+}
+
+.iphone-8-1 .component-1-3-DzqT7u {
+  background-color: transparent;
+  height: 20px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 15px;
+}
+
+.iphone-8-1 .path-45-NWZihp {
+  background-color: transparent;
+  height: 13px;
+  left: -1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 8px;
+}
+
+.iphone-8-1 .ellipse-8-NWZihp {
+  background-color: transparent;
+  height: 2px;
+  left: 3px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5px;
+  width: 2px;
+}
+
+.iphone-8-1 .path-46-NWZihp {
+  background-color: transparent;
+  height: 13px;
+  left: 8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 7px;
+}
+
+.iphone-8-1 .ellipse-9-NWZihp {
+  background-color: transparent;
+  height: 2px;
+  left: 10px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 5px;
+  width: 3px;
+}
+
+.iphone-8-1 .path-47-NWZihp {
+  background-color: transparent;
+  height: 9px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 8px;
+  width: 15px;
+}
+
+.iphone-8-1 .path-48-NWZihp {
+  background-color: transparent;
+  height: 4px;
+  left: 4px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 7px;
+}
+
+.iphone-8-1 .path-49-NWZihp {
+  background-color: transparent;
+  height: 6px;
+  left: 3px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15px;
+  width: 4px;
+}
+
+.iphone-8-1 .path-50-NWZihp {
+  background-color: transparent;
+  height: 6px;
+  left: 8px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 15px;
+  width: 4px;
+}
+
+.iphone-8-1 .friend-fLT1uJ {
+  background-color: transparent;
+  height: 8px;
+  left: 27px;
+  position: absolute;
+  top: 14px;
+  width: 31px;
+}
+
+.iphone-8-1 .vector-QOzyEo {
+  background-color: transparent;
+  height: 3px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+  width: 3px;
+}
+
+.iphone-8-1 .vector-EqHokt {
+  background-color: transparent;
+  height: 9px;
+  left: -1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+  width: 6px;
+}
+
+.iphone-8-1 .vector-tRSoxU {
+  background-color: transparent;
+  height: 6px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 4px;
+}
+
+.iphone-8-1 .vector-kqB0oz {
+  background-color: transparent;
+  height: 6px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 3px;
+}
+
+.iphone-8-1 .vector-uox02b {
+  background-color: transparent;
+  height: 6px;
+  left: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+}
+
+.iphone-8-1 .vector-xAboQJ {
+  background-color: transparent;
+  height: 6px;
+  left: 18px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+}
+
+.iphone-8-1 .vector-8gxhCR {
+  background-color: transparent;
+  height: 8px;
+  left: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 7px;
+}
+
+.iphone-8-1 .send-fLT1uJ {
+  background-color: transparent;
+  height: 8px;
+  left: 27px;
+  position: absolute;
+  top: 4px;
+  width: 25px;
+}
+
+.iphone-8-1 .vector-TFxyi3 {
+  background-color: transparent;
+  height: 7px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 5px;
+}
+
+.iphone-8-1 .vector-waFDcz {
+  background-color: transparent;
+  height: 7px;
+  left: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 6px;
+}
+
+.iphone-8-1 .vector-4b53FX {
+  background-color: transparent;
+  height: 9px;
+  left: 18px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-bMJf51 {
+  background-color: transparent;
+  height: 7px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 7px;
+}
+
+.iphone-8-1 .rippl-CJYd2x {
+  background-color: transparent;
+  height: 15px;
+  left: 100px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 7px;
+  width: 50px;
+}
+
+.iphone-8-1 .vector-CgSoA1 {
+  background-color: transparent;
+  height: 8px;
+  left: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 5px;
+}
+
+.iphone-8-1 .vector-vTyYaj {
+  background-color: transparent;
+  height: 12px;
+  left: 18px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 4px;
+}
+
+.iphone-8-1 .vector-S0zfx2 {
+  background-color: transparent;
+  height: 12px;
+  left: 23px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-1sd5Gd {
+  background-color: transparent;
+  height: 11px;
+  left: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 3px;
+}
+
+.iphone-8-1 .vector-sgaSVX {
+  background-color: transparent;
+  height: 8px;
+  left: 42px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-XxUyxl {
+  background-color: transparent;
+  height: 12px;
+  left: 31px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-dUw7f7 {
+  background-color: transparent;
+  height: 13px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 12px;
+}
+
+.iphone-8-1 .celo-CJYd2x {
+  background-color: transparent;
+  height: 10px;
+  left: 205px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 10px;
+  width: 38px;
+}
+
+.iphone-8-1 .group-45-Fn5SCT {
+  background-color: transparent;
+  height: 125px;
+  left: 0px;
+  position: absolute;
+  top: 38px;
+  width: 254px;
+}
+
+.iphone-8-1 .we-are-fortunate-to-LIMP1Y {
+  background-color: transparent;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 91px;
+  width: 293px;
+}
+
+.iphone-8-1 .partnerships-LIMP1Y {
+  background-color: transparent;
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 82px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+  width: 176px;
+}
+
+.iphone-8-1 .footer-TZ6asu {
+  background-color: transparent;
+  height: 235px;
+  left: 0px;
+  position: absolute;
+  top: 5272px;
+  width: 375px;
+}
+
+.iphone-8-1 .rectangle-89-cEztxT {
+  background-color: var(--eerie-black);
+  height: 229px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 375px;
+}
+
+.iphone-8-1 .x-cEztxT {
+  background-color: transparent;
+  height: auto;
+  left: 154px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 159px;
+  width: auto;
+}
+
+.iphone-8-1 .x-BixTYo {
+  background-color: transparent;
+  height: auto;
+  left: 215px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 159px;
+  width: auto;
+}
+
+.iphone-8-1 .text-cEztxT {
+  background-color: transparent;
+  height: auto;
+  left: 266px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 153px;
+  width: 80px;
+}
+
+.iphone-8-1 .linked-in-cEztxT {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 232px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 163px;
+  width: auto;
+}
+
+.iphone-8-1 .twitter-cEztxT {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 171px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 163px;
+  width: auto;
+}
+
+.iphone-8-1 .facebook-cEztxT {
+  background-color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 95px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 163px;
+  width: auto;
+}
+
+.iphone-8-1 .rectangle-40-cEztxT {
+  background-color: var(--shark);
+  box-shadow: 0px 12px 14px #0000001a;
+  height: 66px;
+  left: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 17px;
+  width: 293px;
+}
+
+.iphone-8-1 .learn-more-cEztxT {
+  background-color: transparent;
+  cursor: pointer;
+  height: 62px;
+  left: 983px;
+  pointer-events: auto;
+  position: absolute;
+  top: 131px;
+  transition: all 0.2s ease;
+  width: 204px;
+}
+
+.iphone-8-1 .learn-more-cEztxT:hover {
+  transform: scale(1.05);
+
+}
+
+.iphone-8-1 .to-learn-more-about-send-friend-cEztxT {
+  background-color: transparent;
+  color: transparent;
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  height: 66px;
+  left: 48px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 17px;
+  width: 293px;
+}
+
+.iphone-8-1 .span0-xXiAio {
+  font-style: normal;
+}
+
+.iphone-8-1 .span1-xXiAio {
+  color: var(--caribbean-green);
+  font-style: normal;
+}
+
+.iphone-8-1 .line-1-cEztxT {
+  background-color: transparent;
+  height: 1px;
+  left: 59px;
+  position: absolute;
+  top: 141px;
+  width: 267px;
+}
+
+.iphone-8-1 .asset-1bg1-1-2-cEztxT {
+  background-color: transparent;
+  height: 229px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 59px;
+}
+
+.iphone-8-1 .group-122-cEztxT {
+  background-color: transparent;
+  display: block;
+  height: 27px;
+  left: 228px;
+  opacity: 0;
+  position: absolute;
+  top: 98px;
+  transform: translate(100px, 0);
+  width: 100px;
+}
+
+.iphone-8-1 .group-122-cEztxT.bp2-animate-enter21 {
+  animation: bp2-animate-enter21-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+
+@keyframes bp2-animate-enter21-frames {
+  from{opacity: 0;
+transform: translate(100px, 0);
+}
+to{opacity: 1;
+transform: translate(0,0);
+}
+}
+
+.iphone-8-1 .rectangle-1-xNdJvB {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 27px;
+  left: 0px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 98px;
+}
+
+.iphone-8-1 .rectangle-1-xNdJvB:hover {
+  background-color: #0FCFB0
+}
+
+.iphone-8-1 .contact-us-xNdJvB {
+  background-color: transparent;
+  color: var(--eerie-black);
+  font-family: var(--font-family-montserrat);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  height: 27px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 98px;
+}
+
+.iphone-8-1 .friend-cEztxT {
+  background-color: transparent;
+  height: 14px;
+  left: 105px;
+  position: absolute;
+  top: 111px;
+  width: 53px;
+}
+
+.iphone-8-1 .vector-x1Aspj {
+  background-color: transparent;
+  height: 4px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+  width: 4px;
+}
+
+.iphone-8-1 .vector-vrgf62 {
+  background-color: transparent;
+  height: 15px;
+  left: -1px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+  width: 9px;
+}
+
+.iphone-8-1 .vector-sdTn1b {
+  background-color: transparent;
+  height: 10px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-4aB6rM {
+  background-color: transparent;
+  height: 10px;
+  left: 17px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
+.iphone-8-1 .vector-LqdkIv {
+  background-color: transparent;
+  height: 10px;
+  left: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+.iphone-8-1 .vector-6z5IgJ {
+  background-color: transparent;
+  height: 10px;
+  left: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+.iphone-8-1 .vector-asyZfO {
+  background-color: transparent;
+  height: 14px;
+  left: 43px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 10px;
+}
+
+.iphone-8-1 .send-cEztxT {
+  background-color: transparent;
+  height: 14px;
+  left: 105px;
+  position: absolute;
+  top: 94px;
+  width: 43px;
+}
+
+.iphone-8-1 .vector-ZVx1Or {
+  background-color: transparent;
+  height: 11px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 9px;
+}
+
+.iphone-8-1 .vector-EHiDB9 {
+  background-color: transparent;
+  height: 10px;
+  left: 21px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+
+.iphone-8-1 .vector-l6ryre {
+  background-color: transparent;
+  height: 15px;
+  left: 32px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 11px;
+}
+
+.iphone-8-1 .vector-tYxl61 {
+  background-color: transparent;
+  height: 11px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 11px;
+}
+
+.iphone-8-1 .original-logo-cEztxT {
+  background-color: transparent;
+  height: 43px;
+  left: 66px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 89px;
+  width: 31px;
+}
+
+.iphone-8-1 .layer-2-1sfEsW {
+  background-color: transparent;
+  height: 43px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 31px;
+}
+
+.iphone-8-1 .logo-BeOp1S {
+  background-color: transparent;
+  height: 43px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 31px;
+}
+
+.iphone-8-1 .group-106-DVEcFi {
+  background-color: transparent;
+  height: 43px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 31px;
+}
+
+.iphone-8-1 .vector-MT6OOR {
+  background-color: transparent;
+  height: 26px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 16px;
+}
+
+.iphone-8-1 .vector-ofKwhL {
+  background-color: transparent;
+  height: 26px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 15px;
+}
+
+.iphone-8-1 .vector-u326Ab {
+  background-color: transparent;
+  height: 25px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 18px;
+  width: 31px;
+}
+
+.iphone-8-1 .vector-OUOTcy {
+  background-color: transparent;
+  height: 4px;
+  left: 22px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 4px;
+}
+
+.iphone-8-1 .vector-PoaNeT {
+  background-color: transparent;
+  height: 4px;
+  left: 5px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 5px;
+}
+
+.iphone-8-1 .vector-jNV7UM {
+  background-color: transparent;
+  height: 6px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 25px;
+  width: 13px;
+}
+
+.iphone-8-1 .x2021-send-friend-all-rights-reserved-TZ6asu {
+  background-color: transparent;
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: 99px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 5470px;
+  width: auto;
+}
+
+.iphone-8-1 .logo-TZ6asu {
+  background-color: transparent;
+  height: 59px;
+  left: 46px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 19px;
+  width: 73px;
+}
+
+.iphone-8-1 .rectangle-125-kxtf4O {
+  background-color: var(--black);
+  height: 71px;
+  left: -6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -6px;
+  width: 86px;
+}
+
+.iphone-8-1 .original-logo-kxtf4O {
+  background-color: transparent;
+  height: 44px;
+  left: 21px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 33px;
+}
+
+.iphone-8-1 .layer-2-PxbuT8 {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 33px;
+}
+
+.iphone-8-1 .logo-nxNyJM {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 33px;
+}
+
+.iphone-8-1 .group-106-RoVNTV {
+  background-color: transparent;
+  height: 44px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 33px;
+}
+
+.iphone-8-1 .vector-x2Ux4X {
+  background-color: transparent;
+  height: 27px;
+  left: 17px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 17px;
+}
+
+.iphone-8-1 .vector-c3MbiZ {
+  background-color: transparent;
+  height: 27px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 16px;
+}
+
+.iphone-8-1 .vector-hjIdVo {
+  background-color: transparent;
+  height: 26px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 18px;
+  width: 33px;
+}
+
+.iphone-8-1 .vector-wtNZvY {
+  background-color: transparent;
+  height: 4px;
+  left: 23px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 5px;
+}
+
+.iphone-8-1 .vector-6Q8XOw {
+  background-color: transparent;
+  height: 4px;
+  left: 6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 4px;
+}
+
+.iphone-8-1 .vector-YTsTLp {
+  background-color: transparent;
+  height: 6px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 25px;
+  width: 15px;
+}
+
+.iphone-8-1 .logo-title-kxtf4O {
+  background-color: transparent;
+  height: 11px;
+  left: 0px;
+  position: absolute;
+  top: 48px;
+  width: 73px;
+}
+
+.iphone-8-1 .friend-FHEd2l {
+  background-color: transparent;
+  height: 11px;
+  left: 34px;
+  position: absolute;
+  top: 0px;
+  width: 39px;
+}
+
+.iphone-8-1 .vector-XEJNox {
+  background-color: transparent;
+  height: 3px;
+  left: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 3px;
+}
+
+.iphone-8-1 .vector-JxLBmP {
+  background-color: transparent;
+  height: 12px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -1px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-YKCs5x {
+  background-color: transparent;
+  height: 7px;
+  left: 6px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 6px;
+}
+
+.iphone-8-1 .vector-phbu3g {
+  background-color: transparent;
+  height: 7px;
+  left: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 3px;
+}
+
+.iphone-8-1 .vector-JyHdtj {
+  background-color: transparent;
+  height: 7px;
+  left: 15px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-x8e4QP {
+  background-color: transparent;
+  height: 7px;
+  left: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-USnxyF {
+  background-color: transparent;
+  height: 10px;
+  left: 31px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1px;
+  width: 8px;
+}
+
+.iphone-8-1 .send-FHEd2l {
+  background-color: transparent;
+  height: 10px;
+  left: 0px;
+  position: absolute;
+  top: 1px;
+  width: 32px;
+}
+
+.iphone-8-1 .vector-ce0YAI {
+  background-color: transparent;
+  height: 10px;
+  left: -0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 8px;
+}
+
+.iphone-8-1 .vector-8DFeHp {
+  background-color: transparent;
+  height: 8px;
+  left: 17px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 7px;
+}
+
+.iphone-8-1 .vector-kEtQNm {
+  background-color: transparent;
+  height: 10px;
+  left: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -0px;
+  width: 9px;
+}
+
+.iphone-8-1 .vector-mSLYmL {
+  background-color: transparent;
+  height: 8px;
+  left: 9px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2px;
+  width: 7px;
+}
+@media screen and (max-width: 1439px) {
+  .screen.homepage { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1440px) {
+  .screen.iphone-8-1 { 
+    display: none;
+   }
+}
 }

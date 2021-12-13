@@ -17,10 +17,11 @@
 }
 
 #overlay-dropdown-menu .dropdown-menu {
-  left: 510.0000104904175px;
+  left: 515px;
   position: absolute;
-  top: 202.00000381469727px;
+  top: 100px;
 }
+
 
 
 #overlay-dropdown-menu .container-center-horizontal {
@@ -54,6 +55,9 @@
   top: 19px;
   width: 134px;
 }
+.dropdown-menu .group-117-jiK7Zy:hover{
+  background-color: rgba(15, 207, 176, 0.21);
+}
 
 .dropdown-menu .akar-iconsarrow-down-IGjln5 {
   background-color: transparent;
@@ -86,6 +90,9 @@
   top: 65px;
   width: 135px;
 }
+.dropdown-menu .group-118-jiK7Zy:hover{
+  background-color: rgba(15, 207, 176, 0.21);
+}
 
 .dropdown-menu .akar-iconsarrow-down-AYujpj {
   background-color: transparent;
@@ -117,6 +124,10 @@
   position: absolute;
   top: 107px;
   width: 134px;
+}
+
+.dropdown-menu .group-119-jiK7Zy:hover{
+  background-color: rgba(15, 207, 176, 0.21);
 }
 
 .dropdown-menu .akar-iconsarrow-down-ZDVNL2 {
