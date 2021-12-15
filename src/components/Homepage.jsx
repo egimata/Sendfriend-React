@@ -5,8 +5,8 @@ import facebook_icon from '../img/bx-bxl-facebook@2x.svg';
 import twitter_icon from '../img/ant-design-twitter-outlined@2x.svg';
 import linkedin_icon from '../img/vector-8@2x.svg';
 import menu_bg from '../img/vector-9@1x.svg';
-import logo_title from '../img/logo-title@2x.svg';
-import logo from '../img/original-logo@2x.svg';
+// import logo_title from '../img/logo-title@2x.svg';
+import logo_menu from '../img/logo_menu.png';
 import cheaper_img from '../img/3@1x.png';
 import faster_img from '../img/2@2x.png';
 import faster_img_section2 from '../img/fast-payment.png';
@@ -55,6 +55,7 @@ import footer_friend from '../img/friend@2x.svg';
 import footer_group from '../img/group-84@1x.svg';
 import footer_line from '../img/line-1@1x.svg';
 import left_asset from '../img/asset-1bg1-1-2@2x.png';
+import footer_logo from '../img/logo_footer.png';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import HideOverlay from 'jquery';
@@ -80,7 +81,7 @@ export const Homepage = () => {
               <div class="scalable-aBc0W1 montserrat-bold-ebony-clay-18px">Scalable</div>
               <div class="secure-aBc0W1 montserrat-bold-ebony-clay-18px">Secure</div>
               <div class="serve-millions-of-us-aBc0W1 montserrat-bold-ebony-clay-14px">
-                Serve millions of users and clients world wide with an easy integration of our API.
+                Serve millions of users and clients worldwide with an easy integration of our API.
               </div>
               <div class="following-latest-sec-aBc0W1 montserrat-bold-ebony-clay-14px">
                 Following latest security standards, tested by time, our API is ready to handle million transactions per
@@ -90,31 +91,37 @@ export const Homepage = () => {
 
             <div class="advance-tab-button advance-tab-button-1 right-top">
                 <Tabs>
+
                   <TabList>
+
                     <Tab>
                       <div class="rectangle-101-Ap9U61 smart-layers-pointers border-1px-black-2">
                         <img class="x3-Ap9U61 smart-layers-pointers bp1-animate-enter22" src={cheaper_img} />
                         <div class="cheaper-Ap9U61">CHEAPER</div>
                       </div>
                     </Tab>
+
                     <Tab>
                     <div class="rectangle-102-Ap9U61 smart-layers-pointers border-1px-black-2">
                       <div class="faster-Ap9U61 montserrat-bold-ebony-clay-16px">FASTER</div>
                       <img class="x2-Ap9U61 smart-layers-pointers bp1-animate-enter23" src={faster_img} />
                     </div>
                     </Tab>
+
                     <Tab>
                     <div class="rectangle-103-Ap9U61 smart-layers-pointers border-1px-black-2">
                       <img class="eos-iconsblockchain-Ap9U61 smart-layers-pointers bp1-animate-enter24" src={multichain_img}/>
                       <div class="multichain-Ap9U61 montserrat-bold-ebony-clay-16px">MULTICHAIN</div>
                     </div>
                     </Tab>
+
                     <Tab>
                     <div class="rectangle-104-Ap9U61 smart-layers-pointers border-1px-black-2">
                       <div class="more-secure-Ap9U61 montserrat-bold-ebony-clay-16px">MORE SECURE</div>
                       <img class="group-Ap9U61 smart-layers-pointers" src={moresecure_img} />
                     </div>
                     </Tab>
+
                   </TabList>
 
                   <TabPanel>
@@ -125,9 +132,9 @@ export const Homepage = () => {
                       <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
                       <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
                       <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px bp1-animate-enter20">
-                        <span class="span0-BMjjiJ">SendFriend delivers a</span
-                        ><span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper method<br /></span
-                        ><span class="span2-BMjjiJ">of transferring money for SMEs</span>
+                        <span class="span0-BMjjiJ">SendFriend delivers a </span>
+                        <span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper solution<br /></span>
+                        <span class="span2-BMjjiJ">for transferring money across borders</span>
                       </div>
                       <div class="our-on-chain-solutio-pMVTHP bp1-animate-enter20">
                         Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
@@ -159,8 +166,8 @@ export const Homepage = () => {
                     <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
                     <div class="group-97-zYNucu">
                       <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
-                        <span class="span0-Rijsq8">Servicing a Variety of Cross-Border Payment Use Cases, </span
-                        ><span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while Adapting to Customer Needs</span>
+                        <span class="span0-Rijsq8">Servicing a variety of cross-border payment use cases, </span>
+                        <span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while adapting to customer needs</span>
                       </div>
                       <div class="our-api-based-platfo-5BiD38">
                         Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
@@ -199,247 +206,263 @@ export const Homepage = () => {
                     <img class="arrow-4-zYNucu bp1-animate-enter9" show-on-scroll src={arrow5} />
                   </div>
                   </TabPanel>
+
                   <TabPanel>
-                      <div>
-                  <img class="rectangle-106-zYNucu" src={section2_bg}/>
-                  <div class="group-92-zYNucu">
-                    <img class="ant-designcheck-circle-outlined-pMVTHP" src={outlined_circle} />
-                    <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
-                    <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
-                    <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px bp1-animate-enter20">
-                      <span class="span0-BMjjiJ">SendFriend delivers MODE 2a</span
-                      ><span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper method<br /></span
-                      ><span class="span2-BMjjiJ">of transferring money for SMEs</span>
+                        <div>
+                    <img class="rectangle-106-zYNucu" src={section2_bg}/>
+                    <div class="group-92-zYNucu">
+                      <img class="ant-designcheck-circle-outlined-pMVTHP" src={outlined_circle} />
+                      <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
+                      <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
+                      <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px">
+                        <span class="span0-BMjjiJ">SendFriend delivers a </span>
+                        <span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper solution<br /></span>
+                        <span class="span2-BMjjiJ">for transferring money across borders</span>
+                      </div>
+                      <div class="our-on-chain-solutio-pMVTHP">
+                        Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
+                        In short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
+                        settlement
+                      </div>
+                      <div class="lower-fx-costs-fewer-pMVTHP">
+                        Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No
+                        pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
+                        route via our multi-chain network
+                      </div>
+                      <a style={{color: '#000000'}} href="/#/contact">
+                        <div>
+                        <div class="rectangle-1-pMVTHP smart-layers-pointers">
+                          <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                        </div>
+                        </div>
+                        <div class="rectangle-2-pMVTHP smart-layers-pointers">
+                          <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                        </div>
+                      </a>
                     </div>
-                    <div class="our-on-chain-solutio-pMVTHP">
-                      Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
-                      In short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
-                      settlement
+                    <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
+                    <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
+                    <div class="multichain-zYNucu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
+                    <div class="x1-api-connection-zYNucu montserrat-semi-bold-ebony-clay-10px">1 API<br />Connection</div>
+                    <div class="blockchain-zYNucu montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
+                    <div class="cost-effective-zYNucu montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
+                    <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
+                    <div class="group-97-zYNucu">
+                      <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
+                        <span class="span0-Rijsq8">Servicing a variety of cross-border payment use cases, </span>
+                        <span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while adapting to customer needs</span>
+                      </div>
+                      <div class="our-api-based-platfo-5BiD38">
+                        Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
+                        With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
+                      </div>
+                      <div class="in-short-we-are-buil-5BiD38">
+                        In short, we are building a team to develop solutions across a range of use cases, where traditional payment
+                        rails come up short for small and medium size business with thorny cross-border remittance needs
+                      </div>
                     </div>
-                    <div class="lower-fx-costs-fewer-pMVTHP">
-                      Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No
-                      pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
-                      route via our multi-chain network
+                    <img class="asset-1bg1-1-1-zYNucu" src={asset_1} />
+                    <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
+                      <img
+                        class="kisspng-clip-art-cit-8iKLl4"
+                        src={world_img}
+                      />
+                      <img class="group-101-8iKLl4" src={section2_group1} />
                     </div>
-                    <a style={{color: '#000000'}} href="/#/contact">
-                    <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
-                    <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
-                    <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                    <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                  </a>
+                    <div class="uiwsetting-zYNucu">
+                      <div class="group-122-PZ1dm1 bp1-animate-enter2" show-on-scroll>
+                        <img class="vector-FFxYwU" src={section2_gear} />
+                        <div class="ellipse-16-FFxYwU"></div>
+                      </div>
+                      <img class="group-48-PZ1dm1" src={section2_logo} />
+                    </div>
+                    <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
+                    <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
+                    <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
+                    <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
+                    <img class="arrow-6-zYNucu" src={arrow1} />
+                    <img class="x3-zYNucu" src={cost_effective} />
+                    <img class="group-zYNucu" src={moresecure_img_section2} />
+                    <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img_section2} />
+                    <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
+                    <img class="x2-zYNucu" src={faster_img_section2} />
+                    <img class="arrow-4-zYNucu " show-on-scroll src={arrow5} />
                   </div>
-                  <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
-                  <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
-                  <div class="multichain-zYNucu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
-                  <div class="x1-api-connection-zYNucu montserrat-semi-bold-ebony-clay-10px">1 API<br />Connection</div>
-                  <div class="blockchain-zYNucu montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
-                  <div class="cost-effective-zYNucu montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
-                  <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-                  <div class="group-97-zYNucu">
-                    <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
-                      <span class="span0-Rijsq8">Servicing a Variety of Cross-Border Payment Use Cases, </span
-                      ><span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while Adapting to Customer Needs</span>
-                    </div>
-                    <div class="our-api-based-platfo-5BiD38">
-                      Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
-                      With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
-                    </div>
-                    <div class="in-short-we-are-buil-5BiD38">
-                      In short, we are building a team to develop solutions across a range of use cases, where traditional payment
-                      rails come up short for small and medium size business with thorny cross-border remittance needs
-                    </div>
-                  </div>
-                  <img class="asset-1bg1-1-1-zYNucu" src={asset_1} />
-                  <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
-                    <img
-                      class="kisspng-clip-art-cit-8iKLl4"
-                      src={world_img}
-                    />
-                    <img class="group-101-8iKLl4" src={section2_group1} />
-                  </div>
-                  <div class="uiwsetting-zYNucu">
-                    <div class="group-122-PZ1dm1 bp1-animate-enter2" show-on-scroll>
-                      <img class="vector-FFxYwU" src={section2_gear} />
-                      <div class="ellipse-16-FFxYwU"></div>
-                    </div>
-                    <img class="group-48-PZ1dm1" src={section2_logo} />
-                  </div>
-                  <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
-                  <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
-                  <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
-                  <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
-                  <img class="arrow-6-zYNucu" src={arrow1} />
-                  <img class="x3-zYNucu" src={cost_effective} />
-                  <img class="group-zYNucu" src={moresecure_img_section2} />
-                  <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img_section2} />
-                  <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
-                  <img class="x2-zYNucu" src={faster_img_section2} />
-                  <img class="arrow-4-zYNucu bp1-animate-enter9" show-on-scroll src={arrow5} />
-                </div>
                   </TabPanel>
+
                   <TabPanel>
-                      <div>
-                  <img class="rectangle-106-zYNucu" src={section2_bg}/>
-                  <div class="group-92-zYNucu">
-                    <img class="ant-designcheck-circle-outlined-pMVTHP" src={outlined_circle} />
-                    <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
-                    <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
-                    <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px bp1-animate-enter20">
-                      <span class="span0-BMjjiJ">SendFriend delivers MODE 4 a</span
-                      ><span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper method<br /></span
-                      ><span class="span2-BMjjiJ">of transferring money for SMEs</span>
+                        <div>
+                    <img class="rectangle-106-zYNucu" src={section2_bg}/>
+                    <div class="group-92-zYNucu">
+                      <img class="ant-designcheck-circle-outlined-pMVTHP" src={outlined_circle} />
+                      <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
+                      <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
+                      <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px">
+                        <span class="span0-BMjjiJ">SendFriend delivers a </span>
+                        <span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper solution<br /></span>
+                        <span class="span2-BMjjiJ">for transferring money across borders</span>
+                      </div>
+                      <div class="our-on-chain-solutio-pMVTHP">
+                        Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
+                        In short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
+                        settlement
+                      </div>
+                      <div class="lower-fx-costs-fewer-pMVTHP">
+                        Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No
+                        pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
+                        route via our multi-chain network
+                      </div>
+                      <a style={{color: '#000000'}} href="/#/contact">
+                        <div>
+                        <div class="rectangle-1-pMVTHP smart-layers-pointers">
+                          <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                        </div>
+                        </div>
+                        <div class="rectangle-2-pMVTHP smart-layers-pointers">
+                          <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                        </div>
+                      </a>
                     </div>
-                    <div class="our-on-chain-solutio-pMVTHP">
-                      Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
-                      In short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
-                      settlement
+                    <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
+                    <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
+                    <div class="multichain-zYNucu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
+                    <div class="x1-api-connection-zYNucu montserrat-semi-bold-ebony-clay-10px">1 API<br />Connection</div>
+                    <div class="blockchain-zYNucu montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
+                    <div class="cost-effective-zYNucu montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
+                    <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
+                    <div class="group-97-zYNucu">
+                      <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
+                        <span class="span0-Rijsq8">Servicing a variety of cross-border payment use cases, </span>
+                        <span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while adapting to customer needs</span>
+                      </div>
+                      <div class="our-api-based-platfo-5BiD38">
+                        Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
+                        With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
+                      </div>
+                      <div class="in-short-we-are-buil-5BiD38">
+                        In short, we are building a team to develop solutions across a range of use cases, where traditional payment
+                        rails come up short for small and medium size business with thorny cross-border remittance needs
+                      </div>
                     </div>
-                    <div class="lower-fx-costs-fewer-pMVTHP">
-                      Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No
-                      pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
-                      route via our multi-chain network
+                    <img class="asset-1bg1-1-1-zYNucu" src={asset_1} />
+                    <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
+                      <img
+                        class="kisspng-clip-art-cit-8iKLl4"
+                        src={world_img}
+                      />
+                      <img class="group-101-8iKLl4" src={section2_group1} />
                     </div>
-                    <a style={{color: '#000000'}} href="/#/contact">
-                    <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
-                    <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
-                    <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                    <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                  </a>
+                    <div class="uiwsetting-zYNucu">
+                      <div class="group-122-PZ1dm1 bp1-animate-enter2" show-on-scroll>
+                        <img class="vector-FFxYwU" src={section2_gear} />
+                        <div class="ellipse-16-FFxYwU"></div>
+                      </div>
+                      <img class="group-48-PZ1dm1" src={section2_logo} />
+                    </div>
+                    <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
+                    <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
+                    <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
+                    <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
+                    <img class="arrow-6-zYNucu" src={arrow1} />
+                    <img class="x3-zYNucu" src={cost_effective} />
+                    <img class="group-zYNucu" src={moresecure_img_section2} />
+                    <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img_section2} />
+                    <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
+                    <img class="x2-zYNucu" src={faster_img_section2} />
+                    <img class="arrow-4-zYNucu " show-on-scroll src={arrow5} />
                   </div>
-                  <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
-                  <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
-                  <div class="multichain-zYNucu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
-                  <div class="x1-api-connection-zYNucu montserrat-semi-bold-ebony-clay-10px">1 API<br />Connection</div>
-                  <div class="blockchain-zYNucu montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
-                  <div class="cost-effective-zYNucu montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
-                  <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-                  <div class="group-97-zYNucu">
-                    <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
-                      <span class="span0-Rijsq8">Servicing a Variety of Cross-Border Payment Use Cases, </span
-                      ><span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while Adapting to Customer Needs</span>
-                    </div>
-                    <div class="our-api-based-platfo-5BiD38">
-                      Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
-                      With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
-                    </div>
-                    <div class="in-short-we-are-buil-5BiD38">
-                      In short, we are building a team to develop solutions across a range of use cases, where traditional payment
-                      rails come up short for small and medium size business with thorny cross-border remittance needs
-                    </div>
-                  </div>
-                  <img class="asset-1bg1-1-1-zYNucu" src={asset_1} />
-                  <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
-                    <img
-                      class="kisspng-clip-art-cit-8iKLl4"
-                      src={world_img}
-                    />
-                    <img class="group-101-8iKLl4" src={section2_group1} />
-                  </div>
-                  <div class="uiwsetting-zYNucu">
-                    <div class="group-122-PZ1dm1 bp1-animate-enter2" show-on-scroll>
-                      <img class="vector-FFxYwU" src={section2_gear} />
-                      <div class="ellipse-16-FFxYwU"></div>
-                    </div>
-                    <img class="group-48-PZ1dm1" src={section2_logo} />
-                  </div>
-                  <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
-                  <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
-                  <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
-                  <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
-                  <img class="arrow-6-zYNucu" src={arrow1} />
-                  <img class="x3-zYNucu" src={cost_effective} />
-                  <img class="group-zYNucu" src={moresecure_img_section2} />
-                  <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img_section2} />
-                  <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
-                  <img class="x2-zYNucu" src={faster_img_section2} />
-                  <img class="arrow-4-zYNucu bp1-animate-enter9" show-on-scroll src={arrow5} />
-                </div>
                   </TabPanel>
+
                   <TabPanel>
-                      <div>
-                  <img class="rectangle-106-zYNucu" src={section2_bg}/>
-                  <div class="group-92-zYNucu">
-                    <img class="ant-designcheck-circle-outlined-pMVTHP" src={outlined_circle} />
-                    <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
-                    <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
-                    <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px bp1-animate-enter20">
-                      <span class="span0-BMjjiJ">SendFriend delivers MODE 3 a </span>
-                      <span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper method<br /></span>
-                      <span class="span2-BMjjiJ">of transferring money for SMEs</span>
+                        <div>
+                    <img class="rectangle-106-zYNucu" src={section2_bg}/>
+                    <div class="group-92-zYNucu">
+                      <img class="ant-designcheck-circle-outlined-pMVTHP" src={outlined_circle} />
+                      <img class="ant-designcheck-circle-outlined-LiPxAv" src={outlined_circle} />
+                      <img class="ant-designcheck-circle-outlined-VgymmD" src={outlined_circle} />
+                      <div class="send-friend-delivers-pMVTHP montserrat-extra-bold-white-36px">
+                        <span class="span0-BMjjiJ">SendFriend delivers a </span>
+                        <span class="span1-BMjjiJ montserrat-extra-bold-white-36px-2"> cheaper solution<br /></span>
+                        <span class="span2-BMjjiJ">for transferring money across borders</span>
+                      </div>
+                      <div class="our-on-chain-solutio-pMVTHP">
+                        Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
+                        In short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
+                        settlement
+                      </div>
+                      <div class="lower-fx-costs-fewer-pMVTHP">
+                        Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No
+                        pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
+                        route via our multi-chain network
+                      </div>
+                      <a style={{color: '#000000'}} href="/#/contact">
+                        <div>
+                        <div class="rectangle-1-pMVTHP smart-layers-pointers">
+                          <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                        </div>
+                        </div>
+                        <div class="rectangle-2-pMVTHP smart-layers-pointers">
+                          <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
+                        </div>
+                      </a>
                     </div>
-                    <div class="our-on-chain-solutio-pMVTHP">
-                      Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees.
-                      In short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
-                      settlement
+                    <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
+                    <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
+                    <div class="multichain-zYNucu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
+                    <div class="x1-api-connection-zYNucu montserrat-semi-bold-ebony-clay-10px">1 API<br />Connection</div>
+                    <div class="blockchain-zYNucu montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
+                    <div class="cost-effective-zYNucu montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
+                    <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
+                    <div class="group-97-zYNucu">
+                      <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
+                        <span class="span0-Rijsq8">Servicing a variety of cross-border payment use cases, </span>
+                        <span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while adapting to customer needs</span>
+                      </div>
+                      <div class="our-api-based-platfo-5BiD38">
+                        Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
+                        With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
+                      </div>
+                      <div class="in-short-we-are-buil-5BiD38">
+                        In short, we are building a team to develop solutions across a range of use cases, where traditional payment
+                        rails come up short for small and medium size business with thorny cross-border remittance needs
+                      </div>
                     </div>
-                    <div class="lower-fx-costs-fewer-pMVTHP">
-                      Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No
-                      pre-funding burden<br /><br />Access to a least-cost routing AI/ML algorithm to optimally select payment
-                      route via our multi-chain network
+                    <img class="asset-1bg1-1-1-zYNucu" src={asset_1} />
+                    <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
+                      <img
+                        class="kisspng-clip-art-cit-8iKLl4"
+                        src={world_img}
+                      />
+                      <img class="group-101-8iKLl4" src={section2_group1} />
                     </div>
-                    <a style={{color: '#000000'}} href="/#/contact">
-                    <div class="rectangle-1-pMVTHP smart-layers-pointers"></div>
-                    <div class="rectangle-2-pMVTHP smart-layers-pointers"></div>
-                    <div class="learn-more-pMVTHP montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                    <div class="learn-more-LiPxAv montserrat-bold-eerie-black-14px">LEARN MORE</div>
-                  </a>
+                    <div class="uiwsetting-zYNucu">
+                      <div class="group-122-PZ1dm1 bp1-animate-enter2" show-on-scroll>
+                        <img class="vector-FFxYwU" src={section2_gear} />
+                        <div class="ellipse-16-FFxYwU"></div>
+                      </div>
+                      <img class="group-48-PZ1dm1" src={section2_logo} />
+                    </div>
+                    <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
+                    <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
+                    <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
+                    <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
+                    <img class="arrow-6-zYNucu" src={arrow1} />
+                    <img class="x3-zYNucu" src={cost_effective} />
+                    <img class="group-zYNucu" src={moresecure_img_section2} />
+                    <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img_section2} />
+                    <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
+                    <img class="x2-zYNucu" src={faster_img_section2} />
+                    <img class="arrow-4-zYNucu " show-on-scroll src={arrow5} />
                   </div>
-                  <img class="ant-designcheck-circle-outlined-zYNucu" src={outlined_circle} />
-                  <div class="secure-zYNucu montserrat-semi-bold-ebony-clay-10px">Secure</div>
-                  <div class="multichain-zYNucu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
-                  <div class="x1-api-connection-zYNucu montserrat-semi-bold-ebony-clay-10px">1 API<br />Connection</div>
-                  <div class="blockchain-zYNucu montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
-                  <div class="cost-effective-zYNucu montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
-                  <div class="fast-payment-zYNucu montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-                  <div class="group-97-zYNucu">
-                    <div class="servicing-a-variety-5BiD38 montserrat-extra-bold-white-36px bp1-animate-enter">
-                      <span class="span0-Rijsq8">Servicing a Variety of Cross-Border Payment Use Cases, </span
-                      ><span class="span1-Rijsq8 montserrat-extra-bold-white-36px-2">while Adapting to Customer Needs</span>
-                    </div>
-                    <div class="our-api-based-platfo-5BiD38">
-                      Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
-                      With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
-                    </div>
-                    <div class="in-short-we-are-buil-5BiD38">
-                      In short, we are building a team to develop solutions across a range of use cases, where traditional payment
-                      rails come up short for small and medium size business with thorny cross-border remittance needs
-                    </div>
-                  </div>
-                  <img class="asset-1bg1-1-1-zYNucu" src={asset_1} />
-                  <div class="world-group-zYNucu bp1-animate-enter1" show-on-scroll>
-                    <img
-                      class="kisspng-clip-art-cit-8iKLl4"
-                      src={world_img}
-                    />
-                    <img class="group-101-8iKLl4" src={section2_group1} />
-                  </div>
-                  <div class="uiwsetting-zYNucu">
-                    <div class="group-122-PZ1dm1 bp1-animate-enter2" show-on-scroll>
-                      <img class="vector-FFxYwU" src={section2_gear} />
-                      <div class="ellipse-16-FFxYwU"></div>
-                    </div>
-                    <img class="group-48-PZ1dm1" src={section2_logo} />
-                  </div>
-                  <img class="arrow-3-zYNucu bp1-animate-enter3" show-on-scroll src={arrow3} />
-                  <img class="arrow-5-zYNucu bp1-animate-enter4" show-on-scroll src={arrow4} />
-                  <img class="arrow-2-zYNucu bp1-animate-enter5" show-on-scroll src={arrow2} />
-                  <img class="arrow-1-zYNucu bp1-animate-enter6" show-on-scroll src={arrow6} />
-                  <img class="arrow-6-zYNucu" src={arrow1} />
-                  <img class="x3-zYNucu" src={cost_effective} />
-                  <img class="group-zYNucu" src={moresecure_img_section2} />
-                  <img class="eos-iconsblockchain-zYNucu bp1-animate-enter7" show-on-scroll src={multichain_img_section2} />
-                  <img class="carbonapi-1-zYNucu bp1-animate-enter8" show-on-scroll src={api_img} />
-                  <img class="x2-zYNucu" src={faster_img_section2} />
-                  <img class="arrow-4-zYNucu bp1-animate-enter9" show-on-scroll src={arrow5} />
-                </div>
                   </TabPanel>
+
                 </Tabs>
               </div>
 
             <div class="platform-section-zYNucu" id="platform-section">
               <div class="a-flexible-cross-bor-ukK2kV montserrat-extra-bold-white-36px bp1-animate-enter10" show-on-scroll>
-                <span class="span0-MPLrMf">A flexible cross-border payment solution<br /></span
-                ><span class="span1-MPLrMf">expanding its international reach</span>
+                <span class="span0-MPLrMf">A flexible cross-border payment solution<br /></span>
+                <span class="span1-MPLrMf">expanding its international reach</span>
               </div>
               <div class="group-98-ukK2kV">
                 <div class="servicing-internatio-hKfoR6 montserrat-bold-ebony-clay-14px">
@@ -477,8 +500,8 @@ export const Homepage = () => {
                   class="our-remittance-api-s-iU7JjP montserrat-extra-bold-white-36px bp1-animate-enter13"
                   show-on-scroll
                 >
-                  <span class="span0-J1gvkl montserrat-extra-bold-white-36px-2">Our Remittance API </span
-                  ><span class="span1-J1gvkl">Seamlessly Connects Customers to a Suite of Multi-Chain Payment Tools</span>
+                  <span class="span0-J1gvkl montserrat-extra-bold-white-36px-2">Our remittance API </span>
+                  <span class="span1-J1gvkl">seamlessly connects customers to a suite of multi-chain payment tools</span>
                 </div>
                 <a style={{color: '#000000'}} href="/#/contact">
                   <div class="rectangle-108-iU7JjP smart-layers-pointers">
@@ -496,44 +519,49 @@ export const Homepage = () => {
               
                 <Tabs>
                   <TabList>
+
                       <Tab>
                       <div class="rectangle-110-c0Knzr smart-layers-pointers border-1px-black-2">
                         <div class="smart-layers-pointers bp1-animate-enter22" />
                         <div class="code-c0Knzr montserrat-bold-white-14px">Code</div>
                       </div>
                     </Tab>
+
                       <Tab>
                       <div class="rectangle-111-c0Knzr smart-layers-pointers border-1px-black-2">
                         <div class="smart-layers-pointers bp1-animate-enter22" />
                         <div class="get-fx-rate-c0Knzr montserrat-bold-ebony-clay-14px">Get FX Rate</div>
                     </div>
                     </Tab>
+
                       <Tab>
                       <div class="rectangle-112-c0Knzr smart-layers-pointers border-1px-black-2">
                         <div class="smart-layers-pointers bp1-animate-enter22" />
                         <div class="get-price-c0Knzr montserrat-bold-ebony-clay-14px">Get Price</div>
                       </div>
                     </Tab>
+
                   </TabList>
 
                   <TabPanel>
                   <img class="api-async-c0Knzr bp1-animate-enter14" show-on-scroll src={first_image} />
                   </TabPanel>
+
                   <TabPanel>
                   <img class="api-async-c0Knzr bp1-animate-enter14" show-on-scroll src={second_image} />
                   </TabPanel>
+
                   <TabPanel>
                   <img class="api-async-c0Knzr bp1-animate-enter14" show-on-scroll src={third_image} />
                   </TabPanel>
+
                 </Tabs>
               
-            
-
-
-              <img class="line-14-c0Knzr" src="img/line-14@2x.svg" />
             </div>
             <img class="asset-1-1-zYNucu" src={section4_right_img} />
             <img class="blockchain-1-zYNucu bp1-animate-enter15" show-on-scroll src={blockchain} />
+
+
             <div class="footer-zYNucu">
               <div class="rectangle-89-bUVegb"></div>
               <div class="x-bUVegb montserrat-medium-white-14px">|</div>
@@ -541,29 +569,29 @@ export const Homepage = () => {
                 © 2021 SendFriend. All Rights Reserved
               </div>
               <div class="text-bUVegb montserrat-medium-white-14px"></div>
-              <a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
-                ><div class="linked-in-bUVegb montserrat-medium-white-14px">| LinkedIn</div> </a
-              ><a href="https://twitter.com/sendfriendinc" target="_blank"
-                ><div class="twitter-bUVegb montserrat-medium-white-14px">Twitter</div> </a
-              ><a href="https://www.facebook.com/sendfriendinc/" target="_blank"
-                ><div class="facebook-bUVegb montserrat-medium-white-14px">Facebook</div> </a
-              ><div class="rectangle-40-bUVegb"></div>
-          <div class="to-learn-more-about-send-friend-bUVegb montserrat-bold-white-32px">
-            <span class="span0-khdqLV montserrat-bold-white-32px-2">To learn more about</span
-            ><span class="span1-khdqLV montserrat-bold-caribbean-green-32px"> SendFriend</span>
-          </div>
-          <a href='/#/contact'>
-          <div class="group-127-bUVegb">
-            <div class="rectangle-41-gExxdY">
-            <div class="contact-us-gExxdY">Contact Us</div>
-            </div>
-          </div>
-          </a>
+              <a href="https://www.linkedin.com/company/sendfriend/" target="_blank">
+                <div class="linked-in-bUVegb montserrat-medium-white-14px">| LinkedIn</div> 
+              </a>
+              <a href="https://twitter.com/sendfriendinc" target="_blank">
+                <div class="twitter-bUVegb montserrat-medium-white-14px">Twitter</div> </a>
+              <a href="https://www.facebook.com/sendfriendinc/" target="_blank">
+                <div class="facebook-bUVegb montserrat-medium-white-14px">Facebook</div> 
+              </a>
+              <div class="rectangle-40-bUVegb"></div>
+              <div class="to-learn-more-about-send-friend-bUVegb montserrat-bold-white-32px">
+                <span class="span0-khdqLV montserrat-bold-white-32px-2">To learn more about</span>
+                <span class="span1-khdqLV montserrat-bold-caribbean-green-32px"> SendFriend</span>
+              </div>
+              <a href='/#/contact'>
+                <div class="group-127-bUVegb">
+                  <div class="rectangle-41-gExxdY">
+                    <div class="contact-us-gExxdY">Contact Us</div>
+                  </div>
+                </div>
+            </a>
               <img class="line-1-bUVegb" src={footer_line} />
               <img class="asset-1bg1-1-2-bUVegb" src={left_asset} />
-              <img class="friend-bUVegb" src={footer_friend} />
-              <img class="send-bUVegb" src={footer_send} />
-              <img class="original-logo-bUVegb" src={logo} />
+              <img class="original-logo-bUVegb" src={footer_logo} />
             </div>
             <div class="slider-homepage-1-zYNucu bp1-animate-enter16" ><img src={testImg} />
             <div class="slider-zYNucu">
@@ -587,19 +615,18 @@ export const Homepage = () => {
                 </a>
               </div>
               <img class="line-13-Ap9U61 smart-layers-pointers" src={black_line} />
-              
-              
-              
 
             </div>
             <div class="top-header-zYNucu">
               <div class="rectangle-97-BtVIxE"></div>
               <a href="https://www.facebook.com/sendfriendinc/" target="_blank">
-              <img class="bxbxl-facebook-BtVIxE" src={facebook_icon} /></a>
-              <a href="https://twitter.com/sendfriendinc" target="_blank"
-                ><img class="ant-designtwitter-outlined-BtVIxE" src={twitter_icon} /> </a
-              ><a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
-                ><img class="vector-BtVIxE" src={linkedin_icon} />
+                <img class="bxbxl-facebook-BtVIxE" src={facebook_icon} />
+              </a>
+              <a href="https://twitter.com/sendfriendinc" target="_blank">
+                <img class="ant-designtwitter-outlined-BtVIxE" src={twitter_icon} /> 
+              </a>
+              <a href="https://www.linkedin.com/company/sendfriend/" target="_blank">
+                <img class="vector-BtVIxE" src={linkedin_icon} />
               </a>
             </div>
             <div class="partnerships-zYNucu" id="partnerships">
@@ -635,8 +662,9 @@ export const Homepage = () => {
                   </div>
                 </div>
                 </a>
-                <img class="original-logo-nccVGg" src={logo} />
-              <img class="logo-title-nccVGg" src={logo_title} />
+                <a href="#/">
+                <img class="original-logo-nccVGg" src={logo_menu} /></a>
+
               <HashLink smooth to="/#platform-section">
               <div class="platform-nccVGg montserrat-bold-white-14px">PLATFORM</div>
             </HashLink>;
@@ -857,7 +885,7 @@ export const Homepage = () => {
           </div>
           <div class="scalable-OWBGC1 montserrat-bold-ebony-clay-16px">Scalable</div>
           <div class="serve-millions-of-us-OWBGC1 montserrat-bold-ebony-clay-12px">
-            Serve millions of users and clients world wide with an easy integration of our API.
+            Serve millions of users and clients worldwide with an easy integration of our API.
           </div>
         </div>
         <div class="partnerships-TZ6asu">

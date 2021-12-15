@@ -454,16 +454,16 @@
 .history .team7-MaQ2GE {
   background-color: transparent;
   height: 368px;
-  left: 783px;
+  left: 568px;
   position: absolute;
-  top: 4018px;
-  width: 298px;
+  top: 3470px;
+  width: 326px;
 }
 
 .history .image-3-lfHTtk {
   background-color: transparent;
   cursor: pointer;
-  height: 327px;
+  height: 354px;
   left: 0px;
   mix-blend-mode: normal;
   object-fit: cover;
@@ -471,197 +471,245 @@
   position: absolute;
   top: 0px;
   transition: all 0.2s ease;
-  width: 298px;
+  width: 322px;
 }
 
 .history .image-3-lfHTtk:hover {
   transform: scale(0.9); 
 }
+/* Satwik */
+  .history .bio-lfHTtk {
+    background-color: transparent;
+    cursor: pointer;
+    height: 74px;
+    left: 0px;
+    pointer-events: auto;
+    position: absolute;
+    top: 310px;
+    transition: all 0.2s ease;
+    width: 320px;
+}
+  .history .bio-lfHTtk:after {
+    content: "Satwik Exerpt";
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 29px 43px;
+    bottom: 45px;
+    left: 0;
+    width: 236px;
+    height: 272px;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(21px) brightness(100%) opacity(0.5);
+    background-color: var(--caribbean-green-2);
+    z-index: -1;
+    transition: transform 0.3s;
+  }
 
-.history .bio-lfHTtk {
-  background-color: transparent;
-  cursor: pointer;
-  height: 72px;
-  left: 0px;
-  pointer-events: auto;
-  position: absolute;
-  top: 296px;
-  transition: all 0.2s ease;
-  width: 302px;
+  .history .bio-lfHTtk:hover {
+    transform: translate(0, -10px);
+  }
+  .history .bio-lfHTtk:hover::after {
+    transform: translate(0, -10px);
+      transform: scaleY(1);
+  }
+
+
+  .history .rectangle-45-NxFrnF {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 76px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 323px;
 }
 
-.history .bio-lfHTtk:hover {
-  transform: translate(0, -10px);
+  .history .satwik-seshasai-NxFrnF {
+    background-color: transparent;
+    height: auto;
+    left: 75px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    width: 167px;
+  }
+
+  .history .director-NxFrnF {
+    background-color: transparent;
+    height: auto;
+    left: 131px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 43px;
+    width: 73px;
+  }
+
+  .history .team6-MaQ2GE {
+    background-color: transparent;
+    height: 369px;
+    left: 171px;
+    position: absolute;
+    top: 3470px;
+    width: 326px;
+}
+  .history .image-5-x60cHe {
+    background-color: transparent;
+    cursor: pointer;
+    height: 354px;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 322px;
 }
 
-.history .rectangle-45-NxFrnF {
-  -webkit-backdrop-filter: blur(13px) brightness(100%);
-  backdrop-filter: blur(13px) brightness(100%);
-  background-color: var(--caribbean-green-2);
-  border-radius: 10px;
-  box-shadow: 0px 0px 8px #0000002e;
-  height: 72px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 298px;
+  .history .image-5-x60cHe:hover {
+    transform: scale(0.9); 
+  }
+/* Satwik */
+
+/* Sandra Ro */
+  .history .bio-x60cHe {
+    background-color: transparent;
+    cursor: pointer;
+    height: 74px;
+    left: 0px;
+    pointer-events: auto;
+    position: absolute;
+    top: 310px;
+    transition: all 0.2s ease;
+    width: 320px;
+}
+  .history .bio-x60cHe:after {
+    content: "Sandra Exerpt";
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat';
+    padding: 37px 55px;
+    bottom: 45px;
+    left: 0;
+    width: 212px;
+    height: 256px;
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(21px) brightness(100%) opacity(0.5);
+    background-color: var(--caribbean-green-2);
+    z-index: -1;
+    transition: transform 0.3s;
+  }
+
+  .history .bio-x60cHe:hover {
+    transform: translate(0, -10px);
+  }
+  .history .bio-x60cHe:hover::after {
+    transform: translate(0, -10px);
+    transform: scaleY(1);
+  }
+
+  .history .rectangle-45-u1Pqxx {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 76px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 322px;
+  }
+
+  .history .sandra-ro-u1Pqxx {
+    background-color: transparent;
+    height: auto;
+    left: 107px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 16px;
+    width: 107px;
 }
 
-.history .satwik-seshasai-NxFrnF {
-  background-color: transparent;
-  height: auto;
-  left: 78px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  width: 167px;
-}
+  .history .director-u1Pqxx {
+    background-color: transparent;
+    height: auto;
+    left: 124px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 42px;
+    width: 73px;
+  }
 
-.history .director-NxFrnF {
-  background-color: transparent;
-  height: auto;
-  left: 112px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 41px;
-  width: 73px;
-}
+  .history .directors-MaQ2GE {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 633px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 3929px;
+    width: auto;
+  }
 
-.history .team6-MaQ2GE {
-  background-color: transparent;
-  height: 369px;
-  left: 365px;
-  position: absolute;
-  top: 4017px;
-  width: 298px;
-}
+  .history .team5-MaQ2GE {
+    background-color: transparent;
+    height: 386px;
+    left: 783px;
+    position: absolute;
+    top: 3469px;
+    width: 322px;
+  }
 
-.history .image-5-x60cHe {
-  background-color: transparent;
-  cursor: pointer;
-  height: 349px;
-  left: 3px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 295px;
-}
+  .history .img_8101-1-1-UJkMtH {
+    background-color: transparent;
+    cursor: pointer;
+    height: 365px;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 322px;
+  }
 
-.history .image-5-x60cHe:hover {
-  transform: scale(0.9); 
-}
-
-.history .bio-x60cHe {
-  background-color: transparent;
-  cursor: pointer;
-  height: 72px;
-  left: 0px;
-  pointer-events: auto;
-  position: absolute;
-  top: 297px;
-  transition: all 0.2s ease;
-  width: 302px;
-}
-
-.history .bio-x60cHe:hover {
-  transform: translate(0, -10px);
-}
-
-.history .rectangle-45-u1Pqxx {
-  -webkit-backdrop-filter: blur(13px) brightness(100%);
-  backdrop-filter: blur(13px) brightness(100%);
-  background-color: var(--caribbean-green-2);
-  border-radius: 10px;
-  box-shadow: 0px 0px 8px #0000002e;
-  height: 72px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 298px;
-}
-
-.history .sandra-ro-u1Pqxx {
-  background-color: transparent;
-  height: auto;
-  left: 107px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  width: 107px;
-}
-
-.history .director-u1Pqxx {
-  background-color: transparent;
-  height: auto;
-  left: 124px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 40px;
-  width: 73px;
-}
-
-.history .directors-MaQ2GE {
-  background-color: transparent;
-  color: var(--white);
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 700;
-  height: auto;
-  left: 633px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 3929px;
-  width: auto;
-}
-
-.history .team5-MaQ2GE {
-  background-color: transparent;
-  height: 386px;
-  left: 783px;
-  position: absolute;
-  top: 3469px;
-  width: 322px;
-}
-
-.history .img_8101-1-1-UJkMtH {
-  background-color: transparent;
-  cursor: pointer;
-  height: 365px;
-  left: 0px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  pointer-events: auto;
-  position: absolute;
-  top: 0px;
-  transition: all 0.2s ease;
-  width: 322px;
-}
-
-.history .img_8101-1-1-UJkMtH:hover {
-  transform: scale(0.9); 
-}
-
+  .history .img_8101-1-1-UJkMtH:hover {
+    transform: scale(0.9); 
+  }
+/* Sandra */
 .history .bio-UJkMtH {
   background-color: transparent;
   cursor: pointer;
@@ -721,12 +769,12 @@
 .history .team4-MaQ2GE {
   background-color: transparent;
   height: 386px;
-  left: 353px;
-  position: absolute;
-  top: 3469px;
+  right: 140px;
+  float: right;
+  position: relative;
+  top: 3470px;
   width: 322px;
 }
-
 .history .rafal-1-7t5cul {
   background-color: transparent;
   cursor: pointer;
@@ -922,9 +970,32 @@
   transition: all 0.2s ease;
   width: 326px;
 }
+.history .bio-H3vWAl:after {
+  content: "Roy Exerpt";
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding: 37px 55px;
+  bottom: 45px;
+  left: 0;
+  width: 212px;
+  height: 256px;
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  -webkit-backdrop-filter: blur(13px) brightness(100%);
+  backdrop-filter: blur(21px) brightness(100%) opacity(0.5);
+  background-color: var(--caribbean-green-2);
+  z-index: -1;
+  transition: transform 0.3s;
+}
 
 .history .bio-H3vWAl:hover {
   transform: translate(0, -10px);
+}
+.history .bio-H3vWAl:hover::after {
+  transform: translate(0, -10px);
+  transform: scaleY(1);
 }
 
 .history .rectangle-45-dxCGs5 {
@@ -1005,9 +1076,32 @@
   transition: all 0.2s ease;
   width: 326px;
 }
+.history .bio-x0uKuI:after {
+  content: "David Exerpt";
+  position: absolute;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding: 37px 55px;
+  bottom: 45px;
+  left: 0;
+  width: 212px;
+  height: 256px;
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  -webkit-backdrop-filter: blur(13px) brightness(100%);
+  backdrop-filter: blur(21px) brightness(100%) opacity(0.5);
+  background-color: var(--caribbean-green-2);
+  z-index: -1;
+  transition: transform 0.3s;
+}
 
 .history .bio-x0uKuI:hover {
   transform: translate(0, -10px);
+}
+.history .bio-x0uKuI:hover::after {
+  transform: translate(0, -10px);
+  transform: scaleY(1);
 }
 
 .history .rectangle-45-rMTOpx {
@@ -1982,15 +2076,14 @@ transform: translate(0,0);
 
 .history .original-logo-OBUuxy {
   background-color: transparent;
-  height: 74px;
-  left: 140px;
+  height: auto;
+  left: 106px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 9px;
-  width: 54px;
+  top: 16px;
+  width: 122px;
 }
-
 .history .layer-2-xmPDnq {
   background-color: transparent;
   height: 74px;
@@ -2287,12 +2380,12 @@ transform: translate(0,0);
 .history .vector-u6dsiS {
   background-color: transparent;
   cursor: pointer;
-  height: 15px;
-  left: 6px;
+  height: 25px;
+  left: 0px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 2px;
-  width: 10px;
+  top: -3px;
+  width: 27px;
 }
 
 .history .ant-designtwitter-outlined-xZpYYr {
@@ -2309,12 +2402,12 @@ transform: translate(0,0);
 
 .history .vector-vC3QWf {
   background-color: transparent;
-  height: 17px;
+  height: 23px;
   left: 2px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 3px;
-  width: 19px;
+  top: 1px;
+  width: 22px;
 }
 
 .history .vector-xZpYYr {

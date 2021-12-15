@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { History } from "./components/History";
 import { Contact } from "./components/Contact";
 import ScrollButton from './components/ScrollButton';
+// import Footer from './components/Footer';
 import { useMediaQuery  } from "react-responsive";
 import { mediaQueries } from './responsive';
 import PopupLogin from './components/PopupLogin';

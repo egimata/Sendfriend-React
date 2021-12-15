@@ -1,6 +1,11 @@
 import React from "react";
+import { HashLink } from 'react-router-hash-link';
 import historyBackgroundImg from '../img/background-img@1x.png';
 import learn_more_svg from '../img/learn-more-1@2x.svg';
+import facebook_icon from '../img/bx-bxl-facebook@2x.svg';
+import twitter_icon from '../img/ant-design-twitter-outlined@2x.svg';
+import linkedin_icon from '../img/vector-8@2x.svg';
+import logo_menu from '../img/logo_menu.png';
 
 export const History = () => {
   return (
@@ -81,11 +86,9 @@ export const History = () => {
           <img class="asset-1bg1-1-1-MaQ2GE" src="img/asset-1bg1-1-1@1x.png" />
           <div class="rectangle-106-MaQ2GE"></div>
           <img class="rectangle-107-MaQ2GE" src="img/rectangle-107@1x.svg" />
+
           <div class="team7-MaQ2GE">
-            <img
-              class="image-3-lfHTtk smart-layers-pointers"
-              src="img/image-3@2x.png"
-            />
+            <img class="image-3-lfHTtk smart-layers-pointers" src="img/image-3@2x.png" />
             <div class="bio-lfHTtk smart-layers-pointers">
               <div class="rectangle-45-NxFrnF"></div>
               <div class="satwik-seshasai-NxFrnF montserrat-semi-bold-white-16px">
@@ -111,22 +114,7 @@ export const History = () => {
               </div>
             </div>
           </div>
-          <div class="directors-MaQ2GE">Directors</div>
-          <div class="team5-MaQ2GE">
-            <img
-              class="img_8101-1-1-UJkMtH smart-layers-pointers"
-              src="img/img-8101--1--1@2x.png"
-            />
-            <div class="bio-UJkMtH smart-layers-pointers">
-              <div class="rectangle-45-bcVoIv"></div>
-              <div class="will-ferrer-bcVoIv montserrat-semi-bold-white-16px">
-                Will Ferrer
-              </div>
-              <div class="director-of-operations-and-strategy-bcVoIv montserrat-normal-white-14px">
-                Director of Operations and Strategy
-              </div>
-            </div>
-          </div>
+
           <div class="team4-MaQ2GE">
             <img
               class="rafal-1-7t5cul smart-layers-pointers"
@@ -145,15 +133,15 @@ export const History = () => {
           <div class="team3-MaQ2GE">
             <img
               class="image-4-k3sB65 smart-layers-pointers"
-              src="img/image-4@2x.png"
+              src="img/img-8101--1--1@2x.png"
             />
             <div class="bio-k3sB65 smart-layers-pointers">
               <div class="rectangle-45-2fIJn6"></div>
               <div class="raj-sheth-2fIJn6 montserrat-semi-bold-white-16px">
-                Raj Sheth
+                Will Ferrer
               </div>
               <div class="head-of-business-development-2fIJn6 montserrat-normal-white-14px">
-                Head Of Business Development
+                Director of Operations and Strategy
               </div>
             </div>
           </div>
@@ -361,113 +349,48 @@ export const History = () => {
                 <div class="login-067scl montserrat-bold-white-14px">LOGIN</div>
               </div>
             </a>
-            <div class="original-logo-OBUuxy">
-              <div class="layer-2-xmPDnq">
-                <div class="logo-6NWziI">
-                  <div class="group-106-HckRxR">
-                    <img class="vector-mbscHM" src="img/vector-16@2x.svg" />
-                    <img class="vector-AmWBJP" src="img/vector-80@2x.svg" />
-                    <img class="vector-38l7pr" src="img/vector-39@2x.svg" />
-                    <img class="vector-GvCoRx" src="img/vector-40@2x.svg" />
-                    <img class="vector-D4SZHn" src="img/vector-41@2x.svg" />
-                    <img class="vector-n5bihl" src="img/vector-42@2x.svg" />
-                  </div>
-                </div>
+            <a href="#/">
+                <img class="original-logo-OBUuxy" src={logo_menu} /></a>
+            
+            <HashLink smooth to="/#platform-section">
+              <div class="platform-OBUuxy montserrat-bold-white-14px">
+                PLATFORM
               </div>
-            </div>
-            <div class="logo-title-OBUuxy">
-              <div class="friend-HLBRxx">
-                <img class="vector-fZPxpx" src="img/vector-43@2x.svg" />
-                <img class="vector-UMa9Q5" src="img/vector-86@2x.svg" />
-                <img class="vector-DCcA8b" src="img/vector-45@2x.svg" />
-                <img class="vector-F2OHAk" src="img/vector-46@2x.svg" />
-                <img class="vector-CRUfSQ" src="img/vector-47@2x.svg" />
-                <img class="vector-mKCVYO" src="img/vector-48@2x.svg" />
-                <img class="vector-vQ1NTR" src="img/vector-49@2x.svg" />
+            </HashLink>
+            <HashLink smooth to="/#partnerships">
+              <div class="partners-OBUuxy montserrat-bold-white-14px">
+                PARTNERS
               </div>
-              <div class="send-HLBRxx">
-                <img class="vector-r7drIZ" src="img/vector-92@2x.svg" />
-                <img class="vector-kX9KLN" src="img/vector-51@2x.svg" />
-                <img class="vector-XNx4ZU" src="img/vector-52@2x.svg" />
-                <img class="vector-NxcEWy" src="img/vector-53@2x.svg" />
+            </HashLink>
+            <a style={{color: '#000000'}} href="/#/contact">
+              <div class="contact-us-OBUuxy montserrat-bold-white-14px">
+                CONTACT US
               </div>
-            </div>
-            <div class="platform-OBUuxy montserrat-bold-white-14px">
-              PLATFORM
-            </div>
-            <div class="partners-OBUuxy montserrat-bold-white-14px">
-              PARTNERS
-            </div>
-            <div class="contact-us-OBUuxy montserrat-bold-white-14px">
-              CONTACT US
-            </div>
+            </a>
+
           </div>
           <div class="top-header-MaQ2GE">
             <div class="rectangle-97-xZpYYr"></div>
             <div class="bxbxl-facebook-xZpYYr">
               <a href="https://www.facebook.com/sendfriendinc/" target="_blank">
-                <img class="vector-u6dsiS" src="img/vector-55@2x.svg" />
+                <img class="vector-u6dsiS" src={facebook_icon} />
               </a>
             </div>
             <a href="https://twitter.com/sendfriendinc" target="_blank">
               <div class="ant-designtwitter-outlined-xZpYYr">
-                <img class="vector-vC3QWf" src="img/vector-56@2x.svg" />
+                <img class="vector-vC3QWf" src={twitter_icon} />
               </div>
             </a>
             <a
               href="https://www.linkedin.com/company/sendfriend/"
               target="_blank"
             >
-              <img class="vector-xZpYYr" src="img/vector-8@2x.svg" />
+              <img class="vector-xZpYYr" src={linkedin_icon} />
             </a>
           </div>
         </div>
       </div>
-      <div
-        id="overlay-dropdown-menu"
-        class="overlay"
-        style={{ minHeight: "5003px" }}
-      >
-        <div class="container-center-horizontal">
-          <div class="dropdown-menu screen">
-            <div class="dropdown-menu-ywJN3w">
-              <div class="rectangle-112-jiK7Zy"></div>
-              <div class="group-117-jiK7Zy">
-                <div class="akar-iconsarrow-down-IGjln5">
-                  <div class="group-FfEPWI">
-                    <img class="vector-TiWjQN" src="img/vector@2x.svg" />
-                  </div>
-                </div>
-               <a href="#">
-               <div class="history-IGjln5 montserrat-normal-ebony-clay-13px">
-                  History
-                </div>
-               </a>
-              </div>
-              <div class="group-118-jiK7Zy">
-                <div class="akar-iconsarrow-down-AYujpj">
-                  <div class="group-w6SuKQ">
-                    <img class="vector-l6Axz4" src="img/vector-1@2x.svg" />
-                  </div>
-                </div>
-                <div class="leadership-AYujpj montserrat-normal-ebony-clay-13px">
-                  Leadership
-                </div>
-              </div>
-              <div class="group-119-jiK7Zy">
-                <div class="akar-iconsarrow-down-ZDVNL2">
-                  <div class="group-2nwrp8">
-                    <img class="vector-zWnQK8" src="img/vector-2@2x.svg" />
-                  </div>
-                </div>
-                <div class="careers-ZDVNL2 montserrat-normal-ebony-clay-13px">
-                  Careers
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }

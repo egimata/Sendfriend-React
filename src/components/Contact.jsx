@@ -7,8 +7,7 @@ import twitter_icon from '../img/ant-design-twitter-outlined@2x.svg';
 import linkedin_icon from '../img/vector-8@2x.svg';
 import menu_bg from '../img/vector-9@1x.svg';
 import arrow_company from '../img/vector-16@2x.svg';
-import logo_title from '../img/logo-title@2x.svg';
-import logo from '../img/original-logo@2x.svg';
+import logo_menu from '../img/logo_menu.png';
 import footer_line from '../img/line-1@1x.svg';
 import send_button from '../img/send-button@2x.svg';
 import footer_contact from '../img/contact-us-button-footer@2x.svg';
@@ -66,9 +65,8 @@ export const Contact = () => {
                         <div class="login-gay3xq montserrat-bold-white-14px">LOGIN</div>
                     </div>
                 </a>
-
-                <img class="original-logo-PUJjp0" src={logo} />
-                <img class="logo-title-PUJjp0" src={logo_title} />
+                <a href="#/">
+                <img class="original-logo-PUJjp0" src={logo_menu} /></a>    
                 <HashLink smooth to="/#platform-section">
                 <div class="platform-PUJjp0 montserrat-bold-white-14px">PLATFORM</div>
             </HashLink>;
@@ -185,44 +183,33 @@ export const Contact = () => {
                     <div class="facebook-twitter-linked-in-FjfUj9 montserrat-medium-white-14px">
                         Facebook | Twitter | LinkedIn
                     </div>
-            <div class="rectangle-40-FjfUj9"></div>
-            <div class="to-learn-more-about-send-friend-FjfUj9 montserrat-bold-white-32px">
-                <span class="span0-Ao0NjO montserrat-bold-white-32px-2">To learn more about</span
-                ><span class="span1-Ao0NjO montserrat-bold-caribbean-green-32px"> SendFriend</span>
-            </div>
-            <div class="group-45-FjfUj9">
+                    <div class="rectangle-40-FjfUj9"></div>
+                    <div class="to-learn-more-about-send-friend-FjfUj9 montserrat-bold-white-32px">
+                        <span class="span0-Ao0NjO montserrat-bold-white-32px-2">To learn more about</span
+                        ><span class="span1-Ao0NjO montserrat-bold-caribbean-green-32px"> SendFriend</span>
+                    </div>
+                    <div class="group-45-FjfUj9">
 
-                <img class="path-45-3cxTM6" src={svg1} />
-                <img class="ellipse-8-3cxTM6" src={svg2} />
-                <img class="path-46-3cxTM6" src={svg3} />
-                <img class="ellipse-9-3cxTM6" src={svg4}/>
-                <img class="path-47-3cxTM6" src={svg5}/>
-                <img class="path-48-3cxTM6" src={svg6} />
-                <img class="path-49-3cxTM6" src={svg7} />
-                <img class="path-50-3cxTM6" src={svg8} />
-            </div>
-            <img class="line-1-FjfUj9" src={footer_line} />
-            <img class="asset-1bg1-1-2-FjfUj9" src={bottom_asset} />
-            <div class="friend-FjfUj9">
-                <img class="vector-RzPxPp" src="img/vector-22@2x.svg" />
-                <img class="vector-uFUx19" src="img/vector-33@2x.svg" />
-                <img class="vector-SYEzEv" src="img/vector-24@2x.svg" />
-                <img class="vector-tPezbP" src="img/vector-8@2x.svg" />
-                <img class="vector-qxDH26" src="img/vector-4@2x.svg" />
-                <img class="vector-txvxvA" src="img/vector-10@2x.svg" />
-                <img class="vector-wYWj33" src="img/vector-28@2x.svg" />
-            </div>
-            <div class="send-FjfUj9">
-                <img class="vector-SzED9M" src="img/vector-39@2x.svg" />
-                <img class="vector-S7Gryw" src="img/vector-8@2x.svg" />
-                <img class="vector-S7Nacb" src="img/vector-14@2x.svg" />
-                <img class="vector-cigqHK" src="img/vector-10@2x.svg" />
-            </div>
-            <div
-                class="contact-us-button-footer-FjfUj9 smart-layers-pointers"
-                 >
-            <div class="contact-us-xNdJvB1 valign-text-middle">Contact Us</div>
-            </div>
+                    <img class="path-45-3cxTM6" src={svg1} />
+                    <img class="ellipse-8-3cxTM6" src={svg2} />
+                    <img class="path-46-3cxTM6" src={svg3} />
+                    <img class="ellipse-9-3cxTM6" src={svg4}/>
+                    <img class="path-47-3cxTM6" src={svg5}/>
+                    <img class="path-48-3cxTM6" src={svg6} />
+                    <img class="path-49-3cxTM6" src={svg7} />
+                    <img class="path-50-3cxTM6" src={svg8} />
+                </div>
+                <img class="line-1-FjfUj9" src={footer_line} />
+                <img class="asset-1bg1-1-2-FjfUj9" src={bottom_asset} />
+                <div class="friend-FjfUj9">
+                    <img class="vector-RzPxPp" src="img/logo_footer.png" />
+                   
+                </div>
+                
+                
+                <div class="contact-us-button-footer-FjfUj9 smart-layers-pointers" >
+                    <div class="contact-us-xNdJvB1 valign-text-middle">Contact Us</div>
+                </div>
             </div>
         </div>
         </div>

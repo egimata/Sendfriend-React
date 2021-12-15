@@ -781,14 +781,14 @@ transform: translate(0,0);
 }
 
 .homepage .x2-zYNucu {
-  background-color: transparent;
-  height: 26px;
-  left: 858px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 1392px;
-  width: 26px;
+    background-color: transparent;
+    height: auto;
+    left: 852px;
+    mix-blend-mode: normal;
+    /* object-fit: cover; */
+    position: absolute;
+    top: 1392px;
+    width: 31px;
 }
 
 .homepage .arrow-4-zYNucu {

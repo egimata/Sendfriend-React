@@ -632,14 +632,13 @@ input:focus {
   
   .contact-us .original-logo-PUJjp0 {
     background-color: transparent;
-    height: 74px;
-    left: 140px;
+    height: auto;
+    left: 105px;
     mix-blend-mode: normal;
-    overflow: hidden;
     position: absolute;
-    top: 9px;
-    width: 54px;
-  }
+    top: 17px;
+    width: 125px;
+}
   
   .contact-us .layer-2-psLxCl {
     background-color: transparent;
@@ -1266,7 +1265,7 @@ input:focus {
   .contact-us .message-form-q2xQ3x {
     background-color: transparent;
     height: 314px;
-    left: 338px;
+    left: 350px;
     position: absolute;
     top: 1551px;
     width: 756px;
@@ -1552,22 +1551,16 @@ input:focus {
   }
   
   .contact-us .friend-FjfUj9 {
-    background-color: transparent;
-    height: 35px;
-    left: 313px;
-    position: absolute;
-    top: 346px;
-    width: 137px;
-  }
+    left: 315px;
+    position: relative;
+    top: 296px;
+}
   
   .contact-us .vector-RzPxPp {
-    background-color: transparent;
-    height: 8px;
-    left: 43px;
+    height: auto;
     mix-blend-mode: normal;
     position: absolute;
-    top: -0px;
-    width: 8px;
+    width: auto;
   }
   
   .contact-us .vector-uFUx19 {
