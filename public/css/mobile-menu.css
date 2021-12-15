@@ -19,47 +19,50 @@
 }
 
 #overlay-mobile-menu .mobile-menu {
-  left: 219.9998779296875px;
-  top: -5.340576171875e-05px;
+  top: 212px;
+  padding-top: 61px;
+  height: 544px;
+  width: 369px;
 }
 
 #overlay-mobile-menu .container-center-horizontal {
   justify-content: normal;
 }
 
+
 .mobile-menu .login-button-mobile-jxzQz0 {
   background-color: var(--white);
   box-shadow: 0px 7px 50px #0000001a;
-  height: 28px;
-  left: 37px;
+  height: 37px;
+  left: 130px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 197px;
-  width: 81px;
+  top: 331px;
+  width: 112px;
 }
 
 .mobile-menu .group-123-tg1hNG {
   background-color: transparent;
-  height: 28px;
+  height: 73px;
   left: 0px;
   position: relative;
   top: 0px;
-  width: 83px;
+  width: 100px;
 }
 
 .mobile-menu .rectangle-100-UNPDgx {
   background-color: var(--eerie-black);
   border: 2px solid var(--caribbean-green);
   cursor: pointer;
-  height: 28px;
+  height: 37px;
   left: 0px;
   mix-blend-mode: normal;
   pointer-events: auto;
   position: absolute;
   top: 0px;
   transition: all 0.2s ease;
-  width: 81px;
+  width: 111px;
 }
 
 .mobile-menu .rectangle-100-UNPDgx:hover {
@@ -68,94 +71,94 @@
 
 .mobile-menu .login-UNPDgx {
   background-color: transparent;
-  height: auto;
-  left: 27px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 9px;
-  width: auto;
+    height: auto;
+    left: 44px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 13px;
+    width: auto;
 }
 
 .mobile-menu .platform-jxzQz0 {
   background-color: transparent;
   height: auto;
-  left: 59px;
+  font-size: 28px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 52px;
+  position: relative;
+  text-align: center;
   width: auto;
 }
 
 .mobile-menu .partnership-jxzQz0 {
   background-color: transparent;
   height: auto;
-  left: 53px;
+  font-size: 28px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 83px;
+  position: relative;
+  text-align: center;
+  top: 22px;
   width: auto;
 }
 
 .mobile-menu .company-jxzQz0 {
   background-color: transparent;
   height: auto;
-  left: 58px;
   letter-spacing: 0.00px;
+  font-size: 28px;
   line-height: normal;
   mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 114px;
+  position: relative;
+  text-align: center;
+  top: 49px;
   width: auto;
 }
 
 .mobile-menu .contact-jxzQz0 {
   background-color: transparent;
   height: auto;
-  left: 61px;
+  font-size: 28px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 148px;
+  position: relative;
+  text-align: center;
+  top: 78px;
   width: auto;
 }
 
 .mobile-menu .close-jxzQz0 {
   background-color: transparent;
   cursor: pointer;
-  height: 22px;
-  left: 117px;
+  height: 35px;
+  left: 259px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 15px;
-  width: 21px;
+  top: 6px;
+  width: 32px;
 }
 
 .mobile-menu .line-17-6rcJjs {
   background-color: transparent;
-  height: 22px;
-  left: -0px;
+  height: 26px;
+  left: 0px;
   position: absolute;
-  top: 1px;
-  width: 22px;
+  top: -2px;
+  width: 31px;
 }
 
 .mobile-menu .line-18-6rcJjs {
   background-color: transparent;
-  height: 23px;
+  height: 27px;
   left: -1px;
   position: absolute;
-  top: -1px;
-  width: 22px;
+  top: -2px;
+  width: 32px;
+  /* color: white; */
 }

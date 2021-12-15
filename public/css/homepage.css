@@ -3090,6 +3090,116 @@ to{opacity: 1;
     display:block;
   }
 
+  
+  .iphone-8-1 .rectangle-110-c0Knzr {
+  background-color: #ffffff;
+  cursor: pointer;
+  height: 46px;
+  left: 10px;
+  mix-blend-mode: normal;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: -23px;
+  width: 115px;
+  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.iphone-8-1 .rectangle-110-c0Knzr:hover{
+  transform: translate(0, -5px);
+  background-color: #252A30;
+}
+
+.iphone-8-1 .rectangle-111-c0Knzr {
+  background-color: #ffffff;
+  height: 46px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  left: 99px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -23px;
+  width: 115px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.iphone-8-1 .rectangle-111-c0Knzr:hover{
+  transform: translate(0, -5px);
+  background-color: #252A30;
+}
+
+.iphone-8-1 .rectangle-112-c0Knzr {
+  background-color: #ffffff;
+  height: 46px;
+  left: 187px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -23px;
+  width: 115px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.iphone-8-1.rectangle-112-c0Knzr:hover{
+  transform: translate(0, -5px);
+  background-color: #252A30;
+}
+
+.iphone-8-1 .code-c0Knzr {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  color: #252A30;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  padding-top: 13px;
+  top: 0px;
+  width: 100%;
+}
+
+.iphone-8-1 .code-c0Knzr:hover {
+  color:#ffffff;
+}
+
+.iphone-8-1 .get-fx-rate-c0Knzr {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  color: #252A30;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  padding-top: 13px;
+  top: 0px;
+  width: 100%;
+}
+.iphone-8-1 .get-fx-rate-c0Knzr:hover {
+  color:#ffffff;
+}
+.iphone-8-1 .get-price-c0Knzr {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  color: #252A30;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  padding-top: 13px;
+  top: 0px;
+  width: 100%;
+}
+.iphone-8-1 .get-price-c0Knzr:hover {
+  color:#ffffff;
+}
+
+
 .iphone-8-1 {
   background-color: var(--white);
   height: 5501px;
@@ -3175,16 +3285,12 @@ to{opacity: 1;
 }
 
 .iphone-8-1 .faster-cheaper-multi-TZ6asu {
-  background-color: transparent;
   color: transparent;
-  display: block;
-  font-family: var(--font-family-montserrat);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
+  font-family: var(--font-family-montserrat-extrabold);
+  font-size: 24px;
   font-weight: 800;
-  height: auto;
   left: 77px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0;
   line-height: 25.8px;
   opacity: 0;
   position: absolute;
@@ -3516,12 +3622,12 @@ transform: rotate(0);
 
 .iphone-8-1 .vector-96OmQU {
   background-color: transparent;
-  height: 41px;
-  left: 57px;
+  height: 111px;
+  left: 0;
   mix-blend-mode: normal;
   position: absolute;
-  top: 58px;
-  width: 41px;
+  top: 0px;
+  width: 113px;
 }
 
 .iphone-8-1 .vector-raFieP {
@@ -3604,11 +3710,11 @@ transform: rotate(0);
 
 .iphone-8-1 .vector-8a7rby {
   background-color: transparent;
-  height: 62px;
-  left: -0px;
+  height: 67px;
+  left: 0px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 0px;
+  top: -4px;
   width: 64px;
 }
 
@@ -3835,12 +3941,12 @@ transform: translate(0,0);
 
 .iphone-8-1 .vector-d4HukN {
   background-color: transparent;
-  height: 12px;
+  height: 24px;
   left: 1px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 6px;
-  width: 7px;
+  top: -4px;
+  width: 26px;
 }
 
 .iphone-8-1 .vector-x6Afhy {
@@ -3865,19 +3971,19 @@ transform: translate(0,0);
 
 .iphone-8-1 .x2-TZ6asu {
   background-color: transparent;
-  height: 15px;
-  left: 59px;
+  height: 30px;
+  left: 53px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 1081px;
-  width: 15px;
+  top: 1065px;
+  width: 30px;
 }
 
 .iphone-8-1 .arrow-4-TZ6asu {
   background-color: transparent;
   display: block;
-  height: 65px;
+  height: 56px;
   left: 78px;
   opacity: 0;
   position: absolute;
@@ -4444,12 +4550,12 @@ to{opacity: 1;
 
 .iphone-8-1 .rectangle-92-TZ6asu {
   background-color: transparent;
-  height: 1100px;
-  left: -0px;
+  height: 1332px;
+  left: 0px;
   mix-blend-mode: normal;
   position: absolute;
   top: 3806px;
-  width: 375px;
+  width: 1267px;
 }
 
 .iphone-8-1 .our-remittance-api-s-TZ6asu {

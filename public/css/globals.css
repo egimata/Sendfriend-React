@@ -17,6 +17,8 @@
 .react-tabs__tab--selected div{
   background-color: #252A30 !important;
   color: #ffffff !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .screen a {
@@ -214,4 +216,5 @@ input:focus {
   color: black;
   border-radius: 5px 5px 0 0;
   visibility: hidden;
+
 }

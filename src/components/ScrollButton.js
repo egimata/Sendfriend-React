@@ -1,9 +1,12 @@
 import React, {useState} from 'react';
 import {FaArrowCircleUp} from 'react-icons/fa';
-import { Button } from './Styles';
+import { Button, ButtonMobile } from './Styles';
+import { mediaQueries } from '../responsive';
+import { useMediaQuery } from 'react-responsive';
   
 const ScrollButton = () =>{
-  
+
+  const isMobile = useMediaQuery( {query: mediaQueries.mobileQuery} );
   const [visible, setVisible] = useState(false)
   
   const toggleVisible = () => {
@@ -24,6 +27,14 @@ const ScrollButton = () =>{
          in place of 'smooth' */
     });
   };
+  if(isMobile) {
+    return(
+      <ButtonMobile>
+        <FaArrowCircleUp onClick={scrollToTop} 
+        style={{display: visible ? 'inline' : 'none'}} />
+      </ButtonMobile>
+    )
+  }
   
   window.addEventListener('scroll', toggleVisible);
   

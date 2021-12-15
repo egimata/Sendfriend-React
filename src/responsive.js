@@ -1,5 +1,5 @@
 export const ScreenSizes = {
-    mobile: 468,
+    mobile: 419,
     tablet: 1024,
     desktop: 1400,
 };

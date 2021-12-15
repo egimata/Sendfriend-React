@@ -50,9 +50,6 @@ import partners1 from '../img/black-logo-2@2x.svg';
 import partners2 from '../img/rippl@2x.svg';
 import partners3 from '../img/group-45-1@1x.svg';
 import celo from '../img/artboard-1-1@2x.svg';
-import footer_send from '../img/send@2x.svg';
-import footer_friend from '../img/friend@2x.svg';
-import footer_group from '../img/group-84@1x.svg';
 import footer_line from '../img/line-1@1x.svg';
 import left_asset from '../img/asset-1bg1-1-2@2x.png';
 import footer_logo from '../img/logo_footer.png';
@@ -681,20 +678,33 @@ export const Homepage = () => {
         <div id="overlay-mobile-menu" class="overlay" style={{minHeight: '5881px'}}>
           <div class="container-center-horizontal">
             <div class="mobile-menu screen">
-              <div class="login-button-mobile-jxzQz0">
-                <div class="group-123-tg1hNG">
-                  <div class="rectangle-100-UNPDgx smart-layers-pointers"></div>
-                  <div class="login-UNPDgx montserrat-bold-white-8px">LOGIN</div>
-                </div>
-              </div>
-              <div class="platform-jxzQz0 montserrat-bold-white-8px">Platform</div>
-              <div class="partnership-jxzQz0 montserrat-bold-white-8px">Partnership</div>
-              <div class="company-jxzQz0 montserrat-bold-white-8px">Company</div>
-              <div class="contact-jxzQz0 montserrat-bold-white-8px"> <a href="/#/contact">Contact</a>Contact</div>
               <a href="javascript:HideOverlay('mobile-menu', 'animate-disappear');">
                 <div class="close-jxzQz0">
                   <img class="line-17-6rcJjs" src="img/line-17-1@2x.svg" />
-                  <img class="line-18-6rcJjs" src="img/line-18-1@2x.svg" /></div></a>
+                  <img class="line-18-6rcJjs" src="img/line-18-1@2x.svg" />
+                </div>
+              </a>
+              <a href="javascript:ShowOverlay('frame-6', 'animate-appear');">
+                <div class="login-button-mobile-jxzQz0">
+                  <div class="group-123-tg1hNG">
+                    <div class="rectangle-100-UNPDgx smart-layers-pointers"></div>
+                    <div class="login-UNPDgx montserrat-bold-white-8px">LOGIN</div>
+                  </div>
+                </div>
+              </a>
+              <HashLink smooth to="/#platform-section">
+                <div class="platform-jxzQz0 montserrat-bold-white-8px">Platform</div>
+              </HashLink>
+              <HashLink smooth to="/#partnerships">
+                <div class="partnership-jxzQz0 montserrat-bold-white-8px">Partnership</div>
+              </HashLink>
+              <div class="company-jxzQz0 montserrat-bold-white-8px">Company</div>
+              <a href="/#/contact">
+                <div class="contact-jxzQz0 montserrat-bold-white-8px"> 
+                  Contact
+                </div>
+              </a>
+                
             </div>
           </div>
         </div>
@@ -719,15 +729,17 @@ export const Homepage = () => {
         <div class="we-are-cheaper-faste-TZ6asu montserrat-semi-bold-white-16px bp2-animate-enter3" show-on-scroll>
           We are cheaper, faster, and more reliable and secure.
         </div>
+        <a href="/#/contact">
         <div class="contact-us-TZ6asu bp2-animate-enter4" show-on-scroll>
           <div class="rectangle-1-BIxiSr smart-layers-pointers"></div>
           <div class="contact-us-BIxiSr valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
         </div>
+        </a>
         <img class="rectangle-106-TZ6asu" src="img/rectangle-106-1@1x.svg" />
         <div class="send-friend-delivers-TZ6asu montserrat-extra-bold-white-21px">
-          <span class="span0-xvsDj6">SendFriend delivers a</span
-          ><span class="span1-xvsDj6 montserrat-extra-bold-white-21px-2"> cheaper method<br /></span
-          ><span class="span2-xvsDj6">of transferring money for SMEs</span>
+          <span class="span0-xvsDj6">SendFriend delivers a</span>
+          <span class="span1-xvsDj6 montserrat-extra-bold-white-21px-2"> cheaper method<br /></span>
+          <span class="span2-xvsDj6">for transferring money across borders</span>
         </div>
         <div class="secure-TZ6asu montserrat-semi-bold-ebony-clay-10px">Secure</div>
         <div class="multichain-TZ6asu montserrat-semi-bold-ebony-clay-10px">Multichain</div>
@@ -741,16 +753,12 @@ export const Homepage = () => {
             src="img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a-1@2x.png"
           />
           <div class="group-101-lwl3Gh">
-            <img class="vector-96OmQU" src="img/vector-97@2x.svg" />
-            <img class="vector-raFieP" src="img/vector-98@2x.svg" />
-            <img class="vector-qdoAgK" src="img/vector-99@2x.svg" />
-            <img class="vector-5IYRCn" src="img/vector-100@2x.svg" />
-            <img class="vector-EmqXLB" src="img/vector-101@2x.svg" />
+            <img class="vector-96OmQU" src={section2_group1} />
           </div>
         </div>
         <div class="uiwsetting-TZ6asu">
           <div class="group-122-M00Nhc bp2-animate-enter6" show-on-scroll>
-            <img class="vector-8a7rby" src="img/vector-102@2x.svg" />
+            <img class="vector-8a7rby" src={section2_gear}/>
             <div class="ellipse-16-8a7rby"></div>
           </div>
           <img class="group-48-M00Nhc" src="img/group-48-1@1x.png" />
@@ -761,35 +769,29 @@ export const Homepage = () => {
         <img class="arrow-1-TZ6asu bp2-animate-enter10" show-on-scroll src="img/arrow-1-1@2x.svg" />
         <img class="arrow-6-TZ6asu" src="img/arrow-6-1@2x.svg" />
         <img class="x3-TZ6asu" src="img/3@2x.png" />
-        <div class="group-TZ6asu"><img class="vector-FChqZe" src="img/vector-103@2x.svg" /></div>
+        <div class="group-TZ6asu"><img class="vector-FChqZe" src={moresecure_img_section2}/></div>
         <img
           class="eos-iconsblockchain-TZ6asu bp2-animate-enter11"
           show-on-scroll
           src="img/eos-icons-blockchain-2@2x.svg"
         />
         <div class="carbonapi-1-TZ6asu bp2-animate-enter12" show-on-scroll>
-          <img class="vector-d4HukN" src="img/vector-104@2x.svg" />
-          <img class="vector-x6Afhy" src="img/vector-105@2x.svg" />
-          <img class="vector-8MvrRw" src="img/vector-106@2x.svg" />
+          <img class="vector-d4HukN" src={api_img} />
         </div>
-        <img class="x2-TZ6asu" src="img/2@2x.png" />
+        <img class="x2-TZ6asu" src={faster_img_section2} />
         <img class="arrow-4-TZ6asu bp2-animate-enter13" show-on-scroll src="img/arrow-4-1@2x.svg" />
         <img class="blockchain-1-TZ6asu bp2-animate-enter14" show-on-scroll src="img/blockchain-1-1@2x.png" />
         <div class="ant-designcheck-circle-outlined-TZ6asu">
-          <img class="vector-7BacuC" src="img/vector-107@2x.svg" />
-          <img class="vector-yAINcH" src="img/vector-108@2x.svg" />
+          <img class="vector-yAINcH" src={outlined_circle} />
         </div>
         <div class="ant-designcheck-circle-outlined-kbS05m">
-          <img class="vector-q5rVoA" src="img/vector-107@2x.svg" />
-          <img class="vector-pJ0sN4" src="img/vector-108@2x.svg" />
+          <img class="vector-pJ0sN4"  src={outlined_circle} />
         </div>
         <div class="ant-designcheck-circle-outlined-TVjoxU">
-          <img class="vector-LgxvQ7" src="img/vector-107@2x.svg" />
-          <img class="vector-IfaS3y" src="img/vector-108@2x.svg" />
+          <img class="vector-IfaS3y"  src={outlined_circle} />
         </div>
         <div class="ant-designcheck-circle-outlined-3OxLCr">
-          <img class="vector-K2x2ot" src="img/vector-107@2x.svg" />
-          <img class="vector-REYIVx" src="img/vector-108@2x.svg" />
+          <img class="vector-REYIVx"  src={outlined_circle} />
         </div>
         <div class="lower-fx-costs-fewer-TZ6asu">
           Lower FX costs<br /><br />Fewer correspondent and intermediary banks mean lower fees<br /><br />No pre-funding
@@ -801,10 +803,14 @@ export const Homepage = () => {
           short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
           settlement
         </div>
+
+        <a  href="/#/contact">
         <div class="group-121-TZ6asu bp2-animate-enter15" show-on-scroll>
           <div class="rectangle-1-imPfOu smart-layers-pointers"></div>
           <div class="learn-more-imPfOu valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </div>
+        </a>
+
         <div class="a-flexible-cross-bor-TZ6asu montserrat-extra-bold-white-21px bp2-animate-enter16" show-on-scroll>
           <span class="span0-GsHMgY">A flexible cross-border payment solution<br /></span
           ><span class="span1-GsHMgY">expanding its international reach</span>
@@ -826,15 +832,16 @@ export const Homepage = () => {
           Whether fiat-to-fiat, crypto-to-fiat, or fiat-to-crypto, we are developing capabilities to meet a multitude of
           B2B and B2C remittance use cases
         </div>
-        <img class="rectangle-124-TZ6asu" src="img/rectangle-124@1x.svg" />
+        <img class="rectangle-124-TZ6asu" src="img/section-5-background-homepage.svg" />
+        <a  href="/#/contact">
         <div class="group-122-TZ6asu bp2-animate-enter17" show-on-scroll>
           <div class="rectangle-1-7P4uO2 smart-layers-pointers"></div>
           <div class="learn-more-7P4uO2 valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </div>
+        </a>
         <div class="servicing-a-variety-TZ6asu valign-text-middle montserrat-extra-bold-white-21px bp2-animate-enter18">
-          <span
-            ><span class="span0-JdbhGp">Servicing a Variety of Cross-Border Payment Use Cases, </span
-            ><span class="span1-JdbhGp montserrat-extra-bold-white-21px-2">while Adapting to Customer Needs</span>
+          <span><span class="span0-JdbhGp">Servicing a variety of cross-border payment use cases, </span>
+          <span class="span1-JdbhGp montserrat-extra-bold-white-21px-2">while adapting to customer needs</span>
           </span>
         </div>
         <div class="our-api-based-platfo-TZ6asu">
@@ -849,29 +856,60 @@ export const Homepage = () => {
         <div class="rectangle-42-TZ6asu"></div>
         <img class="rectangle-92-TZ6asu" src="img/rectangle-92-1@1x.svg" />
         <div class="our-remittance-api-s-TZ6asu montserrat-extra-bold-white-21px bp2-animate-enter19" show-on-scroll>
-          <span class="span0-jsb053 montserrat-extra-bold-white-21px-2">Our Remittance API </span
-          ><span class="span1-jsb053">Seamlessly Connects Customers to a Suite of Multi-Chain Payment Tools</span>
+          <span class="span0-jsb053 montserrat-extra-bold-white-21px-2">Our remittance API </span
+          ><span class="span1-jsb053">seamlessly connects customers to a suite of multi-chain payment tools</span>
         </div>
         <div class="tabs-TZ6asu">
           <img class="vector-5-TpxI4K" src="img/vector-5-2@2x.svg" />
           <img class="vector-6-TpxI4K" src="img/vector-6-2@2x.svg" />
           <img class="vector-7-TpxI4K" src="img/vector-7-2@2x.svg" />
-          <div class="image-TpxI4K">
-            <div class="rectangle-109-wMX5Ub"></div>
-            <img class="api-async-wMX5Ub bp2-animate-enter20" show-on-scroll src="img/api-async-1@2x.png" />
-          </div>
-          <div class="get-fx-TpxI4K">
-            <img class="rectangle-111-tNaOob" src="img/rectangle-111-1@2x.svg" />
-            <div class="get-fx-rate-tNaOob valign-text-middle">Get FX Rate</div>
-          </div>
-          <div class="get-price-TpxI4K">
-            <img class="rectangle-112-HyHaRj" src="img/rectangle-111-1@2x.svg" />
-            <div class="get-price-HyHaRj valign-text-middle">Get Price</div>
-          </div>
-          <div class="code-TpxI4K">
-            <img class="rectangle-111-t81O5L" src="img/rectangle-111-2@2x.svg" />
-            <div class="code-t81O5L valign-text-middle">Code</div>
-          </div>
+          
+          <Tabs>
+
+            <TabList>
+              <Tab>
+              <div class="rectangle-110-c0Knzr smart-layers-pointers border-1px-black-2">
+                        <div class="smart-layers-pointers bp1-animate-enter22" />
+                        <div class="code-c0Knzr montserrat-bold-white-14px">Code</div>
+                      </div>
+              </Tab>
+              <Tab>
+                      <div class="rectangle-111-c0Knzr smart-layers-pointers border-1px-black-2">
+                        <div class="smart-layers-pointers bp1-animate-enter22" />
+                        <div class="get-fx-rate-c0Knzr montserrat-bold-ebony-clay-14px">Get FX Rate</div>
+                    </div>
+                    </Tab>
+
+                      <Tab>
+                      <div class="rectangle-112-c0Knzr smart-layers-pointers border-1px-black-2">
+                        <div class="smart-layers-pointers bp1-animate-enter22" />
+                        <div class="get-price-c0Knzr montserrat-bold-ebony-clay-14px">Get Price</div>
+                      </div>
+                    </Tab>
+            </TabList>
+            <TabPanel>
+              <div class="image-TpxI4K">
+                <div class="rectangle-109-wMX5Ub"></div>
+                <img class="api-async-wMX5Ub bp2-animate-enter20" show-on-scroll src="img/api-async-1@2x.png" />
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div class="image-TpxI4K">
+                <div class="rectangle-109-wMX5Ub"></div>
+                <img class="api-async-wMX5Ub bp2-animate-enter20" show-on-scroll src="img/api-async-1@2x.png" />
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div class="image-TpxI4K">
+                <div class="rectangle-109-wMX5Ub"></div>
+                <img class="api-async-wMX5Ub bp2-animate-enter20" show-on-scroll src="img/api-async-1@2x.png" />
+              </div>
+            </TabPanel>
+          </Tabs>
+
+          
+          
+          
         </div>
         <div class="bottom-texts-TZ6asu">
           <div class="our-api-architecture-OWBGC1 montserrat-bold-ebony-clay-12px">
@@ -944,7 +982,7 @@ export const Homepage = () => {
             We are fortunate to be parterned with the following leaders in our space and global influencers of financial
             technology:
           </div>
-          <div class="partnerships-LIMP1Y">Partnerships</div>
+          <div  id="partnerships" class="partnerships-LIMP1Y">Partnerships</div>
         </div>
         <div class="footer-TZ6asu">
           <div class="rectangle-89-cEztxT"></div>
