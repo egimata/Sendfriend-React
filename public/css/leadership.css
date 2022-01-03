@@ -1,0 +1,2181 @@
+/* screen - leadership */
+
+.leadership {
+    background-color: var(--white);
+    height: 100vh;
+    margin: 0px;
+    min-height: 6110px;
+    min-width: 1200px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .leadership .rectangle-118-T3zxx0 {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 79.46%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 12.68%;
+    width: 100%;
+  }
+  
+  .leadership .unsplashrxp-th-owu-vg-e-T3zxx0 {
+    background-color: transparent;
+    height: 10.79%;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 1.90%;
+    width: 100%;
+  }
+  
+  .leadership .rectangle-87-T3zxx0 {
+    background-color: var(--ebony-clay);
+    height: 10.90%;
+    left: 49.38%;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    position: absolute;
+    top: 1.78%;
+    width: 50.62%;
+  }
+  
+  .leadership .our-expert-team-T3zxx0 {
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: calc(50.00% - 720px);
+    letter-spacing: 0.00px;
+    line-height: 38.7px;
+    position: absolute;
+    text-align: center;
+    top: 915px;
+    white-space: nowrap;
+    width: 1440px;
+  }
+  
+  .leadership .span0-isc3t7 {
+    color: var(--white);
+    font-style: normal;
+  }
+  
+  .leadership .span1-isc3t7 {
+    color: var(--ebony-clay);
+    font-style: normal;
+  }
+  
+  .leadership .span2-isc3t7 {
+    color: var(--caribbean-green);
+    font-style: normal;
+  }
+  
+  .leadership .david-lighton-is-sen-T3zxx0 {
+    background-color: transparent;
+    height: auto;
+    left: 50.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 1109px;
+    width: 553px;
+  }
+  
+  .leadership .roy-vivasi-joined-se-T3zxx0 {
+    background-color: transparent;
+    height: auto;
+    left: 50.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 1820px;
+    width: 544px;
+  }
+  
+  .leadership .will-ferrer-is-send-T3zxx0 {
+    background-color: transparent;
+    height: auto;
+    left: 50.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 2527px;
+    width: 553px;
+  }
+  
+  .leadership .sandra-ro-is-the-cur-T3zxx0 {
+    background-color: transparent;
+    height: auto;
+    left: 50.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 3236px;
+    width: 553px;
+  }
+  
+  .leadership .satwik-seshasai-is-t-T3zxx0 {
+    background-color: transparent;
+    height: auto;
+    left: 50.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 3947px;
+    width: 553px;
+  }
+  
+  .leadership .rafal-petsch-is-send-T3zxx0 {
+    background-color: transparent;
+    height: auto;
+    left: 50.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 4662px;
+    width: 553px;
+  }
+  
+  .leadership .team1-T3zxx0 {
+    background-color: transparent;
+    height: 481px;
+    left: calc(50.00% - 490px);
+    position: absolute;
+    top: 1109px;
+    width: 376px;
+  }
+  
+  .leadership .image-2-2x9LGi {
+    background-color: transparent;
+    cursor: pointer;
+    height: 378px;
+    left: calc(50.00% - 187px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 375px;
+  }
+
+  
+  .leadership .bio-2x9LGi {
+    background-color: transparent;
+    cursor: pointer;
+    height: 113px;
+    left: calc(50.00% - 188px);
+    pointer-events: auto;
+    position: absolute;
+    top: 367px;
+    transition: all 0.2s ease;
+    width: 380px;
+  }
+  
+  .leadership .bio-2x9LGi:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .leadership .rectangle-45-sdNsJH {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 113px;
+    left: calc(50.00% - 190px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 376px;
+  }
+  
+  .leadership .david-lighton-sdNsJH {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    height: 31px;
+    left: calc(50.00% - 189px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 23px;
+    width: 375px;
+  }
+  
+  .leadership .cofounderceo-sdNsJH {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% - 190px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 62px;
+    width: 376px;
+  }
+  
+  .leadership .team2-T3zxx0 {
+    background-color: transparent;
+    height: 477px;
+    left: calc(50.00% - 489px);
+    position: absolute;
+    top: 1820px;
+    width: 377px;
+  }
+  
+  .leadership .image-3-UEE3eZ {
+    background-color: transparent;
+    cursor: pointer;
+    height: 380px;
+    left: calc(50.00% - 188px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 377px;
+  }
+  
+
+  
+  .leadership .bio-UEE3eZ {
+    background-color: transparent;
+    cursor: pointer;
+    height: 107px;
+    left: calc(50.00% - 188px);
+    pointer-events: auto;
+    position: absolute;
+    top: 370px;
+    transition: all 0.2s ease;
+    width: 380px;
+  }
+  
+  .leadership .bio-UEE3eZ:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .leadership .rectangle-45-LmyE4x {
+    -webkit-backdrop-filter: blur(17px) brightness(100%);
+    backdrop-filter: blur(17px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 107px;
+    left: calc(50.00% - 190px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 376px;
+  }
+  
+  .leadership .roy-vivasi-LmyE4x {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    height: 27px;
+    left: calc(50.00% - 190px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    width: 376px;
+  }
+  
+  .leadership .cofoundercto-LmyE4x {
+    background-color: transparent;
+    height: 31px;
+    left: calc(50.00% - 190px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 54px;
+    width: 376px;
+  }
+  
+  .leadership .team5-T3zxx0 {
+    background-color: transparent;
+    height: 479px;
+    left: calc(50.00% - 489px);
+    position: absolute;
+    top: 2527px;
+    width: 379px;
+  }
+  
+  .leadership .img_8101-1-1-rdzoz5 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 380px;
+    left: calc(50.00% - 188px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 377px;
+  }
+  
+  
+  .leadership .bio-rdzoz5 {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    cursor: pointer;
+    height: 116px;
+    left: calc(50.00% - 190px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 363px;
+    transition: all 0.2s ease;
+    width: 376px;
+  }
+  
+  .leadership .bio-rdzoz5:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .leadership .will-ferrer-1Hd3n7 {
+    background-color: transparent;
+    height: 55px;
+    left: calc(50.00% - 220px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: calc(50.00% - 59px);
+    width: 427px;
+  }
+  
+  .leadership .director-of-operations-and-strategy-1Hd3n7 {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    height: 58px;
+    padding-bottom:16px;
+    left: calc(50.00% - 207px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: calc(50.00% - 4px);
+    width: 414px;
+  }
+  
+  .leadership .team6-T3zxx0 {
+    background-color: transparent;
+    height: 481px;
+    left: calc(50.00% - 487px);
+    position: absolute;
+    top: 3236px;
+    width: 377px;
+  }
+  
+  .leadership .image-5-3FjGyJ {
+    background-color: transparent;
+    cursor: pointer;
+    height: 380px;
+    left: calc(50.00% - 188px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 377px;
+  }
+  
+  .leadership .bio-3FjGyJ {
+    background-color: transparent;
+    cursor: pointer;
+    height: 112px;
+    left: calc(50.00% - 188px);
+    pointer-events: auto;
+    position: absolute;
+    top: 369px;
+    transition: all 0.2s ease;
+    width: 380px;
+  }
+  
+  .leadership .bio-3FjGyJ:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .leadership .rectangle-45-2FV952 {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 112px;
+    left: calc(50.00% - 190px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 376px;
+  }
+  
+  .leadership .sandra-ro-2FV952 {
+    background-color: transparent;
+    height: 39px;
+    left: calc(50.00% - 190px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    width: 376px;
+  }
+  
+  .leadership .director-2FV952 {
+    background-color: transparent;
+    height: 34px;
+    left: calc(50.00% - 186px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 56px;
+    width: 369px;
+  }
+  
+  .leadership .team7-T3zxx0 {
+    background-color: transparent;
+    height: 483px;
+    left: calc(50.00% - 489px);
+    position: absolute;
+    top: 3947px;
+    width: 377px;
+  }
+  
+  .leadership .image-3-zElZt1 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 380px;
+    left: calc(50.00% - 188px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 377px;
+  }
+  
+  .leadership .bio-zElZt1 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 113px;
+    left: calc(50.00% - 188px);
+    pointer-events: auto;
+    position: absolute;
+    top: 370px;
+    transition: all 0.2s ease;
+    width: 380px;
+  }
+  
+  .leadership .bio-zElZt1:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .leadership .rectangle-45-KijxAU {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 113px;
+    left: calc(50.00% - 190px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 376px;
+  }
+  
+  .leadership .satwik-seshasai-KijxAU {
+    background-color: transparent;
+    height: 39px;
+    left: calc(50.00% - 190px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 22px;
+    width: 375px;
+  }
+  
+  .leadership .director-KijxAU {
+    background-color: transparent;
+    height: 33px;
+    left: calc(50.00% - 190px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 59px;
+    width: 376px;
+  }
+  
+  .leadership .team4-T3zxx0 {
+    background-color: transparent;
+    height: 487px;
+    left: calc(50.00% - 489px);
+    position: absolute;
+    top: 4661px;
+    width: 377px;
+  }
+  
+  .leadership .rafal-1-KNPzb9 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 380px;
+    left: calc(50.00% - 189px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 378px;
+  }
+  
+  
+  .leadership .bio-KNPzb9 {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    cursor: pointer;
+    height: 120px;
+    left: calc(50.00% - 189px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 367px;
+    transition: all 0.2s ease;
+    width: 377px;
+  }
+  
+  .leadership .bio-KNPzb9:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .leadership .rafal-petsch-0h7mRp {
+    background-color: transparent;
+    height: 20.47%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 16.63%;
+    width: 99.91%;
+  }
+  
+  .leadership .general-manager-of-polish-operations-0h7mRp {
+    background-color: transparent;
+    height: 9.86%;
+    left: calc(50.00% - 206px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 57.57%;
+    width: 414px;
+  }
+  
+  .leadership .footer-T3zxx0 {
+    background-color: var(--eerie-black);
+    height: 8.04%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 91.96%;
+    width: 100%;
+  }
+  
+  .leadership .top-R5Au6E {
+    background-color: transparent;
+    height: 41.55%;
+    left: 15.61%;
+    position: absolute;
+    top: 10.39%;
+    width: 71.37%;
+  }
+  
+  .leadership .rectangle-40-cIdVQB {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 99.51%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 99.76%;
+  }
+  
+  .leadership .contact-us-cIdVQB {
+    background-color: transparent;
+    height: 26.47%;
+    left: 67.77%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 36.76%;
+    width: 32.04%;
+  }
+  
+  .leadership .rectangle-1-HxWGrw {
+    background-color: var(--caribbean-green);
+    cursor: pointer;
+    border: 5px solid #0FCFB0;
+    height: 54px;
+    left: calc(50.00% - 98px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 196px;
+  }
+  
+  .leadership .rectangle-1-HxWGrw:hover {
+    transform: scale(1.0);
+    border: 5px solid #0FCFB0;
+    background-color: #263238;
+  }
+  
+  .leadership .contact-us-HxWGrw {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 51px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 13px;
+    width: auto;
+  }
+  
+  .leadership .to-learn-more-about-send-friend-cIdVQB {
+    background-color: transparent;
+    height: 99.51%;
+    left: 7.10%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0.49%;
+    width: 54.65%;
+  }
+  
+  .leadership .span0-8l1jEQ {
+  }
+  
+  .leadership .span1-8l1jEQ {
+  }
+  
+  .leadership .asset-1bg1-1-2-R5Au6E {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 15.62%;
+  }
+  
+  .leadership .logo-menu-R5Au6E {
+    background-color: var(--eerie-black);
+    height: 31.16%;
+    left: 19.85%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 51.73%;
+    width: 14.16%;
+  }
+  
+  .leadership .logo_menu-2-ZBtDPS {
+    background-color: transparent;
+    height: 131px;
+    left: 12px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 11px;
+    width: 182px;
+  }
+  
+  .leadership .line-1-R5Au6E {
+    background-color: transparent;
+    height: 0.61%;
+    left: 16.46%;
+    position: absolute;
+    top: 85.52%;
+    width: 67.36%;
+  }
+  
+  .leadership .x2021-send-friend-all-rights-reserved-R5Au6E {
+    background-color: transparent;
+    height: 3.46%;
+    left: 16.46%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 91.24%;
+    width: 32.92%;
+  }
+  
+  .leadership .socials-R5Au6E {
+    background-color: transparent;
+    height: 17px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 245px;
+    top: 448px;
+    width: 236px;
+  }
+  
+  .leadership .x-nSa34U {
+    background-color: transparent;
+    height: 100%;
+    left: 34.20%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 3.82%;
+  }
+  
+  .leadership .linked-in-nSa34U {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 73.31%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 26.69%;
+  }
+  
+  .leadership .twitter-nSa34U {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 42.37%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 21.19%;
+  }
+  
+  .leadership .facebook-nSa34U {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 29.66%;
+  }
+  
+  .leadership .x-6K5FLv {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 66.53%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 2.12%;
+  }
+  
+  .leadership .header-T3zxx0 {
+    background-color: var(--eerie-black);
+    height: 1.90%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .leadership .top-header-3dMOFZ {
+    background-color: var(--caribbean-green);
+    height: 35px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .leadership .facebook-icon-feJqHX {
+    background-color: transparent;
+    cursor: pointer;
+    height: 19px;
+    left: 104px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 8px;
+    width: 11px;
+  }
+  
+  .leadership .twitter-icon-feJqHX {
+    background-color: transparent;
+    height: 16px;
+    left: 132px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 10px;
+    width: 19px;
+  }
+  
+  .leadership .linkedin-icon-feJqHX {
+    background-color: transparent;
+    cursor: pointer;
+    height: 18px;
+    left: 167px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 8px;
+    width: 19px;
+  }
+  
+  .leadership .login-button-default-3dMOFZ {
+    background-color: var(--eerie-black);
+    cursor: pointer;
+    height: 61px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    right: 115px;
+    top: 44px;
+    transition: all 0.2s ease;
+    width: 173px;
+  }
+  
+  .leadership .login-button-default-3dMOFZ:hover {
+    transform: scale(1.1);
+  }
+  
+  .leadership .login-vpnv8g {
+    background-color: transparent;
+    height: 27.87%;
+    left: 36.42%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 36.07%;
+    width: 27.17%;
+  }
+  
+  .leadership .menu-3dMOFZ {
+    background-color: transparent;
+    height: 37px;
+    left: 322px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 56px;
+    width: 525px;
+  }
+  
+  .leadership .platform-oAlqox {
+    background-color: transparent;
+    height: 45.95%;
+    left: 1.90%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 27.03%;
+    width: 15.61%;
+  }
+  
+  .leadership .partners-oAlqox {
+    background-color: transparent;
+    height: 45.95%;
+    left: 27.41%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 27.03%;
+    width: 15.23%;
+  }
+  
+  .leadership .company-dropdown-oAlqox {
+    background-color: transparent;
+    height: 45.95%;
+    left: 52.54%;
+    position: absolute;
+    top: 27.03%;
+    width: 17.95%;
+  }
+  
+  .leadership .vector-XdBnaE {
+    background-color: transparent;
+    height: 52.94%;
+    left: 84.83%;
+    position: absolute;
+    top: 28.88%;
+    width: 14.85%;
+  }
+  
+  .leadership .company-XdBnaE {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 81.65%;
+  }
+  
+  .leadership .contact-us-oAlqox {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 158px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 10px;
+    width: auto;
+  }
+  
+  .leadership .logo-menu-3dMOFZ {
+    background-color: var(--eerie-black);
+    height: 109px;
+    left: 73px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 35px;
+    width: 145px;
+  }
+  
+  .leadership .logo_menu-2-TxDPvT {
+    background-color: transparent;
+    height: 87px;
+    left: 12px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 11px;
+    width: 121px;
+  }
+  
+  .leadership .header-text-T3zxx0 {
+    background-color: transparent;
+    display: block;
+    height: 235px;
+    left: calc(57% - 26px);
+    opacity: 0;
+    position: absolute;
+    top: 314px;
+    transform: translate(25px, 0);
+    width: 498px;
+  }
+  
+  .leadership .header-text-T3zxx0.bp2-animate-enter1 {
+    animation: bp2-animate-enter1-frames 1.00s ease-in-out 0.50s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  
+  @keyframes bp2-animate-enter1-frames {
+    from{opacity: 0;
+  transform: translate(25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .leadership .send-friend-team-z4pxzX {
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: 53.7px;
+    position: absolute;
+    text-align: left;
+    top: 43px;
+    width: 492px;
+  }
+  
+  .leadership .span0-Q23LW4 {
+    color: var(--white);
+    font-style: normal;
+  }
+  
+  .leadership .span1-Q23LW4 {
+    color: var(--caribbean-green);
+    font-style: normal;
+  }
+  
+  .leadership .we-are-cheaper-faste-z4pxzX {
+    background-color: transparent;
+    height: auto;
+    letter-spacing: 0.00px;
+    line-height: 25.7px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 183px;
+    width: 355px;
+  }
+  
+  .leadership .leadership-z4pxzX {
+    background-color: transparent;
+    height: auto;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 355px;
+  }
+  /* screen - mobile-leadership */
+  
+  .mobile-leadership {
+    background-color: var(--shark);
+    height: 100vh;
+    margin: 0px;
+    min-height: 2469px;
+    min-width: 360px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .mobile-leadership .unsplashrxp-th-owu-vg-e-KMEx58 {
+    background-color: transparent;
+    height: 17.50%;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 2.55%;
+    width: 100%;
+  }
+  
+  .mobile-leadership .rectangle-87-KMEx58 {
+    background-color: var(--ebony-clay);
+    height: 17.50%;
+    left: 0px;
+    mix-blend-mode: normal;
+    opacity: 0.46;
+    position: absolute;
+    top: 2.55%;
+    width: 100%;
+  }
+  
+  .mobile-leadership .header-text-KMEx58 {
+    background-color: transparent;
+    height: 246px;
+    left: calc(50.00% - 180px);
+    position: absolute;
+    top: 141px;
+    width: 366px;
+  }
+  
+  .mobile-leadership .we-are-cheaper-faste-k9JzmZ {
+    background-color: transparent;
+    height: 64px;
+    left: calc(50.00% - 94px);
+    letter-spacing: 0.00px;
+    line-height: 17.1px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 182px;
+    width: 182px;
+  }
+  
+  .mobile-leadership .send-friend-team-k9JzmZ {
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    height: 66px;
+    left: calc(50.00% - 132px);
+    letter-spacing: 0.00px;
+    line-height: 32.2px;
+    position: absolute;
+    text-align: center;
+    top: 78px;
+    width: 270px;
+  }
+  
+  .mobile-leadership .span0-ox1gv9 {
+    color: var(--white);
+    font-style: normal;
+  }
+  
+  .mobile-leadership .span1-ox1gv9 {
+    color: var(--caribbean-green);
+    font-style: normal;
+  }
+  
+  .mobile-leadership .leadership-k9JzmZ {
+    background-color: transparent;
+    height: 57px;
+    left: calc(50.00% - 183px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 360px;
+  }
+  
+  .mobile-leadership .header-KMEx58 {
+    background-color: var(--eerie-black);
+    height: 63px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50.00% - 1234px);
+    width: 100%;
+  }
+  
+  .mobile-leadership .hamburger-q8Yv1k {
+    background-color: transparent;
+    height: 41.27%;
+    left: 79.73%;
+    overflow: hidden;
+    position: absolute;
+    top: 30.16%;
+    width: 7.73%;
+  }
+  
+  .mobile-leadership .vector-16-bDboLa {
+    background-color: transparent;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    width: 17px;
+  }
+  
+  .mobile-leadership .vector-17-bDboLa {
+    background-color: transparent;
+    cursor: pointer;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 12px;
+    width: 17px;
+  }
+  
+  .mobile-leadership .vector-18-bDboLa {
+    background-color: transparent;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+  }
+  
+  .mobile-leadership .logo-q8Yv1k {
+    background-color: transparent;
+    height: 68px;
+    left: 46px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 12px;
+    width: 88px;
+  }
+  
+  .mobile-leadership .frame-131-SbOZkS {
+    background-color: var(--eerie-black);
+    height: 68px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: relative;
+    top: 0px;
+    width: 88px;
+  }
+  
+  .mobile-leadership .logo_menu-2-upuDXj {
+    background-color: transparent;
+    height: 54px;
+    left: 6px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 76px;
+  }
+  
+  .mobile-leadership .our-expert-team-KMEx58 {
+    background-color: transparent;
+    color: transparent;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+    height: 76px;
+    left: calc(50.00% - 180px);
+    letter-spacing: 0.00px;
+    line-height: 22.6px;
+    position: absolute;
+    text-align: center;
+    top: 517px;
+    width: 360px;
+  }
+  
+  .mobile-leadership .span0-Xxxcpu {
+    color: var(--white);
+    font-style: normal;
+  }
+  
+  .mobile-leadership .span1-Xxxcpu {
+    color: var(--ebony-clay);
+    font-style: normal;
+  }
+  
+  .mobile-leadership .span2-Xxxcpu {
+    color: var(--caribbean-green);
+    font-style: normal;
+  }
+  
+  .mobile-leadership .team1-KMEx58 {
+    background-color: transparent;
+    height: 202px;
+    left: calc(50.00% - 143px);
+    position: absolute;
+    top: 614px;
+    width: 305px;
+  }
+  
+  .mobile-leadership .image-2-HuxJgL {
+    background-color: transparent;
+    cursor: pointer;
+    height: 116px;
+    left: calc(50.00% - 152px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 2px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .image-2-HuxJgL:hover {
+    transform: scale(0.9); 
+  }
+  
+  .mobile-leadership .bio-HuxJgL {
+    background-color: transparent;
+    cursor: pointer;
+    height: 35px;
+    left: calc(50.00% - 152px);
+    pointer-events: auto;
+    position: absolute;
+    top: 111px;
+    transition: all 0.2s ease;
+    width: 119px;
+  }
+  
+  .mobile-leadership .bio-HuxJgL:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .mobile-leadership .rectangle-45-mWcmHb {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 35px;
+    left: calc(50.00% - 59px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .david-lighton-mWcmHb {
+    background-color: transparent;
+    height: 9px;
+    left: calc(50.00% - 59px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .cofounderceo-mWcmHb {
+    background-color: transparent;
+    height: 8px;
+    left: calc(50.00% - 60px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 115px;
+  }
+
+  
+  .mobile-leadership .david-lighton-is-sen-HuxJgL {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 6.5px;
+    font-style: normal;
+    font-weight: 300;
+    height: auto;
+    left: calc(50.00% - 18px);
+    letter-spacing: 0px;
+    line-height: 8.67px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 189px;
+}
+  
+  .mobile-leadership .he-also-sits-on-the-HuxJgL {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 6.5px;
+    font-style: normal;
+    font-weight: 300;
+    height: auto;
+    left: calc(50.00% - 152px);
+    letter-spacing: 0.00px;
+    line-height: 8.67px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 163px;
+    width: 301px;
+  }
+  
+  .mobile-leadership .team2-KMEx58 {
+    background-color: transparent;
+    height: 148px;
+    left: calc(50.00% - 143px);
+    position: absolute;
+    top: 898px;
+    width: 303px;
+  }
+  
+  .mobile-leadership .image-3-UfW2Ke {
+    background-color: transparent;
+    cursor: pointer;
+    height: 119px;
+    left: calc(50.00% - 152px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 2px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .image-3-UfW2Ke:hover {
+    transform: scale(0.9); 
+  }
+  
+  .mobile-leadership .bio-UfW2Ke {
+    background-color: transparent;
+    cursor: pointer;
+    height: 34px;
+    left: calc(50.00% - 152px);
+    pointer-events: auto;
+    position: absolute;
+    top: 107px;
+    transition: all 0.2s ease;
+    width: 119px;
+  }
+  
+  .mobile-leadership .bio-UfW2Ke:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .mobile-leadership .rectangle-45-irWUfd {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 34px;
+    left: calc(50.00% - 60px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .roy-vivasi-irWUfd {
+    background-color: transparent;
+    height: 9px;
+    left: calc(50.00% - 60px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .cofoundercto-irWUfd {
+    background-color: transparent;
+    height: 10px;
+    left: calc(50.00% - 60px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .roy-vivasi-joined-se-UfW2Ke {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 16px);
+    letter-spacing: 0.00px;
+
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 184px;
+  }
+  
+  .mobile-leadership .from-2010-2014-he-wo-KMEx58 {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 143px);
+    letter-spacing: 0.00px;
+
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 1052px;
+    width: 296px;
+  }
+  
+  .mobile-leadership .team5-KMEx58 {
+    background-color: transparent;
+    height: 225px;
+    left: calc(50.00% - 143px);
+    position: absolute;
+    top: 1162px;
+    width: 302px;
+  }
+  
+  .mobile-leadership .img_8101-1-1-oxfA6n {
+    background-color: transparent;
+    cursor: pointer;
+    height: 134px;
+    left: calc(50.00% - 151px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 3px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .img_8101-1-1-oxfA6n:hover {
+    transform: scale(0.9); 
+  }
+  
+  .mobile-leadership .bio-oxfA6n {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    cursor: pointer;
+    height: 54px;
+    left: calc(50.00% - 151px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 127px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .bio-oxfA6n:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .mobile-leadership .will-ferrer-WybKbN {
+    background-color: transparent;
+    height: 11px;
+    left: calc(50.00% - 24px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: calc(50.00% - 18px);
+    width: auto;
+  }
+  
+  .mobile-leadership .director-of-operations-and-strategy-WybKbN {
+    background-color: transparent;
+    height: 18px;
+    left: calc(50.00% - 58px);
+    letter-spacing: 0.00px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: calc(50.00% - 1px);
+    width: auto;
+  }
+  
+  .mobile-leadership .will-ferrer-is-send-oxfA6n {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 16px);
+    letter-spacing: 0.00px;
+
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 184px;
+  }
+  
+  .mobile-leadership .team6-KMEx58 {
+    background-color: transparent;
+    height: 207px;
+    left: calc(50.00% - 143px);
+    position: absolute;
+    top: 1447px;
+    width: 286px;
+  }
+  
+  .mobile-leadership .image-5-2cFUi5 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 127px;
+    left: calc(50.00% - 143px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .image-5-2cFUi5:hover {
+    transform: scale(0.9); 
+  }
+  
+  .mobile-leadership .bio-2cFUi5 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 37px;
+    left: calc(50.00% - 143px);
+    pointer-events: auto;
+    position: absolute;
+    top: 118px;
+    transition: all 0.2s ease;
+    width: 119px;
+  }
+  
+  .mobile-leadership .bio-2cFUi5:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .mobile-leadership .rectangle-45-erd8Rf {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 37px;
+    left: calc(50.00% - 60px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .sandra-ro-erd8Rf {
+    background-color: transparent;
+    height: 13px;
+    left: calc(50.00% - 59px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 115px;
+  }
+  
+  .mobile-leadership .director-erd8Rf {
+    background-color: transparent;
+    height: 11px;
+    left: calc(50.00% - 59px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 113px;
+  }
+  
+  .mobile-leadership .sandra-ro-is-the-cur-2cFUi5 {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 8px);
+    letter-spacing: 0.00px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 184px;
+  }
+  
+  .mobile-leadership .team7-KMEx58 {
+    background-color: transparent;
+    height: 146px;
+    left: calc(50.00% - 143px);
+    position: absolute;
+    top: 1675px;
+    width: 294px;
+  }
+  
+  .mobile-leadership .image-3-cx6SIn {
+    background-color: transparent;
+    cursor: pointer;
+    height: 121px;
+    left: calc(50.00% - 146px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 113px;
+  }
+  
+  .mobile-leadership .image-3-cx6SIn:hover {
+    transform: scale(0.9); 
+  }
+  
+  .mobile-leadership .bio-cx6SIn {
+    background-color: transparent;
+    cursor: pointer;
+    height: 37px;
+    left: calc(50.00% - 147px);
+    pointer-events: auto;
+    position: absolute;
+    top: 109px;
+    transition: all 0.2s ease;
+    width: 118px;
+  }
+  
+  .mobile-leadership .bio-cx6SIn:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .mobile-leadership .rectangle-45-R0XJ2c {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    height: 37px;
+    left: calc(50.00% - 59px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 114px;
+  }
+  
+  .mobile-leadership .satwik-seshasai-R0XJ2c {
+    background-color: transparent;
+    height: 13px;
+    left: calc(50.00% - 59px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 7px;
+    width: 114px;
+  }
+  
+  .mobile-leadership .director-R0XJ2c {
+    background-color: transparent;
+    height: 11px;
+    left: calc(50.00% - 59px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    width: 114px;
+  }
+  
+  .mobile-leadership .satwik-seshasai-is-t-cx6SIn {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 12px);
+    letter-spacing: 0.00px;
+
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 184px;
+  }
+  
+  .mobile-leadership .team4-KMEx58 {
+    background-color: transparent;
+    height: 261px;
+    left: calc(50.00% - 143px);
+    position: absolute;
+    top: 1889px;
+    width: 294px;
+  }
+  
+  .mobile-leadership .rafal-1-mW9Xxr {
+    background-color: transparent;
+    cursor: pointer;
+    height: 110px;
+    left: calc(50.00% - 147px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .rafal-1-mW9Xxr:hover {
+    transform: scale(0.9); 
+  }
+  
+  .mobile-leadership .bio-mW9Xxr {
+    -webkit-backdrop-filter: blur(13px) brightness(100%);
+    backdrop-filter: blur(13px) brightness(100%);
+    background-color: var(--caribbean-green-2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #0000002e;
+    cursor: pointer;
+    height: 53px;
+    left: calc(50.00% - 147px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 97px;
+    transition: all 0.2s ease;
+    width: 115px;
+  }
+  
+  .mobile-leadership .bio-mW9Xxr:hover {
+    transform: translate(0, -10px);
+  }
+  
+  .mobile-leadership .rafal-petsch-iaezLb {
+    background-color: transparent;
+    height: 20.47%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 14.00%;
+    width: 99.91%;
+  }
+  
+  .mobile-leadership .general-manager-of-polish-operations-iaezLb {
+    background-color: transparent;
+    height: 55.97%;
+    left: calc(50.00% - 60px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 33.96%;
+    width: 122px;
+  }
+  
+  .mobile-leadership .rafal-petsch-is-send-mW9Xxr {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 12px);
+    letter-spacing: 0.00px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 184px;
+  }
+  
+  .mobile-leadership .the-remainder-of-his-mW9Xxr {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 147px);
+    letter-spacing: 0.00px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 163px;
+    width: 320px;
+  }
+  
+  .mobile-leadership .footer-KMEx58 {
+    background-color: transparent;
+    height: 11.26%;
+    left: 0.28%;
+    position: absolute;
+    top: 88.74%;
+    width: 100%;
+  }
+  
+  .mobile-leadership .rectangle-89-xJcTZB {
+    background-color: var(--eerie-black);
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .mobile-leadership .rectangle-40-xJcTZB {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 34.17%;
+    left: 5.00%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 7.55%;
+    width: 89.44%;
+  }
+  
+  .mobile-leadership .to-learn-more-about-send-friend-xJcTZB {
+    background-color: transparent;
+    height: 33.81%;
+    left: 5.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7.55%;
+    width: 89.44%;
+  }
+  
+  .mobile-leadership .span0-9dwwYj {
+  }
+  
+  .mobile-leadership .span1-9dwwYj {
+  }
+  
+  .mobile-leadership .line-1-xJcTZB {
+    background-color: transparent;
+    height: 0.36%;
+    left: 15.81%;
+    position: absolute;
+    top: 73.20%;
+    width: 71.25%;
+  }
+  
+  .mobile-leadership .asset-1bg1-1-2-xJcTZB {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 15.83%;
+  }
+  
+  .mobile-leadership .x-xJcTZB {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 35px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 214px;
+    width: 8px;
+  }
+  
+  .mobile-leadership .x-Hl09Sr {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 29px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 214px;
+    width: 8px;
+  }
+  
+  .mobile-leadership .linked-in-xJcTZB {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 46px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 218px;
+    width: 51px;
+  }
+  
+  .mobile-leadership .twitter-xJcTZB {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 17px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 218px;
+    width: 42px;
+  }
+  
+  .mobile-leadership .facebook-xJcTZB {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 96px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 218px;
+    width: 57px;
+  }
+  
+  .mobile-leadership .x2021-send-friend-all-rights-reserved-xJcTZB {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 89px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 248px;
+    width: auto;
+  }
+  
+  .mobile-leadership .contact-us-xJcTZB {
+    background-color: transparent;
+    display: block;
+    height: 42px;
+    left: calc(50.00% + 11px);
+    opacity: 0;
+    position: absolute;
+    top: 139px;
+    transform: translate(100px, 0);
+    width: 146px;
+  }
+  
+  .mobile-leadership .contact-us-xJcTZB.bp1-animate-enter2 {
+    animation: bp1-animate-enter2-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(100px, 0);
+  }
+  
+  @keyframes bp1-animate-enter2-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-leadership .rectangle-1-CqxZJp {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 41px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 1px;
+    transition: all 0.2s ease;
+    width: 144px;
+  }
+  
+  .mobile-leadership .rectangle-1-CqxZJp:hover {
+    background-color: #0FCFB0
+  }
+  
+  .mobile-leadership .contact-us-CqxZJp {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-leadership .logo-xJcTZB {
+    background-color: transparent;
+    height: 70px;
+    left: calc(50.00% - 151px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 125px;
+    width: 88px;
+  }
+  
+  .mobile-leadership .frame-131-mWitQN {
+    background-color: var(--eerie-black);
+    height: 70px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: relative;
+    top: 0px;
+    width: 88px;
+  }
+  
+  .mobile-leadership .logo_menu-2-vkp9lZ {
+    background-color: transparent;
+    height: 54px;
+    left: 6px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 76px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .leadership { 
+      display: none;
+     }
+  }
+  @media only screen and (min-width: 1200px) {
+    .screen.mobile-leadership { 
+      display: none;
+     }
+
+  }
+  @media only screen and (min-width: 600px) {
+    .screen.mobile-leadership { 
+      display: none;
+     }
+  }

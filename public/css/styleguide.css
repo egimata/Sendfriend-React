@@ -31,6 +31,13 @@
   font-weight: 400;
 }
 
+.montserrat-bold-caribbean-green-18px {
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
 .montserrat-bold-ebony-clay-14px {
   color: var(--ebony-clay);
   font-family: var(--font-family-montserrat);
@@ -51,6 +58,27 @@
   color: var(--white);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.montserrat-extra-bold-caribbean-green-21px {
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 800;
+}
+.montserrat-bold-ebony-clay-6px {
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+}
+.montserrat-medium-white-9px {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 9px;
   font-style: normal;
   font-weight: 500;
 }

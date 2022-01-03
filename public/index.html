@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>SendFriend</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <meta name="og:type" content="website" />
-    <meta name="twitter:card" content="photo" />
+   
     <link rel="stylesheet" type="text/css" href="css/dropdown-menu.css" />
-    <link rel="stylesheet" type="text/css" href="css/homepage.css" />
+    <link rel="stylesheet" type="text/css" href="css/homepage1.css" />
     <link rel="stylesheet" type="text/css" href="css/mobile-menu.css" />
-    <link rel="stylesheet" type="text/css" href="css/history.css" />
-    <link rel="stylesheet" type="text/css" href="css/contact-us.css" />
+    <link rel="stylesheet" type="text/css" href="css/history1.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact-us1.css" />
+    <link rel="stylesheet" type="text/css" href="css/leadership.css" />
     <link rel="stylesheet" type="text/css" href="css/frame-6.css" />
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script> 
+
+
+
     <style></style>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
     <link rel="stylesheet" type="text/css" href="css/homepagemobile.css" />
     <link rel="stylesheet" type="text/css" href="css/tabs.scss" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body style="margin: 0; background: #ffffff">
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -63,13 +67,11 @@
               <span class="span0-D6bUCI montserrat-semi-bold-black-24px">Our </span>
               <span class="span1-D6bUCI">Platform</span>
               <span class="span2-D6bUCI montserrat-semi-bold-black-24px"> is launching soon. <br />Please </span>
-              <a href="/contact"><span class="span3-D6bUCI">CONTACT US</a></span>
+              <a href="/#/contact"><span class="span3-D6bUCI">CONTACT US</a></span>
               <span class="span4-D6bUCI montserrat-semi-bold-black-24px"> for more details</span>
             </div>
-            <img class="friend-zNGeUl" src="./friend.svg" />
-            <img class="send-zNGeUl" src="./send-2@2x.svg" />
-            <img class="line-16-zNGeUl" src="./line-16@2x.svg" />
-            <img class="original-logo-zNGeUl" src="./original-logo-2@2x.svg" />
+
+            <img class="original-logo-zNGeUl" src="./footer_logo_overlay.png" />
           </div>
         </div>
       </div>
@@ -96,25 +98,37 @@
         false
       );
     </script>
+    <script>
+      function myAnchor(value){
+        var top = document.getElementById(value).offsetTop;
+        window.scrollTo(0, top);
+        //document.getElementById(value).scrollIntoView();
+      }
+    </script>
     <div id="overlay-dropdown-menu" class="overlay" style="min-height: 5881px">
       <div class="container-center-horizontal">
         <div class="dropdown-menu screen">
-          <div class="dropdown-menu-ywJN3w">
+          <div class="dropdown-menu-ywJN3w" >
             <div class="rectangle-112-jiK7Zy"></div>
-            <a href="/#/history">
+            <a  href="/#/history">
               <div class="group-117-jiK7Zy">
                 <img class="akar-iconsarrow-down-IGjln5" src="./akar-icons-arrow-down@2x.svg" />
                 <div class="history-IGjln5 montserrat-normal-ebony-clay-13px">History</div>
               </div>
             </a>
+            
+            <a  href="/#/history#leadership" >
             <div class="group-118-jiK7Zy">
               <img class="akar-iconsarrow-down-AYujpj" src="./akar-icons-arrow-down-1@2x.svg" />
               <div class="leadership-AYujpj montserrat-normal-ebony-clay-13px">Leadership</div>
             </div>
+          </a>
+          <a href="/#/contact">
             <div class="group-119-jiK7Zy">
               <img class="akar-iconsarrow-down-ZDVNL2" src="./akar-icons-arrow-down-2@2x.svg" />
               <div class="careers-ZDVNL2 montserrat-normal-ebony-clay-13px">Careers</div>
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -323,143 +337,6 @@
         false
       );
     </script>
-    <script>
-      ShowOverlay = function (overlayName, animationName) {
-        overlayName = "overlay-" + overlayName;
-        var cssClasses = document.getElementById(overlayName).className.split(" ");
-        var last = cssClasses.slice(-1)[0];
-        if (last.lastIndexOf("animate") == -1) {
-          document.getElementById(overlayName).className =
-            document.getElementById(overlayName).className + " " + animationName;
-        }
-        if (window.loadAsyncSrc != undefined) {
-          loadAsyncSrc();
-        }
-      };
-      HideOverlay = function (overlayName, animationName) {
-        overlayName = "overlay-" + overlayName;
-        var cssClasses = document.getElementById(overlayName).className.split(" ");
-        var last = cssClasses.slice(-1)[0];
-        if (last.lastIndexOf("animate") != -1) {
-          cssClasses.splice(-1);
-          cssClasses.push(animationName);
-          document.getElementById(overlayName).className = cssClasses.join(" ");
 
-          cssClasses.splice(-1);
-          setTimeout(function () {
-            document.getElementById(overlayName).className = cssClasses.join(" ");
-          }, 1100);
-        }
-        var vids = document.getElementsByTagName("video");
-        if (vids) {
-          for (var i = 0; i < vids.length; i++) {
-            var video = vids.item(i);
-            video.pause();
-          }
-        }
-      };
-    </script>
-    <script>
-      function ShowOnScroll() {
-        this.toShow = [];
-        this.nextEventY = undefined;
-      }
-
-      ShowOnScroll.prototype.show = function (e) {
-        e.style.display = "";
-      };
-
-      ShowOnScroll.prototype.hide = function (e) {
-        e.style.display = "none";
-      };
-
-      ShowOnScroll.prototype.getTop = function (e) {
-        if (e.Top != undefined && e.Top != 0) {
-          return e.Top;
-        }
-        var top = 0;
-        var iter = e;
-        do {
-          top += iter.offsetTop || 0;
-          iter = iter.offsetParent;
-        } while (iter);
-        e.Top = top;
-        return top;
-      };
-
-      ShowOnScroll.prototype.onScroll = function () {
-        var screenBottom = window.pageYOffset + window.innerHeight;
-        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
-          return;
-        }
-        this.nextEventY = undefined;
-        for (var i = 0; i < this.toShow.length; i++) {
-          var e = this.toShow[i];
-          var top = this.getTop(e);
-          if (top < screenBottom) {
-            this.show(e);
-            this.toShow.shift();
-            i--;
-          } else {
-            this.nextEventY = top;
-            break;
-          }
-        }
-      };
-
-      ShowOnScroll.prototype.resetScrolling = function () {
-        // Clear state
-        var screenBottom = window.pageYOffset + window.innerHeight;
-        for (var i = 0; i < this.toShow.length; i++) {
-          var e = this.toShow[i];
-          this.show(e);
-        }
-        this.toShow = [];
-        this.nextEventY == undefined;
-
-        // Collect items
-        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
-        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
-          return e.getAttribute("show-on-scroll") != undefined;
-        });
-        var getTop = this.getTop;
-        itemsToShowOnScroll.sort(function (a, b) {
-          return getTop(a) - getTop(b);
-        });
-        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
-          var e = itemsToShowOnScroll[i];
-          var top = this.getTop(e);
-          if (top < screenBottom) {
-            continue;
-          }
-          this.toShow.push(e);
-          this.hide(e);
-          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
-        }
-      };
-
-      ShowOnScroll.prototype.handleEvent = function (e) {
-        switch (e.type) {
-          case "scroll":
-            this.onScroll();
-            break;
-          case "resize":
-            this.resetScrolling();
-            break;
-        }
-      };
-
-      ShowOnScroll.prototype.init = function () {
-        this.resetScrolling();
-        window.addEventListener("scroll", this);
-        window.addEventListener("resize", this);
-      };
-
-      // After anima-src
-      setTimeout(function () {
-        var instShowOnScroll = new ShowOnScroll();
-        instShowOnScroll.init();
-      }, 250);
-    </script>
   </body>
 </html>

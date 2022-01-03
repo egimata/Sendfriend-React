@@ -157,6 +157,15 @@
   top: 193px;
   width: 28px;
 }
+.homepage .ant-designcheck-circle-outlined-pMVTHP2 {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 189px;
+  width: 28px;
+}
 
 .homepage .ant-designcheck-circle-outlined-LiPxAv {
   background-color: transparent;
@@ -167,8 +176,26 @@
   top: 227px;
   width: 28px;
 }
+.homepage .ant-designcheck-circle-outlined-LiPxAv2 {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 225px;
+  width: 28px;
+}
 
 .homepage .ant-designcheck-circle-outlined-VgymmD {
+  background-color: transparent;
+  height: 28px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 276px;
+  width: 28px;
+}
+.homepage .ant-designcheck-circle-outlined-VgymmD2 {
   background-color: transparent;
   height: 28px;
   left: 0px;
@@ -246,6 +273,40 @@
   top: 99px;
   width: 500px;
 }
+.homepage .our-on-chain-solutio-pMVTHP2 {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 139px;
+  width: 500px;
+}
+.homepage .our-on-chain-solutio-pMVTHP3 {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 3px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 203px;
+  width: 500px;
+}
 
 .homepage .lower-fx-costs-fewer-pMVTHP {
   background-color: transparent;
@@ -262,6 +323,23 @@
   position: absolute;
   text-align: left;
   top: 195px;
+  width: 432px;
+}
+.homepage .lower-fx-costs-fewer-pMVTHP2 {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 39px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 231px;
   width: 432px;
 }
 
@@ -342,6 +420,16 @@
   mix-blend-mode: normal;
   position: absolute;
   top: 1265px;
+
+  width: 28px;
+}
+.homepage .ant-designcheck-circle-outlined-zYNucu1 {
+  background-color: transparent;
+  height: 28px;
+  left: 214px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1279px;
   width: 28px;
 }
 
@@ -2231,24 +2319,12 @@ transform: scale(1);
   left: 0px;
   mix-blend-mode: normal;
   object-fit: cover;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 106px;
   width: 1440px;
 }
 
-.homepage .slider-homepage-1-zYNucu.bp1-animate-enter16 {
-  animation: bp1-animate-enter16-frames 1.00s ease-in-out 0.50s 1 normal forwards;
-  display: block;
-  opacity: 1;
-}
-
-@keyframes bp1-animate-enter16-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
-}
 
 .homepage .slider-zYNucu {
   background-color: transparent;
@@ -2845,11 +2921,11 @@ to{opacity: 1;
 .homepage .black-logo-2-8CnJFc {
   background-color: transparent;
   height: 73px;
-  left: 0px;
+  left: 42px;
   mix-blend-mode: normal;
   position: absolute;
   top: 1px;
-  width: 202px;
+  width: auto;
 }
 
 .homepage .rippl-8CnJFc {
@@ -3077,19 +3153,2715 @@ to{opacity: 1;
   top: 31px;
   width: auto;
 }
-.group-46-8LCNNa{
-  display:none;
-}
-.iphone-8-1.screen{
+
+.mobile-homepage{
   display:none;
 }
 /* screen - iphone-8-1 */
 
-@media only screen and (max-width: 400px){
-  .iphone-8-1.screen{
-    display:block;
+@media only screen and (max-width: 600px) {
+  .homepage{
+    display: none;
   }
 
+
+  .mobile-homepage {
+    background-color: var(--white);
+    height: 100vh;
+    margin: 0px;
+    min-height: 5501px;
+    min-width: 360px;
+    display:block;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .mobile-homepage .slider-homepage-1-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: calc(100.00% - 4975px);
+    left: 0px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    object-fit: cover;
+    top: 62px;
+    width: 100%;
+  }
+  
+  .mobile-homepage .slider-homepage-1-qujsfd.bp2-animate-enter1 {
+    animation: bp2-animate-enter1-frames 1.00s ease-in-out 0.50s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter1-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .rectangle-126-qujsfd {
+    background-color: var(--ebony-clay);
+    height: 9.45%;
+    left: 0.56%;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    position: absolute;
+    top: 1.16%;
+    width: 99.44%;
+  }
+  
+  .mobile-homepage .header-qujsfd {
+    background-color: var(--eerie-black);
+    height: 63px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50.00% - 2751px);
+    width: 100%;
+  }
+  
+  .mobile-homepage .hamburger-smneFN {
+    background-color: transparent;
+    cursor: pointer;
+    height: 41.27%;
+    left: 79.73%;
+    overflow: hidden;
+    position: absolute;
+    top: 30.16%;
+    width: 7.73%;
+  }
+  
+  .mobile-homepage .vector-16-y8AOCp {
+    background-color: transparent;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    width: 17px;
+  }
+  
+  .mobile-homepage .vector-17-y8AOCp {
+    background-color: transparent;
+    cursor: pointer;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 12px;
+    width: 17px;
+  }
+  
+  .mobile-homepage .vector-18-y8AOCp {
+    background-color: transparent;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+  }
+  
+  .mobile-homepage .logo-smneFN {
+    background-color: transparent;
+    height: 68px;
+    left: 46px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 12px;
+    width: 88px;
+  }
+  
+  .mobile-homepage .frame-131-oxZ3QX {
+    background-color: var(--eerie-black);
+    height: 68px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: relative;
+    top: 0px;
+    width: 88px;
+  }
+  
+  .mobile-homepage .logo_menu-2-ILoGHQ {
+    background-color: transparent;
+    height: 54px;
+    left: 6px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 76px;
+  }
+  
+  .mobile-homepage .faster-cheaper-multi-qujsfd {
+    background-color: transparent;
+    color: transparent;
+    display: block;
+    font-family: var(--font-family-montserrat);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    height: auto;
+    left: 5.56%;
+    letter-spacing: 0.00px;
+    line-height: 32.2px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 233px;
+    transform: scale(1.1);
+    width: 91.11%;
+  }
+  
+  .mobile-homepage .span0-GBW4Tf {
+    color: var(--white);
+    font-style: normal;
+  }
+  
+  .mobile-homepage .span1-GBW4Tf {
+    font-style: normal;
+  }
+  
+  .mobile-homepage .faster-cheaper-multi-qujsfd.bp2-animate-enter2 {
+    animation: bp2-animate-enter2-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  @keyframes bp2-animate-enter2-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-homepage .we-are-cheaper-faste-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    left: 25.00%;
+    letter-spacing: 0.00px;
+    line-height: 17.2px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 359px;
+    transform: scale(1.1);
+    width: 53.87%;
+  }
+  
+  .mobile-homepage .we-are-cheaper-faste-qujsfd.bp2-animate-enter3 {
+    animation: bp2-animate-enter3-frames 1.10s ease-in-out 0.75s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  @keyframes bp2-animate-enter3-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-homepage .contact-us-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    opacity: 0;
+    position: absolute;
+    top: 463px;
+    transform: translate(100px, 0);
+    width: 146px;
+  }
+  
+  .mobile-homepage .contact-us-qujsfd.bp2-animate-enter4 {
+    animation: bp2-animate-enter4-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(100px, 0);
+  }
+  
+  @keyframes bp2-animate-enter4-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .rectangle-1-kXqD6c {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 41px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 1px;
+    transition: all 0.2s ease;
+    width: 144px;
+  }
+  
+  .mobile-homepage .rectangle-1-kXqD6c:hover {
+    background-color: #0FCFB0
+  }
+  
+  .mobile-homepage .contact-us-kXqD6c {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-homepage .rectangle-106-qujsfd {
+    background-color: transparent;
+    height: 21.14%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 10.62%;
+    width: 100%;
+  }
+  
+  .mobile-homepage .send-friend-delivers-qujsfd {
+    background-color: transparent;
+    height: 1.69%;
+    left: 13.06%;
+    letter-spacing: 0.00px;
+    line-height: 25.1px;
+    position: absolute;
+    text-align: center;
+    top: 11.93%;
+    width: 73.61%;
+  }
+  
+  .mobile-homepage .span0-CoUivr {
+  }
+  
+  .mobile-homepage .span1-CoUivr {
+  }
+  
+  .mobile-homepage .span2-CoUivr {
+  }
+  
+  .mobile-homepage .secure-qujsfd {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 139px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 912px;
+    width: 48px;
+  }
+  
+  .mobile-homepage .multichain-qujsfd {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 36px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 837px;
+    width: 70px;
+  }
+  
+  .mobile-homepage .x1-api-connection-qujsfd {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 88px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 910px;
+    width: 63px;
+  }
+  
+  .mobile-homepage .blockchain-qujsfd {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 93px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 1095px;
+    width: 59px;
+  }
+  
+  .mobile-homepage .cost-effective-qujsfd {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 28px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 1154px;
+    width: 49px;
+  }
+  
+  .mobile-homepage .fast-payment-qujsfd {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 141px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 1095px;
+    width: 49px;
+  }
+  
+  .mobile-homepage .world-group-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 214px;
+    left: calc(50.00% - 97px);
+    opacity: 0;
+    position: absolute;
+    top: 889px;
+    transform: rotate(90deg);
+    width: 190px;
+  }
+  
+  .mobile-homepage .world-group-qujsfd.bp2-animate-enter5 {
+    animation: bp2-animate-enter5-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: rotate(90deg);
+  }
+  
+  @keyframes bp2-animate-enter5-frames {
+    from{opacity: 0;
+  transform: rotate(90deg);
+  }
+  to{opacity: 1;
+  transform: rotate(0);
+  }
+  }
+  
+  .mobile-homepage .kisspng-clip-art-cit-H6QPKS {
+    background-color: transparent;
+    height: 214px;
+    left: calc(50.00% - 96px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 191px;
+  }
+  
+  .mobile-homepage .setting-qujsfd {
+    background-color: transparent;
+    height: 85px;
+    left: calc(50.00% - 44px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 953px;
+    width: 84px;
+  }
+  
+  .mobile-homepage .setting-ipYMsR {
+    background-color: transparent;
+    display: block;
+    height: 72.94%;
+    left: 12.14%;
+    opacity: 0;
+    position: absolute;
+    top: 14.12%;
+    transform: rotate(40deg);
+    width: 78.00%;
+  }
+  
+  .mobile-homepage .setting-ipYMsR.bp2-animate-enter6 {
+    animation: bp2-animate-enter6-frames 2.00s ease-in-out 1.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: rotate(40deg);
+  }
+  
+  @keyframes bp2-animate-enter6-frames {
+    from{opacity: 0;
+  transform: rotate(40deg);
+  }
+  to{opacity: 1;
+  transform: rotate(0);
+  }
+  }
+  
+  .mobile-homepage .vector-ylfIro {
+    background-color: transparent;
+    height: 100.81%;
+    left: -0.36%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: -0.40%;
+    width: 100.73%;
+  }
+  
+  .mobile-homepage .ellipse-16-ylfIro {
+    background-color: var(--eerie-black);
+    border-radius: 11.13px/10.53px;
+    height: 33.96%;
+    left: 33.02%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 33.02%;
+    width: 33.96%;
+  }
+  
+  .mobile-homepage .logo-middle-ipYMsR {
+    background-color: transparent;
+    height: 43px;
+    left: 26px;
+    position: absolute;
+    top: 21px;
+    width: 33px;
+  }
+  
+  .mobile-homepage .circle-ipYMsR {
+    background-color: transparent;
+    height: 112px;
+    left: calc(50.00% - 56px);
+    position: absolute;
+    top: -14px;
+    width: 112px;
+  }
+  
+  .mobile-homepage .vector-0yrvvv {
+    background-color: transparent;
+    height: 40px;
+    left: calc(50.00% + 2px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 58px;
+    width: 40px;
+  }
+  
+  .mobile-homepage .vector-PZk3kn {
+    background-color: transparent;
+    height: 40px;
+    left: calc(50.00% - 42px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 14px;
+    width: 41px;
+  }
+  
+  .mobile-homepage .vector-DX7Xqu {
+    background-color: transparent;
+    height: 40px;
+    left: calc(50.00% + 2px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 14px;
+    width: 40px;
+  }
+  
+  .mobile-homepage .vector-3gCcwf {
+    background-color: transparent;
+    height: 40px;
+    left: calc(50.00% - 42px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 58px;
+    width: 41px;
+  }
+  
+  .mobile-homepage .vector-M1NPxG {
+    background-color: transparent;
+    height: 83px;
+    left: calc(50.00% - 41px);
+    position: absolute;
+    top: 15px;
+    width: 82px;
+  }
+  
+  .mobile-homepage .arrow-3-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 68px;
+    left: calc(50.00% + 19px);
+    opacity: 0;
+    position: absolute;
+    top: 1015px;
+    transform: translate(-25px, 0);
+    width: 88px;
+  }
+  
+  .mobile-homepage .arrow-3-qujsfd.bp2-animate-enter7 {
+    animation: bp2-animate-enter7-frames 0.50s ease-in-out 0.50s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  
+  @keyframes bp2-animate-enter7-frames {
+    from{opacity: 0;
+  transform: translate(-25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .arrow-5-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 98px;
+    left: calc(50.00% - 9px);
+    opacity: 0;
+    position: absolute;
+    top: 1026px;
+    transform: translate(0, 25px);
+    width: 15px;
+  }
+  
+  .mobile-homepage .arrow-5-qujsfd.bp2-animate-enter8 {
+    animation: bp2-animate-enter8-frames 0.70s ease-in-out 0.50s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  
+  @keyframes bp2-animate-enter8-frames {
+    from{opacity: 0;
+  transform: translate(0, 25px);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .arrow-2-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 74px;
+    left: calc(50.00% + 20px);
+    opacity: 0;
+    position: absolute;
+    top: 902px;
+    width: 77px;
+  }
+  
+  .mobile-homepage .arrow-2-qujsfd.bp2-animate-enter9 {
+    animation: bp2-animate-enter9-frames 1.00s ease-in-out 0.40s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter9-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .arrow-1-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 74px;
+    left: calc(50.00% - 99px);
+    opacity: 0;
+    position: absolute;
+    top: 901px;
+    transform: scale(0.67);
+    width: 78px;
+  }
+  
+  .mobile-homepage .arrow-1-qujsfd.bp2-animate-enter10 {
+    animation: bp2-animate-enter10-frames 0.70s ease-in-out 0.40s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(0.67);
+  }
+  
+  @keyframes bp2-animate-enter10-frames {
+    from{opacity: 0;
+  transform: scale(0.67);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-homepage .arrow-6-qujsfd {
+    background-color: transparent;
+    height: 109px;
+    left: calc(50.00% - 9px);
+    position: absolute;
+    top: 856px;
+    width: 15px;
+  }
+  
+  .mobile-homepage .arrow-4-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 60px;
+    left: calc(50.00% - 99px);
+    opacity: 0;
+    position: absolute;
+    top: 1015px;
+    transform: translate(-25px, 0);
+    width: 78px;
+  }
+  
+  .mobile-homepage .arrow-4-qujsfd.bp2-animate-enter11 {
+    animation: bp2-animate-enter11-frames 0.60s ease-in-out 0.50s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(-25px, 0);
+  }
+  
+  @keyframes bp2-animate-enter11-frames {
+    from{opacity: 0;
+  transform: translate(-25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .x3-qujsfd {
+    background-color: transparent;
+    height: 28px;
+    left: calc(50.00% - 17px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 1126px;
+    width: 26px;
+  }
+  
+  .mobile-homepage .more-secure-qujsfd {
+    background-color: transparent;
+    height: 21px;
+    left: calc(50.00% - 124px);
+    position: absolute;
+    top: 883px;
+    width: 18px;
+  }
+  
+  .mobile-homepage .vector-mwnNe7 {
+    background-color: transparent;
+    height: 22px;
+    left: calc(50.00% - 9px);
+    position: absolute;
+    top: 0px;
+    width: 18px;
+  }
+  
+  .mobile-homepage .eos-iconsblockchain-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 22px;
+    left: calc(50.00% - 13px);
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    top: 811px;
+    width: 22px;
+  }
+  
+  .mobile-homepage .eos-iconsblockchain-qujsfd.bp2-animate-enter12 {
+    animation: bp2-animate-enter12-frames 1.00s ease-in-out 0.20s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter12-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .carbonapi-1-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 24px;
+    left: calc(50.00% + 107px);
+    mix-blend-mode: normal;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 888px;
+    transform: translate(25px, 0);
+    width: 23px;
+  }
+  
+  .mobile-homepage .carbonapi-1-qujsfd.bp2-animate-enter13 {
+    animation: bp2-animate-enter13-frames 1.00s ease-in-out 0.40s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  
+  @keyframes bp2-animate-enter13-frames {
+    from{opacity: 0;
+  transform: translate(25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .vector-gVtUPU {
+    background-color: transparent;
+    height: 45.83%;
+    left: 4.64%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 27.08%;
+    width: 28.21%;
+  }
+  
+  .mobile-homepage .vector-1nNpxD {
+    background-color: transparent;
+    height: 45.83%;
+    left: 67.14%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 27.08%;
+    width: 28.21%;
+  }
+  
+  .mobile-homepage .vector-ptvkUL {
+    background-color: transparent;
+    height: 45.83%;
+    left: 36.98%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 27.08%;
+    width: 26.04%;
+  }
+  
+  .mobile-homepage .x2-qujsfd {
+    background-color: transparent;
+    height: 22px;
+    left: calc(50.00% - 127px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 1070px;
+    width: 20px;
+  }
+  
+  .mobile-homepage .blockchain-1-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    left: calc(50.00% + 114px);
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    top: 1075px;
+    transform: scale(0.9);
+    width: 21px;
+  }
+  
+  .mobile-homepage .blockchain-1-qujsfd.bp2-animate-enter14 {
+    animation: bp2-animate-enter14-frames 1.00s ease-in 0.60s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  @keyframes bp2-animate-enter14-frames {
+    from{opacity: 0;
+  transform: scale(0.9);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-homepage .check-box-1-qujsfd {
+    background-color: transparent;
+    height: 20px;
+    left: calc(50.00% - 145px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 1245px;
+    width: 21px;
+  }
+  
+  .mobile-homepage .vector-w3wMdL {
+    background-color: transparent;
+    height: 35.00%;
+    left: 29.57%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 32.50%;
+    width: 40.87%;
+  }
+  
+  .mobile-homepage .vector-zTwIkB {
+    background-color: transparent;
+    height: 90.00%;
+    left: 5.53%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 5.00%;
+    width: 88.94%;
+  }
+  
+  .mobile-homepage .check-box-2-qujsfd {
+    background-color: transparent;
+    height: 20px;
+    left: calc(50.00% - 145px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 1276px;
+    width: 21px;
+  }
+  
+  .mobile-homepage .vector-bUpblW {
+    background-color: transparent;
+    height: 35.00%;
+    left: 29.57%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 32.50%;
+    width: 40.87%;
+  }
+  
+  .mobile-homepage .vector-ZTqkXo {
+    background-color: transparent;
+    height: 90.00%;
+    left: 5.53%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 5.00%;
+    width: 88.94%;
+  }
+  
+  .mobile-homepage .check-box-3-qujsfd {
+    background-color: transparent;
+    height: 20px;
+    left: calc(50.00% - 145px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 1323px;
+    width: 21px;
+  }
+  
+  .mobile-homepage .vector-oMALaO {
+    background-color: transparent;
+    height: 35.00%;
+    left: 29.57%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 32.50%;
+    width: 40.87%;
+  }
+  
+  .mobile-homepage .vector-nzvjJj {
+    background-color: transparent;
+    height: 90.00%;
+    left: 5.53%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 5.00%;
+    width: 88.94%;
+  }
+  
+  .mobile-homepage .check-box-4-qujsfd {
+    background-color: transparent;
+    height: 20px;
+    left: calc(50.00% - 145px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 1355px;
+    width: 21px;
+  }
+  
+  .mobile-homepage .vector-NBCqUF {
+    background-color: transparent;
+    height: 35.00%;
+    left: 29.57%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 32.50%;
+    width: 40.87%;
+  }
+  
+  .mobile-homepage .vector-hh7cSq {
+    background-color: transparent;
+    height: 90.00%;
+    left: 5.53%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 5.00%;
+    width: 88.94%;
+  }
+  
+  .mobile-homepage .frame-132-qujsfd {
+    background-color: transparent;
+    height: 154px;
+    left: calc(50.00% - 115px);
+    position: absolute;
+    top: 1247px;
+    width: 264px;
+  }
+  
+  .mobile-homepage .lower-fx-costs-y3OOEg {
+    background-color: transparent;
+    height: 8.44%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 35.23%;
+  }
+  
+  .mobile-homepage .fewer-correspondent-y3OOEg {
+    background-color: transparent;
+    height: 19.48%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 19.48%;
+    width: 94.70%;
+  }
+  
+  .mobile-homepage .no-pre-funding-burden-y3OOEg {
+    background-color: transparent;
+    height: 9.74%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 50.00%;
+    width: 54.55%;
+  }
+  
+  .mobile-homepage .access-to-a-least-co-y3OOEg {
+    background-color: transparent;
+    height: 29.22%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 70.78%;
+    width: 100%;
+  }
+  
+  .mobile-homepage .our-on-chain-solutio-qujsfd {
+    background-color: transparent;
+    color: var(--ebony-clay);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 600;
+    height: auto;
+    left: calc(50.00% - 144px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 1442px;
+    width: 293px;
+  }
+  
+  .mobile-homepage .group-121-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 42px;
+    left: calc(50.00% - 70px);
+    opacity: 0;
+    position: absolute;
+    top: 1553px;
+    transform: translate(100px, 0);
+    width: 146px;
+  }
+  
+  .mobile-homepage .group-121-qujsfd.bp2-animate-enter15 {
+    animation: bp2-animate-enter15-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(100px, 0);
+  }
+  
+  @keyframes bp2-animate-enter15-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .rectangle-1-dolwXC {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 41px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 1px;
+    transition: all 0.2s ease;
+    width: 144px;
+  }
+  
+  .mobile-homepage .rectangle-1-dolwXC:hover {
+    background-color: #0FCFB0
+  }
+  
+  .mobile-homepage .learn-more-dolwXC {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-homepage .a-flexible-cross-bor-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    left: calc(50.00% - 148px);
+    letter-spacing: 0.00px;
+    line-height: 22.6px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 1753px;
+    transform: translate(25px, 0);
+    width: 297px;
+  }
+  
+  .mobile-homepage .span0-okPgZq {
+  }
+  
+  .mobile-homepage .span1-okPgZq {
+  }
+  
+  .mobile-homepage .a-flexible-cross-bor-qujsfd.bp2-animate-enter16 {
+    animation: bp2-animate-enter16-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(25px, 0);
+  }
+  
+  @keyframes bp2-animate-enter16-frames {
+    from{opacity: 0;
+  transform: translate(25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .servicing-internatio-qujsfd {
+    background-color: transparent;
+    height: 1.02%;
+    left: 21.07%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 34.79%;
+    width: 56.53%;
+  }
+  
+  .mobile-homepage .our-network-is-expan-qujsfd {
+    background-color: transparent;
+    height: 0.76%;
+    left: 21.07%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 41.94%;
+    width: 56.53%;
+  }
+  
+  .mobile-homepage .left_image-1-qujsfd {
+    background-color: transparent;
+    height: 5.71%;
+    left: 6.66%;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 35.99%;
+    width: 83.75%;
+  }
+  
+  .mobile-homepage .settling-payments-mo-qujsfd {
+    background-color: transparent;
+    height: 0.82%;
+    left: 14.93%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 44.34%;
+    width: 68.53%;
+  }
+  
+  .mobile-homepage .line-15-qujsfd {
+    background-color: transparent;
+    height: 0px;
+    left: 19.44%;
+    position: absolute;
+    top: 43.56%;
+    width: 61.39%;
+  }
+  
+  .mobile-homepage .right_image-1-qujsfd {
+    background-color: transparent;
+    height: 277px;
+    left: calc(50.00% - 139px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 2526px;
+    width: 287px;
+  }
+  
+  .mobile-homepage .whether-fiat-to-fiat-qujsfd {
+    background-color: transparent;
+    height: 1.09%;
+    left: 14.67%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 51.52%;
+    width: 68.53%;
+  }
+  
+  .mobile-homepage .rectangle-124-qujsfd {
+    background-color: transparent;
+    height: 19.81%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 53.17%;
+    width: 100%;
+  }
+  
+  .mobile-homepage .group-122-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 42px;
+    left: calc(50.00% - 72px);
+    opacity: 0;
+    position: absolute;
+    top: 3222px;
+    transform: translate(100px, 0);
+    width: 146px;
+  }
+  
+  .mobile-homepage .group-122-qujsfd.bp2-animate-enter17 {
+    animation: bp2-animate-enter17-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(100px, 0);
+  }
+  
+  @keyframes bp2-animate-enter17-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .rectangle-1-0LGubN {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 41px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 1px;
+    transition: all 0.2s ease;
+    width: 144px;
+  }
+  
+  .mobile-homepage .rectangle-1-0LGubN:hover {
+    background-color: #0FCFB0
+  }
+  
+  .mobile-homepage .learn-more-0LGubN {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-homepage .servicing-a-variety-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 137px;
+    left: calc(50.00% - 151px);
+    letter-spacing: 0.00px;
+    line-height: 22.6px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 3049px;
+    width: 304px;
+  }
+  
+  .mobile-homepage .span0-UWyt2t {
+  }
+  
+  .mobile-homepage .span1-UWyt2t {
+  }
+  
+  .mobile-homepage .servicing-a-variety-qujsfd.bp2-animate-enter18 {
+    animation: bp2-animate-enter18-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter18-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .our-api-based-platfo-qujsfd {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+    height: 1.36%;
+    left: 12.80%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 60.44%;
+    width: 74.93%;
+  }
+  
+  .mobile-homepage .in-short-we-are-buil-qujsfd {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 700;
+    height: 1.64%;
+    left: 12.53%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 62.26%;
+    width: 74.93%;
+  }
+  
+  .mobile-homepage .section-4-nifty-1-qujsfd {
+    background-color: transparent;
+    height: 344px;
+    left: calc(50.00% - 187px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 3497px;
+    width: 372px;
+  }
+  
+  .mobile-homepage .rectangle-42-qujsfd {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 11.63%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 84.20%;
+    width: 100%;
+  }
+  
+  .mobile-homepage .rectangle-92-qujsfd {
+    background-color: transparent;
+    height: 20.00%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 69.19%;
+    width: 100%;
+  }
+  
+  .mobile-homepage .our-remittance-api-s-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 2.16%;
+    left: 13.06%;
+    letter-spacing: 0.00px;
+    line-height: 22.6px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 72.22%;
+    transform: translate(0, 25px);
+    width: 74.17%;
+  }
+  
+  .mobile-homepage .span0-R3hwcY {
+  }
+  
+  .mobile-homepage .span1-R3hwcY {
+  }
+  
+  .mobile-homepage .our-remittance-api-s-qujsfd.bp2-animate-enter19 {
+    animation: bp2-animate-enter19-frames 0.20s ease-in-out 0.70s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+  
+  @keyframes bp2-animate-enter19-frames {
+    from{opacity: 0;
+  transform: translate(0, 25px);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .tabs-qujsfd {
+    background-color: transparent;
+    height: 232px;
+    left: calc(50.00% - 170px);
+    position: absolute;
+    top: 4130px;
+    width: 339px;
+  }
+  
+  .mobile-homepage .vector-5-LkwvPL {
+    background-color: transparent;
+    height: 97px;
+    left: calc(50.00% - 147px);
+    position: absolute;
+    top: 25px;
+    width: 317px;
+  }
+  
+  .mobile-homepage .vector-6-LkwvPL {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 33px);
+    position: absolute;
+    top: 191px;
+    width: 202px;
+  }
+  
+  .mobile-homepage .vector-7-LkwvPL {
+    background-color: transparent;
+    height: 120px;
+    left: calc(50.00% - 170px);
+    position: absolute;
+    top: 112px;
+    width: 58px;
+  }
+  
+  .mobile-homepage .image-LkwvPL {
+    background-color: transparent;
+    height: 183px;
+    left: calc(50.00% - 158px);
+    position: absolute;
+    top: 35px;
+    width: 313px;
+  }
+  
+  .mobile-homepage .rectangle-109-cdudrr {
+    background-color: var(--shark);
+    box-shadow: 11px 12px 16px #0000009e;
+    height: 183px;
+    left: calc(50.00% - 156px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 1px;
+    width: 313px;
+  }
+  
+  .mobile-homepage .api-async-cdudrr {
+    background-color: transparent;
+    display: block;
+    height: 184px;
+    left: calc(50.00% - 156px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 313px;
+  }
+  
+  .mobile-homepage .api-async-cdudrr.bp2-animate-enter20 {
+    animation: bp2-animate-enter20-frames 0.20s ease-in-out 0.70s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter20-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .get-fx-LkwvPL {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% - 51px);
+    position: absolute;
+    top: 0px;
+    width: 99px;
+  }
+  
+  .mobile-homepage .rectangle-111-O4lNUx {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% - 50px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 98px;
+  }
+  
+  .mobile-homepage .get-fx-rate-O4lNUx {
+    background-color: transparent;
+    color: var(--ebony-clay);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 700;
+    height: 25px;
+    left: calc(50.00% - 50px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 97px;
+  }
+  
+  .mobile-homepage .get-price-LkwvPL {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% + 47px);
+    position: absolute;
+    top: 0px;
+    width: 99px;
+  }
+  
+  .mobile-homepage .rectangle-112-kUWRox {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% - 50px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 98px;
+  }
+  
+  .mobile-homepage .get-price-kUWRox {
+    background-color: transparent;
+    color: var(--ebony-clay);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 700;
+    height: 25px;
+    left: calc(50.00% - 50px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 97px;
+  }
+  
+  .mobile-homepage .code-LkwvPL {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% - 149px);
+    position: absolute;
+    top: 0px;
+    width: 99px;
+  }
+  
+  .mobile-homepage .rectangle-111-rpFmxG {
+    background-color: transparent;
+    height: 25px;
+    left: calc(50.00% - 50px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 98px;
+  }
+  
+  .mobile-homepage .code-rpFmxG {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 700;
+    height: 25px;
+    left: calc(50.00% - 50px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 97px;
+  }
+  
+  .mobile-homepage .bottom-texts-qujsfd {
+    background-color: transparent;
+    height: 302px;
+    left: calc(50.00% - 137px);
+    position: absolute;
+    top: 4426px;
+    width: 312px;
+  }
+  
+  .mobile-homepage .our-api-architecture-cvev6f {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 155px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 33px;
+    width: 279px;
+  }
+  
+  .mobile-homepage .robust-cvev6f {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 155px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 68px;
+  }
+  
+  .mobile-homepage .secure-cvev6f {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 155px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 226px;
+    width: 257px;
+  }
+  
+  .mobile-homepage .following-latest-sec-cvev6f {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 156px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 259px;
+    width: 300px;
+  }
+  
+  .mobile-homepage .scalable-cvev6f {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 156px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 116px;
+    width: 257px;
+  }
+  
+  .mobile-homepage .serve-millions-of-us-cvev6f {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 156px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 149px;
+    width: 257px;
+  }
+  
+  .mobile-homepage .partnerships-qujsfd {
+    background-color: transparent;
+    height: 391px;
+    left: calc(50.00% - 170px);
+    position: absolute;
+    top: 4759px;
+    width: 343px;
+  }
+  
+  .mobile-homepage .rectangle-91-RBdLCu {
+    background-color: var(--shark);
+    border: 5px solid var(--white);
+    height: 391px;
+    left: calc(50.00% - 172px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 339px;
+  }
+  
+  .mobile-homepage .line-2-RBdLCu {
+    background-color: transparent;
+    height: 1px;
+    left: calc(50.00% - 147px);
+    position: absolute;
+    top: 192px;
+    width: 282px;
+  }
+  
+  .mobile-homepage .group-100-RBdLCu {
+    background-color: transparent;
+    height: 180px;
+    left: 44px;
+    position: absolute;
+    top: 151px;
+    width: 253px;
+  }
+  
+  .mobile-homepage .group-44-nrzUja {
+    background-color: transparent;
+    height: 27px;
+    left: calc(50.00% - 115px);
+    position: absolute;
+    top: 0px;
+    width: 232px;
+  }
+  
+  .mobile-homepage .artboard-1-1-vVV7dw {
+    background-color: transparent;
+    height: 26px;
+    left: calc(50.00% + 49px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 1px;
+    width: 26px;
+  }
+  
+  .mobile-homepage .bottom_-ring-ZLM6y5 {
+    background-color: transparent;
+    height: 80.78%;
+    left: -0.92%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 20.14%;
+    width: 80.78%;
+  }
+  
+  .mobile-homepage .top_-ring-ZLM6y5 {
+    background-color: transparent;
+    height: 80.78%;
+    left: 20.14%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: -0.92%;
+    width: 80.78%;
+  }
+  
+  .mobile-homepage .rings_-overlap-ZLM6y5 {
+    background-color: transparent;
+    height: 59.62%;
+    left: 20.19%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 20.19%;
+    width: 59.62%;
+  }
+  
+  .mobile-homepage .rippl-vVV7dw {
+    background-color: transparent;
+    height: 15px;
+    left: calc(50.00% - 27px);
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 9px;
+    width: 50px;
+  }
+  
+  .mobile-homepage .vector-8Jmrad {
+    background-color: transparent;
+    height: 54.71%;
+    left: 27.33%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 22.90%;
+    width: 10.02%;
+  }
+  
+  .mobile-homepage .vector-zQfLsx {
+    background-color: transparent;
+    height: 78.64%;
+    left: 37.76%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: -1.57%;
+    width: 6.01%;
+  }
+  
+  .mobile-homepage .vector-nAYXPr {
+    background-color: transparent;
+    height: 78.64%;
+    left: 46.00%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 23.18%;
+    width: 15.03%;
+  }
+  
+  .mobile-homepage .vector-UExn7f {
+    background-color: transparent;
+    height: 75.22%;
+    left: 79.68%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 1.67%;
+    width: 5.01%;
+  }
+  
+  .mobile-homepage .vector-DdwQzm {
+    background-color: transparent;
+    height: 54.71%;
+    left: 86.16%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 23.41%;
+    width: 14.03%;
+  }
+  
+  .mobile-homepage .vector-4yxsnS {
+    background-color: transparent;
+    height: 78.64%;
+    left: 62.59%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 23.18%;
+    width: 16.03%;
+  }
+  
+  .mobile-homepage .vector-h8WzEb {
+    background-color: transparent;
+    height: 88.90%;
+    left: -0.29%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 3.69%;
+    width: 23.04%;
+  }
+  
+  .mobile-homepage .celo-vVV7dw {
+    background-color: transparent;
+    height: 10px;
+    left: calc(50.00% + 79px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 11px;
+    width: 38px;
+  }
+  
+  .mobile-homepage .logo_footer-1-vVV7dw {
+    background-color: transparent;
+    height: 27px;
+    left: calc(50.00% - 116px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 58px;
+  }
+  
+  .mobile-homepage .group-45-nrzUja {
+    background-color: transparent;
+    height: 124px;
+    left: calc(50.00% - 127px);
+    position: absolute;
+    top: 55px;
+    width: 253px;
+  }
+  
+  .mobile-homepage .vector-nW5wWj {
+    background-color: transparent;
+    height: 19px;
+    left: calc(50.00% - 22px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 46px;
+    width: 35px;
+  }
+  
+  .mobile-homepage .d-au1-v-vb-visgik1-y-nW5wWj {
+    background-color: transparent;
+    height: 68px;
+    left: calc(50.00% + 33px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 22px;
+    width: 68px;
+  }
+  
+  .mobile-homepage .vector-Hygbyv {
+    background-color: transparent;
+    height: 19px;
+    left: calc(50.00% - 102px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 46px;
+    width: 64px;
+  }
+  
+  .mobile-homepage .european-funds-1-nW5wWj {
+    background-color: transparent;
+    height: 31px;
+    left: calc(50.00% - 30px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 54px;
+  }
+  
+  .mobile-homepage .en-logo-1-nW5wWj {
+    background-color: transparent;
+    height: 26px;
+    left: calc(50.00% - 31px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 92px;
+  }
+  
+  .mobile-homepage .knick-capital-1-nW5wWj {
+    background-color: transparent;
+    height: 50px;
+    left: calc(50.00% + 77px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 75px;
+    width: 50px;
+  }
+  
+  .mobile-homepage .coins-ph-1-nW5wWj {
+    background-color: transparent;
+    height: 17px;
+    left: calc(50.00% - 120px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 61px;
+  }
+  
+  .mobile-homepage .barclays_-accelerator_-logo_16_9medium-1-nW5wWj {
+    background-color: transparent;
+    height: 24px;
+    left: calc(50.00% - 127px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 74px;
+  }
+  
+  .mobile-homepage .evolve-1-nW5wWj {
+    background-color: transparent;
+    height: 19px;
+    left: calc(50.00% + 42px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 7px;
+    width: 79px;
+  }
+  
+  .mobile-homepage .we-are-fortunate-to-RBdLCu {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 500;
+    height: auto;
+    left: calc(50.00% - 148px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 83px;
+    width: 293px;
+  }
+  
+  .mobile-homepage .partners-RBdLCu {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 89px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    width: 176px;
+  }
+  
+  .mobile-homepage .send-friend-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    left: calc(50.00% - 50px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 172px;
+    transform: scale(1.1);
+    width: auto;
+  }
+  
+  .mobile-homepage .send-friend-qujsfd.bp2-animate-enter21 {
+    animation: bp2-animate-enter21-frames 1.00s ease-in-out 0.45s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  @keyframes bp2-animate-enter21-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-homepage .footer-qujsfd {
+    background-color: transparent;
+    height: 5.05%;
+    left: 0.28%;
+    position: absolute;
+    top: 94.95%;
+    width: 100%;
+  }
+  
+  .mobile-homepage .rectangle-89-pj8Nh2 {
+    background-color: var(--eerie-black);
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .mobile-homepage .rectangle-40-pj8Nh2 {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 34.17%;
+    left: 5.00%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 7.55%;
+    width: 89.44%;
+  }
+  
+  .mobile-homepage .to-learn-more-about-send-friend-pj8Nh2 {
+    background-color: transparent;
+    height: 33.81%;
+    left: 5.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 7.55%;
+    width: 89.44%;
+  }
+  
+  .mobile-homepage .span0-P9XVYF {
+  }
+  
+  .mobile-homepage .span1-P9XVYF {
+  }
+  
+  .mobile-homepage .line-1-pj8Nh2 {
+    background-color: transparent;
+    height: 0.36%;
+    left: 15.81%;
+    position: absolute;
+    top: 73.20%;
+    width: 71.25%;
+  }
+  
+  .mobile-homepage .asset-1bg1-1-2-pj8Nh2 {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 15.83%;
+  }
+  
+  .mobile-homepage .x-pj8Nh2 {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 35px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 214px;
+    width: 8px;
+  }
+  
+  .mobile-homepage .x-6tUL0F {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 29px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 214px;
+    width: 8px;
+  }
+  
+  .mobile-homepage .linked-in-pj8Nh2 {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 46px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 218px;
+    width: 51px;
+  }
+  
+  .mobile-homepage .twitter-pj8Nh2 {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 17px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 218px;
+    width: 42px;
+  }
+  
+  .mobile-homepage .facebook-pj8Nh2 {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 96px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 218px;
+    width: 57px;
+  }
+  
+  .mobile-homepage .x2021-send-friend-all-rights-reserved-pj8Nh2 {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 89px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 248px;
+    width: auto;
+  }
+  
+  .mobile-homepage .contact-us-pj8Nh2 {
+    background-color: transparent;
+    display: block;
+    height: 42px;
+    left: calc(50.00% + 11px);
+    opacity: 0;
+    position: absolute;
+    top: 139px;
+    transform: translate(100px, 0);
+    width: 146px;
+  }
+  
+  .mobile-homepage .contact-us-pj8Nh2.bp2-animate-enter22 {
+    animation: bp2-animate-enter22-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(100px, 0);
+  }
+  
+  @keyframes bp2-animate-enter22-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-homepage .rectangle-1-p9bmKV {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 41px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 1px;
+    transition: all 0.2s ease;
+    width: 144px;
+  }
+  
+  .mobile-homepage .rectangle-1-p9bmKV:hover {
+    background-color: #0FCFB0
+  }
+  
+  .mobile-homepage .contact-us-p9bmKV {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-homepage .logo-pj8Nh2 {
+    background-color: transparent;
+    height: 70px;
+    left: calc(50.00% - 151px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 125px;
+    width: 88px;
+  }
+  
+  .mobile-homepage .frame-131-kFw7fd {
+    background-color: var(--eerie-black);
+    height: 70px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: relative;
+    top: 0px;
+    width: 88px;
+  }
+  
+  .mobile-homepage .logo_menu-2-oxgJkC {
+    background-color: transparent;
+    height: 54px;
+    left: 6px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 76px;
+  }
+  
+  .mobile-homepage .group-130-qujsfd {
+    background-color: transparent;
+    height: 50px;
+    left: calc(50.00% - 115px);
+    position: absolute;
+    top: 559px;
+    width: 60px;
+  }
+  
+  .mobile-homepage .rectangle-101-7awJUp {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 50px;
+    left: calc(50.00% - 30px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease-in-out;
+    width: 58px;
+  }
+  
+  .mobile-homepage .rectangle-101-7awJUp:hover {
+    transform: translate(0, -5px);
+  }
+  
+  .mobile-homepage .cheaper-7awJUp {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 30px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    width: 58px;
+  }
+  
+  .mobile-homepage .x4-7awJUp {
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 20px;
+    left: calc(50.00% - 11px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 9px;
+    transition: all 0.2s ease-in;
+    width: 20px;
+  }
+  
+  .mobile-homepage .x4-7awJUp.bp2-animate-enter23 {
+    animation: bp2-animate-enter23-frames 0.20s ease-in 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter23-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .x4-7awJUp:hover {
+    transform: translate(0, -5px);
+  }
+  
+  .mobile-homepage .group-131-qujsfd {
+    background-color: transparent;
+    height: 50px;
+    left: calc(50.00% - 57px);
+    position: absolute;
+    top: 559px;
+    width: 60px;
+  }
+  
+  .mobile-homepage .rectangle-102-7LXeRP {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 50px;
+    left: calc(50.00% - 30px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease-in-out;
+    width: 58px;
+  }
+  
+  .mobile-homepage .rectangle-102-7LXeRP:hover {
+    transform: translate(0, -5px);
+  }
+  
+  .mobile-homepage .faster-7LXeRP {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 30px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    width: 58px;
+  }
+  
+  .mobile-homepage .x5-7LXeRP {
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 21px;
+    left: calc(50.00% - 11px);
+    mix-blend-mode: normal;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 8px;
+    transition: all 0.2s ease;
+    width: 21px;
+  }
+  
+  .mobile-homepage .x5-7LXeRP.bp2-animate-enter24 {
+    animation: bp2-animate-enter24-frames 0.20s ease-in 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter24-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .x5-7LXeRP:hover {
+    transform: translate(0, -5px);
+  }
+  
+  .mobile-homepage .group-132-qujsfd {
+    background-color: transparent;
+    height: 50px;
+    left: calc(50.00% + 1px);
+    position: absolute;
+    top: 559px;
+    width: 60px;
+  }
+  
+  .mobile-homepage .rectangle-103-DYvcOX {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 50px;
+    left: calc(50.00% - 30px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease-in-out;
+    width: 58px;
+  }
+  
+  .mobile-homepage .rectangle-103-DYvcOX:hover {
+    transform: translate(0, -5px);
+  }
+  
+  .mobile-homepage .multichain-DYvcOX {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 30px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    width: 58px;
+  }
+  
+  .mobile-homepage .eos-iconsblockchain-DYvcOX {
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 22px;
+    left: calc(50.00% - 12px);
+    mix-blend-mode: normal;
+    opacity: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 9px;
+    transition: all 0.2s ease;
+    width: 22px;
+  }
+  
+  .mobile-homepage .eos-iconsblockchain-DYvcOX.bp2-animate-enter25 {
+    animation: bp2-animate-enter25-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp2-animate-enter25-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .mobile-homepage .eos-iconsblockchain-DYvcOX:hover {
+    transform: rotate(15deg);
+  }
+  
+  .mobile-homepage .group-133-qujsfd {
+    background-color: transparent;
+    height: 50px;
+    left: calc(50.00% + 59px);
+    position: absolute;
+    top: 559px;
+    width: 60px;
+  }
+  
+  .mobile-homepage .rectangle-104-6HuZwK {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 50px;
+    left: calc(50.00% - 30px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease-in-out;
+    width: 58px;
+  }
+  
+  .mobile-homepage .rectangle-104-6HuZwK:hover {
+    transform: translate(0, -5px);
+  }
+  
+  .mobile-homepage .more-secure-6HuZwK {
+    background-color: transparent;
+    height: 7px;
+    left: calc(50.00% - 30px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 36px;
+    width: 58px;
+  }
+  
+  .mobile-homepage .group-6HuZwK {
+    background-color: transparent;
+    cursor: pointer;
+    height: 21px;
+    left: calc(50.00% - 10px);
+    pointer-events: auto;
+    position: absolute;
+    top: 9px;
+    transition: all 0.2s ease;
+    width: 19px;
+  }
+  
+  .mobile-homepage .group-6HuZwK:hover {
+    transform: scale(1.1);
+  }
+  
+  .mobile-homepage .vector-15vxSa {
+    background-color: transparent;
+    height: 22px;
+    left: calc(50.00% - 10px);
+    position: absolute;
+    top: 0px;
+    width: 19px;
+  }
+  
+  .mobile-homepage .vector-HFRxah {
+    background-color: transparent;
+    height: 8px;
+    left: calc(50.00% - 2px);
+    position: absolute;
+    top: 7px;
+    width: 4px;
+  }
+
+
+
+  .iphone-8-1.screen{
+    display: block;
+  }
+
+
+  
+  .iphone-8-1 .group-Ap9U61 {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 22px;
+    pointer-events: auto;
+    position: absolute;
+    top: 13px;
+    transition: all 0.2s ease;
+    width: 47px;
+}
+
+.iphone-8-1 .group-Ap9U61:hover {
+  transform: scale(1.1);
+}
+
+  .iphone-8-1 .eos-iconsblockchain-Ap9U61 {
+    background-color: transparent;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    left: 23px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    pointer-events: auto;
+    position: absolute;
+    top: 14px;
+    transition: all 0.2s ease;
+    width: 48px;
+}
+  
+  .iphone-8-1 .eos-iconsblockchain-Ap9U61.bp1-animate-enter24 {
+    animation: bp1-animate-enter24-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+  }
+  
+  @keyframes bp1-animate-enter24-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+  }
+  
+  .iphone-8-1 .eos-iconsblockchain-Ap9U61:hover {
+    transform: rotate(15deg);
+  }
+
+  .iphone-8-1 .rectangle-104-Ap9U61 {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 90px;
+    left: 206px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 483px;
+    transition: all 0.2s ease-in-out;
+    width: 90px;
+    z-index: 1;
+}
+  
+  .iphone-8-1 .rectangle-104-Ap9U61:hover {
+    transform: translate(0, -5px);
+  }
+  
+
+  .iphone-8-1 .rectangle-103-Ap9U61 {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 90px;
+    left: 142px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 483px;
+    transition: all 0.2s ease-in-out;
+    width: 90px;
+    z-index: 1;
+}
+  
+  .iphone-8-1 .rectangle-103-Ap9U61:hover {
+    transform: translate(0, -5px);
+  }
+
+  .iphone-8-1  .rectangle-102-Ap9U61 {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 90px;
+    left: 78px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 483px;
+    transition: all 0.2s ease-in-out;
+    width: 90px;
+    z-index: 1;
+}
+  
+  .iphone-8-1 .rectangle-102-Ap9U61:hover {
+    transform: translate(0, -5px);
+  }
   
   .iphone-8-1 .rectangle-110-c0Knzr {
   background-color: #ffffff;
@@ -3108,8 +5880,154 @@ to{opacity: 1;
   transform: translate(0, -5px);
   background-color: #252A30;
 }
+.iphone-8-1 .rectangle-101-Ap9U61 {
+  background-color: var(--white);
+  cursor: pointer;
+  height: 90px;
+  left: 14px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  top: 483px;
+  transition: all 0.2s ease-in-out;
+  width: 90px;
+  z-index: 1;
+}
 
-.iphone-8-1 .rectangle-111-c0Knzr {
+.iphone-8-1 .rectangle-101-Ap9U61:hover {
+  transform: translate(0, -5px);
+}
+
+.iphone-8-1  .x3-Ap9U61 {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  left: 26px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 14px;
+  transition: all 0.2s ease-in;
+  width: 46px;
+}
+
+.iphone-8-1  .x3-Ap9U61.bp1-animate-enter22 {
+  animation: bp1-animate-enter22-frames 0.20s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp1-animate-enter22-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .x3-Ap9U61:hover {
+  transform: translate(0, -5px);
+}
+
+.iphone-8-1 .x2-Ap9U61 {
+  background-color: transparent;
+  cursor: pointer;
+  display: block;
+  height: auto;
+  left: 26px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  opacity: 0;
+  pointer-events: auto;
+  position: absolute;
+  top: 14px;
+  transition: all 0.2s ease;
+  width: 47px;
+}
+
+.iphone-8-1 .x2-Ap9U61.bp1-animate-enter23 {
+  animation: bp1-animate-enter23-frames 0.20s ease-in 0.00s 1 normal forwards;
+  display: block;
+  opacity: 0;
+}
+
+@keyframes bp1-animate-enter23-frames {
+  from{opacity: 0;
+}
+to{opacity: 1;
+}
+}
+
+.iphone-8-1 .x2-Ap9U61:hover {
+  transform: translate(0, -5px);
+}
+
+.iphone-8-1 .faster-Ap9U61 {
+  background-color: transparent;
+  height: auto;
+  left: 29px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 69px;
+  width: auto;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.iphone-8-1 .multichain-Ap9U61 {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  font-size: 10px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: auto;
+  font-weight: 700;
+}
+.iphone-8-1 .cheaper-Ap9U61 {
+  background-color: transparent;
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 21px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 67px;
+  width: auto;
+}
+
+.iphone-8-1 .more-secure-Ap9U61 {
+  background-color: transparent;
+  height: auto;
+  left: 6px;
+  /* padding: 3px; */
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: auto;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.iphone-8-1  .rectangle-111-c0Knzr {
   background-color: #ffffff;
   height: 46px;
   cursor: pointer;
@@ -3122,6 +6040,9 @@ to{opacity: 1;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
+
+
 .iphone-8-1 .rectangle-111-c0Knzr:hover{
   transform: translate(0, -5px);
   background-color: #252A30;
@@ -3207,7 +6128,7 @@ to{opacity: 1;
   overflow: hidden;
   overflow-x: hidden;
   position: relative;
-  width: 375px;
+  width: 100%;
 }
 
 .iphone-8-1 .frame-8-TZ6asu {
@@ -3218,14 +6139,14 @@ to{opacity: 1;
   overflow: hidden;
   position: absolute;
   top: 0px;
-  width: 375px;
+  width: 100%;
 }
 
 .iphone-8-1 .hamburger-8LCNNa {
   background-color: transparent;
   cursor: pointer;
   height: 26px;
-  left: 299px;
+  left: 311px;
   overflow: hidden;
   position: relative;
   top: 19px;
@@ -3262,13 +6183,13 @@ to{opacity: 1;
 .iphone-8-1 .slider-homepage-1-TZ6asu {
   background-color: transparent;
   display: block;
-  height: 526px;
-  left: 0px;
+  height: 522px;
   mix-blend-mode: normal;
   opacity: 0;
   position: absolute;
   top: 63px;
-  width: 375px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .iphone-8-1 .slider-homepage-1-TZ6asu.bp2-animate-enter {
@@ -3289,15 +6210,14 @@ to{opacity: 1;
   font-family: var(--font-family-montserrat-extrabold);
   font-size: 24px;
   font-weight: 800;
-  left: 77px;
   letter-spacing: 0;
   line-height: 25.8px;
   opacity: 0;
   position: absolute;
   text-align: center;
-  top: 239px;
+  top: 191px;
   transform: scale(1.1);
-  width: 237px;
+  width: 100%;
 }
 
 .iphone-8-1 .span0-SlmvD4 {
@@ -3335,16 +6255,15 @@ transform: scale(1);
   font-style: normal;
   font-weight: 700;
   height: auto;
-  left: 133px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   opacity: 0;
   position: absolute;
-  text-align: left;
-  top: 186px;
+  text-align: center;
+  top: 144px;
   transform: scale(1.1);
-  width: 119px;
+  width: 100%;
 }
 
 .iphone-8-1 .send-friend-TZ6asu.bp2-animate-enter2 {
@@ -3367,16 +6286,17 @@ transform: scale(1);
   background-color: transparent;
   display: block;
   height: auto;
-  left: 87px;
+  left: 7px;
   letter-spacing: 0.00px;
   line-height: 26.5px;
   mix-blend-mode: normal;
   opacity: 0;
   position: absolute;
   text-align: center;
-  top: 348px;
+  top: 299px;
+  padding: 0px 53px;
   transform: scale(1.1);
-  width: 202px;
+  width: 100%;
 }
 
 .iphone-8-1 .we-are-cheaper-faste-TZ6asu.bp2-animate-enter3 {
@@ -3399,10 +6319,10 @@ transform: scale(1);
   background-color: transparent;
   display: block;
   height: 42px;
-  left: 113px;
+  left: 127px;
   opacity: 0;
   position: absolute;
-  top: 475px;
+  top: 383px;
   transform: translate(100px, 0);
   width: 152px;
 }
@@ -3455,12 +6375,13 @@ transform: translate(0,0);
 
 .iphone-8-1 .rectangle-106-TZ6asu {
   background-color: transparent;
-  height: 1163px;
-  left: 0px;
+  height: 1242px;
+  left: 0;
   mix-blend-mode: normal;
   position: absolute;
-  top: 584px;
-  width: 375px;
+  top: 536px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .iphone-8-1 .send-friend-delivers-TZ6asu {
@@ -3472,6 +6393,17 @@ transform: translate(0,0);
   position: absolute;
   text-align: center;
   top: 656px;
+  width: 257px;
+}
+.iphone-8-1 .send-friend-delivers-TZ6asu1 {
+  background-color: transparent;
+  height: auto;
+  left: 59px;
+  letter-spacing: 0.00px;
+  line-height: 25.1px;
+  position: absolute;
+  text-align: center;
+  top: 610px;
   width: 257px;
 }
 
@@ -4045,7 +6977,17 @@ transform: scale(1);
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 1247px;
+  top: 1245px;
+  width: 20px;
+}
+.iphone-8-1 .ant-designcheck-circle-outlined-TZ6asu3 {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1246px;
   width: 20px;
 }
 
@@ -4076,7 +7018,7 @@ transform: scale(1);
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 1281px;
+  top: 1277px;
   width: 20px;
 }
 
@@ -4107,7 +7049,27 @@ transform: scale(1);
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 1323px;
+  top: 1320px;
+  width: 20px;
+}
+.iphone-8-1 .ant-designcheck-circle-outlined-TVjoxU1 {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1335px;
+  width: 20px;
+}
+.iphone-8-1 .ant-designcheck-circle-outlined-TVjoxU2 {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1305px;
   width: 20px;
 }
 
@@ -4138,7 +7100,17 @@ transform: scale(1);
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 1356px;
+  top: 1353px;
+  width: 20px;
+}
+.iphone-8-1 .ant-designcheck-circle-outlined-3OxLCr1 {
+  background-color: transparent;
+  height: 20px;
+  left: 48px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1393px;
   width: 20px;
 }
 
@@ -4197,6 +7169,57 @@ transform: scale(1);
   top: 1441px;
   width: 297px;
 }
+.iphone-8-1 .our-on-chain-solutio-TZ6asu3 {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1441px;
+  width: 297px;
+}
+.iphone-8-1 .our-on-chain-solutio-TZ6asu2 {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1483px;
+  width: 297px;
+}
+.iphone-8-1 .our-on-chain-solutio-TZ6asu1 {
+  background-color: transparent;
+  color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  height: auto;
+  left: 43px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1310px;
+  width: 297px;
+}
 
 .iphone-8-1 .group-121-TZ6asu {
   background-color: transparent;
@@ -4209,8 +7232,25 @@ transform: scale(1);
   transform: translate(100px, 0);
   width: 152px;
 }
+.iphone-8-1 .group-121-TZ6asu1 {
+  background-color: transparent;
+  display: block;
+  height: 42px;
+  left: 117px;
+  opacity: 0;
+  position: absolute;
+  top: 1457px;
+  transform: translate(100px, 0);
+  width: 152px;
+}
 
 .iphone-8-1 .group-121-TZ6asu.bp2-animate-enter15 {
+  animation: bp2-animate-enter15-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+.iphone-8-1 .group-121-TZ6asu1.bp2-animate-enter15 {
   animation: bp2-animate-enter15-frames 1.20s ease-in-out 0.89s 1 normal forwards;
   display: block;
   opacity: 0;
@@ -4260,7 +7300,7 @@ transform: translate(0,0);
   background-color: transparent;
   display: block;
   height: auto;
-  left: 40px;
+  left: 59px;
   letter-spacing: 0.00px;
   line-height: 22.6px;
   opacity: 0;
@@ -4306,7 +7346,7 @@ transform: translate(0,0);
 .iphone-8-1 .servicing-internatio-TZ6asu {
   background-color: transparent;
   height: auto;
-  left: 79px;
+  left: 94px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -4319,7 +7359,7 @@ transform: translate(0,0);
 .iphone-8-1 .our-network-is-expan-TZ6asu {
   background-color: transparent;
   height: auto;
-  left: 79px;
+  left: 93px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -4332,7 +7372,7 @@ transform: translate(0,0);
 .iphone-8-1 .left_image-1-TZ6asu {
   background-color: transparent;
   height: 314px;
-  left: 28px;
+  left: 40px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
@@ -4343,7 +7383,7 @@ transform: translate(0,0);
 .iphone-8-1 .settling-payments-mo-TZ6asu {
   background-color: transparent;
   height: auto;
-  left: 56px;
+  left: 73px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -4356,7 +7396,7 @@ transform: translate(0,0);
 .iphone-8-1 .line-15-TZ6asu {
   background-color: transparent;
   height: 1px;
-  left: 73px;
+  left: 84px;
   position: absolute;
   top: 2396px;
   width: 230px;
@@ -4365,7 +7405,7 @@ transform: translate(0,0);
 .iphone-8-1 .right_image-1-TZ6asu {
   background-color: transparent;
   height: 277px;
-  left: 49px;
+  left: 63px;
   mix-blend-mode: normal;
   position: absolute;
   top: 2526px;
@@ -4375,7 +7415,7 @@ transform: translate(0,0);
 .iphone-8-1 .whether-fiat-to-fiat-TZ6asu {
   background-color: transparent;
   height: auto;
-  left: 55px;
+  left: 78px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -4387,19 +7427,19 @@ transform: translate(0,0);
 
 .iphone-8-1 .rectangle-124-TZ6asu {
   background-color: transparent;
-  height: 1090px;
+  height: auto;
   left: 0px;
   mix-blend-mode: normal;
   position: absolute;
   top: 2925px;
-  width: 375px;
+  width: 100%;
 }
 
 .iphone-8-1 .group-122-TZ6asu {
   background-color: transparent;
   display: block;
   height: 42px;
-  left: 115px;
+  left: 131px;
   opacity: 0;
   position: absolute;
   top: 3227px;
@@ -4457,7 +7497,7 @@ transform: translate(0,0);
   background-color: transparent;
   display: block;
   height: 137px;
-  left: 42px;
+  left: 55px;
   letter-spacing: 0.00px;
   line-height: 22.6px;
   opacity: 0;
@@ -4499,7 +7539,7 @@ to{opacity: 1;
   font-style: normal;
   font-weight: 600;
   height: auto;
-  left: 48px;
+  left: 65px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -4517,7 +7557,7 @@ to{opacity: 1;
   font-style: normal;
   font-weight: 600;
   height: auto;
-  left: 47px;
+  left: 65px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -4530,7 +7570,7 @@ to{opacity: 1;
 .iphone-8-1 .section-4-nifty-1-TZ6asu {
   background-color: transparent;
   height: 344px;
-  left: 1px;
+  left: 14px;
   mix-blend-mode: normal;
   position: absolute;
   top: 3491px;
@@ -4545,7 +7585,7 @@ to{opacity: 1;
   mix-blend-mode: normal;
   position: absolute;
   top: 4632px;
-  width: 375px;
+  width: 100%;
 }
 
 .iphone-8-1 .rectangle-92-TZ6asu {
@@ -4562,7 +7602,7 @@ to{opacity: 1;
   background-color: transparent;
   display: block;
   height: auto;
-  left: 49px;
+  left: 58px;
   letter-spacing: 0.00px;
   line-height: 22.6px;
   opacity: 0;
@@ -4603,7 +7643,7 @@ transform: translate(0,0);
 .iphone-8-1 .tabs-TZ6asu {
   background-color: transparent;
   height: 246px;
-  left: 8px;
+  left: 18px;
   position: absolute;
   top: 4123px;
   width: 359px;
@@ -4883,7 +7923,7 @@ to{opacity: 1;
 .iphone-8-1 .partnerships-TZ6asu {
   background-color: transparent;
   height: 391px;
-  left: 18px;
+  left: 31px;
   position: absolute;
   top: 4759px;
   width: 343px;
@@ -4970,13 +8010,13 @@ to{opacity: 1;
 
 .iphone-8-1 .black-logo-2-CJYd2x {
   background-color: transparent;
-  height: 25px;
+  height: 37px;
   left: 0px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 0px;
-  width: 68px;
+  top: -4px;
+  width: 106px;
 }
 
 .iphone-8-1 .group-14-fLT1uJ {
@@ -5029,12 +8069,12 @@ to{opacity: 1;
 
 .iphone-8-1 .ellipse-9-NWZihp {
   background-color: transparent;
-  height: 2px;
-  left: 10px;
+  height: auto;
+  left: 20px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 5px;
-  width: 3px;
+  top: 0px;
+  width: 58px;
 }
 
 .iphone-8-1 .path-47-NWZihp {
@@ -5347,12 +8387,12 @@ to{opacity: 1;
 
 .iphone-8-1 .rectangle-89-cEztxT {
   background-color: var(--eerie-black);
-  height: 229px;
-  left: 0px;
+  height: 411px;
+  left: -16px;
   mix-blend-mode: normal;
   position: absolute;
   top: 0px;
-  width: 375px;
+  width: 423px;
 }
 
 .iphone-8-1 .x-cEztxT {
@@ -5492,7 +8532,7 @@ to{opacity: 1;
 
 .iphone-8-1 .line-1-cEztxT {
   background-color: transparent;
-  height: 1px;
+  height: 2px;
   left: 59px;
   position: absolute;
   top: 141px;
@@ -5708,7 +8748,7 @@ transform: translate(0,0);
   overflow: hidden;
   position: absolute;
   top: 89px;
-  width: 31px;
+  width: 90px;
 }
 
 .iphone-8-1 .layer-2-1sfEsW {
@@ -5828,23 +8868,23 @@ transform: translate(0,0);
 
 .iphone-8-1 .rectangle-125-kxtf4O {
   background-color: var(--black);
-  height: 71px;
-  left: -6px;
+  height: 74px;
+  left: 2px;
   mix-blend-mode: normal;
   position: absolute;
-  top: -6px;
-  width: 86px;
+  top: -7px;
+  width: 95px;
 }
 
 .iphone-8-1 .original-logo-kxtf4O {
   background-color: transparent;
-  height: 44px;
-  left: 21px;
+  height: auto;
+  left: 10px;
   mix-blend-mode: normal;
   overflow: hidden;
   position: absolute;
-  top: 0px;
-  width: 33px;
+  top: 2px;
+  width: 78px;
 }
 
 .iphone-8-1 .layer-2-PxbuT8 {
@@ -6070,14 +9110,5 @@ transform: translate(0,0);
   top: 2px;
   width: 7px;
 }
-@media screen and (max-width: 1439px) {
-  .screen.homepage { 
-    display: none;
-   }
-}
-@media screen and (min-width: 1440px) {
-  .screen.iphone-8-1 { 
-    display: none;
-   }
-}
+
 }

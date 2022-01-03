@@ -1,0 +1,48 @@
+:root { 
+   
+    --font-family-montserrat: "Montserrat", Helvetica;
+  }
+
+  .montserrat-normal-white-18px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .montserrat-normal-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .montserrat-semi-bold-white-24px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .montserrat-normal-white-7px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .montserrat-semi-bold-white-9px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .montserrat-normal-white-6-5px {
+    color: var(--white);
+    font-family: var(--font-family-montserrat);
+    font-size: 6.5px;
+    font-style: normal;
+    line-height: 8.67px;
+    font-weight: 300;
+  }

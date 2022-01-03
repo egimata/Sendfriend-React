@@ -302,10 +302,6 @@
   -webkit-text-size-adjust: none;
 }
 
-.screen a {
-  display: contents;
-  text-decoration: none;
-}
 
 .container-center-horizontal {
   display: flex;
@@ -324,7 +320,7 @@
   display: none;
   height: 100%;
   opacity: 0;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
 }
@@ -1551,9 +1547,9 @@ input:focus {
   }
   
   .contact-us .friend-FjfUj9 {
-    left: 315px;
+    left: 286px;
     position: relative;
-    top: 296px;
+    top: 303px;
 }
   
   .contact-us .vector-RzPxPp {
@@ -1743,25 +1739,28 @@ input:focus {
   .iphone-13-13-pro-1 {
     align-items: flex-start;
     background-color: var(--white);
-    display: flex;
+    display: block;
+    /* position: relative; */
     height: 1884px;
     overflow: hidden;
-    width: 390px;
-  }
+    position: relative;
+    width: 100%;
+}
 
   .iphone-13-13-pro-1 .overlap-group8-1 {
     height: 1890px;
     position: relative;
-    width: 399px;
-  }
+    width: 100%;
+}
 
   .iphone-13-13-pro-1 .unsplashq8-u1-yg-ba-r-qk-1 {
-    height: 513px;
+    height: auto;
     left: 0;
     position: absolute;
     top: 63px;
-    width: 390px;
-  }
+    width: 100%;
+    object-fit: cover;
+}
 
   .iphone-13-13-pro-1 .rectangle-126 {
     background-color: var(--ebony-clay);
@@ -1770,16 +1769,16 @@ input:focus {
     opacity: 0.38;
     position: absolute;
     top: 60px;
-    width: 390px;
-  }
+    width: 100%;
+}
 
   .iphone-13-13-pro-1 .rectangle-124 {
-    height: 339px;
+    height: auto;
     left: 0;
     position: absolute;
     top: 1330px;
-    width: 390px;
-  }
+    width: 100%;
+}
 
   .iphone-13-13-pro-1 .header-text-1 {
     height: 261px;
@@ -1834,12 +1833,12 @@ input:focus {
   }
 
   .iphone-13-13-pro-1 .rectangle-106 {
-    height: 926px;
+    height: auto;
     left: 0;
     position: absolute;
     top: 574px;
-    width: 390px;
-  }
+    width: 100%;
+}
 
   .iphone-13-13-pro-1 .have-a-question-nee-1 {
     color: transparent;
@@ -2062,11 +2061,13 @@ input:focus {
   .iphone-13-13-pro-1 .i-have-a-question-about-1 {
     background-color: transparent;
     border: 0;
+    font-family: 'Montserrat';
+    font-size: 10px;
     height: 99px;
     letter-spacing: 0;
     padding: 0;
     width: 218px;
-  }
+}
 
   .iphone-13-13-pro-1 .i-have-a-question-about-1::placeholder {
     color: #a6a6a699;
@@ -2074,13 +2075,20 @@ input:focus {
 
   .iphone-13-13-pro-1 .send-button-1 {
     cursor: pointer;
-    height: 38px;
-    left: 206px;
+    height: 27px;
+    background-color: #0FCFB0;
+    border: 0;
+    border-radius: 0;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    left: 214px;
     position: absolute;
+    font-size: 10px;
     top: 1500px;
     transition: all 0.2s ease;
-    width: 110px;
-  }
+    width: 102px;
+}
 
   .iphone-13-13-pro-1 .send-button-1:hover {
     transform: scale(1.05);
@@ -2099,11 +2107,10 @@ input:focus {
 
   .iphone-13-13-pro-1 .overlap-group6-1 {
     background-color: var(--eerie-black);
-    height: 229px;
+    height: 269px;
     position: relative;
-    width: 390px;
-  }
-
+    width: 418px;
+}
   .iphone-13-13-pro-1 .text-1 {
     left: 160px;
     letter-spacing: 0;
@@ -2482,7 +2489,7 @@ input:focus {
     padding: 18px 48.9px;
     position: absolute;
     top: 0;
-    width: 390px;
+    width: 100%;
   }
 
   .iphone-13-13-pro-1 .hamburger {
@@ -2516,23 +2523,23 @@ input:focus {
 
   .iphone-13-13-pro-1 .rectangle-125 {
     background-color: var(--black);
-    height: 71px;
+    height: 74px;
     left: 48px;
     position: absolute;
     top: 13px;
-    width: 86px;
-  }
+    width: 95px;
+}
 
   .iphone-13-13-pro-1 .original-logo-2 {
     align-items: flex-start;
     display: flex;
     height: auto;
-    left: 52px;
+    left: 56px;
     overflow: hidden;
     position: absolute;
-    top: 19px;
+    top: 22px;
     width: 77px;
-  } 
+}
 
   .iphone-13-13-pro-1 .vector-container-5 {
     height: 45px;
