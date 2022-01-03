@@ -227,7 +227,7 @@ export const Contact = () => {
                             </div>
                         </a>
                         
-                        <HashLink  onClick={closeMobileMenu} smooth to="/#platform-section"  style={{ textDecoration: 'none' }}>
+                        <HashLink  onClick={closeMobileMenu} smooth to="/#platform-section-mobile"  style={{ textDecoration: 'none' }}>
                             <div class="platform-jxzQz0 montserrat-bold-white-8px">Platform</div>
                         </HashLink>
                         <HashLink smooth to="/#partnerships" style={{ textDecoration: 'none' }}>

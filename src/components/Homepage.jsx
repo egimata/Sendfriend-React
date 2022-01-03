@@ -7,18 +7,23 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
+import { useNavigate } from "react-router-dom";
 
 // import 'react-tabs/style/react-tabs.css';
 import './homepage.css'
+import { hideOverlay } from '../Helpers';
 
 
  
 export const Homepage = () => {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  let navigate = useNavigate();
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => {
+    hideOverlay ('mobile-menu', 'animate-disappear');
+  }
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
@@ -704,9 +709,9 @@ export const Homepage = () => {
                             </div>
                         </a>
                         
-                        <Link smooth to="/#platform-section" onClick={closeMobileMenu} style={{ textDecoration: 'none' }}>
+                        <HashLink smooth to="/#platform-section-mobile" onClick={closeMobileMenu} style={{ textDecoration: 'none' }}>
                             <div class="platform-jxzQz0 montserrat-bold-white-8px">Platform</div>
-                        </Link>
+                        </HashLink>
                         <Link smooth to="/#partners" onClick={closeMobileMenu} style={{ textDecoration: 'none' }}>
                             <div class="partnership-jxzQz0 montserrat-bold-white-8px">Partnership</div>
                         </Link>
@@ -756,7 +761,7 @@ export const Homepage = () => {
       </div>
       <img class="rectangle-106-qujsfd" src="img/rectangle-106-1@1x.png" />
       
-      <div id="platform-section" class="a-flexible-cross-bor-qujsfd montserrat-extra-bold-white-21px bp2-animate-enter16" show-on-scroll>
+      <div id="platform-section-mobile" class="a-flexible-cross-bor-qujsfd montserrat-extra-bold-white-21px bp2-animate-enter16" >
         <span class="span0-okPgZq montserrat-extra-bold-caribbean-green-21px"
           >A flexible cross-border payment solution<br /></span
         ><span class="span1-okPgZq montserrat-extra-bold-ebony-clay-21px">expanding its international reach</span>
