@@ -7,7 +7,6 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
-import { useNavigate } from "react-router-dom";
 
 // import 'react-tabs/style/react-tabs.css';
 import './homepage.css'
@@ -18,7 +17,6 @@ import { hideOverlay } from '../Helpers';
 export const Homepage = () => {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
-  let navigate = useNavigate();
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => {
