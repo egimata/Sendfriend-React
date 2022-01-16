@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Nav from './components/Navs/Nav';
 import { History } from "./components/History";
 import { Contact } from "./components/Contact";
 import { Leadership } from "./components/Leadership";
@@ -18,7 +19,9 @@ function App() {
       
       <Router>
         <ScrollToTop>
+        
         <Routes >
+        
           <Route path="/" element={<Homepage />} />
           <Route path="/history" element={<History />} />
           <Route path="/contact" element={<Contact />} />
