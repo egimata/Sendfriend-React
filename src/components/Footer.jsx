@@ -16,12 +16,12 @@ export const Footer = () => {
                 © 2021 SendFriend. All Rights Reserved
             </div>
             <div class="text-bUVegb montserrat-medium-white-14px"></div>
-            <a href="https://www.linkedin.com/company/sendfriend/" target="_blank">
+            <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer">
                 <div class="linked-in-bUVegb montserrat-medium-white-14px">| LinkedIn</div> 
             </a>
-            <a href="https://twitter.com/sendfriendinc" target="_blank">
+            <a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer">
                 <div class="twitter-bUVegb montserrat-medium-white-14px">Twitter</div> </a>
-            <a href="https://www.facebook.com/sendfriendinc/" target="_blank">
+            <a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer">
                 <div class="facebook-bUVegb montserrat-medium-white-14px">Facebook</div> 
             </a>
             <div class="rectangle-40-bUVegb">

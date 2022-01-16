@@ -1002,7 +1002,7 @@
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 60.43%;
+  top: 66.43%;
   width: 126px;
 }
 
@@ -1013,10 +1013,9 @@
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 77.48%;
+  top: 88.48%;
   width: 168px;
 }
-
 .history .incorporated-in-2017-4HT3Ns {
   background-color: transparent;
   height: 25.33%;
@@ -2491,12 +2490,10 @@ transform: translate(0,0);
 
 .mobile-history .vector-qLdkJR {
   background-color: transparent;
-  height: 52.78%;
-  left: 27.58%;
+  height: auto;
   mix-blend-mode: normal;
   position: absolute;
-  top: 23.87%;
-  width: 9.52%;
+  width: 100%;
 }
 
 .mobile-history .vector-j9fkxz {

@@ -1,45 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HashLink } from 'react-router-hash-link';
-import first_image from '../img/api-async-1@2x.png';
-import second_image from '../img/api-second.jpeg';
-import third_image from '../img/api-third.jpeg';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
 import "./leadership-style.css"
+import Nav from './Navs/Nav';
+import NavMobile from './Navs/NavMobile';
 
 
  
 export const Leadership = () => {
-  const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(true);
-    }
-  };
-
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropdown(false);
-    } else {
-      setDropdown(false);
-    }
-  };
  
     return (
       <div>
-              <input type="hidden" id="anPageName" name="page" value="leadership" />
+    <input type="hidden" id="anPageName" name="page" value="leadership" />
     <div class="leadership screen">
       <div class="rectangle-118-T3zxx0"></div>
-      <img class="unsplashrxp-th-owu-vg-e-T3zxx0" src="img/leadership/unsplash-rxpthowuvge@1x.png" />
+      <img class="unsplashrxp-th-owu-vg-e-T3zxx0" src="img/leadership/leadership-page.png" />
       <div class="rectangle-87-T3zxx0"></div>
       <div class="our-expert-team-T3zxx0">
         <span class="span0-isc3t7">Our expert</span><span class="span1-isc3t7">&nbsp;</span
@@ -190,72 +168,23 @@ export const Leadership = () => {
         </div>
         <div class="socials-R5Au6E">
           <div class="x-nSa34U montserrat-medium-white-14px">|</div>
-          <a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
+          <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
             ><div class="linked-in-nSa34U montserrat-medium-white-14px">LinkedIn</div> </a
-          ><a href="https://twitter.com/sendfriendinc" target="_blank"
+          ><a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"
             ><div class="twitter-nSa34U montserrat-medium-white-14px">Twitter</div> </a
-          ><a href="https://www.facebook.com/sendfriendinc/" target="_blank"
+          ><a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"
             ><div class="facebook-nSa34U montserrat-medium-white-14px">Facebook</div> </a
-          ><a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
+          ><a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
             ><div class="x-6K5FLv montserrat-medium-white-14px">|</div>
           </a>
         </div>
       </div>
 
-      <div class="header-T3zxx0">
-        <div class="top-header-3dMOFZ">
-            <a href="https://www.facebook.com/sendfriendinc/" target="_blank">
-              <img class="facebook-icon-feJqHX" src="img/leadership/facebook-icon@2x.png" />
-            </a>
-            <a href="https://twitter.com/sendfriendinc" target="_blank">
-            <img class="twitter-icon-feJqHX" src="img/leadership/twitter-icon@2x.png" />
-            </a>
-          <a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
-            ><img class="linkedin-icon-feJqHX" src="img/leadership/linkedin-icon@2x.svg" />
-          </a>
-        </div>
-        <a href="javascript:ShowOverlay('frame-6', 'animate-appear');">
-            <div class="login-button-default-3dMOFZ smart-layers-pointers border-5px-caribbean-green">
-            <div class="login-vpnv8g montserrat-bold-white-14px">LOGIN</div>
-            </div>
-        </a>
-        <div class="menu-3dMOFZ">
-            <HashLink smooth to="/#platform-section">
-            <div class="platform-oAlqox montserrat-bold-white-14px">PLATFORM</div>
-            </HashLink>
-            <HashLink smooth to="/#partners">
-                <div class="partners-oAlqox montserrat-bold-white-14px">PARTNERS</div>
-            </HashLink>
-
-          <div class="company-dropdown-kYUAzc">
-            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li
-                className='nav-item'
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
-                >
-                    <Link
-                    to='#'
-                    className='nav-links montserrat-bold-white-14px'
-                    onClick={closeMobileMenu}
-                    >
-                    COMPANY 
-                    </Link>
-                    {dropdown && <Dropdown />}<i className='fa fa-angle-down fa-lg' />
-                </li>
-            </ul>
-          </div>
-          <Link to="/contact">
-          <div class="contact-us-oAlqox montserrat-bold-white-14px">CONTACT US</div>
-          </Link>
-        </div>
-        <Link to="/">
-            <div class="logo-menu-3dMOFZ"><img class="logo_menu-2-TxDPvT" src="img/leadership/logo-menu-2-2@2x.png" /></div>
-        </Link>
-      </div>
+      <Nav />
+      
       <div class="header-text-T3zxx0 bp2-animate-enter1" show-on-scroll>
         <div class="send-friend-team-z4pxzX">
-          <span class="span0-Q23LW4">SendFriend<br /></span><span class="span1-Q23LW4">team</span>
+          <span class="span0-Q23LW4">SendFriend<br /></span><span class="span1-Q23LW4">Team</span>
         </div>
         <div class="we-are-cheaper-faste-z4pxzX montserrat-semi-bold-white-24px">
           We are cheaper, faster, more reliable and secure.
@@ -264,78 +193,25 @@ export const Leadership = () => {
       </div>
     </div>
     <div class="mobile-leadership screen">
-      <img class="unsplashrxp-th-owu-vg-e-KMEx58" src="img/leadership/unsplash-rxpthowuvge-1@2x.png" />
+      <img class="unsplashrxp-th-owu-vg-e-KMEx58" src="img/leadership/leadership-page.png" />
       <div class="rectangle-87-KMEx58"></div>
       <div class="header-text-KMEx58">
         <div class="we-are-cheaper-faste-k9JzmZ valign-text-middle montserrat-semi-bold-white-16px">
           We are cheaper, faster, more reliable and secure.
         </div>
         <div class="send-friend-team-k9JzmZ valign-text-middle">
-          <span><span class="span0-ox1gv9">SendFriend </span><span class="span1-ox1gv9">team</span> </span>
+          <span><span class="span0-ox1gv9">SendFriend </span><span class="span1-ox1gv9">Team</span> </span>
         </div>
         <div class="leadership-k9JzmZ valign-text-middle montserrat-bold-caribbean-green-18px">Leadership</div>
       </div>
-      <div class="header-KMEx58">
-        <a href="javascript:ShowOverlay('mobile-menu', 'animate-appear');">
-            <div class="hamburger-q8Yv1k">
-                <img class="vector-16-bDboLa" src="img/leadership/vector-16@2x.png" />
-                <img class="vector-17-bDboLa" src="img/leadership/vector-16@2x.png" /> 
-                <img class="vector-18-bDboLa" src="img/leadership/vector-16@2x.png" />
-            </div>
-        </a>
-        <div id="overlay-mobile-menu" class="overlay" style={{minHeight: '5881px'}}>
-                 <div class="container-center-horizontal">
-                     <div class="mobile-menu screen">
-                         <a href="javascript:HideOverlay('mobile-menu', 'animate-disappear');">
-                            <div class="close-jxzQz0">
-                            <img class="line-17-6rcJjs" src="img/line-17-1@2x.svg" />
-                            <img class="line-18-6rcJjs" src="img/line-18-1@2x.svg" />
-                            </div>
-                        </a>
-                       
-                        <HashLink smooth to="/#platform-section">
-                            <div class="platform-jxzQz0 montserrat-bold-white-8px">Platform</div>
-                        </HashLink>
-                        <HashLink smooth to="/#partners">
-                            <div class="partnership-jxzQz0 montserrat-bold-white-8px">Partnership</div>
-                        </HashLink>
-                        <div class="dropdown company-jxzQz0 ">
-                            <div class="dropbtn montserrat-bold-white-8px">Company	&#42780;</div>
-                            <div class="dropdown-content">
-                            <a href="/#/history">History</a>
-                            <HashLink to="#">
-                            Leadership</HashLink>
-                            <a href="/#/contact">Career</a>
-                            </div>
-                        </div>
-                        <a href="/#/contact">
-                            <div class="contact-jxzQz0 montserrat-bold-white-8px"> 
-                            Contact
-                            </div>
-                        </a>
-                        <a href="javascript:ShowOverlay('frame-6', 'animate-appear');">
-                            <div class="login-button-mobile-jxzQz0">
-                            <div class="group-123-tg1hNG">
-                                <div class="rectangle-100-UNPDgx smart-layers-pointers"></div>
-                                <div class="login-UNPDgx montserrat-bold-white-8px">LOGIN</div>
-                            </div>
-                            </div>
-                        </a>
-                
-                        </div>
-                    </div>
-                    </div>
-        <div class="logo-q8Yv1k">
-          <div class="frame-131-SbOZkS"><img class="logo_menu-2-upuDXj" src="img/leadership/logo-menu-2@2x.png" /></div>
-        </div>
-      </div>
+      <NavMobile />
       <div class="our-expert-team-KMEx58 valign-text-middle">
         <span
-          ><span class="span0-Xxxcpu">Our Expert</span><span class="span1-Xxxcpu">&nbsp;</span
+          ><span class="span0-Xxxcpu">Our expert</span><span class="span1-Xxxcpu">&nbsp;</span
           ><span class="span2-Xxxcpu">team</span>
         </span>
       </div>
-      <div class="team1-KMEx58">
+      <div id="david-mobile" class="team1-KMEx58">
         <img class="image-2-HuxJgL smart-layers-pointers" src="img/leadership/image-2-1@2x.png" />
         <div class="bio-HuxJgL smart-layers-pointers">
           <div class="rectangle-45-mWcmHb"></div>
@@ -359,7 +235,7 @@ export const Leadership = () => {
           with honors, and BA in International Studies from Johns Hopkins University.
         </div>
       </div>
-      <div class="team2-KMEx58">
+      <div id="roy-mobile" class="team2-KMEx58">
         <img class="image-3-UfW2Ke smart-layers-pointers" src="img/leadership/image-3-2@2x.png" />
         <div class="bio-UfW2Ke smart-layers-pointers">
           <div class="rectangle-45-irWUfd"></div>
@@ -383,7 +259,7 @@ export const Leadership = () => {
         identification. Roy holds a Masters in Mathematics from the University of Oxford (Magdalene College, Oxford
         Scholar)
       </div>
-      <div class="team5-KMEx58">
+      <div id="will-mobile" class="team5-KMEx58">
         <img class="img_8101-1-1-oxfA6n smart-layers-pointers" src="img/leadership/img-8101--1--1-1@2x.png" />
         <div class="bio-oxfA6n smart-layers-pointers">
           <div class="will-ferrer-WybKbN valign-text-middle montserrat-semi-bold-white-9px">Will Ferrer</div>
@@ -405,7 +281,7 @@ export const Leadership = () => {
           History from Amherst College.
         </div>
       </div>
-      <div class="team6-KMEx58">
+      <div id="sandra-mobile" class="team6-KMEx58">
         <img class="image-5-2cFUi5 smart-layers-pointers" src="img/leadership/image-5-1@2x.png" />
         <div class="bio-2cFUi5 smart-layers-pointers">
           <div class="rectangle-45-erd8Rf"></div>
@@ -418,7 +294,7 @@ export const Leadership = () => {
           from Yale and an MBA from the London Business School.
         </div>
       </div>
-      <div class="team7-KMEx58">
+      <div id="satwik-mobile" class="team7-KMEx58">
         <img class="image-3-cx6SIn smart-layers-pointers" src="img/leadership/image-3-3@2x.png" />
         <div class="bio-cx6SIn smart-layers-pointers">
           <div class="rectangle-45-R0XJ2c"></div>
@@ -432,7 +308,7 @@ export const Leadership = () => {
           Partners. He holds a PhD from MIT.
         </div>
       </div>
-      <div class="team4-KMEx58">
+      <div id="rafal-mobile" class="team4-KMEx58">
         <img class="rafal-1-mW9Xxr smart-layers-pointers" src="img/leadership/rafal-1-1@2x.png" />
         <div class="bio-mW9Xxr smart-layers-pointers">
           <div class="rafal-petsch-iaezLb valign-text-middle montserrat-semi-bold-white-9px">Rafal Petsch</div>
@@ -475,11 +351,11 @@ export const Leadership = () => {
         <img class="asset-1bg1-1-2-xJcTZB" src="img/leadership/asset-1bg1-1-2@2x.png" />
         <div class="x-xJcTZB montserrat-medium-white-14px">|</div>
         <div class="x-Hl09Sr montserrat-medium-white-14px">|</div>
-        <a href="https://www.linkedin.com/company/sendfriend/" target="_blank"
+        <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
           ><div class="linked-in-xJcTZB montserrat-medium-white-11px">LinkedIn</div> </a
-        ><a href="https://twitter.com/sendfriendinc" target="_blank"
+        ><a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"
           ><div class="twitter-xJcTZB montserrat-medium-white-11px">Twitter</div> </a
-        ><a href="https://www.facebook.com/sendfriendinc/" target="_blank"
+        ><a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"
           ><div class="facebook-xJcTZB montserrat-medium-white-11px">Facebook</div>
         </a>
         <div class="x2021-send-friend-all-rights-reserved-xJcTZB montserrat-medium-white-9px">

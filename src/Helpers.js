@@ -20,3 +20,35 @@ export const hideOverlay = (overlayName, animationName) => {
       }
     }
   }
+
+export const showOverlay = (overlayName, animationName) => {
+  overlayName = "overlay-" + overlayName;
+  var cssClasses = document.getElementById(overlayName).className.split(" ");
+  var last = cssClasses.slice(-1)[0];
+  if (last.lastIndexOf("animate") == -1) {
+    document.getElementById(overlayName).className =
+      document.getElementById(overlayName).className + " " + animationName;
+  }
+  
+  var overlay_id = "overlay-frame-6";
+document.getElementById(overlay_id).addEventListener(
+  "click",
+  function (event) {
+    var overlay_id = "overlay-frame-6";
+    var e = event || window.event;
+    var overlayElement = document.getElementById(overlay_id);
+    var overlayContainer = overlayElement.getElementsByClassName("frame-6");
+    var clickedDiv = e.toElement || e.target;
+    var dismissButton = clickedDiv.parentElement.id == overlay_id;
+    var clickOutsideOverlay = false;
+    if (overlayContainer.length > 0) {
+      clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+    }
+    if (dismissButton || clickOutsideOverlay) {
+      hideOverlay("frame-6", "animate-disappear");
+    }
+  },
+  false
+);
+};
+

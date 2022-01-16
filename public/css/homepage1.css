@@ -24,190 +24,6 @@
   width: 100%;
 }
 
-.homepage .header-zYNucu {
-  background-color: var(--eerie-black);
-  height: 1.97%;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.homepage .top-header-num0gs {
-  background-color: var(--caribbean-green);
-  height: 35px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
-.homepage .facebook-icon-EMXBRh {
-  background-color: transparent;
-  cursor: pointer;
-  height: 19px;
-  left: 104px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 8px;
-  width: 11px;
-}
-
-.homepage .twitter-icon-EMXBRh {
-  background-color: transparent;
-  height: 16px;
-  left: 132px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 10px;
-  width: 19px;
-}
-
-.homepage .linkedin-icon-EMXBRh {
-  background-color: transparent;
-  cursor: pointer;
-  height: 18px;
-  left: 167px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 8px;
-  width: 19px;
-}
-
-.homepage .login-button-default-num0gs {
-  background-color: var(--eerie-black);
-  border: 5px solid var(--caribbean-green);
-  cursor: pointer;
-  height: 61px;
-  mix-blend-mode: normal;
-  pointer-events: auto;
-  position: absolute;
-  right: 115px;
-  top: 44px;
-  transition: all 0.2s ease;
-  width: 173px;
-}
-
-.homepage .login-button-default-num0gs:hover {
-  transform: scale(1.1);
-}
-
-.homepage .login-Aoc3Ls {
-  background-color: transparent;
-  height: 27.87%;
-  left: 36.42%;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 36.07%;
-  width: 27.17%;
-}
-
-.homepage .menu-num0gs {
-  background-color: transparent;
-  height: 37px;
-  left: 322px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 56px;
-  width: 525px;
-}
-
-.homepage .platform-kYUAzc {
-  background-color: transparent;
-  cursor: pointer;
-  height: 45.95%;
-  left: 1.90%;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 27.03%;
-  width: 15.61%;
-}
-
-.homepage .partners-kYUAzc {
-  background-color: transparent;
-  height: 45.95%;
-  left: 27.41%;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 27.03%;
-  width: 15.23%;
-}
-
-.homepage .company-dropdown-kYUAzc {
-  background-color: transparent;
-  cursor: pointer;
-  height: 47.95%;
-  left: 71.54%;
-  position: absolute;
-  top: -102.97%;
-  width: 0.95%;
-}
-
-.homepage .vector-rLMcIQ {
-  background-color: transparent;
-  height: 52.94%;
-  left: 84.83%;
-  position: absolute;
-  top: 28.88%;
-  width: 14.85%;
-}
-
-.homepage .company-rLMcIQ {
-  background-color: transparent;
-  height: 100%;
-  left: 0px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 0px;
-  width: 81.65%;
-}
-
-.homepage .contact-us-kYUAzc {
-  background-color: transparent;
-  height: auto;
-  left: calc(50.00% + 158px);
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 10px;
-  width: auto;
-}
-
-.homepage .logo-menu-num0gs {
-  background-color: var(--eerie-black);
-  height: 109px;
-  left: 73px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 35px;
-  width: 145px;
-}
-
-.homepage .logo_menu-2-a4JE9e {
-  background-color: transparent;
-  height: 87px;
-  left: 12px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 11px;
-  width: 121px;
-}
 
 .homepage .rectangle-87-zYNucu {
   background-color: #2632388c;
@@ -1127,12 +943,9 @@ transform: rotate(0);
 }
 
 .homepage .group-101-vMHBtP {
-  background-color: transparent;
-  height: 191px;
-  left: calc(50.00% - 92px);
+  left: calc(50.00% - 96px);
   position: absolute;
   top: 86px;
-  width: 191px;
 }
 
 .homepage .vector-4zDvQN {
@@ -1247,7 +1060,7 @@ transform: rotate(0);
 .homepage .group-48-1t5IQi {
   background-color: transparent;
   height: 72px;
-  left: 27px;
+  left: 28px;
   position: absolute;
   top: 17px;
   width: 52px;
@@ -1258,19 +1071,11 @@ transform: rotate(0);
   display: block;
   height: 112px;
   left: calc(50.00% + 396px);
-  opacity: 0;
   position: absolute;
   top: 514px;
-  transform: translate(-25px, 0);
   width: 154px;
 }
 
-.homepage .arrow-3-IQUIuZ.animate-enter10 {
-  animation: animate-enter10-frames 0.50s ease-in-out 0.50s 1 normal forwards;
-  display: block;
-  opacity: 0;
-  transform: translate(-25px, 0);
-}
 
 @keyframes animate-enter10-frames {
   from{opacity: 0;
@@ -1281,7 +1086,7 @@ transform: translate(0,0);
 }
 }
 
-.homepage .arrow-5-IQUIuZ {
+.homepage .arrow-5-IQUIuZ1 {
   background-color: transparent;
   display: block;
   height: 166px;
@@ -1292,8 +1097,17 @@ transform: translate(0,0);
   transform: translate(0, 25px);
   width: 15px;
 }
+.homepage .arrow-5-IQUIuZ {
+  background-color: transparent;
+  display: block;
+  height: 166px;
+  left: calc(50.00% + 350px);
+  position: absolute;
+  top: 532px;
+  width: 15px;
+}
 
-.homepage .arrow-5-IQUIuZ.animate-enter11 {
+.homepage .arrow-5-IQUIuZ1.animate-enter11 {
   animation: animate-enter11-frames 0.70s ease-in-out 0.50s 1 normal forwards;
   display: block;
   opacity: 0;
@@ -1314,26 +1128,22 @@ transform: translate(0,0);
   display: block;
   height: 124px;
   left: calc(50.00% + 398px);
-  opacity: 0;
   position: absolute;
   top: 322px;
   width: 135px;
 }
 
-.homepage .arrow-2-IQUIuZ.animate-enter12 {
-  animation: animate-enter12-frames 1.00s ease-in-out 0.40s 1 normal forwards;
-  display: block;
-  opacity: 0;
-}
-
-@keyframes animate-enter12-frames {
-  from{opacity: 0;
-}
-to{opacity: 1;
-}
-}
 
 .homepage .arrow-1-IQUIuZ {
+  background-color: transparent;
+  display: block;
+  height: 124px;
+  left: calc(50.00% + 183px);
+  position: absolute;
+  top: 319px;
+  width: 136px;
+}
+.homepage .arrow-1-IQUIuZ1 {
   background-color: transparent;
   display: block;
   height: 124px;
@@ -1345,7 +1155,33 @@ to{opacity: 1;
   width: 136px;
 }
 
-.homepage .arrow-1-IQUIuZ.animate-enter13 {
+.homepage .arrow-1-IQUIuZ1.animate-enter13 {
+  animation: animate-enter13-frames 0.70s ease-in-out 0.40s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(0.67);
+}
+
+.homepage .arrow-6-IQUIuZ1 {
+  background-color: transparent;
+  height: 184px;
+  left: calc(50.00% + 346px);
+  position: absolute;
+  opacity: 0;
+  top: 242px;
+  transform: scale(0.67);
+  width: 15px;
+}
+.homepage .arrow-6-IQUIuZ {
+  background-color: transparent;
+  height: 184px;
+  left: calc(50.00% + 346px);
+  position: absolute;
+  top: 242px;
+  width: 15px;
+}
+
+.homepage .arrow-6-IQUIuZ1.animate-enter13 {
   animation: animate-enter13-frames 0.70s ease-in-out 0.40s 1 normal forwards;
   display: block;
   opacity: 0;
@@ -1361,14 +1197,6 @@ transform: scale(1);
 }
 }
 
-.homepage .arrow-6-IQUIuZ {
-  background-color: transparent;
-  height: 184px;
-  left: calc(50.00% + 346px);
-  position: absolute;
-  top: 242px;
-  width: 15px;
-}
 
 .homepage .x3-IQUIuZ {
   background-color: transparent;
@@ -1379,22 +1207,7 @@ transform: scale(1);
   position: absolute;
   top: 701px;
   width: 46px;
-  opacity: 0;
 }
-
-.homepage .x3-IQUIuZ1 {
-  background-color: transparent;
-  height: 45px;
-  left: calc(50.00% + 327px);
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 701px;
-  width: 46px;
-}
-
-
-
 
 .homepage .group-IQUIuZ {
   background-color: transparent;
@@ -1404,17 +1217,6 @@ transform: scale(1);
   position: absolute;
   top: 290px;
   width: 32px;
-opacity: 0;
-}
-
-.homepage .group-IQUIuZ1 {
-  background-color: transparent;
-  height: 37px;
-  left: calc(50.00% + 137px);
-  position: absolute;
-  top: 290px;
-  width: 32px;
-  
 }
 
 .homepage .eos-iconsblockchain-IQUIuZ {
@@ -1423,40 +1225,12 @@ opacity: 0;
   height: 38px;
   left: calc(50.00% + 336px);
   mix-blend-mode: normal;
-  opacity: 0;
   object-fit:fill;
   position: absolute;
   top: 169px;
   width: 38px;
   display: block;
 
-}
-.homepage .eos-iconsblockchain-IQUIuZ1 {
-  background-color: transparent;
-  display: block;
-  height: 38px;
-  left: calc(50.00% + 336px);
-  mix-blend-mode: normal;
-  opacity: 1;
-  position: absolute;
-  top: 169px;
-  width: 38px;
-}
-
-.homepage .eos-iconsblockchain-IQUIuZ.animate-enter14 {
-  animation: animate-enter14-frames 1.00s ease-in-out 0.80s 1 normal forwards;
-  display: block;
-  opacity: 0;
-}
-.homepage .x3-IQUIuZ.animate-enter14 {
-  animation: animate-enter14-frames 1.00s ease-in-out 0.80s 1 normal forwards;
-  display: block;
-  opacity: 0;
-}
-.homepage .group-IQUIuZ.animate-enter14 {
-  animation: animate-enter14-frames 1.00s ease-in-out 0.80s 1 normal forwards;
-  display: block;
-  opacity: 0;
 }
 
 @keyframes animate-enter14-frames {
@@ -1538,31 +1312,23 @@ transform: translate(0,0);
   height: 26px;
   left: calc(50.00% + 138px);
   mix-blend-mode: normal;
-  object-fit: cover;
+  object-fit: fill;
   position: absolute;
   top: 617px;
   width: 26px;
-  animation-name: stretch;
-  animation-duration: 3.0s; 
-  animation-timing-function: ease-in-out; 
-  animation-delay: 0;
-  animation-direction: alternate;
-  animation-fill-mode: none;
-  animation-play-state: running;
 }
 
-.homepage .x2-IQUIuZ1 {
-  background-color: transparent;
-  height: 26px;
-  left: calc(50.00% + 138px);
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 617px;
-  width: 26px;
-}
 
 .homepage .arrow-4-IQUIuZ {
+  background-color: transparent;
+  display: block;
+  height: 106px;
+  left: calc(50.00% + 175px);
+  position: absolute;
+  top: 514px;
+  width: 148px;
+}
+.homepage .arrow-4-IQUIuZ1 {
   background-color: transparent;
   display: block;
   height: 106px;
@@ -1574,7 +1340,7 @@ transform: translate(0,0);
   width: 148px;
 }
 
-.homepage .arrow-4-IQUIuZ.animate-enter16 {
+.homepage .arrow-4-IQUIuZ1.animate-enter16 {
   animation: animate-enter16-frames 0.60s ease-in-out 0.50s 1 normal forwards;
   display: block;
   opacity: 0;
@@ -1623,18 +1389,15 @@ transform: scale(1);
 .homepage .line-13-IQUIuZ {
   background-color: transparent;
   cursor: pointer;
-  height: 4px;
+  height: 5.4px;
   left: calc(50.00% - 421px);
   pointer-events: auto;
   position: absolute;
-  top: 56px;
+  top: 54.5px;
   transition: all 0.2s ease-in-out;
   width: 842px;
 }
 
-.homepage .line-13-IQUIuZ:hover {
-  transform: translate(0, -5px);
-}
 
 .homepage .fewer-correspondent-IQUIuZ {
   background-color: transparent;
@@ -2899,85 +2662,6 @@ to{opacity: 1;
     width: 99.44%;
   }
   
-  .mobile-homepage .header-qujsfd {
-    background-color: var(--eerie-black);
-    height: 63px;
-    left: 0px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: calc(50.00% - 2751px);
-    width: 100%;
-  }
-  
-  .mobile-homepage .hamburger-smneFN {
-    background-color: transparent;
-    cursor: pointer;
-    height: 41.27%;
-    left: 79.73%;
-    overflow: hidden;
-    position: absolute;
-    top: 30.16%;
-    width: 7.73%;
-  }
-  
-  .mobile-homepage .vector-16-y8AOCp {
-    background-color: transparent;
-    height: 13px;
-    left: 4px;
-    position: absolute;
-    top: 0px;
-    width: 24px;
-}
-  
-  .mobile-homepage .vector-17-y8AOCp {
-    background-color: transparent;
-    cursor: pointer;
-    height: 13px;
-    left: 4px;
-    position: absolute;
-    top: 6px;
-    width: 24px;
-}
-  
-  .mobile-homepage .vector-18-y8AOCp {
-    background-color: transparent;
-    height: 13px;
-    left: 4px;
-    position: absolute;
-    top: 12px;
-    width: 24px;
-}
-  
-  .mobile-homepage .logo-smneFN {
-    background-color: transparent;
-    height: 68px;
-    left: 46px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 12px;
-    width: 88px;
-  }
-  
-  .mobile-homepage .frame-131-oxZ3QX {
-    background-color: var(--eerie-black);
-    height: 68px;
-    left: 0px;
-    mix-blend-mode: normal;
-    position: relative;
-    top: 0px;
-    width: 88px;
-  }
-  
-  .mobile-homepage .logo_menu-2-ILoGHQ {
-    background-color: transparent;
-    height: 54px;
-    left: 6px;
-    mix-blend-mode: normal;
-    object-fit: cover;
-    position: absolute;
-    top: 8px;
-    width: 76px;
-  }
   
   .mobile-homepage .faster-cheaper-multi-qujsfd {
     background-color: transparent;
@@ -3333,22 +3017,16 @@ to{opacity: 1;
   }
   
   .mobile-homepage .circle-ipYMsR {
-    background-color: transparent;
-    height: 112px;
-    left: calc(50.00% - 56px);
+    left: calc(50.00% - 57px);
     position: absolute;
     top: -14px;
-    width: 112px;
   }
   
   .mobile-homepage .vector-0yrvvv {
     background-color: transparent;
-    height: 40px;
-    left: calc(50.00% + 2px);
-    mix-blend-mode: normal;
+    height: auto;
     position: absolute;
-    top: 58px;
-    width: 40px;
+    width: 114px;
   }
   
   .mobile-homepage .vector-PZk3kn {
@@ -3395,30 +3073,12 @@ to{opacity: 1;
     display: block;
     height: 68px;
     left: calc(50.00% + 19px);
-    opacity: 0;
     position: absolute;
     top: 1015px;
-    transform: translate(-25px, 0);
     width: 88px;
   }
   
-  .mobile-homepage .arrow-3-qujsfd.bp2-animate-enter7 {
-    animation: bp2-animate-enter7-frames 0.50s ease-in-out 0.50s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(-25px, 0);
-  }
-  
-  @keyframes bp2-animate-enter7-frames {
-    from{opacity: 0;
-  transform: translate(-25px, 0);
-  }
-  to{opacity: 1;
-  transform: translate(0,0);
-  }
-  }
-  
-  .mobile-homepage .arrow-5-qujsfd {
+  .mobile-homepage .arrow-5-qujsfd1 {
     background-color: transparent;
     display: block;
     height: 98px;
@@ -3429,8 +3089,18 @@ to{opacity: 1;
     transform: translate(0, 25px);
     width: 15px;
   }
+
+  .mobile-homepage .arrow-5-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 98px;
+    left: calc(50.00% - 9px);
+    position: absolute;
+    top: 1026px;
+    width: 15px;
+  }
   
-  .mobile-homepage .arrow-5-qujsfd.bp2-animate-enter8 {
+  .mobile-homepage .arrow-5-qujsfd1.bp2-animate-enter8 {
     animation: bp2-animate-enter8-frames 0.70s ease-in-out 0.50s 1 normal forwards;
     display: block;
     opacity: 0;
@@ -3451,26 +3121,22 @@ to{opacity: 1;
     display: block;
     height: 74px;
     left: calc(50.00% + 20px);
-    opacity: 0;
     position: absolute;
     top: 902px;
     width: 77px;
   }
-  
-  .mobile-homepage .arrow-2-qujsfd.bp2-animate-enter9 {
-    animation: bp2-animate-enter9-frames 1.00s ease-in-out 0.40s 1 normal forwards;
-    display: block;
-    opacity: 0;
-  }
-  
-  @keyframes bp2-animate-enter9-frames {
-    from{opacity: 0;
-  }
-  to{opacity: 1;
-  }
-  }
-  
+
   .mobile-homepage .arrow-1-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 74px;
+    left: calc(50.00% - 99px);
+    position: absolute;
+    top: 901px;
+    width: 78px;
+  }
+  
+  .mobile-homepage .arrow-1-qujsfd1 {
     background-color: transparent;
     display: block;
     height: 74px;
@@ -3481,8 +3147,9 @@ to{opacity: 1;
     transform: scale(0.67);
     width: 78px;
   }
+
   
-  .mobile-homepage .arrow-1-qujsfd.bp2-animate-enter10 {
+  .mobile-homepage .arrow-1-qujsfd1.bp2-animate-enter10 {
     animation: bp2-animate-enter10-frames 0.70s ease-in-out 0.40s 1 normal forwards;
     display: block;
     opacity: 0;
@@ -3506,8 +3173,33 @@ to{opacity: 1;
     top: 856px;
     width: 15px;
   }
+  .mobile-homepage .arrow-6-qujsfd1 {
+    background-color: transparent;
+    height: 109px;
+    left: calc(50.00% - 9px);
+    position: absolute;
+    opacity: 0;
+    top: 856px;
+    width: 15px;
+  }
+  .mobile-homepage .arrow-6-qujsfd1.bp2-animate-enter10 {
+    animation: bp2-animate-enter10-frames 0.70s ease-in-out 0.40s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(0.67);
+  }
+  
   
   .mobile-homepage .arrow-4-qujsfd {
+    background-color: transparent;
+    display: block;
+    height: 60px;
+    left: calc(50.00% - 99px);
+    position: absolute;
+    top: 1015px;
+    width: 78px;
+  }
+  .mobile-homepage .arrow-4-qujsfd1 {
     background-color: transparent;
     display: block;
     height: 60px;
@@ -3519,7 +3211,7 @@ to{opacity: 1;
     width: 78px;
   }
   
-  .mobile-homepage .arrow-4-qujsfd.bp2-animate-enter11 {
+  .mobile-homepage .arrow-4-qujsfd1.bp2-animate-enter11 {
     animation: bp2-animate-enter11-frames 0.60s ease-in-out 0.50s 1 normal forwards;
     display: block;
     opacity: 0;
@@ -3569,17 +3261,11 @@ to{opacity: 1;
     height: 22px;
     left: calc(50.00% - 13px);
     mix-blend-mode: normal;
-    opacity: 0;
     position: absolute;
     top: 811px;
     width: 22px;
   }
   
-  .mobile-homepage .eos-iconsblockchain-qujsfd.bp2-animate-enter12 {
-    animation: bp2-animate-enter12-frames 1.00s ease-in-out 0.20s 1 normal forwards;
-    display: block;
-    opacity: 0;
-  }
   
   @keyframes bp2-animate-enter12-frames {
     from{opacity: 0;
@@ -3594,28 +3280,10 @@ to{opacity: 1;
     height: 24px;
     left: calc(50.00% + 107px);
     mix-blend-mode: normal;
-    opacity: 0;
     overflow: hidden;
     position: absolute;
     top: 888px;
-    transform: translate(25px, 0);
     width: 23px;
-  }
-  
-  .mobile-homepage .carbonapi-1-qujsfd.bp2-animate-enter13 {
-    animation: bp2-animate-enter13-frames 1.00s ease-in-out 0.40s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(25px, 0);
-  }
-  
-  @keyframes bp2-animate-enter13-frames {
-    from{opacity: 0;
-  transform: translate(25px, 0);
-  }
-  to{opacity: 1;
-  transform: translate(0,0);
-  }
   }
   
   .mobile-homepage .vector-gVtUPU {
@@ -3659,34 +3327,15 @@ to{opacity: 1;
   }
   
   .mobile-homepage .blockchain-1-qujsfd {
-    background-color: transparent;
     display: block;
     height: 20px;
     left: calc(50.00% + 114px);
     mix-blend-mode: normal;
-    opacity: 0;
     position: absolute;
     top: 1075px;
-    transform: scale(0.9);
     width: 21px;
   }
-  
-  .mobile-homepage .blockchain-1-qujsfd.bp2-animate-enter14 {
-    animation: bp2-animate-enter14-frames 1.00s ease-in 0.60s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  
-  @keyframes bp2-animate-enter14-frames {
-    from{opacity: 0;
-  transform: scale(0.9);
-  }
-  to{opacity: 1;
-  transform: scale(1);
-  }
-  }
-  
+
   .mobile-homepage .check-box-1-qujsfd {
     background-color: transparent;
     height: 20px;
@@ -4892,13 +4541,13 @@ to{opacity: 1;
   .mobile-homepage .european-funds-1-nW5wWj {
     background-color: transparent;
     height: 31px;
-    left: calc(50.00% - 30px);
+    left: calc(50.00% - -26px);
     mix-blend-mode: normal;
     object-fit: cover;
     position: absolute;
     top: 0px;
     width: 54px;
-  }
+}
   
   .mobile-homepage .en-logo-1-nW5wWj {
     background-color: transparent;
@@ -4925,13 +4574,13 @@ to{opacity: 1;
   .mobile-homepage .coins-ph-1-nW5wWj {
     background-color: transparent;
     height: 17px;
-    left: calc(50.00% - 120px);
+    left: calc(50.00% - 72px);
     mix-blend-mode: normal;
     object-fit: cover;
     position: absolute;
     top: 7px;
     width: 61px;
-  }
+}
   
   .mobile-homepage .barclays_-accelerator_-logo_16_9medium-1-nW5wWj {
     background-color: transparent;
