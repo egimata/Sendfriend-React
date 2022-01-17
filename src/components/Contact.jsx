@@ -5,6 +5,7 @@ import './contact-us.css'
 import {Link} from 'react-router-dom';
 import Nav from "./Navs/Nav";
 import NavMobile from "./Navs/NavMobile";
+import Header from './Headers/Header';
 
 
 export const Contact = () => {
@@ -13,8 +14,16 @@ export const Contact = () => {
     <div>
         <input type="hidden" id="anPageName" name="page" value="contact-us" />
         <div class="contact-us screen">
+          <Nav />
+          {/* <Header 
+            text=" Contact"
+            green_text='Us'
+            subtitle='SendFriend'
+            image='img/unsplash-q8u1ygbarqk-1@1x.png'
+            under_text='We are cheaper, faster, and more reliable and secure.'
+          /> */}
       <img class="unsplashq8-u1-yg-ba-r-qk-q2xQ3x" src="img/unsplash-q8u1ygbarqk-1@1x.png" />
-      <Nav />
+      
       <div class="rectangle-87-q2xQ3x bp1-animate-enter"></div>
       <div class="header-text-q2xQ3x bp1-animate-enter1" show-on-scroll>
         <div class="contact-us-su2A3v">
