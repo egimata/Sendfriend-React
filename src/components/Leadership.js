@@ -6,6 +6,8 @@ import Dropdown from './Dropdown';
 import "./leadership-style.css"
 import Nav from './Navs/Nav';
 import NavMobile from './Navs/NavMobile';
+import Footer from './Footer/Footer';
+import FooterMobile from './Footer/FooterMobile';
 
 
  
@@ -141,44 +143,7 @@ export const Leadership = () => {
           </div>
         </div>
       </div>
-      <div class="footer-T3zxx0">
-        <div class="top-R5Au6E">
-          <div class="rectangle-40-cIdVQB"></div>
-          <div class="contact-us-cIdVQB">
-            <Link to="/contact"> 
-            <div class="rectangle-1-HxWGrw smart-layers-pointers">
-            <div class="contact-us-HxWGrw montserrat-bold-white-14px">CONTACT US</div>
-            </div>
-            </Link>
-          </div>
-          <div class="to-learn-more-about-send-friend-cIdVQB valign-text-middle montserrat-bold-white-32px">
-            <span
-              ><span class="span0-8l1jEQ montserrat-bold-white-32px-2">To learn more about</span
-              ><span class="span1-8l1jEQ montserrat-bold-caribbean-green-32px"> SendFriend</span>
-            </span>
-          </div>
-        </div>
-        <img class="asset-1bg1-1-2-R5Au6E" src="img/leadership/asset-1bg1-1-2-1@2x.png" />
-        <Link to="/">
-        <div class="logo-menu-R5Au6E"><img class="logo_menu-2-ZBtDPS" src="img/leadership/logo-menu-2-3@2x.png" /></div>
-        </Link>
-        <img class="line-1-R5Au6E" src="img/leadership/line-1-1@1x.png" />
-        <div class="x2021-send-friend-all-rights-reserved-R5Au6E montserrat-medium-white-14px">
-          © 2021 SendFriend. All Rights Reserved
-        </div>
-        <div class="socials-R5Au6E">
-          <div class="x-nSa34U montserrat-medium-white-14px">|</div>
-          <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
-            ><div class="linked-in-nSa34U montserrat-medium-white-14px">LinkedIn</div> </a
-          ><a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"
-            ><div class="twitter-nSa34U montserrat-medium-white-14px">Twitter</div> </a
-          ><a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"
-            ><div class="facebook-nSa34U montserrat-medium-white-14px">Facebook</div> </a
-          ><a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
-            ><div class="x-6K5FLv montserrat-medium-white-14px">|</div>
-          </a>
-        </div>
-      </div>
+      <Footer custom_class="section footer-section footer-section-leadership" />
 
       <Nav />
       
@@ -338,41 +303,7 @@ export const Leadership = () => {
           a graduate of INSEAD, as well as the Warsaw School of Economics.
         </div>
       </div>
-      <div class="footer-KMEx58">
-        <div class="rectangle-89-xJcTZB"></div>
-        <div class="rectangle-40-xJcTZB"></div>
-        <div class="to-learn-more-about-send-friend-xJcTZB valign-text-middle montserrat-bold-white-14px-2">
-          <span
-            ><span class="span0-9dwwYj montserrat-bold-white-14px">To learn more about</span
-            ><span class="span1-9dwwYj montserrat-bold-caribbean-green-14px"> SendFriend</span>
-          </span>
-        </div>
-        <img class="line-1-xJcTZB" src="img/leadership/line-1@2x.png" />
-        <img class="asset-1bg1-1-2-xJcTZB" src="img/leadership/asset-1bg1-1-2@2x.png" />
-        <div class="x-xJcTZB montserrat-medium-white-14px">|</div>
-        <div class="x-Hl09Sr montserrat-medium-white-14px">|</div>
-        <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
-          ><div class="linked-in-xJcTZB montserrat-medium-white-11px">LinkedIn</div> </a
-        ><a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"
-          ><div class="twitter-xJcTZB montserrat-medium-white-11px">Twitter</div> </a
-        ><a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"
-          ><div class="facebook-xJcTZB montserrat-medium-white-11px">Facebook</div>
-        </a>
-        <div class="x2021-send-friend-all-rights-reserved-xJcTZB montserrat-medium-white-9px">
-          © 2021 SendFriend. All Rights Reserved
-        </div>
-        <div class="contact-us-xJcTZB bp1-animate-enter2" show-on-scroll>
-            <Link to="/contact">
-          <div class="rectangle-1-CqxZJp smart-layers-pointers"></div>
-          <div class="contact-us-CqxZJp valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
-          </Link>
-        </div>
-        <Link to="/">
-        <div class="logo-xJcTZB">
-          <div class="frame-131-mWitQN"><img class="logo_menu-2-vkp9lZ" src="img/leadership/logo-menu-2@2x.png" /></div>
-        </div>
-        </Link>
-      </div>
+      <FooterMobile custom_class="footer footer-leadership" />
     </div>
       </div>
       );

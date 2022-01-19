@@ -293,16 +293,6 @@
   outline: none;
 }
 
-.screen * {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-
-.screen div {
-  -webkit-text-size-adjust: none;
-}
-
-
 .container-center-horizontal {
   display: flex;
   flex-direction: row;
@@ -741,12 +731,11 @@ to{opacity: 1;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 10.52%;
+top: 5.52%;
   width: 707px;
 }
 
 .contact-us .span0-qKndKo {
-  color: var(--eerie-black);
   font-family: var(--font-family-montserrat);
   font-size: 32px;
   font-style: normal;
@@ -757,7 +746,6 @@ to{opacity: 1;
 }
 
 .contact-us .span2-qKndKo {
-  color: var(--eerie-black);
   font-family: var(--font-family-montserrat);
   font-size: 32px;
   font-style: normal;
@@ -1331,7 +1319,7 @@ to{opacity: 1;
   background-color: var(--white);
   height: 100vh;
   margin: 0px;
-  min-height: 1753px;
+  min-height: 2000px;
   min-width: 360px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -1347,7 +1335,7 @@ to{opacity: 1;
   mix-blend-mode: normal;
   position: absolute;
   object-fit: cover;
-  top: 3.59%;
+  top: 2.59%;
   width: 100%;
 }
 
@@ -1358,7 +1346,7 @@ to{opacity: 1;
   mix-blend-mode: normal;
   opacity: 0.38;
   position: absolute;
-  top: 3.59%;
+  top: 2.59%;
   width: 100%;
 }
 
@@ -1479,35 +1467,35 @@ to{opacity: 1;
 
 .mobile-contact-us .rectangle-124-xM44hz {
   background-color: transparent;
-  height: 19.34%;
+  height: 39.34%;
   left: 0px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 64.92%;
+  top: 54.92%;
   width: 100%;
 }
 
 .mobile-contact-us .rectangle-106-xM44hz {
   background-color: transparent;
-  height: 49.00%;
+  height: 40%;
   left: 0px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 28.12%;
+  top:27.12%;
   object-fit: cover;
   width: 100%;
 }
 
 .mobile-contact-us .have-a-question-need-xM44hz {
   background-color: transparent;
-  height: 78px;
-  left: calc(50.00% - 127px);
+  height: 90px;
+  left: calc(50.00% - 154px);
   letter-spacing: 0.00px;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 589px;
-  width: 264px;
+  top: 598px;
+  width: 318px;
 }
 
 .mobile-contact-us .span0-QTu2o6 {

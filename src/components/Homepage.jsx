@@ -8,6 +8,8 @@ import Nav from './Navs/Nav';
 import NavMobile from './Navs/NavMobile';
 import ButtonWhite from  './Buttons/ButtonWhite'
 import Header from './Headers/Header';
+import Footer from './Footer/Footer';
+import FooterMobile from './Footer/FooterMobile';
 
 
  
@@ -17,7 +19,7 @@ export const Homepage = () => {
     return (
       <div>
        <input type="hidden" id="anPageName" name="page" value="homepage" />
-       <div class="homepage">
+       <div class="homepage main-wrapper">
          <Nav />
          <Header 
             text=" Faster, Cheaper Multi-Chain Payments"
@@ -103,9 +105,7 @@ export const Homepage = () => {
               <div class="lower-fx-costs-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Lower FX costs</div>
               <div class="no-pre-funding-burden-IQUIuZ montserrat-semi-bold-ebony-clay-14px">No pre-funding burden</div>
               <Link to="/contact">
-              
-              <ButtonWhite text='LEARN MORE' />
-              
+                <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
               <div class="multichain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Multichain</div>
@@ -188,9 +188,7 @@ export const Homepage = () => {
               <div class="lower-fx-costs-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Near-instant settlement</div>
               <div class="no-pre-funding-burden-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Money and payment metadata flow over the same systems, ensuring faster settlement</div>
               <Link to="/contact">
-              <div class="frame-134-IQUIuZ">
-              <div class="learn-more-oO60f0 montserrat-bold-eerie-black-14px">LEARN MORE</div>
-              </div>
+                <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
               <div class="multichain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Multichain</div>
@@ -265,9 +263,7 @@ export const Homepage = () => {
               We aim to offer multiple blockchain-enabled payment routing options depending on the use case, geography, and least-cost routing method
               </div>
               <Link to="/contact">
-              <div class="frame-134-IQUIuZ">
-              <div class="learn-more-oO60f0 montserrat-bold-eerie-black-14px">LEARN MORE</div>
-              </div>
+                <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
               <div class="multichain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Multichain</div>
@@ -332,9 +328,7 @@ export const Homepage = () => {
               Our blockchain-based approach leverages the added security benefits of sending monies and payment metadata over the same secure system
               </div>
               <Link to="/contact">
-              <div class="frame-134-IQUIuZ">
-              <div class="learn-more-oO60f0 montserrat-bold-eerie-black-14px">LEARN MORE</div>
-              </div>
+                <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
               <div class="multichain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Multichain</div>
@@ -542,47 +536,11 @@ export const Homepage = () => {
           <div  class="partners-5wTBPE">Partners</div>
         </div>
       </div>
-      <div class="footer-zYNucu">
-        <div class="top-bUVegb">
-          <div class="rectangle-40-1xViFa"></div>
-          <div class="contact-us-1xViFa">
-          <Link to="/contact">
-              <div class="rectangle-1-yTZA7h smart-layers-pointers">
-                <div class="contact-us-yTZA7h montserrat-bold-white-14px">CONTACT US</div>
-              </div>
-            </Link>
-          </div>
-          <div class="to-learn-more-about-send-friend-1xViFa valign-text-middle montserrat-bold-white-32px">
-            <span
-              ><span class="span0-FBAgGT montserrat-bold-white-32px-2">To learn more about</span
-              ><span class="span1-FBAgGT"> SendFriend</span>
-            </span>
-          </div>
-        </div>
-        <img class="asset-1bg1-1-2-bUVegb" src="img/homepage/asset-1bg1-1-2-1@2x.png" />
-        <HashLink smooth to="#top">
-        <div class="logo-menu-bUVegb"><img class="logo_menu-2-LDb6iG" src="img/homepage/logo-menu-2-3@2x.png" /></div>
-        </HashLink>
-        <img class="line-1-bUVegb" src="img/homepage/line-1-1@1x.png" />
-        <div class="x2021-send-friend-all-rights-reserved-bUVegb montserrat-medium-white-14px">
-          © 2021 SendFriend. All Rights Reserved
-        </div>
-        <div class="socials-bUVegb">
-          <div class="x-m9BhFT montserrat-medium-white-14px">|</div>
-          <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
-            ><div class="linked-in-m9BhFT montserrat-medium-white-14px">LinkedIn</div> </a
-          ><a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"
-            ><div class="twitter-m9BhFT montserrat-medium-white-14px">Twitter</div> </a
-          ><a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"
-            ><div class="facebook-m9BhFT montserrat-medium-white-14px">Facebook</div> </a
-          ><a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
-            ><div class="x-84xXmO montserrat-medium-white-14px">|</div>
-          </a>
-        </div>
-      </div>
+      
+      <Footer custom_class="section footer-section" />
     </div>
 
-        <div class="mobile-homepage screen">
+    <div class="mobile-homepage screen">
       <img class="slider-homepage-1-qujsfd bp2-animate-enter1" src="img/slider-homepage-1@1x.jpg" />
       <div class="rectangle-126-qujsfd"></div>
       <NavMobile />
@@ -767,41 +725,7 @@ export const Homepage = () => {
       <div class="send-friend-qujsfd montserrat-bold-caribbean-green-18px bp2-animate-enter21" show-on-scroll>
         SendFriend
       </div>
-      <div class="footer-qujsfd">
-        <div class="rectangle-89-pj8Nh2"></div>
-        <div class="rectangle-40-pj8Nh2"></div>
-        <div class="to-learn-more-about-send-friend-pj8Nh2 valign-text-middle montserrat-bold-white-14px-2">
-          <span
-            ><span class="span0-P9XVYF montserrat-bold-white-14px">To learn more about</span
-            ><span class="span1-P9XVYF montserrat-bold-caribbean-green-14px"> SendFriend</span>
-          </span>
-        </div>
-        <img class="line-1-pj8Nh2" src="img/line-1@2x.png" />
-        <img class="asset-1bg1-1-2-pj8Nh2" src="img/asset-1bg1-1-2@2x.png" />
-        <div class="x-pj8Nh2 montserrat-medium-white-14px">|</div>
-        <div class="x-6tUL0F montserrat-medium-white-14px">|</div>
-        <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"
-          ><div class="linked-in-pj8Nh2 montserrat-medium-white-11px">LinkedIn</div> </a
-        ><a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"
-          ><div class="twitter-pj8Nh2 montserrat-medium-white-11px">Twitter</div> </a
-        ><a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"
-          ><div class="facebook-pj8Nh2 montserrat-medium-white-11px">Facebook</div>
-        </a>
-        <div class="x2021-send-friend-all-rights-reserved-pj8Nh2 montserrat-medium-white-9px">
-          © 2021 SendFriend. All Rights Reserved
-        </div>
-        <div class="contact-us-pj8Nh2 bp2-animate-enter22" show-on-scroll>
-        <Link to="/contact">
-          <div class="rectangle-1-p9bmKV smart-layers-pointers"></div>
-          <div class="contact-us-p9bmKV valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
-        </Link>
-        </div>
-        <HashLink smooth to="#top">
-        <div class="logo-pj8Nh2">
-          <div class="frame-131-kFw7fd"><img class="logo_menu-2-oxgJkC" src="img/logo-menu-2@2x.png" /></div>
-        </div>
-        </HashLink>
-      </div>
+      <FooterMobile custom_class="footer footer-homepage" />
       
         <Tabs>
           <TabList>

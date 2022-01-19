@@ -38,8 +38,37 @@
   --font-family-montserrat: "Montserrat", Helvetica;
 
 }
+.montserrat-bold-coconut-14px {
+  color: var(--main-color);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.montserrat-bold-caribbean-green-21px {
+  color: var(--caribbean-green);
+  font-family: var(--font-family-montserrat);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.montserrat-medium-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-montserrat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
 .montserrat-normal-ebony-clay-13px {
   color: var(--ebony-clay);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+.montserrat-normal-white-13px {
+  color: var(--white);
   font-family: var(--font-family-montserrat);
   font-size: var(--font-size-s);
   font-style: normal;

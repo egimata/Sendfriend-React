@@ -261,7 +261,7 @@
 .history .team5-MaQ2GE {
   background-color: transparent;
   height: 8.37%;
-  left: calc(50.00% + 236px);
+  left: calc(50.00% + 31px);
   position: absolute;
   top: 65.65%;
   width: 322px;
@@ -476,6 +476,7 @@
   height: 8.48%;
   left: calc(50.00% - 161px);
   position: absolute;
+  display: none;
   top: 65.55%;
   width: 322px;
 }
@@ -580,7 +581,7 @@
 .history .team1-MaQ2GE {
   background-color: transparent;
   height: 8.48%;
-  left: calc(50.00% - 558px);
+  left: calc(50.00% - 371px);
   position: absolute;
   top: 65.55%;
   width: 322px;
@@ -2771,7 +2772,7 @@ transform: translate(0,0);
   mix-blend-mode: normal;
   position: absolute;
   object-fit: cover;
-  top: 45.01%;
+  top: 43.01%;
   width: 107.78%;
 }
 
@@ -2784,7 +2785,7 @@ transform: translate(0,0);
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
-  top: 2658px;
+  top: 2575px;
   white-space: nowrap;
   width: auto;
 }
@@ -2794,7 +2795,7 @@ transform: translate(0,0);
   height: 5.58%;
   left: calc(50.00% - 117px);
   position: absolute;
-  top: 51.19%;
+  top: 49.19%;
   width: 233px;
 }
 
@@ -2905,7 +2906,8 @@ transform: translate(0,0);
   height: 5.59%;
   left: calc(50.00% - 117px);
   position: absolute;
-  top: 58.19%;
+  top: 56.19%;
+  display:none;
   width: 233px;
 }
 
@@ -3011,7 +3013,7 @@ transform: translate(0,0);
   height: 5.93%;
   left: calc(50.00% - 116px);
   position: absolute;
-  top: 79.71%;
+  top: 73.71%;
   width: 233px;
 }
 
@@ -3118,7 +3120,7 @@ transform: translate(0,0);
   height: 5.67%;
   left: calc(50.00% - 118px);
   position: absolute;
-  top: 65.21%;
+  top: 57.21%;
   width: 234px;
 }
 
@@ -3217,7 +3219,7 @@ transform: translate(0,0);
   height: 5.98%;
   left: calc(50.00% - 116px);
   position: absolute;
-  top: 72.30%;
+  top: 65.3%;
   width: 233px;
 }
 
@@ -3324,7 +3326,7 @@ transform: translate(0,0);
   height: 5.72%;
   left: calc(50.00% - 117px);
   position: absolute;
-  top: 87.06%;
+  top: 82.06%;
   width: 234px;
 }
 

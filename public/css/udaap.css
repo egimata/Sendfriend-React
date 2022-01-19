@@ -1,0 +1,1780 @@
+/* screen - mobile-udaap */
+
+.mobile-udaap {
+    background-color: var(--white);
+    min-width: 360px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .mobile-udaap .header-6PeLo1 {
+    background-color: var(--eerie-black);
+    height: 63px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50.00% - 3108px);
+    width: 100%;
+  }
+  
+  .mobile-udaap .hamburger-clcely {
+    background-color: transparent;
+    height: 41.27%;
+    left: 79.73%;
+    overflow: hidden;
+    position: absolute;
+    top: 30.16%;
+    width: 7.73%;
+  }
+  
+  .mobile-udaap .vector-16-oqo0pB {
+    background-color: transparent;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 8px;
+    width: 17px;
+  }
+  
+  .mobile-udaap .vector-17-oqo0pB {
+    background-color: transparent;
+    cursor: pointer;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 12px;
+    width: 17px;
+  }
+  
+  .mobile-udaap .vector-18-oqo0pB {
+    background-color: transparent;
+    height: 1px;
+    left: 6px;
+    position: absolute;
+    top: 16px;
+    width: 17px;
+  }
+  
+  .mobile-udaap .logo-clcely {
+    background-color: transparent;
+    height: 68px;
+    left: 46px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 12px;
+    width: 88px;
+  }
+  
+  .mobile-udaap .frame-131-XrMV3w {
+    background-color: var(--eerie-black);
+    height: 68px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: relative;
+    top: 0px;
+    width: 88px;
+  }
+  
+  .mobile-udaap .logo_menu-2-XLjxV5 {
+    background-color: transparent;
+    height: 54px;
+    left: 6px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 76px;
+  }
+  
+  .mobile-udaap .x1-introduction-polic-6PeLo1 {
+    background-color: transparent;
+    height: auto;
+    left: 1%;
+    position: relative;
+    text-align: left;
+    top: 123px;
+    width: 89%;
+  }
+  
+  .mobile-udaap .unfair-deceptive-and-6PeLo1 {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    left: 8.61%;
+    letter-spacing: 0.00px;
+    line-height: 22.6px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    top: 117px;
+    transform: scale(1.1);
+    width: 86.94%;
+  }
+  .mobile-udaap .main-text-header{
+    background-color: transparent;
+    display: block;
+
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    transform: scale(1.1);
+
+}
+  .mobile-udaap .sub-text{
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    }
+
+  
+  .mobile-udaap .unfair-deceptive-and-6PeLo1.bp2-animate-enter2 {
+    animation: bp2-animate-enter2-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  .mobile-udaap .main-text-header.bp2-animate-enter2 {
+    animation: bp2-animate-enter2-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  @keyframes bp2-animate-enter2-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-udaap .footer-6PeLo1 {
+    background-color: var(--eerie-black);
+    height: 7.83%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 92.17%;
+    width: 100%;
+  }
+  
+  .mobile-udaap .asset-1bg1-1-2-xEVTGJ {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 15.83%;
+  }
+  
+  .mobile-udaap .rectangle-40-xEVTGJ {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 19.51%;
+    left: 5.00%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 4.31%;
+    width: 89.44%;
+  }
+  
+  .mobile-udaap .to-learn-more-about-send-friend-xEVTGJ {
+    background-color: transparent;
+    height: 19.30%;
+    left: 5.00%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 4.31%;
+    width: 89.44%;
+  }
+  
+  .mobile-udaap .span0-8TTWGr {
+  }
+  
+  .mobile-udaap .span1-8TTWGr {
+  }
+  
+  .mobile-udaap .contact-us-xEVTGJ {
+    background-color: transparent;
+    display: block;
+    height: 42px;
+    left: calc(50.00% - 3px);
+    opacity: 0;
+    position: absolute;
+    top: 133px;
+    transform: translate(100px, 0);
+    width: 146px;
+  }
+  
+  .mobile-udaap .contact-us-xEVTGJ.bp2-animate-enter3 {
+    animation: bp2-animate-enter3-frames 1.20s ease-in-out 0.89s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(100px, 0);
+  }
+  
+  @keyframes bp2-animate-enter3-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+  }
+  
+  .mobile-udaap .rectangle-1-R8KAST {
+    background-color: var(--white);
+    cursor: pointer;
+    height: 41px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 1px;
+    transition: all 0.2s ease;
+    width: 144px;
+  }
+  
+  .mobile-udaap .rectangle-1-R8KAST:hover {
+    background-color: #0FCFB0
+  }
+  
+  .mobile-udaap .contact-us-R8KAST {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 73px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-udaap .logo-xEVTGJ {
+    background-color: transparent;
+    height: 70px;
+    left: calc(50.00% - 129px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 119px;
+    width: 88px;
+  }
+  
+  .mobile-udaap .frame-131-hzJFYo {
+    background-color: var(--eerie-black);
+    height: 70px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: relative;
+    top: 0px;
+    width: 88px;
+  }
+  
+  .mobile-udaap .logo_menu-2-UxJTcH {
+    background-color: transparent;
+    height: 54px;
+    left: 6px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 8px;
+    width: 76px;
+  }
+  
+  .mobile-udaap .middle-footer-xEVTGJ {
+    background-color: transparent;
+    height: 139px;
+    left: calc(50.00% - 120px);
+    position: absolute;
+    top: 217px;
+    width: 272px;
+  }
+  
+  .mobile-udaap .company-HmVEMo {
+    background-color: transparent;
+    height: 17px;
+    left: calc(50.00% - 136px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: auto;
+  }
+  
+  .mobile-udaap .support-HmVEMo {
+    background-color: transparent;
+    height: 17px;
+    left: calc(50.00% + 13px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: auto;
+  }
+  
+  .mobile-udaap .history-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 136px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 34px;
+    width: 57px;
+  }
+  
+  .mobile-udaap .privacy-policy-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 13px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 34px;
+    width: auto;
+  }
+  
+  .mobile-udaap .leadership-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 136px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 57px;
+    width: auto;
+  }
+  
+  .mobile-udaap .state-licence-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 13px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 57px;
+    width: auto;
+  }
+  
+  .mobile-udaap .careers-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 136px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    width: auto;
+  }
+  
+  .mobile-udaap .udaap-policy-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 13px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    width: auto;
+  }
+  
+  .mobile-udaap .contact-us-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 136px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 103px;
+    width: auto;
+  }
+  
+  .mobile-udaap .complaints-policy-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 13px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 103px;
+    width: auto;
+  }
+  
+  .mobile-udaap .file-a-complaint-HmVEMo {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 13px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 126px;
+    width: auto;
+  }
+  
+  .mobile-udaap .bottom-footer-xEVTGJ {
+    background-color: transparent;
+    height: 16.63%;
+    left: 3.61%;
+    position: absolute;
+    top: 79.67%;
+    width: 96.67%;
+  }
+  
+  .mobile-udaap .line-1-eVcbJz {
+    background-color: transparent;
+    height: 1.23%;
+    left: 10.89%;
+    position: absolute;
+    top: -0.62%;
+    width: 73.71%;
+  }
+  
+  .mobile-udaap .x-eVcbJz {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 48px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 16px;
+    width: 8px;
+  }
+  
+  .mobile-udaap .x-Qc68GT {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 16px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 16px;
+    width: 8px;
+  }
+  
+  .mobile-udaap .linked-in-eVcbJz {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% + 33px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    width: 51px;
+  }
+  
+  .mobile-udaap .twitter-eVcbJz {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 30px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    width: 42px;
+  }
+  
+  .mobile-udaap .facebook-eVcbJz {
+    background-color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: calc(50.00% - 109px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    width: 57px;
+  }
+  
+  .mobile-udaap .x2022-send-friend-all-rights-reserved-eVcbJz {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 103px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 41px;
+    width: auto;
+  }
+  
+  .mobile-udaap .send-friend-is-licen-eVcbJz {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 174px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 59px;
+    width: 334px;
+  }
+  /* screen - udaap */
+  
+  .udaap {
+    background-color: var(--white);
+    margin: 0px;
+    min-width: 1200px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .udaap .header-xlDY6Y {
+    background-color: var(--eerie-black);
+    height: 4.00%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .udaap .top-header-fhXUrK {
+    background-color: var(--caribbean-green);
+    height: 35px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .udaap .facebook-icon-NVzNnM {
+    background-color: transparent;
+    cursor: pointer;
+    height: 19px;
+    left: 104px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 8px;
+    width: 11px;
+  }
+  
+  .udaap .twitter-icon-NVzNnM {
+    background-color: transparent;
+    height: 16px;
+    left: 132px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 10px;
+    width: 19px;
+  }
+  
+  .udaap .linkedin-icon-NVzNnM {
+    background-color: transparent;
+    cursor: pointer;
+    height: 18px;
+    left: 167px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 8px;
+    width: 19px;
+  }
+  
+  .udaap .login-button-default-fhXUrK {
+    background-color: var(--eerie-black);
+    cursor: pointer;
+    height: 61px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    right: 115px;
+    top: 44px;
+    transition: all 0.2s ease;
+    width: 173px;
+  }
+  
+  .udaap .login-button-default-fhXUrK:hover {
+    transform: scale(1.1);
+  }
+  
+  .udaap .login-xcc4xE {
+    background-color: transparent;
+    height: 27.87%;
+    left: 36.42%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 36.07%;
+    width: 27.17%;
+  }
+  
+  .udaap .menu-fhXUrK {
+    background-color: transparent;
+    height: 37px;
+    left: 322px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 56px;
+    width: 525px;
+  }
+  
+  .udaap .platform-GkpXF0 {
+    background-color: transparent;
+    height: 45.95%;
+    left: 1.90%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 27.03%;
+    width: 15.61%;
+  }
+  
+  .udaap .partners-GkpXF0 {
+    background-color: transparent;
+    height: 45.95%;
+    left: 27.41%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 27.03%;
+    width: 15.23%;
+  }
+  
+  .udaap .company-dropdown-GkpXF0 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 45.95%;
+    left: 52.54%;
+    position: absolute;
+    top: 27.03%;
+    width: 17.95%;
+  }
+  
+  .udaap .vector-3JavMQ {
+    background-color: transparent;
+    height: 52.94%;
+    left: 84.83%;
+    position: absolute;
+    top: 28.88%;
+    width: 14.85%;
+  }
+  
+  .udaap .company-3JavMQ {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 81.65%;
+  }
+  
+  .udaap .contact-us-GkpXF0 {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% + 158px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 10px;
+    width: auto;
+  }
+  
+  .udaap .logo-menu-fhXUrK {
+    background-color: var(--eerie-black);
+    height: 109px;
+    left: 73px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 35px;
+    width: 145px;
+  }
+  
+  .udaap .logo_menu-2-EjDhXc {
+    background-color: transparent;
+    height: 87px;
+    left: 12px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 11px;
+    width: 121px;
+  }
+  
+  .udaap .footer-xlDY6Y {
+    background-color: var(--eerie-black);
+    height: 16.91%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 83.09%;
+    width: 100%;
+  }
+  
+  .udaap .top-abcwKV {
+    background-color: transparent;
+    height: 41.55%;
+    left: 15.61%;
+    position: absolute;
+    top: 10.39%;
+    width: 71.37%;
+  }
+  
+  .udaap .rectangle-40-u6eHYI {
+    background-color: var(--shark);
+    box-shadow: 0px 12px 14px #0000001a;
+    height: 99.51%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 99.76%;
+  }
+  
+  .udaap .contact-us-u6eHYI {
+    background-color: transparent;
+    height: 26.47%;
+    left: 67.77%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 36.76%;
+    width: 32.04%;
+  }
+  
+  .udaap .rectangle-1-tGIJnP {
+    background-color: var(--caribbean-green);
+    cursor: pointer;
+    height: 54px;
+    left: calc(50.00% - 98px);
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: 0px;
+    transition: all 0.2s ease;
+    width: 196px;
+  }
+  
+  .udaap .rectangle-1-tGIJnP:hover {
+    transform: scale(1.0);
+  border: 2px solid #000000;
+  backgrund-color:#0FCFB0;
+  }
+  
+  .udaap .contact-us-tGIJnP {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 51px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 19px;
+    width: auto;
+  }
+  
+  .udaap .to-learn-more-about-send-friend-u6eHYI {
+    background-color: transparent;
+    height: 99.51%;
+    left: 7.10%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0.49%;
+    width: 54.65%;
+  }
+  
+  .udaap .span0-5VCLCr {
+  }
+  
+  .udaap .span1-5VCLCr {
+  }
+  
+  .udaap .asset-1bg1-1-2-abcwKV {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 15.62%;
+  }
+  
+  .udaap .logo-menu-abcwKV {
+    background-color: var(--eerie-black);
+    height: 31.16%;
+    left: 19.85%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 51.73%;
+    width: 14.16%;
+  }
+  
+  .udaap .logo_menu-2-6phzMi {
+    background-color: transparent;
+    height: 131px;
+    left: 12px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 11px;
+    width: 182px;
+  }
+  
+  .udaap .line-1-abcwKV {
+    background-color: transparent;
+    height: 0.61%;
+    left: 16.46%;
+    position: absolute;
+    top: 85.52%;
+    width: 67.36%;
+  }
+  
+  .udaap .x2021-send-friend-all-rights-reserved-abcwKV {
+    background-color: transparent;
+    height: 3.46%;
+    left: 16.46%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 91.24%;
+    width: 32.92%;
+  }
+  
+  .udaap .socials-abcwKV {
+    background-color: transparent;
+    height: 17px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 245px;
+    top: 448px;
+    width: 236px;
+  }
+  
+  .udaap .x-yYiKFO {
+    background-color: transparent;
+    height: 100%;
+    left: 34.20%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 3.82%;
+  }
+  
+  .udaap .linked-in-yYiKFO {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 73.31%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 26.69%;
+  }
+  
+  .udaap .twitter-yYiKFO {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 42.37%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 21.19%;
+  }
+  
+  .udaap .facebook-yYiKFO {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 0px;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 29.66%;
+  }
+  
+  .udaap .x-167IV0 {
+    background-color: transparent;
+    cursor: pointer;
+    height: 100%;
+    left: 66.53%;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 2.12%;
+  }
+  
+  .udaap .x1-introduction-polic-xlDY6Y {
+    background-color: transparent;
+    left: 8.54%;
+    position: relative;
+    text-align: left;
+    top: 91px;
+    width: 82.85%;
+}
+  .udaap .form-class {
+    background-color: transparent;
+    height: 1093px;
+    left: 8.54%;
+    position: relative;
+    text-align: left;
+    width: 82.85%;
+}
+  .mobile-udaap .form-class-mobile {
+    background-color: transparent;
+    height: 665px;
+    left: 8.54%;
+    margin-top: 64px;
+    position: relative;
+    text-align: left;
+    width: 82.85%;
+}
+.mobile-udaap .button-mobile{
+    position: relative;
+    left: calc(50% - 69px);
+    top: 370px;
+    width: 144px;
+    height: 43px;
+    font-family: var(--font-family-montserrat);
+    font-weight: 600;
+    color: white;
+    background-color: var(--main-color);
+    border: 0;
+}
+
+  
+  .udaap .unfair-deceptive-and-xlDY6Y {
+    background-color: transparent;
+    display: block;
+    height: 2.34%;
+    left: 9.17%;
+    letter-spacing: 0.00px;
+    line-height: 34.4px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    top: 73px;
+    transform: scale(1.1);
+    width: 62.29%;
+  }
+  .udaap .main-text{
+    background-color: transparent; 
+    opacity: 0;
+    position: relative;
+    text-align: center;
+    top: 73px;
+    }
+    .udaap .main-text.bp1-animate-enter4 {
+        animation: bp1-animate-enter4-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+        display: block;
+        opacity: 0;
+        transform: scale(1.1);
+      }
+  
+  .udaap .unfair-deceptive-and-xlDY6Y.bp1-animate-enter4 {
+    animation: bp1-animate-enter4-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  .udaap h2{
+      font-weight: 400;
+  }
+  .udaap h3{
+      font-weight: 400;
+  }
+  
+  @keyframes bp1-animate-enter4-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  .udaap .to-file-a-complaint-1aEoaJ {
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 111px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    }
+
+    
+  .udaap .send-button-1aEoaJ {
+    background-color: var(--caribbean-green);
+    position: relative;
+    margin-top: 53px;
+    cursor: pointer;
+    border: 5px solid #0FCFB0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align-last: center;
+    transition: all 0.2s ease;
+    width: 196px;
+    }
+    .udaap .send-button-1aEoaJ:hover{
+        transform: scale(1.0);
+        border: 5px solid #0FCFB0;
+        background-color: #ffffff;
+    }
+  
+  .udaap .file-a-complaint-p9Z50J {
+    height: 20px;
+    text-align: center;
+    top: 0px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: rgb(26 23 23);
+}
+
+  .udaap .container {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-udaap .container {
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-udaap .col-footer {
+    flex: 0 0 auto;
+    width:100%;
+    margin-top: 29px;
+  }
+  .mobile-udaap .header-qujsfd{
+      position: relative;
+  }
+  .mobile-udaap .row{
+    margin-top: 35px;
+  }
+
+
+
+  .udaap .form-section-1aEoaJ {
+    position: relative;
+    width: 100.07%;
+}
+  .udaap .name-VrtM0o {
+    background-color: transparent;
+    left: calc(50.00% - 372px);
+    position: relative;
+    top: 101px;
+    width: 760px;
+    }   
+  
+  .udaap .rectangle-65-VxtOf5 {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 60px;
+    position: relative;
+    top: 67px;
+    }
+  
+  .udaap .your-name-VxtOf5 {
+    background-color: transparent;
+    border: 0;
+    left: calc(50.00% - 356px);
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 86px;
+    width: 729px;
+}
+  
+  .udaap .your-name-VxtOf5::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .udaap .optional-VxtOf5 {
+    background-color: transparent;
+    left: calc(50.00% - 361px);
+    position: absolute;
+    text-align: left;
+    top: 29px;
+    width: 237px;
+}
+  
+  .udaap .your-name-N5Eq4D {
+    background-color: transparent;
+    left: calc(50.00% - 361px);
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 114px;
+  }
+  
+  .udaap .email-VrtM0o {
+    background-color: transparent;
+    height: 127px;
+    left: calc(50.00% - 372px);
+    position: relative;
+    top: 253px;
+    width: 760px;
+    }           
+  
+  .udaap .rectangle-66-HJ7YyE {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 60px;
+    left: calc(50.00% - 380px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 67px;
+    width: 754px;
+}
+  
+  .udaap .your-email-address-HJ7YyE {
+    background-color: transparent;
+    border: 0;
+    height: 60px;
+    left: calc(50.00% - 356px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 67px;
+    width: 724px;
+}
+  
+  .udaap .your-email-address-HJ7YyE::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .udaap .optional-HJ7YyE {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 361px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 29px;
+    width: 455px;
+  }
+  
+  .udaap .your-email-address-pANW1x {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 361px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 194px;
+  }
+  
+  .udaap .mobile-VrtM0o {
+    background-color: transparent;
+    height: 120px;
+    left: calc(50.00% - 372px);
+    position: relative;
+    top: 349px;
+    width: 760px;
+}
+  
+  .udaap .rectangle-69-7TM6at {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 60px;
+    left: calc(50.00% - 380px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 60px;
+    width: 754px;
+}
+  
+  .udaap .optional-7TM6at {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 361px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 28px;
+    width: 455px;
+}
+  
+  .udaap .mobile-7TM6at {
+    background-color: transparent;
+    border: 0;
+    height: 60px;
+    left: calc(50.00% - 357px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: relative;
+    resize: none;
+    text-align: left;
+    top: 60px;
+    width: 329px;
+}
+  
+  .udaap .mobile-7TM6at::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .udaap .mobile-UxGnyQ {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 361px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 194px;
+  }
+  
+  .udaap .message-VrtM0o {
+    background-color: transparent;
+    height: 199px;
+    left: calc(50.00% - 372px);
+    position: relative;
+    top: 446px;
+    width: 758px;
+}
+  
+  .udaap .rectangle-67-Y4lbfk {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 157px;
+    left: calc(50.00% - 379px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 42px;
+    width: 754px;
+  }
+  
+  .udaap .i-have-a-complaint-about-Y4lbfk {
+    background-color: transparent;
+    border: 0;
+    height: 112px;
+    left: calc(50.00% - 355px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: absolute;
+    resize: auto;
+    text-align: left;
+    top: 69px;
+    width: 698px;
+}
+  
+  .udaap .i-have-a-complaint-about-Y4lbfk::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .udaap .messsage-Y4lbfk {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 360px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 310px;
+  }
+  
+  .udaap .file-Y4lbfk {
+    background-color: transparent;
+    height: auto;
+    left: calc(50.00% - 360px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 310px;
+  }
+  
+  .udaap .send-button-VrtM0o {
+    background-color: var(--caribbean-green);
+    height: 54px;
+    border: 5px solid #0FCFB0;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    left: calc(50.00% + 186px);
+    mix-blend-mode: normal;
+    position: relative;
+    top: 468px;
+    width: 196px;
+}
+  .udaap .send-button-VrtM0o:hover {
+    background-color: var(--white);
+     border: 5px solid #0FCFB0;
+    transform: scale(1.0);
+    }
+  
+  .udaap .send-PgDJ8V {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 173px;
+}
+  .udaap .send-PgDJ8V:hover {
+    color:black;
+}
+
+  .hide {
+      display:none;
+  }
+  .form-group{
+    left: calc(50.00% - 372px);
+    position: relative;
+    top: 528px
+  }
+
+
+
+  .mobile-udaap .file-a-complaint-DfyQb5 {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    left: 25.28%;
+    letter-spacing: 0.00px;
+    line-height: 22.6px;
+    mix-blend-mode: normal;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 140px;
+    transform: scale(1.1);
+    white-space: nowrap;
+    width: 49.72%;
+  }
+  
+  .mobile-udaap .file-a-complaint-DfyQb5.bp2-animate-enter {
+    animation: bp2-animate-enter-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  
+  @keyframes bp2-animate-enter-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+  }
+  
+  .mobile-udaap .to-file-a-complaint-DfyQb5 {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    top: 151px;
+    width: 100%;
+}
+  
+  .mobile-udaap .form-button-DfyQb5 {
+    background-color: var(--caribbean-green);
+    border: 0;
+    cursor: pointer;
+    left: calc(50.00% - 72px);
+    position: relative;
+    width: 146px;
+}
+  
+  .mobile-udaap .rectangle-41-cUYzgn {
+    background-color: var(--caribbean-green);
+    height: 42px;
+    left: calc(50.00% - 73px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 144px;
+  }
+  
+  .mobile-udaap .file-a-complaint-cUYzgn {
+    background-color: transparent;
+    height: 42px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: var(--font-family-montserrat);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+  .mobile-udaap .group-134-DfyQb5 {
+    background-color: transparent;
+    height: 462px;
+    left: 56px;
+    position: absolute;
+    top: 419px;
+    width: 246px;
+  }
+  
+  .mobile-udaap .name-6dhdIK {
+    background-color: transparent;
+    height: 59px;
+    left: calc(50.00% - 123px);
+    position: relative;
+    top: 0px;
+    width: 246px;
+}
+  
+  .mobile-udaap .rectangle-65-o8ORHz {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 37px;
+    left: calc(50.00% - 123px);
+    position: relative;
+    top: 17px;
+}
+  
+  .mobile-udaap .your-name-o8ORHz {
+    background-color: transparent;
+    border: 0;
+    height: 26px;
+    left: calc(50.00% - 110px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: relative;
+    resize: none;
+    text-align: left;
+    top: -14px;
+    width: 209px;
+}
+  
+  .mobile-udaap .your-name-o8ORHz::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .mobile-udaap .optional-o8ORHz {
+    position: relative;
+    margin-top: 7px;
+    left: calc(50.00% - 120px);
+    width: 157px;
+}
+  
+  .mobile-udaap .your-name-TbWxNY {
+    left: calc(50.00% - 120px);
+    position: relative;
+    width: 100%;
+}
+  
+  .mobile-udaap .email-6dhdIK {
+    background-color: transparent;
+    height: 56px;
+    left: calc(50.00% - 123px);
+    position: relative;
+    top: 81px;
+    width: 250px;
+  }
+  
+  .mobile-udaap .rectangle-66-lepMu8 {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 37px;
+    left: calc(50.00% - 125px);
+    position: relative;
+    top: 37px;
+}
+  
+  .mobile-udaap .your-email-address-lepMu8 {
+    background-color: transparent;
+    border: 0;
+    height: 36px;
+    left: calc(50.00% - 112px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: relative;
+    resize: none;
+    text-align: left;
+    width: 231px;
+  }
+  
+  .mobile-udaap .your-email-address-lepMu8::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .mobile-udaap .optional-lepMu8 {
+    background-color: transparent;
+    left: calc(50.00% - 122px);
+    position: relative;
+    text-align: left;
+    top: 26px;
+    width: auto;
+}
+  
+  .mobile-udaap .your-email-address-w4qgxr {
+    left: calc(50.00% - 122px);
+    position: absolute;
+
+  }
+  
+  .mobile-udaap .mobile-6dhdIK {
+    background-color: transparent;
+    height: 54px;
+    left: calc(50.00% - 123px);
+    position: relative;
+    top: 159px;
+    width: 246px;
+  }
+  
+  .mobile-udaap .rectangle-69-mSc92I {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 37px;
+    left: calc(50.00% - 123px);
+    mix-blend-mode: normal;
+    position: relative;
+    top: 26px;
+    }
+  
+  .mobile-udaap .mobile-mSc92I {
+    background-color: transparent;
+    border: 0;
+    height: 23px;
+    left: calc(50.00% - 113px);
+    padding: 0;
+    position: relative;
+    top: -3px;
+    width: 100%;
+    }
+  
+  .mobile-udaap .mobile-mSc92I::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .mobile-udaap .optional-mSc92I {
+    left: calc(50.00% - 120px);
+    position: relative;
+    text-align: left;
+    top: 6px;
+    width: auto;
+    }
+  
+  .mobile-udaap .mobile-h8qunN {
+    left: calc(50.00% - 120px);
+    position: relative;
+  }
+  
+  .mobile-udaap .message-form-6dhdIK {
+    background-color: transparent;
+    height: 143px;
+    left: calc(50.00% - 123px);
+    position: relative;
+    top: 238px;
+    width: 240px;
+  }
+  
+  .mobile-udaap .rectangle-67-X3NXn4 {
+    background-color: var(--alabaster);
+    border-radius: 5px;
+    box-shadow: 7px 4px 5px #00000040;
+    height: 127px;
+    left: calc(50.00% - 120px);
+    mix-blend-mode: normal;
+    position: relative;
+    top: 10px;
+    width: 246px;
+    }
+
+  .mobile-udaap .i-have-a-complaint-about-X3NXn4 {
+    background-color: transparent;
+    border: 0;
+    height: 96px;
+    left: calc(50.00% - 105px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    padding: 0;
+    position: absolute;
+    resize: auto;
+    text-align: left;
+    top: 37px;
+    width: 210px;
+  }
+  
+  .mobile-udaap .i-have-a-complaint-about-X3NXn4::placeholder {
+    color: #a6a6a699;
+  }
+  
+  .mobile-udaap .message-X3NXn4 {
+    left: calc(50.00% - 117px);
+    position: relative; 
+    }
+  
+  .mobile-udaap .upload-6dhdIK {
+    background-color: transparent;
+    height: 42px;
+    left: calc(50.00% - 123px);
+    position: relative;
+    top: 301px;
+    width: 250px;
+}
+  
+  .mobile-udaap .upload-your-cv-DNzkh0 {
+    left: calc(50.00% - 119px);
+    position: relative;
+    }
+  
+  .mobile-udaap .no-file-chosen-DNzkh0 {
+    background-color: transparent;
+    color: var(--eerie-black);
+    font-family: var(--font-family-montserrat);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    height: auto;
+    left: calc(50.00% + 6px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 25px;
+    width: 115px;
+  }
+  
+  .mobile-udaap .upload-file-DNzkh0 {
+    border: 0;
+    position: relative;
+    top: 19px;
+    width: 100%;
+  }
+  
+  .mobile-udaap .choose-file-DASVoD {
+    position: relative;
+    top: 1px;
+    width: 100%;
+    }
+  
+  .mobile-udaap .choose-file-DASVoD::placeholder {
+    color: #a6a6a699;
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    .screen.udaap { 
+      display: none;
+     }
+  }
+  @media only screen and (min-width: 1200px) {
+    .screen.mobile-udaap { 
+      display: none;
+     }
+  }
+  @media only screen and (min-width: 600px) {
+    .screen.mobile-udaap { 
+      display: none;
+     }
+  }
+
