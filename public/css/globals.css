@@ -226,6 +226,9 @@ input:focus {
 .a:any-link{
   text-decoration: none !important;
 }
+.padding-left-39{
+  padding-left: 39px;
+}
 
 .popout {
   animation: popout 1s ease;
@@ -246,6 +249,9 @@ input:focus {
 }
 .list-style-none{
   list-style: none;
+}
+.break-word{
+  word-break: break-word;
 }
 
 .valign-text-middle {

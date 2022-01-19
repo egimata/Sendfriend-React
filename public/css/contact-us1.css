@@ -743,6 +743,11 @@ top: 5.52%;
 }
 
 .contact-us .span1-qKndKo {
+  font-family: var(--font-family-montserrat);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--white);
 }
 
 .contact-us .span2-qKndKo {
@@ -1494,7 +1499,7 @@ top: 5.52%;
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: 598px;
+  top: 630px;
   width: 318px;
 }
 
@@ -1502,6 +1507,11 @@ top: 5.52%;
 }
 
 .mobile-contact-us .span1-QTu2o6 {
+  color: var(--white);
+  font-family: var(--font-family-montserrat);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .mobile-contact-us .span2-QTu2o6 {
@@ -1512,7 +1522,7 @@ top: 5.52%;
   height: 74px;
   left: calc(50.00% - 114px);
   position: absolute;
-  top: 737px;
+  top: 800px;
   width: 242px;
 }
 
@@ -1584,7 +1594,7 @@ top: 5.52%;
   height: 70px;
   left: calc(50.00% - 114px);
   position: absolute;
-  top: 850px;
+  top: 900px;
   width: 242px;
 }
 
@@ -1656,7 +1666,7 @@ top: 5.52%;
   height: 56px;
   left: calc(50.00% - 114px);
   position: absolute;
-  top: 969px;
+  top: 1000px;
   width: 240px;
 }
 
@@ -1710,7 +1720,7 @@ top: 5.52%;
   height: 56px;
   left: calc(50.00% - 114px);
   position: absolute;
-  top: 1075px;
+  top: 1091px;
   width: 240px;
 }
 
