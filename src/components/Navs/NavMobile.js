@@ -50,10 +50,10 @@ function NavMobile() {
                         <div class="dropdown company-jxzQz0">
                             <div class="dropbtn  montserrat-bold-white-8px">Company &#42780;</div>
                             <div class="dropdown-content">
-                            <Link onClick={closeMobileMenu} to="/history">History</Link>
+                            <Link onClick={closeMobileMenu} to="/about-us">About Us</Link>
                             <Link onClick={closeMobileMenu} to="/leadership">
                             Leadership</Link>
-                            <Link onClick={closeMobileMenu} to="/contact">Career</Link>
+                            <Link onClick={closeMobileMenu} to="/contact">Careers</Link>
                             </div>
                         </div>
                         
