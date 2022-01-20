@@ -39,7 +39,7 @@ export const Footer = ({custom_class}) => {
             <div class="leadership-k8XR3z montserrat-medium-white-11px">Leadership</div> 
             </Link>
           <Link to="/terms-of-use" >
-            <div class="state-licence-k8XR3z montserrat-medium-white-11px">Terms of Use/Agreement</div> 
+            <div class="state-licence-k8XR3z montserrat-medium-white-11px">User Agreement</div> 
             </Link>
           <Link to="/contact" >
             <div class="careers-k8XR3z montserrat-medium-white-11px">Careers</div> 
@@ -73,7 +73,7 @@ export const Footer = ({custom_class}) => {
           </div>
           <div class="send-friend-is-licen-o8Fgec montserrat-medium-white-9px">
             SendFriend is licensed as a money transmitter with the State of New Jersey&#39;s Department of Banking &amp;
-            Insurance, License No. L070801.
+            Insurance, License No. L070801. 101 Hudson St Suite 21099 Jersey City, NY 07302, US
           </div>
         </div>
       </div>

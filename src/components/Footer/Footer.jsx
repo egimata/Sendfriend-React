@@ -77,7 +77,7 @@ export const Footer = ({custom_class}) => {
                                     </li>
                                     <li >
                                         <Link className="list-link" to="/terms-of-use">
-                                            Terms of Use/Agreement
+                                            User Agreement
                                         </Link>
                                     </li>
                                     <li >
@@ -103,7 +103,7 @@ export const Footer = ({custom_class}) => {
                     <div className="footer-row align-items-center">
                         <div className="col-6">
                             <div class="x2021-send-friend-all-rights-reserved-bUVegb montserrat-medium-white-14px">
-                                © 2022 SendFriend. All Rights Reserved <br /> <span className="montserrat-normal-white-13px">SendFriend is licensed as a money transmitter with the State of New Jersey's Department of Banking & Insurance, License No. L070801.</span>
+                                © 2022 SendFriend. All Rights Reserved <br /> <span className="montserrat-normal-white-13px">SendFriend is licensed as a money transmitter with the State of New Jersey's Department of Banking & Insurance, License No. L070801. </span>
                             </div>
                         </div>
                         <div className="col-6">
