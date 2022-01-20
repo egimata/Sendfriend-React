@@ -99,7 +99,7 @@ export const Homepage = () => {
               </div>
               <div class="our-on-chain-solutio-IQUIuZ montserrat-semi-bold-ebony-clay-14px">
                 Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In
-                short, we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective
+                short, we leverage blockchain networks and other non-traditional rails for more cost-effective
                 settlement
               </div>
               <div class="lower-fx-costs-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Lower FX costs</div>
@@ -182,7 +182,7 @@ export const Homepage = () => {
               ><span class="span1-vBeqzr montserrat-extra-bold-white-36px-2">speed advantage<br /></span
               ><span class="span2-vBeqzr">to traditional payment rails</span>
               </div>
-              <div class="our-on-chain-solutio-IQUIuZ montserrat-semi-bold-ebony-clay-14px">
+              <div class="our-on-chain montserrat-semi-bold-ebony-clay-14px">
               Both our on- and off-chain solutions leverage nimble systems to settle payments in nearly real-time
               </div>
               <div class="lower-fx-costs-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Near-instant settlement</div>
@@ -407,7 +407,7 @@ export const Homepage = () => {
       <div class="section-3-zYNucu">
         <img class="section-3-hLpjsq" src="img/homepage/section-3@1x.png" />
         <img class="asset-1bg1-1-1-hLpjsq" src="img/homepage/asset-1bg1-1-1@1x.png" />
-        <img class="asset-1-1-hLpjsq" src="img/homepage/asset-1-1@1x.png" />
+        <img class="asset-1-1-hLpjsq" src="img/homepage/image-platform.svg" />
         <Link to="/contact">
         <div class="button-hLpjsq">
           <div class="learn-more-UCT1KW montserrat-bold-eerie-black-14px">LEARN MORE</div>
@@ -416,7 +416,7 @@ export const Homepage = () => {
         <div class="group-97-hLpjsq">
           <div class="our-api-based-platfo-kSsxZv">
             Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
-            With that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
+            With that in mind, we can offer bespoke solutions for MSB partners
           </div>
           <div class="in-short-we-are-buil-kSsxZv">
             In short, we are building a team to develop solutions across a range of use cases, where traditional payment
@@ -492,7 +492,7 @@ export const Homepage = () => {
       </div>
       <div class="bottom-texts-zYNucu">
         <div class="our-api-architecture-aBc0W1 montserrat-bold-ebony-clay-14px">
-          Our API architecture follows latest technologies and code standards to be robust.
+          Our API architecture follows the latest technologies and code standards to be robust.
         </div>
         <div class="robust-aBc0W1 montserrat-bold-ebony-clay-18px">Robust</div>
         <div class="scalable-aBc0W1 montserrat-bold-ebony-clay-18px">Scalable</div>
@@ -501,7 +501,7 @@ export const Homepage = () => {
           Serve millions of users and clients worldwide with an easy integration of our API.
         </div>
         <div class="following-latest-sec-aBc0W1 montserrat-bold-ebony-clay-14px">
-          Following latest security standards, tested by time, our API is ready to handle million transactions per sec.
+          Following the latest security standards, tested by time, our API is ready to handle millions of transactions per second.
         </div>
       </div>
       <div id="partners" class="section-5-zYNucu">
@@ -597,13 +597,13 @@ export const Homepage = () => {
       </div>
       <div class="our-api-based-platfo-qujsfd">
         Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools. With
-        that in mind, we can offfer&nbsp;&nbsp;bespoke solutions for MSB partners
+        that in mind, we can offer bespoke solutions for MSB partners
       </div>
       <div class="in-short-we-are-buil-qujsfd">
         In short, we are building a team to develop solutions across a range of use cases, where traditional payment
         rails come up short for small and medium size business with thorny cross-border remittance needs
       </div>
-      <img class="section-4-nifty-1-qujsfd" src="img/homepage/asset-1-1@1x.png" />
+      <img class="section-4-nifty-1-qujsfd" src="img/homepage/image-platform.svg" />
       <div class="rectangle-42-qujsfd"></div>
       <img class="rectangle-92-qujsfd" src="img/rectangle-92@1x.png" />
       <div class="our-remittance-api-s-qujsfd montserrat-extra-bold-white-21px bp2-animate-enter19" show-on-scroll>
@@ -663,12 +663,12 @@ export const Homepage = () => {
       </div>
       <div class="bottom-texts-qujsfd">
         <div class="our-api-architecture-cvev6f montserrat-bold-ebony-clay-12px">
-          Our API architecture follows latest technologies and code standards to be robust.
+          Our API architecture follows the latest technologies and code standards to be robust.
         </div>
         <div class="robust-cvev6f montserrat-bold-ebony-clay-16px">Robust</div>
         <div class="secure-cvev6f montserrat-bold-ebony-clay-16px">Secure</div>
         <div class="following-latest-sec-cvev6f montserrat-bold-ebony-clay-12px">
-          Following latest security standards, tested by time, our API is ready to handle million transactions per sec.
+          Following the latest security standards, tested by time, our API is ready to handle millions of transactions per second.
         </div>
         <div class="scalable-cvev6f montserrat-bold-ebony-clay-16px">Scalable</div>
         <div class="serve-millions-of-us-cvev6f montserrat-bold-ebony-clay-12px">
@@ -846,7 +846,7 @@ export const Homepage = () => {
       </div>
       <div class="our-on-chain-solutio-qujsfd">
         Our on-chain solutions avoid traditional payment rails that carry high FX and other transaction fees. In short,
-        we leverage blockchain networks and other non-traditional rails&nbsp;&nbsp;for more cost-effective settlement
+        we leverage blockchain networks and other non-traditional rails for more cost-effective settlement
       </div>
       <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
         <Link to="/contact">
@@ -929,8 +929,8 @@ export const Homepage = () => {
         For off-chain solutions, we leverage blockchain to route payment metadata faster
         </div>
       </div>
-      <div class="our-on-chain-solutio-qujsfd">
-      For off-chain solutions, we leverage blockchain to route payment metadata faster
+      <div class="our-on-chain-solutio-qujsfd6">
+      Both our on- and off-chain solutions leverage nimble systems to settle payments in nearly real-time
       </div>
       <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
         <Link to="/contact">

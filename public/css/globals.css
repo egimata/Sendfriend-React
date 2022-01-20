@@ -259,3 +259,74 @@ input:focus {
   flex-direction: column;
   justify-content: center;
 }
+.colorspan{
+  color:#2C2E2F;
+}
+.table-style{
+  width: 100%; 
+  border-collapse: collapse; 
+  border: none;
+}
+.text-center{
+  text-align: center;
+}
+.td-1{
+  width: 314.75pt; 
+  border: 1pt solid black; 
+  padding: 0in 5.4pt; 
+  vertical-align: top;
+}
+.td-2 {
+  width: 391.25pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-image: initial; border-left: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-3{
+  width: 76.25pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-image: initial; border-top: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-4{
+  width: 391.25pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-5{
+  width: 76.5pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-image: initial; border-left: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-6{
+  width: 76.25pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-image: initial; border-left: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-7{
+  width: 314.75pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-image: initial; border-top: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-8{
+  width: 76.5pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-9{
+  width: 76.25pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-10{
+  width: 314.75pt; border: solid black 1.0pt; border-top: none; padding: 0in 5.4pt 0in 5.4pt;
+}
+.td-11{
+  width: 76.5pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; border-right: solid black 1.0pt; padding: 0in 5.4pt 0in 5.4pt;
+}
+.td-12{
+  width: 76.25pt; border-top: none; border-left: none; border-bottom: solid black 1.0pt; border-right: solid black 1.0pt; padding: 0in 5.4pt 0in 5.4pt;
+}
+.td-13{
+  width: 467.5pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-image: initial; border-top: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-14{
+  width: 157.25pt; border: 1pt solid black; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-15{
+  width: 310.25pt; border-top: 1pt solid black; border-right: 1pt solid black; border-bottom: 1pt solid black; border-image: initial; border-left: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-16{
+  width: 157.25pt; border-right: 1pt solid black; border-bottom: 1pt solid black; border-left: 1pt solid black; border-image: initial; border-top: none; padding: 0in 5.4pt; vertical-align: top;
+}
+.td-17{
+  width: 310.25pt; border-top: none; border-left: none; border-bottom: 1pt solid black; border-right: 1pt solid black; padding: 0in 5.4pt; vertical-align: top;
+}
+.p1{
+  text-align: left; font-size: 15px; margin: 6.0pt 0in 6.0pt 0in;
+}
+.p2{
+  text-align: center; font-size: 15px; margin: 6\.0pt 0in 6\.0pt 0in;
+}

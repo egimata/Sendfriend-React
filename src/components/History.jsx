@@ -165,7 +165,7 @@ export const History = () => {
             SendFriend began its journey as an MIT Sloan-incubated peer-to-peer remittance start-up in 2017. The company
             launched its initial product - a US-to-Phillipines personal payments platform leveraging RippleNet - in 2018,
             enjoying some initial success servicing the Phillipine ex-pat community in New Jersey, USA. In late 2019, we
-            pivoted the business model to focus on small and medium-sized enterprise customers requiring a more flexible,
+            pivoted the business model to focus on small and medium-sized enterprise customers requiring a more flexible transparent
             cost-effective, blockchain-enabled mode of sending payments internationally.
           </div>
           <div class="we-are-alumni-of-sev-iVdtxd montserrat-semi-bold-ebony-clay-14px">
@@ -216,7 +216,7 @@ export const History = () => {
           SendFriend began its journey as an MIT Sloan-incubated peer-to-peer remittance start-up in 2017. The company
           launched its initial product - a US-to-Phillipines personal payments platform leveraging RippleNet - in 2018,
           enjoying some initial success servicing the Phillipine ex-pat community in New Jersey, USA. In late 2019, we
-          pivoted the business model to focus on small and medium-sized enterprise customers requiring a more flexible,
+          pivoted the business model to focus on small and medium-sized enterprise customers requiring a more flexible transparent
           cost-effective, blockchain-enabled mode of sending payments internationally.
         </div>
         <div class="group-129-Obxx5p">

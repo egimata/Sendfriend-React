@@ -76,20 +76,16 @@ export const Footer = ({custom_class}) => {
                                         </Link>
                                     </li>
                                     <li >
-                                        <Link className="list-link" to="/state-licence">
-                                            State Licence
+                                        <Link className="list-link" to="/terms-of-use">
+                                            Terms of Use/Agreement
                                         </Link>
                                     </li>
                                     <li >
-                                        <Link className="list-link" to="/udaap-policy">
-                                            UDAAP Policy
+                                        <Link className="list-link" to="/esign-policy">
+                                            E-sign Policy
                                         </Link>
                                     </li>
-                                    <li>
-                                        <Link className="list-link" to="/complaints-policy">
-                                            Complaints Policy
-                                        </Link>
-                                    </li>
+                                   
                                     <li>
                                         <Link className="list-link" to="/file-complaint">
                                             File a Complaint

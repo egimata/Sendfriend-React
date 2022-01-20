@@ -497,6 +497,18 @@ to{opacity: 1;
   font-weight: 800;
 }
 
+.homepage .our-on-chain {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 532px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 293px;
+  width: 500px;
+}
 .homepage .our-on-chain-solutio-IQUIuZ {
   background-color: transparent;
   height: auto;
@@ -1391,13 +1403,13 @@ to{opacity: 1;
 
 .homepage .asset-1-1-hLpjsq {
   background-color: transparent;
-  height: 42.91%;
-  left: 38.24%;
+  height: 47.91%;
+  left: 49.24%;
   mix-blend-mode: normal;
   position: absolute;
-  top: 32.27%;
+  top: 23.27%;
   object-fit: cover;
-  width: 52.76%;
+  width: 40%;
 }
 
 .homepage .button-hLpjsq {
@@ -3130,6 +3142,23 @@ to{opacity: 1;
     top: 1442px;
     width: 293px;
   }
+  .mobile-homepage .our-on-chain-solutio-qujsfd6 {
+    background-color: transparent;
+    color: var(--ebony-clay);
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xs);
+    font-style: normal;
+    font-weight: 600;
+    height: auto;
+    left: calc(50.00% - 144px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 1467px;
+    width: 293px;
+  }
   .mobile-homepage .our-on-chain-solutio-qujsfd4 {
     background-color: transparent;
     color: var(--ebony-clay);
@@ -3482,10 +3511,10 @@ to{opacity: 1;
   .mobile-homepage .section-4-nifty-1-qujsfd {
     background-color: transparent;
     height: 291px;
-    left: calc(50.00% - 237px);
+    left: calc(50.00% - 200px);
     mix-blend-mode: normal;
     position: absolute;
-    top: 3512px;
+    top: 3517px;
     width: 397px;
     object-fit: cover;
 }

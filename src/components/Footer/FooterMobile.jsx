@@ -38,24 +38,24 @@ export const Footer = ({custom_class}) => {
           <Link to="/leadership" >
             <div class="leadership-k8XR3z montserrat-medium-white-11px">Leadership</div> 
             </Link>
-          <Link to="/state-licence" >
-            <div class="state-licence-k8XR3z montserrat-medium-white-11px">State Licence</div> 
+          <Link to="/terms-of-use" >
+            <div class="state-licence-k8XR3z montserrat-medium-white-11px">Terms of Use/Agreement</div> 
             </Link>
           <Link to="/contact" >
             <div class="careers-k8XR3z montserrat-medium-white-11px">Careers</div> 
             </Link>
-          <Link to="/udaap-policy" >
-            <div class="udaap-policy-k8XR3z montserrat-medium-white-11px">UDAAP Policy</div> 
+          <Link to="/esign-policy" >
+            <div class="udaap-policy-k8XR3z montserrat-medium-white-11px">E-sign Policy</div> 
             </Link>
           <Link to="/contact" >
             <div class="contact-us-k8XR3z montserrat-medium-white-11px">Contact Us</div>
-             </Link>
-          <Link to="/complaints-policy" >
-            <div class="complaints-policy-k8XR3z montserrat-medium-white-11px">Complaints Policy</div> 
-            </Link>
-          <Link to="/file-complaint" >
+             </Link><Link to="/file-complaint" >
             <div class="file-a-complaint-k8XR3z montserrat-medium-white-11px">File a Complaint</div>
           </Link>
+          {/* <Link to="/complaints-policy" >
+            <div class="complaints-policy-k8XR3z montserrat-medium-white-11px">Complaints Policy</div> 
+            </Link> */}
+          
         </div>
         <div class="bottom-footer-gBjW7Z">
           <img class="line-1-o8Fgec" src="img/line-1@2x.png" />

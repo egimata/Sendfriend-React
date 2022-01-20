@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
-      title: 'History',
-      path: '/history',
+      title: 'About Us',
+      path: '/about-us',
       cName: 'dropdown-link'
     },
     {
@@ -10,7 +10,7 @@ export const MenuItems = [
       cName: 'dropdown-link'
     },
     {
-      title: 'Career',
+      title: 'Careers',
       path: '/contact',
       cName: 'dropdown-link'
     },

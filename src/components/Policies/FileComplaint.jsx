@@ -38,7 +38,7 @@ export const FileComplaint = () => {
             </div>
         </div>
         <div id="form-mobile" class="hide form-class-mobile montserrat-medium-black-14px">
-            <form>
+            <form action="https://formspree.io/f/mpzbqybn" method="POST" enctype="multipart/form-data">
                 <div class="name-6dhdIK">
                     <div class="your-name-TbWxNY montserrat-medium-eerie-black-11px">Your Name:</div>
                     <div class="optional-o8ORHz montserrat-light-eerie-black-8px">Optional</div>
@@ -82,7 +82,7 @@ export const FileComplaint = () => {
                     <textarea
                         class="i-have-a-complaint-about-X3NXn4 montserrat-normal-quick-silver-11px"
                         name="ihaveacomplaintabout_"
-                        placeholder="I have a question about...:"
+                        placeholder="I have a complaint about...:"
                         type="text"
                         required
                     ></textarea>
@@ -92,7 +92,7 @@ export const FileComplaint = () => {
                     <div class="upload-file-DNzkh0 border-1px-mist-gray">
                         <input
                         class="choose-file-DASVoD montserrat-normal-quick-silver-8px"
-                        name="file"
+                        name="upload"
                         type="file"
                         
                         />
@@ -120,9 +120,9 @@ export const FileComplaint = () => {
                 </div>
             </div>
         </div>
-        <div id='form' class=" hide form-class montserrat-medium-black-14px">
+        <div id='form'  class=" hide form-class montserrat-medium-black-14px">
         
-            <form >
+            <form action="https://formspree.io/f/mpzbqybn" method="POST" enctype="multipart/form-data" >
             <div class="form-section-1aEoaJ">
                 <div class="name-VrtM0o">
                     <div class="rectangle-65-VxtOf5 border-1px-mist-gray"></div>
@@ -164,7 +164,7 @@ export const FileComplaint = () => {
                     <textarea
                         class="i-have-a-complaint-about-Y4lbfk montserrat-normal-quick-silver-16px"
                         name="ihaveacomplaintabout_"
-                        placeholder="I have a question about...:"
+                        placeholder="I have a complaint about...:"
                         type="text"
                         required
                     ></textarea>
@@ -172,7 +172,7 @@ export const FileComplaint = () => {
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlFile1">Upload File</label><br /><br />
-                    <input type="file" name="file" class="form-control-file" id="exampleFormControlFile1" />
+                    <input type="file" name="upload" class="form-control-file" id="exampleFormControlFile1" />
                 </div>
                 <button type="submit" class="send-button-VrtM0o">
                     <div class="send-PgDJ8V valign-text-middle montserrat-bold-white-14px">SEND</div>

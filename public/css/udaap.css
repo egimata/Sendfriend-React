@@ -89,11 +89,21 @@
   .mobile-udaap .x1-introduction-polic-6PeLo1 {
     background-color: transparent;
     height: auto;
-    left: 1%;
     position: relative;
     text-align: left;
     top: 123px;
-    width: 89%;
+    width: 100%;
+    padding-right: 23px;
+  }
+  .mobile-udaap .x1-introduction-polic-6PeLo1-table {
+    background-color: transparent;
+    height: auto;
+    position: relative;
+    text-align: left;
+    top: 123px;
+    width: 100%;
+    padding-left: 33px;
+    padding-right: 23px;
   }
   
   .mobile-udaap .unfair-deceptive-and-6PeLo1 {
@@ -1301,7 +1311,7 @@
     resize: none;
     text-align: left;
     top: 60px;
-    width: 329px;
+    width: 90%;
 }
   
   .udaap .mobile-7TM6at::placeholder {
