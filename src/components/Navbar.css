@@ -26,6 +26,7 @@
   .nav-item {
     display: flex;
     align-items: center;
+    margin-top: 17px;
     height: 80px;
   }
   

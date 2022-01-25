@@ -200,20 +200,7 @@ input:focus {
 .react-tabs__tab-list{
   list-style:none;
 }
-.fa{
-  color:#ffffff;
-}
 
-.fa-angle-right:before{
-  align-items: right;
-
-  /* padding-left:60px; */
-  color:#0FCFB0;
-}
-.fa-lg {
-  float: right;
-  padding-right: 9px;
-}
 .company-dropdown-kYUAzc {
   background-color: transparent;
   cursor: pointer;

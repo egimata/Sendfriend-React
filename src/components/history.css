@@ -38,6 +38,10 @@
     font-size: var(--font-size-mh);
     font-style: normal;
     font-weight: 700;
+    transition: all 0.2s ease-in-out;
+  }
+  .montserrat-bold-white-14px:hover {
+    color: var(--main-color);
   }
   
   .montserrat-normal-ebony-clay-13px {

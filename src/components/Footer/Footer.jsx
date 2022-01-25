@@ -98,7 +98,7 @@ export const Footer = ({custom_class}) => {
                 </div>
             </div>
             
-            <div className="footer-copyright-area border-top">
+            <div className="footer-copyright-area border-top-custom">
                 <div className="footer-container">
                     <div className="footer-row align-items-center">
                         <div className="col-6">

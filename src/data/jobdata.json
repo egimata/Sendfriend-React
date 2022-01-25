@@ -1,0 +1,31 @@
+{
+    "joblisting": {
+        "sectiontitle": "Open <span>Job</span> Positions",
+        "buttontext":" Apply Now ",
+        "job":[
+           {
+            "jobtitle": "Senior Full Stack Engineer",
+            "date": "Please click the button for full job description",
+            "icon": "img/icons/sf-icon.svg",
+            "path": "/fullstack"
+           },
+            {
+            "jobtitle": "Senior Node.js Engineer ",
+            "date": "Please click the button for full job description",
+            "icon": "img/icons/sf-icon.svg",
+            "path": "/nodejs"
+           },
+            {
+            "jobtitle": "Senior Cloud Infrastructure Engineer ",
+            "date": "Please click the button for full job description",
+            "icon": "img/icons/sf-icon.svg",
+            "path": "/cloud"
+           }
+        ]
+      },
+
+      "JobAplly":{
+        "sectiontitle": "Apply Now",
+        "sectionsubtitle": "Please upload your resume and fill in the fields below to apply for your desired position."
+     }
+}

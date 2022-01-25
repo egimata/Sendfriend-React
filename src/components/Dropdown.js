@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { MenuItems } from './MenuItems';
-import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
 function Dropdown() {
@@ -12,7 +11,7 @@ function Dropdown() {
     <>
       <ul
         onClick={handleClick}
-        className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+        className={click ? 'dropdown-menu-nav clicked' : 'dropdown-menu-nav'}
       >
         {MenuItems.map((item, index) => {
           return (

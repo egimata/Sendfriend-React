@@ -76,8 +76,8 @@ function Nav() {
                     onClick={closeMobileMenu}
                 >
                     COMPANY 
-                </Link>
-                {dropdown && <Dropdown />}<i className='fa fa-angle-down fa-lg' />
+                </Link><i className='fa fa-angle-down fa-lg' />
+                {dropdown && <Dropdown />}
                 </li>
             </ul>
             </div>

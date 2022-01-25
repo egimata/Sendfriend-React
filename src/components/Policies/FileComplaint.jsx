@@ -20,7 +20,7 @@ export const FileComplaint = () => {
 <div>
     <div class="mobile-udaap screen">
         <NavMobile />
-        <div className="container">
+        <div className="container-custom">
             <div className="row">
                 <div className="col-footer">
                     <div class="main-text-header montserrat-bold-caribbean-green-21px bp2-animate-enter2">
@@ -111,7 +111,7 @@ export const FileComplaint = () => {
         
         <div class="to-file-a-complaint-1aEoaJ">To file a complaint click the button below</div>
 
-        <div className="container">
+        <div className="container-custom">
             <div className="row">
                 <div className="col-footer">
                     <button class="send-button-1aEoaJ" onClick={showDiv}>

@@ -11,12 +11,22 @@ import { Leadership } from "./components/Leadership";
 import { PrivacyPolicy } from "./components/Policies/PrivacyPolicy";
 import { TermsOfUse } from "./components/Policies/TermsOfUse";
 import { FileComplaint } from "./components/Policies/FileComplaint";
+import JobDescription from "./pages/JobDescription";
+import Team from "./components/TestPage";
 import ScrollButton from './components/ScrollButton';
 import ScrollToTop from './components/ScrollToTop';
+import JobList from './pages/JobList';
+import sectiondata from './data/jobdata.json';
 import { ESignPolicy } from "./components/Policies/ESignPolicy";
+
+//Css Here 
+import './assets/scss/style.scss';
+import { keyframes } from "styled-components";
 
 
 function App() {
+
+  let data = sectiondata.joblisting
 
     return (
       
@@ -33,6 +43,11 @@ function App() {
           <Route path="/terms-of-use" element={<TermsOfUse />} />
           <Route path="/esign-policy" element={<ESignPolicy />} />
           <Route path="/file-complaint" element={<FileComplaint />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/careers" element ={<JobList />} />
+          { data.job.map(( item, i )=>
+            <Route path={item.path} element={<JobDescription />} /> 
+          )}
         </Routes >
         <ScrollButton />
         </ScrollToTop>
