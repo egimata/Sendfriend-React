@@ -13,7 +13,7 @@ const JobDescription = ({job}) => {
     const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
     let data = sectiondata.joblisting
-    console.log(job);
+    const jobDuties = job.duties;
 
 
     return (
@@ -35,8 +35,8 @@ const JobDescription = ({job}) => {
                   <h6 className="sub-title">Primary Duties and Responsibilities:</h6>
                   <span>As a {job.jobtitle} you’ll be responsible for:</span>
                   <ul  >
-                  { data.job.map(( item, i )=>
-                    <li>{item.duties}</li>
+                  { jobDuties.map(( item, i )=>
+                    <li key={i}>{item}</li>
                   )}
                   </ul>
                   <h6 className="sub-title">Educational Requirements</h6>
