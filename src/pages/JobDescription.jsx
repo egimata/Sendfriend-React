@@ -12,7 +12,7 @@ const JobDescription = ({job}) => {
 
     const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
-    let data = sectiondata.jobdetails
+    let data = sectiondata.joblisting
     console.log(job);
 
 
@@ -23,70 +23,21 @@ const JobDescription = ({job}) => {
                 <Nav />
                 <div className= { "job-details-area pd-top-112 " }>
             <div className="container">
-            { data.job.map(( item, i )=>
             
-              <div key={item.id} className="row justify-content-center">
+              <div className="row justify-content-center">
                   
                 <div className="col-xl-6 col-lg-8 offset-xl-1">
                   <div className="section-title">
                     <h2 className="title">Job Details</h2>
                   </div>
-                  <h6 className="title">{item.title}</h6>
-                  <span>Bevilard international</span>
-                  <h6 className="sub-title">Vacancy</h6>
-                  <span>04</span>
-                  <h6 className="sub-title">Job Responsibilities</h6>
-                  <ul>
-                    <li>
-                      Find out fashion trends of International market and to work out of
-                      them
-                    </li>
-                    <li>
-                      Creation of creative fashion design that suits the company brand's requirement.
-                    </li>
-                    <li>
-                      Development of new accessories design for upcoming collection.
-                    </li>
-                    <li>Analyze development in fabrics, colors and shapes</li>
-                    <li>Conduct brainstorming, designing and producing concepts</li>
-                    <li>
-                      Develop design ideas through coordination with merchandising and
-                      client.
-                    </li>
-                    <li>Ensure developing of patterns &amp; overseeing the production</li>
-                    <li>
-                      Able to work in illustrator or any other fashion design software to
-                      develop Woven tops &amp; Bottom sketches for men, ladies, kids
-                      accessories details.
-                    </li>
-                    <li>Must be able to develop new collection for every season.</li>
-                    <li>Making Flat Sketch (Tops &amp; Bottoms) in graphic software.</li>
-                    <li>Design new labeling and badge.</li>
-                    <li>Making sketch according to Buyer request.</li>
-                    <li>Making presentation file for customer meeting.</li>
-                    <li>
-                      Design &amp; develop men's and women's traditional product line up
-                      based on seasons that will generate sales in local and global market
-                    </li>
-                    <li>
-                      Study &amp; analyze the market &amp; industry trend to have a
-                      reflection on product design &amp; development to fulfill the
-                      customer needs
-                    </li>
-                    <li>
-                      Present innovative saleable design ideas to the creative director,
-                      MD and sales team Determine product fabric &amp; fitting (select
-                      fabrics, embellishments, color, styles which will fit for each
-                      garmentor accessory within the budget)
-                    </li>
-                    <li>
-                      Understanding design from technical perspective, developing pattern
-                      &amp; supervision of these including fitting, detailing &amp;
-                      adaptions{" "}
-                    </li>
-                    <li>Create a project book and check sample</li>
-                    <li>Employment Status</li>
-                    <li>Full-time</li>
+                  <h6 className="title">{job.jobtitle}</h6>
+                  <span>{job.subtitle}</span>
+                  <h6 className="sub-title">Primary Duties and Responsibilities:</h6>
+                  <span>As a {job.jobtitle} you’ll be responsible for:</span>
+                  <ul  >
+                  { data.job.map(( item, i )=>
+                    <li>{item.duties}</li>
+                  )}
                   </ul>
                   <h6 className="sub-title">Educational Requirements</h6>
                   <p>Bachelor of Fine Arts (B.F.A)</p>
@@ -154,7 +105,6 @@ const JobDescription = ({job}) => {
                   </div>
                 </div>
               </div>
-            )}
             </div>
           </div>
                 <Footer custom_class="section footer-section" />
