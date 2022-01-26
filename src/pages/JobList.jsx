@@ -37,7 +37,7 @@ const JobList = () => {
                                 <h6>{ item.jobtitle }</h6>
                                 <span>{ item.date }</span>
                                 </div>
-                                <Link to={item.path}>
+                                <Link to={{pathname: `${item.path}`, query: {id: item.id}}}>
                                 <button className="job-apply-btn align-self-center float-right">
                                 { data.buttontext }
                                 </button>

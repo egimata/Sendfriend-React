@@ -24,6 +24,26 @@
         ]
       },
 
+      "jobdetails": {
+        "job":[
+          {
+            "id": 1,
+            "title": "Senior Full Stack Engineer",
+            "subtitle": ""
+          },
+          {
+            "id":2,
+            "title": "Senior Node.js Engineer",
+            "subtitle": ""
+          },
+          {
+            "id":3,
+            "title": "Senior Cloud Infrastructure Engineer",
+            "subtitle": ""
+          }
+        ]
+      },
+
       "JobAplly":{
         "sectiontitle": "Apply Now",
         "sectionsubtitle": "Please upload your resume and fill in the fields below to apply for your desired position."

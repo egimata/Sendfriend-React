@@ -12,7 +12,7 @@ const JobDescription = () => {
 
     const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
-    let data = sectiondata.joblisting
+    let data = sectiondata.jobdetails
 
 
     return (
@@ -22,12 +22,15 @@ const JobDescription = () => {
                 <Nav />
                 <div className= { "job-details-area pd-top-112 " }>
             <div className="container">
-              <div className="row justify-content-center">
+            { data.job.map(( item, i )=>
+            
+              <div key={item.id} className="row justify-content-center">
+                  
                 <div className="col-xl-6 col-lg-8 offset-xl-1">
                   <div className="section-title">
                     <h2 className="title">Job Details</h2>
                   </div>
-                  <h6 className="title">Fashion Designer</h6>
+                  <h6 className="title">{item.title}</h6>
                   <span>Bevilard international</span>
                   <h6 className="sub-title">Vacancy</h6>
                   <span>04</span>
@@ -150,42 +153,14 @@ const JobDescription = () => {
                   </div>
                 </div>
               </div>
+            )}
             </div>
           </div>
                 <Footer custom_class="section footer-section" />
                 </div>
             <div class="mobile-udaap screen">
                 <NavMobile />
-                <div className={ "job-listing-page pd-top-120 bg-none" }>
-                <div className="container">
-                    <div className="job-position-area">
-                    <div className="row justify-content-center">
-                        <div className="col-xl-8">
-                        <div className="section-title style-four">
-                            <h2 className="title"  dangerouslySetInnerHTML={{__html: data.sectiontitle}}> 
-                            </h2>
-                        </div>
-                        {/* single job list */}
-                        { data.job.map(( item, i )=>
-                            <div key={ i } className="single-job-list media">
-                                <img src={ publicUrl+item.icon } alt={imgattr} />
-                                <div className="media-body">
-                                <h6>{ item.jobtitle }</h6>
-                                <span>{ item.date }</span>
-                                </div>
-                                <Link to={item.path}>
-                                <button className="job-apply-btn align-self-center float-right">
-                                { data.buttontext }
-                                </button>
-                                </Link>
-                            </div>
-                            ) }
-                        
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
+
                 <FooterMobile custom_class="footer footer-udaap" />
             </div>
        </>
