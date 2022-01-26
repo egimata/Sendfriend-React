@@ -8,11 +8,12 @@ import Footer from '../components/Footer/Footer';
 import FooterMobile from '../components/Footer/FooterMobile';
 import '../assets/css/bootstrap.min.css';
 
-const JobDescription = () => {
+const JobDescription = ({job}) => {
 
     const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
     let data = sectiondata.jobdetails
+    console.log(job);
 
 
     return (

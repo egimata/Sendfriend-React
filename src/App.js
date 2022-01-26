@@ -46,7 +46,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/careers" element ={<JobList />} />
           { data.job.map(( item, i )=>
-            <Route key={i} path={item.path} element={<JobDescription />} /> 
+            <Route key={i} path={item.path} element={<JobDescription job={item} />} />
           )}
         </Routes >
         <ScrollButton />
