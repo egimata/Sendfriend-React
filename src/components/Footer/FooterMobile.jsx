@@ -26,11 +26,12 @@ export const Footer = ({custom_class}) => {
           <div class="frame-131-h0Texg"><img class="logo_menu-2-K8SRLr" src="img/logo-menu-2@2x.png" /></div>
         </div>
         </Link>
+        
         <div class="middle-footer-gBjW7Z">
           <div class="company-k8XR3z valign-text-middle montserrat-bold-coconut-14px">COMPANY</div>
           <div class="support-k8XR3z valign-text-middle montserrat-bold-coconut-14px">SUPPORT</div>
-          <Link to="/history" >
-            <div class="history-k8XR3z montserrat-medium-white-11px">History</div> 
+          <Link to="/about-us" >
+            <div class="history-k8XR3z montserrat-medium-white-11px">About Us</div> 
             </Link>
           <Link to="/privacy-policy" >
             <div class="privacy-policy-k8XR3z montserrat-medium-white-11px">Privacy Policy</div> 
@@ -55,7 +56,7 @@ export const Footer = ({custom_class}) => {
           {/* <Link to="/complaints-policy" >
             <div class="complaints-policy-k8XR3z montserrat-medium-white-11px">Complaints Policy</div> 
             </Link> */}
-          
+           <p className="address"><strong>Address:</strong> SendFriend Inc.101 Hudson St Suite 21099 Jersey City, NJ 07302</p>
         </div>
         <div class="bottom-footer-gBjW7Z">
           <img class="line-1-o8Fgec" src="img/line-1@2x.png" />

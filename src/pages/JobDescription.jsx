@@ -12,9 +12,11 @@ const JobDescription = ({job}) => {
 
     const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
-    let data = sectiondata.joblisting
+    const data = sectiondata.joblisting
     const jobDuties = job.duties;
-
+    const jobReq = job.requirements;
+    const jobNTH = job.nice_to_have;
+    const widgetData = job.widgetData;
 
     return (
         <>
@@ -34,74 +36,41 @@ const JobDescription = ({job}) => {
                   <span>{job.subtitle}</span>
                   <h6 className="sub-title">Primary Duties and Responsibilities:</h6>
                   <span>As a {job.jobtitle} you’ll be responsible for:</span>
-                  <ul  >
-                  { jobDuties.map(( item, i )=>
-                    <li key={i}>{item}</li>
-                  )}
-                  </ul>
-                  <h6 className="sub-title">Educational Requirements</h6>
-                  <p>Bachelor of Fine Arts (B.F.A)</p>
-                  <p>
-                    Training/Trade Course: Shanto Mariam University of Creative
-                    Technology,BGMEA University of Fashion
-                  </p>
-                  <p>
-                    Technology students wi,Skills Required: Graphics Design; Local and
-                    world populated Fashion house (Buyer)
-                  </p>
-                  <h6 className="sub-title">Experience Requirements</h6>
-                  <p>1 to 3 year(s)</p>
-                  <p>The applicants should have experience in the following area(s):</p>
-                  <p>Fashion Design</p>
-                  <h6 className="sub-title">Additional Requirements</h6>
-                  <p>Age 26 to 35 years</p>
-                  <p>Both males and females are allowed to apply</p>
-                  <h6 className="sub-title">Job Location</h6>
-                  <p>Gulshan, Dhaka Division, Dhaka.</p>
-                  <h6 className="sub-title">Salary</h6>
-                  <p className="m-0">Negotiable</p>
+                    <ul  >
+                        { jobDuties.map(( item, i )=>
+                            <li key={i}>{item}</li>
+                        )}
+                    </ul>
+                  <h6 className="sub-title">Requirements</h6>
+                  <span>The ideal candidate description:</span>
+                    <ul  >
+                        { jobReq.map(( item, i )=>
+                            <li key={i}>{item}</li>
+                        )}
+                    </ul>
+                  <h6 className="sub-title">Nice to have:</h6>
+                    <ul  >
+                        { jobNTH.map(( item, i )=>
+                            <li key={i}>{item}</li>
+                        )}
+                    </ul>
                   <a href="#" className="job-apply-btn">
                     Apply Now
                   </a>
                 </div>
                 <div className="col-xl-3 col-lg-4 offset-xl-1">
                   <div className="widget widget-job-details">
+
                     <h3 className="widget-title">Job Details</h3>
-                    <div className="media single-job-details">
-                      <img src={publicUrl+'assets/img/icons/1.png'}  alt="icon" />
-                      <div className="media-body">
-                        <h6>Department</h6>
-                        <span>UI Designer</span>
-                      </div>
-                    </div>
-                    <div className="media single-job-details">
-                      <img src={publicUrl+'assets/img/icons/2.png'} alt="icon" />
-                      <div className="media-body">
-                        <h6>Location</h6>
-                        <span>Bangladesh</span>
-                      </div>
-                    </div>
-                    <div className="media single-job-details">
-                      <img src={publicUrl+'assets/img/icons/3.png'} alt="icon" />
-                      <div className="media-body">
-                        <h6>Job Type</h6>
-                        <span>Full Time</span>
-                      </div>
-                    </div>
-                    <div className="media single-job-details">
-                      <img src={publicUrl+'assets/img/icons/4.png'} alt="icon" />
-                      <div className="media-body">
-                        <h6>Experience</h6>
-                        <span>2 years</span>
-                      </div>
-                    </div>
-                    <div className="media single-job-details mb-0">
-                      <img src={publicUrl+'assets/img/icons/5.png'} alt="icon" />
-                      <div className="media-body">
-                        <h6>Salary</h6>
-                        <span>$2000</span>
-                      </div>
-                    </div>
+                        {widgetData.map((item, index) => 
+                            <div className="media single-job-details">
+                            <img src={publicUrl+item.icon}  alt="icon" />
+                            <div className="media-body">
+                                <h6>{item.name}</h6>
+                                <span>{item.description}</span>
+                            </div>
+                            </div>
+                        )}
                   </div>
                 </div>
               </div>

@@ -7,7 +7,6 @@
             "jobtitle": "Senior Full Stack Engineer",
             "subtitle": "As a Senior Full Stack Engineer, you will be working collaboratively with the development team, closely cooperating with business decision-makers in a well-financed startup. You will have a great impact on system shape and have the opportunity to work with cutting edge technologies within the research project. Based on blockchain technology and support of Machine Learning tools our system introduces a new quality to the world of money transfer, and you will be at the centre of those global impact changes. ",
             "duties": [
-             " //  Kto do jente me <li></li>,",
               "Propagating the DevOps spirit in your Team.",
               "Be responsible for building pipelines. Mentoring End to End CI/CD process. ",
               "Follow the IaaS approach.",
@@ -19,18 +18,119 @@
               "Constantly searching for improvements and better quality.",
               "Forming documentation of your work."
             ],
-            "requirements": "",
-            "nice_to_have": "",
+            "requirements":  [
+              "Broad experience and in-depth knowledge in JavaScript and TypeScript with strong attention to details. Keen to self-development and following the latest technologies, patterns and practices.",
+              "Comprehensive experience with Angular and Node.js programming, Node.js frameworks and corresponding tools, also following and introducing best practices to the project (2-4 yrs+).",
+              "Clean-code approach and knowledge of professional software engineering practices, methodology, including coding standards, design patterns, code reviews, continuous deployments/delivery, source control management, testing and operations.",
+              "Extensive understanding of assembling and maintaining microservice-based applications (1-2 yrs+).",
+              "Experience upholding and designing API and efficient communication between services (RESTful API or/and GraphQL API or/and gRPC).",
+              "Knowledge in message-driven architecture.",
+              "Work experience in the DevOps spirit.",
+              "Experience in developing solutions on top of an AWS cloud provider.",
+              "Solid background with multiple databases, including SQL and NoSQL.",
+              "Knowledge of containerization tools (Docker).",
+              "Comfortable in proactively sharing knowledge and ideas during the software design and development process.",
+              "Capable of setting up the local environment from scratch.",
+              "Comfortable working in an agile, scrum environment."
+            ],
+            "nice_to_have":  [
+              "Knowledge of container orchestration tools (Kubernetes).",
+              "Knowledge in cloud setup tools like Terraform.",
+              "General knowledge in Blockchain (Indeept knowledge and experience will be an extra asset).",
+              "General Machine Learning understanding will be a plus but is not essential",
+              "General knowledge of Python language.",
+              "Experience in Domain-driven design. "
+            ],
+            "widgetData":[
+              {
+                "icon": "icon",
+                "name": "Department",
+                "description": "Full Stack Department"
+              },
+              {
+                "icon": "team-01",
+                "name": "Location",
+                "description": "NY, US"
+              },
+              {
+                "icon": "team-01",
+                "name": "Job Type",
+                "description": "Full Time"
+              },
+              {
+                "icon": "team-01",
+                "name": "Experience",
+                "description": "3 Years"
+              }
+            ],
             "date": "Please click the button for full job description",
             "icon": "img/icons/sf-icon.svg",
             "path": "/fullstack"
            },
+
+
             {
             "jobtitle": "Senior Node.js Engineer ",
             "subtitle": "As a Senior Node.js Engineer you will be working collaboratively with the development team, closely cooperating with business decision-makers in a well-financed startup. You will have a great impact on system shape and have the opportunity to work with cutting edge technologies within the research project. Based on blockchain technology and support of Machine Learning tools our system introduces a new quality to the world of money transfer, and you will be at the centre of those global impact changes.",
-            "duties": "",
-            "requirements": "",
-            "nice_to_have": "",
+            "department": "Full Stack Department 2",
+            "widgetData":[
+              {
+                "icon": "icon",
+                "name": "Department",
+                "description": "Engineers"
+              },
+              {
+                "icon": "team-01",
+                "name": "Location",
+                "description": "NY, US"
+              },
+              {
+                "icon": "team-01",
+                "name": "Job Type",
+                "description": "Full Time"
+              },
+              {
+                "icon": "team-01",
+                "name": "Experience",
+                "description": "4 Years"
+              }
+            ],
+            "duties": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "requirements": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
+            "nice_to_have": [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ],
             "date": "Please click the button for full job description",
             "icon": "img/icons/sf-icon.svg",
             "path": "/nodejs"
@@ -39,6 +139,7 @@
             "jobtitle": "Senior Cloud Infrastructure Engineer ",
             "subtitle": "As a Senior Infrastructure Engineer, you will be working collaboratively with the development team, closely cooperating with business decision-makers in a well-financed startup. You will have a great impact on infrastructure and system shape simultaneously having the opportunity to work with cutting edge technologies within the research project. Based on blockchain technology and support of Machine Learning tools our system introduces a new quality to the world of money transfer, and you will be at the centre of those global impact changes.",
             "duties": "",
+            
             "requirements": "",
             "nice_to_have": "",
             "date": "Please click the button for full job description",

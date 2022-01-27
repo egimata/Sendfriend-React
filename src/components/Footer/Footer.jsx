@@ -35,9 +35,11 @@ export const Footer = ({custom_class}) => {
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
+                           
                             <HashLink smooth to="/">
                                 <div class="footer-logo"><img src="img/homepage/logo-menu-2-3@2x.png" /></div>
                             </HashLink>
+                            <p className="address"><strong>Address:</strong> SendFriend Inc.101 Hudson St Suite 21099 Jersey City, NJ 07302</p>
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <h4 className="footer-title">COMPANY</h4>
