@@ -42,7 +42,7 @@ export const Footer = ({custom_class}) => {
           <Link to="/terms-of-use" >
             <div class="state-licence-k8XR3z montserrat-medium-white-11px">User Agreement</div> 
             </Link>
-          <Link to="/contact" >
+          <Link to="/careers" >
             <div class="careers-k8XR3z montserrat-medium-white-11px">Careers</div> 
             </Link>
           <Link to="/esign-policy" >

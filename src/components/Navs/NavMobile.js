@@ -53,7 +53,7 @@ function NavMobile() {
                             <Link onClick={closeMobileMenu} to="/about-us">About Us</Link>
                             <Link onClick={closeMobileMenu} to="/leadership">
                             Leadership</Link>
-                            <Link onClick={closeMobileMenu} to="/contact">Careers</Link>
+                            <Link onClick={closeMobileMenu} to="/careers">Careers</Link>
                             </div>
                         </div>
                         

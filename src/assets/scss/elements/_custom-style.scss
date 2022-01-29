@@ -20,6 +20,41 @@ a:hover {
     line-height: 1;
     padding-right: 9px;
 }
+.bg-custom{
+    background-color: #f6f6f6;
+  }
 .pd-top-120 {
     padding-top: 120px;
+}
+.pd-bottom-60{
+    padding-bottom: 60px;
+}
+.padding-custom {
+    padding: 0px 60px;
+}
+.mg-bottom-50{
+    margin-bottom: 50px !important;
+    margin-top: 0 !important;
+}
+.mg-top-50{
+    margin-top: 50px !important;
+}
+
+.comment-form-area {
+	.single-input-wrap .single-input.textarea {
+		margin-bottom: 10px;
+	}
+	.riyaqas-form-wrap .btn {
+	    padding: 0 30px;
+	}
+}
+
+@media (max-width: 600px){
+    .mg-top-custom-footer{
+        margin-top: 80px;
+        top: 0;
+    }
+    .d-none-mobile{
+        display:none;
+    }
 }

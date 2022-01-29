@@ -11,17 +11,19 @@ import { Leadership } from "./components/Leadership";
 import { PrivacyPolicy } from "./components/Policies/PrivacyPolicy";
 import { TermsOfUse } from "./components/Policies/TermsOfUse";
 import { FileComplaint } from "./components/Policies/FileComplaint";
+import JobList from './pages/JobList';
 import JobDescription from "./pages/JobDescription";
+import JobApply from "./pages/JobApply";
 import Team from "./components/TestPage";
 import ScrollButton from './components/ScrollButton';
 import ScrollToTop from './components/ScrollToTop';
-import JobList from './pages/JobList';
 import sectiondata from './data/jobdata.json';
 import { ESignPolicy } from "./components/Policies/ESignPolicy";
 
 //Css Here 
 import './assets/scss/style.scss';
 import { keyframes } from "styled-components";
+
 
 
 function App() {
@@ -47,6 +49,9 @@ function App() {
           <Route path="/careers" element ={<JobList />} />
           { data.job.map(( item, i )=>
             <Route key={i} path={item.path} element={<JobDescription job={item} />} />
+          )}
+          { data.job.map(( item, i )=>
+          <Route path={item.applypath} element={<JobApply  job={item} />} />
           )}
         </Routes >
         <ScrollButton />

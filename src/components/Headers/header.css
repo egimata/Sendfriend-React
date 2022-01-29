@@ -252,9 +252,126 @@
   }
 }
   
-  
 
 
+.text-wrapper{
+    padding-left: 72px;
+    padding-right: 72px;
+}
 
-  
+.subtitle-header{
+    color: var(--caribbean-green);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    width: auto;
+}
 
+.subtitle-header.animate-enter3 {
+    animation: animate-enter3-frames 1.00s ease-in-out 0.45s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+}  
+
+.right-overlay{
+    background-color: #2632388c;
+    opacity: 0;
+    position: relative;
+    transform: translate(50px, 0);
+    width: 100%;
+    height: 100%;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.right-overlay.animate-enter {
+    animation: animate-enter-frames 0.20s ease-in-out 0.00s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: translate(50px, 0);
+}
+
+.title-header{
+    font-size: var(--font-size-header);
+    font-style: normal;
+    font-weight: 800;
+    color: var(--white);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    line-height: 53.7px;
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    transform: scale(1.1);
+    width: 100px;
+}
+.title-header.animate-enter1 {
+    animation: animate-enter1-frames 1.00s ease-in-out 0.65s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.title-header span{
+    color: var(--caribbean-green);
+}
+
+.under-text{
+    color: var(--white);
+    display: block;
+    font-family: var(--font-family-montserrat);
+    font-size: var(--font-size-xxl);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.7px;
+    opacity: 0;
+    position: relative;
+    text-align: left;
+    justify-content: center;
+    transform: scale(1.1);
+    width: auto;
+}
+.under-text.animate-enter2{
+    animation: animate-enter2-frames 1.10s ease-in-out 0.75s 1 normal forwards;
+    display: block;
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.custom-col-sm {
+    min-height: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+@media (max-width: 600px){
+    .right-overlay {
+        padding-right: 21px;
+        padding-left: 21px;
+    }
+    .subtitle-header {
+        font-size: 18px;
+        text-align: center;
+    }
+    .title-header {
+        font-size: 30px;
+        line-height: 37px;
+        text-align: center;
+        width: auto;
+    }
+    .under-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.7px;
+        text-align: center;
+    }
+    .header-container{
+        min-width: 100%;
+    }
+    .pd-top-120 {
+        padding-top: 45px;
+    }
+
+}

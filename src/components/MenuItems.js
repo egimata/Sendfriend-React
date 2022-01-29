@@ -11,7 +11,7 @@ export const MenuItems = [
     },
     {
       title: 'Careers',
-      path: '/contact',
+      path: '/careers',
       cName: 'dropdown-link'
     },
   ];

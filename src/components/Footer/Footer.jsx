@@ -56,7 +56,7 @@ export const Footer = ({custom_class}) => {
                                         </Link>
                                     </li>
                                     <li >
-                                        <Link className="list-link" to="/contact">
+                                        <Link className="list-link" to="/careers">
                                             Careers
                                         </Link>
                                     </li>

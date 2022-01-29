@@ -1,6 +1,6 @@
 {
     "joblisting": {
-        "sectiontitle": "Open <span>Job</span> Positions",
+        "sectiontitle": "Open <span>Positions</span>",
         "buttontext":" Apply Now ",
         "job":[
            {
@@ -43,29 +43,30 @@
             ],
             "widgetData":[
               {
-                "icon": "icon",
+                "icon": "img/icons/department.png",
                 "name": "Department",
                 "description": "Full Stack Department"
               },
               {
-                "icon": "team-01",
+                "icon": "img/icons/location.png",
                 "name": "Location",
                 "description": "NY, US"
               },
               {
-                "icon": "team-01",
+                "icon": "img/icons/jobtype.png",
                 "name": "Job Type",
                 "description": "Full Time"
               },
               {
-                "icon": "team-01",
+                "icon": "img/icons/experience.png",
                 "name": "Experience",
                 "description": "3 Years"
               }
             ],
             "date": "Please click the button for full job description",
             "icon": "img/icons/sf-icon.svg",
-            "path": "/fullstack"
+            "path": "/fullstack-engineer",
+            "applypath": "/apply-fullstack-engineer"
            },
 
 
@@ -75,97 +76,131 @@
             "department": "Full Stack Department 2",
             "widgetData":[
               {
-                "icon": "icon",
+                "icon": "img/icons/department.png",
                 "name": "Department",
-                "description": "Engineers"
+                "description": "Engineer"
               },
               {
-                "icon": "team-01",
+                "icon": "img/icons/location.png",
                 "name": "Location",
                 "description": "NY, US"
               },
               {
-                "icon": "team-01",
+                "icon": "img/icons/jobtype.png",
                 "name": "Job Type",
                 "description": "Full Time"
               },
               {
-                "icon": "team-01",
+                "icon": "img/icons/experience.png",
                 "name": "Experience",
-                "description": "4 Years"
+                "description": "3 Years"
               }
             ],
             "duties": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Developing event-driven, efficient, high-performance system that will be capable of withstanding high load.",
+              "Designing and executing performance tests, like load tests, spike tests, stress tests, scalability tests etc.",
+              "Taking part in brainstorming and research process about solutions, traits, trends, security measures required for establishing robust system architecture with the proper integration of blockchain technology.",
+              "Proactively participating in team meetings and Agile ceremonies. ",
+              "Constantly searching for improvements and better quality.",
+              "Forming documentation of your work."
             ],
             "requirements": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Broad experience and in-depth knowledge in JavaScript and TypeScript with strong attention to details. Keen to self-develop and follow the latest technologies, patterns and practices.",
+              "Comprehensive experience with Node.js programming, Node.js frameworks and corresponding tools, also following and introducing best practices to the project (2-4 yrs+).",
+              "Clean-code approach and knowledge of professional software engineering practices, methodology, including coding standards, design patterns, code reviews, continuous deployments/delivery, source control management, testing and operations.",
+              "Extensive understanding of assembling and maintaining microservice-based applications (1-2 yrs+).",
+              "Experience upholding and designing API and efficient communication between services (RESTful API or/and GraphQL API or/and gRPC).",
+              "Knowledge in message-driven architecture.",
+              "Work experience in the DevOps spirit.",
+              "Experience in developing solutions on top of an AWS cloud provider.",
+              "Solid background with multiple databases, including SQL and NoSQL.",
+              "Knowledge of containerization tools (Docker).",
+              "Comfortable in proactively sharing knowledge and ideas during the software design and development process.",
+              "Capable of setting up the local environment from scratch.",
+              "Comfortable working in an agile, scrum environment."
             ],
             "nice_to_have": [
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              "",
-              ""
+              "Knowledge of container orchestration tools (Kubernetes).",
+              "Knowledge in cloud setup tools like Terraform.",
+              "General knowledge in Blockchain (Indeept knowledge and experience will be an extra asset).",
+              "General Machine Learning understanding will be a plus but is not essential",
+              "General knowledge of Python language.",
+              "Experience in Domain-driven design. "
             ],
             "date": "Please click the button for full job description",
             "icon": "img/icons/sf-icon.svg",
-            "path": "/nodejs"
+            "path": "/nodejs-engineer",
+            "applypath": "/apply-nodejs-engineer"
            },
             {
             "jobtitle": "Senior Cloud Infrastructure Engineer ",
             "subtitle": "As a Senior Infrastructure Engineer, you will be working collaboratively with the development team, closely cooperating with business decision-makers in a well-financed startup. You will have a great impact on infrastructure and system shape simultaneously having the opportunity to work with cutting edge technologies within the research project. Based on blockchain technology and support of Machine Learning tools our system introduces a new quality to the world of money transfer, and you will be at the centre of those global impact changes.",
-            "duties": "",
-            
-            "requirements": "",
-            "nice_to_have": "",
+            "widgetData":[
+              {
+                "icon": "img/icons/department.png",
+                "name": "Department",
+                "description": "Engineer"
+              },
+              {
+                "icon": "img/icons/location.png",
+                "name": "Location",
+                "description": "NY, US"
+              },
+              {
+                "icon": "img/icons/jobtype.png",
+                "name": "Job Type",
+                "description": "Full Time"
+              },
+              {
+                "icon": "img/icons/experience.png",
+                "name": "Experience",
+                "description": "3 Years"
+              }
+            ],
+            "duties": [
+              "Propagating the DevOps spirit in your Team.",
+              "Be responsible for building pipelines. Mentoring End to End CI/CD process. ",
+              "Follow the IaaS approach.",
+              "Preparing a cloud backbone for an event-driven, efficient, high-performance system that will be capable of withstanding high load.",
+              "Creation of a robust production environment. Be supportive in maintaining dev, test staging/UAT environments.",
+              "Prepare infrastructure foreground for performance tests,  taking part in designing and execution of performance tests, like load tests, spike tests, stress tests, scalability tests etc.",
+              "Taking part in brainstorming and research process about solutions, traits, trends, security measures required for establishing robust system architecture with the proper integration of blockchain technology. Conduct best practices for full software development life cycle (SDLC).",
+              "Proactively participating in team meetings and Agile ceremonies. ",
+              "Constantly searching for improvements and better quality.",
+              "Forming documentation of your work."
+            ],
+            "requirements": [
+             "Clean-code approach and knowledge of professional software and infrastructure engineering practices, methodology, including coding standards, design patterns, code reviews, continuous deployments/delivery, source control management, testing and operations.",
+             "Vast experience in AWS cloud provider.",
+             "In-depth knowledge of containerization tools (Docker).",
+             "In-depth knowledge of container orchestration tools (Kubernetes).",
+             "In-depth knowledge of cloud setup tools like Terraform.",
+             "Experience in IaaS.",
+             "Experience in development management tools integration.",
+             "Extensive understanding of architecture, assembling and maintaining microservice-based applications (3 yrs+).",
+             "Broad experience with CI/CD tools like GitLab CI.",
+             "Some experience or general knowledge in MLOps.",
+             "Experience upholding and designing API and efficient communication between services (RESTful API or/and GraphQL API or/and gRPC).",
+             "Knowledge in message-driven architecture.",
+             "Solid background with multiple databases, including SQL and NoSQL.",
+             "Comfortable in proactively sharing knowledge and ideas during the software and infrastructure design and development process.",
+             "Comfortable working in an agile, scrum environment."
+            ],
+            "nice_to_have": [
+             	"Some experience with JavaScript, TypeScript. Experience in Node.js applications building tools.",
+             	"Experience in Frontend single-page applications building tools and best practices for optimization and slimming built packages.",
+             	"General knowledge in Blockchain (Indeept knowledge and experience will be an extra asset).",
+             	"End to End Machine Learning Workflow and model deployment (model serving, model performance logging etc.)",
+             	"General Machine Learning models understanding will be a plus but is not essential.",
+             	"DVC knowledge.",
+             	"General knowledge of Python language.",
+             	"Experience in Domain-driven design. "
+            ],
             "date": "Please click the button for full job description",
             "icon": "img/icons/sf-icon.svg",
-            "path": "/cloud"
+            "path": "/cloud-engineer",
+            "applypath": "/apply-cloud-engineer"
            }
-        ]
-      },
-
-      "jobdetails": {
-        "job":[
-          {
-            "id": 1,
-            "title": "Senior Full Stack Engineer",
-            "subtitle": ""
-          },
-          {
-            "id":2,
-            "title": "Senior Node.js Engineer",
-            "subtitle": ""
-          },
-          {
-            "id":3,
-            "title": "Senior Cloud Infrastructure Engineer",
-            "subtitle": ""
-          }
         ]
       },
 
