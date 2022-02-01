@@ -1767,14 +1767,14 @@ to{opacity: 1;
 .homepage .code-c0Knzr {
   background-color: transparent;
   height: auto;
-  left: calc(50.00% - 24px);
+  left: calc(50.00% - 56px);
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
-  text-align: left;
+  text-align: center;
   top: 15px;
-  width: 67px;
+  width: 100%;
 }
 
 .homepage .get-fx-rate-c0Knzr {

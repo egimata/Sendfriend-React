@@ -57,7 +57,7 @@ function NavMobile() {
                             </div>
                         </div>
                         
-                        <Link class="contact-jxzQz0 montserrat-bold-white-8px" onClick={closeMobileMenu} to="/contact" onClick={closeMobileMenu} style={{ textDecoration: 'none' }}>
+                        <Link class="contact-jxzQz0 montserrat-bold-white-8px" onClick={closeMobileMenu} to="/contact-us" onClick={closeMobileMenu} style={{ textDecoration: 'none' }}>
                             <div > 
                             Contact
                             </div>

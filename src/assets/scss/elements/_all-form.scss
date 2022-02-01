@@ -26,7 +26,7 @@
 		font-size: 15px;
 	    line-height: 1.2;
 	    letter-spacing: 0.3px;
-	    color: #97A1B2;
+	    color: #2c2a2a;
 	    &.textarea {
 	    	min-height: 134px;
 	    }
@@ -99,7 +99,7 @@
 		color: #999;
 		cursor: text;
 		transition: all .15s ease-in-out 0s;
-		z-index: 0;
+		z-index: -1;
 		font-size: var(--body-font-size);
 	    line-height: 1.2;
 	    letter-spacing: 0.3px;

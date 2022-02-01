@@ -21,7 +21,7 @@ const Header = ({subtitle, text, green_text, image, under_text }) => {
                             {under_text}
                         </div>
                         
-                        <Link to="/contact">
+                        <Link to="/contact-us">
                             <div className="rectangle-1-rh6tbp animate-enter4 smart-layers-pointers">
                                 <div className="contact-us-rh6tbp montserrat-bold-eerie-black-14px">CONTACT US</div>
                             </div>

@@ -1,0 +1,22 @@
+@media all and (min-width: 576px) {
+    .custom-gutters-16>.col, 
+    .custom-gutters-16>[class*=col-] {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .custom-gutters-18>.col, 
+    .custom-gutters-18>[class*=col-] {
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+    .custom-gutters-20>.col, 
+    .custom-gutters-20>[class*=col-] {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .custom-gutters-28>.col, 
+    .custom-gutters-28>[class*=col-] {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+}

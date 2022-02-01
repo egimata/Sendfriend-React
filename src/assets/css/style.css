@@ -7,7 +7,7 @@
     --montserrat-font: 'Montserrat', sans-serif;
     --body-font-size: 15px;
     --line-height30: 30px; 
-    --bs-font-sans-serif: 'Montserrat', sans-serif;
+    --bs-font-sans-serif: 'Montserrat', sans-serif !important;
   
   }
 
@@ -251,86 +251,7 @@
   letter-spacing: 0.3px;
   margin-top: 30px; }
 
-.single-input-wrap {
-  position: relative; }
-  .single-input-wrap .single-input {
-    width: 100%;
-    height: 52px;
-    background: transparent;
-    border: 1px solid #D9DDE4;
-    border-radius: 4px;
-    padding: 18px;
-    margin-bottom: 30px;
-    font-size: 15px;
-    line-height: 1.2;
-    letter-spacing: 0.3px;
-    color: #97A1B2; }
-    .single-input-wrap .single-input.textarea {
-      min-height: 134px; }
-  .single-input-wrap.input-checkbox {
-    margin-bottom: 30px; }
-    .single-input-wrap.input-checkbox .single-input {
-      width: auto;
-      height: auto; }
-  .single-input-wrap .input-checkbox-text span {
-    color: var(--main-color-one); }
-  .single-input-wrap .single-select {
-    width: 100%;
-    height: 52px;
-    background: transparent;
-    border: 1px solid #D9DDE4;
-    border-radius: 4px;
-    padding: 16px 18px;
-    margin-bottom: 30px;
-    font-size: 15px;
-    line-height: 1.2;
-    letter-spacing: 0.3px;
-    color: #97A1B2; }
-    .single-input-wrap .single-select span.current {
-      width: 180px;
-      display: block; }
-    .single-input-wrap .single-select:after {
-      border-bottom: 1px solid #999;
-      border-right: 1px solid #999;
-      height: 7px;
-      right: 20px;
-      width: 7px; }
-    .single-input-wrap .single-select .list {
-      width: 100%; }
-      .single-input-wrap .single-select .list li {
-        font-size: 14px !important;
-        letter-spacing: 0.28 !important;
-        color: #97A1B2 !important;
-        font-weight: 400 !important;
-        -webkit-transition: 0.4s !important;
-        -o-transition: 0.4s !important;
-        transition: 0.4s !important; }
-        .single-input-wrap .single-select .list li:hover, .single-input-wrap .single-select .list li:focus, .single-input-wrap .single-select .list li.selected {
-          color: #01358D !important; }
-  .single-input-wrap label {
-    position: absolute;
-    top: 17px;
-    left: 20px;
-    color: #999;
-    cursor: text;
-    -webkit-transition: all .15s ease-in-out 0s;
-    -o-transition: all .15s ease-in-out 0s;
-    transition: all .15s ease-in-out 0s;
-    z-index: -1;
-    font-size: var(--body-font-size);
-    line-height: 1.2;
-    letter-spacing: 0.3px;
-    color: #97A1B2; }
-  .single-input-wrap label.active {
-    top: -6px;
-    left: 17px;
-    font-size: 11px;
-    color: inherit;
-    cursor: pointer;
-    color: #97A1B2;
-    background: #fff;
-    z-index: 1;
-    padding: 0 1px; }
+
 
 .riyaqas-file-input-wrap {
   margin-top: 10px;

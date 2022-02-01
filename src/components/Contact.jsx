@@ -42,8 +42,8 @@ export const Contact = () => {
           <img class="form-section-qtxwMM" src="img/form-section@1x.png" />
           <div id="top-form-dt" class="have-a-question-need-qtxwMM montserrat-bold-white-32px">
             
-            <span class="span0-qKndKo"> Have a question about the product, pricing, or,  just want to learn more?<br /> Please drop us a line in the form below</span> <br />
-            <span class="span1-qKndKo">Need help? For all customer service-related inquiries, contact: <a class="text-decoration-none span1-qKndKo" href="mailto:info@sendfriend.io" >info@sendfriend.io</a></span> <br />
+            <span class="span0-qKndKo">Have a question about our product and service offerings? <br />Please drop us a line below</span> <br />
+            {/* <span class="span1-qKndKo">Need help? For all customer service-related inquiries, contact: <a class="text-decoration-none span1-qKndKo" href="mailto:info@sendfriend.io" >info@sendfriend.io</a></span> <br /> */}
             
           </div>
           <form action="https://formspree.io/f/xlezgwwv" method="POST" >
@@ -123,8 +123,8 @@ export const Contact = () => {
         <img class="rectangle-106-xM44hz" src="img/rectangle-106@1x.svg" />
         <div id="top-form" class="have-a-question-need-xM44hz valign-text-middle montserrat-extra-bold-white-21px">
           <span>
-            <span class="span0-QTu2o6 montserrat-extra-bold-eerie-black-21px"> Have a question about the product, pricing, or,  just want to learn more?<br /> Please drop us a line in the form below</span><br />
-            <span class="span1-QTu2o6">Need help? For all customer service-related inquiries, contact:<br /><a class="text-decoration-none span1-QTu2o6" href="mailto:info@sendfriend.io" >info@sendfriend.io</a></span><br />
+            <span class="span0-QTu2o6 montserrat-extra-bold-eerie-black-21px">Have a question about our product and service offerings? <br />Please drop us a line below</span><br />
+            {/* <span class="span1-QTu2o6">Need help? For all customer service-related inquiries, contact:<br /><a class="text-decoration-none span1-QTu2o6" href="mailto:info@sendfriend.io" >info@sendfriend.io</a></span><br /> */}
           </span>
         </div>
         <form action="https://formspree.io/f/xlezgwwv" method="POST" >

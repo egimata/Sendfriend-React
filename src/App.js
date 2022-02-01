@@ -6,7 +6,6 @@ import {
   Link
 } from "react-router-dom";
 import { History } from "./components/History";
-import { Contact } from "./components/Contact";
 import { Leadership } from "./components/Leadership";
 import { PrivacyPolicy } from "./components/Policies/PrivacyPolicy";
 import { TermsOfUse } from "./components/Policies/TermsOfUse";
@@ -14,6 +13,7 @@ import { FileComplaint } from "./components/Policies/FileComplaint";
 import JobList from './pages/JobList';
 import JobDescription from "./pages/JobDescription";
 import JobApply from "./pages/JobApply";
+import ContactUs from "./pages/ContactUs";
 import Team from "./components/TestPage";
 import ScrollButton from './components/ScrollButton';
 import ScrollToTop from './components/ScrollToTop';
@@ -39,7 +39,6 @@ function App() {
         
           <Route path="/" element={<Homepage />} />
           <Route path="/about-us" element={<History />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-use" element={<TermsOfUse />} />
@@ -47,6 +46,7 @@ function App() {
           <Route path="/file-complaint" element={<FileComplaint />} />
           <Route path="/team" element={<Team />} />
           <Route path="/careers" element ={<JobList />} />
+          <Route path="/contact-us" element ={<ContactUs />} />
           { data.job.map(( item, i )=>
             <Route key={i} path={item.path} element={<JobDescription job={item} />} />
           )}

@@ -15,7 +15,7 @@ export const Footer = ({custom_class}) => {
             ><span class="span1-RsYvf7 montserrat-bold-caribbean-green-14px"> SendFriend</span>
           </span>
         </div>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="contact-us-gBjW7Z bp2-animate-enter7" show-on-scroll>
           <div class="rectangle-1-XbWypM smart-layers-pointers"></div>
           <div class="contact-us-XbWypM valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
@@ -48,7 +48,7 @@ export const Footer = ({custom_class}) => {
           <Link to="/esign-policy" >
             <div class="udaap-policy-k8XR3z montserrat-medium-white-11px">E-sign Policy</div> 
             </Link>
-          <Link to="/contact" >
+          <Link to="/contact-us" >
             <div class="contact-us-k8XR3z montserrat-medium-white-11px">Contact Us</div>
              </Link><Link to="/file-complaint" >
             <div class="file-a-complaint-k8XR3z montserrat-medium-white-11px">File a Complaint</div>
@@ -56,7 +56,6 @@ export const Footer = ({custom_class}) => {
           {/* <Link to="/complaints-policy" >
             <div class="complaints-policy-k8XR3z montserrat-medium-white-11px">Complaints Policy</div> 
             </Link> */}
-           <p className="address"><strong>Address:</strong> SendFriend Inc.101 Hudson St Suite 21099 Jersey City, NJ 07302</p>
         </div>
         <div class="bottom-footer-gBjW7Z">
           <img class="line-1-o8Fgec" src="img/line-1@2x.png" />

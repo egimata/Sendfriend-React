@@ -82,7 +82,7 @@ function Nav() {
             </ul>
             </div>
 
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="contact-us-kYUAzc montserrat-bold-white-14px">CONTACT US</div>
         </Link>
         </div>

@@ -24,7 +24,7 @@ export const Footer = ({custom_class}) => {
                                     </div>
                                     <div className="col-6">
                                         <div class="contact-us-1xViFa">
-                                            <Link style={{color: 'transparent'}} to="/contact">
+                                            <Link style={{color: 'transparent'}} to="/contact-us">
                                                 <div class="rectangle-1-yTZA7h ">
                                                     <div class="contact-us-yTZA7h">CONTACT US</div>
                                                 </div>
@@ -35,11 +35,9 @@ export const Footer = ({custom_class}) => {
                             </div>
                         </div>
                         <div className="col-lg-3 col-sm-6">
-                           
                             <HashLink smooth to="/">
                                 <div class="footer-logo"><img src="img/homepage/logo-menu-2-3@2x.png" /></div>
                             </HashLink>
-                            <p className="address"><strong>Address:</strong> SendFriend Inc.101 Hudson St Suite 21099 Jersey City, NJ 07302</p>
                         </div>
                         <div className="col-lg-3 col-sm-6">
                             <h4 className="footer-title">COMPANY</h4>
@@ -61,7 +59,7 @@ export const Footer = ({custom_class}) => {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link className="list-link" to="/contact">
+                                        <Link className="list-link" to="/contact-us">
                                             Contact Us
                                         </Link>
                                     </li>

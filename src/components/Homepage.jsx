@@ -104,7 +104,7 @@ export const Homepage = () => {
               </div>
               <div class="lower-fx-costs-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Lower FX costs</div>
               <div class="no-pre-funding-burden-IQUIuZ montserrat-semi-bold-ebony-clay-14px">No pre-funding burden</div>
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
@@ -187,7 +187,7 @@ export const Homepage = () => {
               </div>
               <div class="lower-fx-costs-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Near-instant settlement</div>
               <div class="no-pre-funding-burden-IQUIuZ montserrat-semi-bold-ebony-clay-14px">Money and payment metadata flow over the same systems, ensuring faster settlement</div>
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
@@ -262,7 +262,7 @@ export const Homepage = () => {
               <div class="our-on-chain-solutio-IQUIuZ1 montserrat-semi-bold-ebony-clay-14px">
               We aim to offer multiple blockchain-enabled payment routing options depending on the use case, geography, and least-cost routing method
               </div>
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
@@ -327,7 +327,7 @@ export const Homepage = () => {
               <div class="our-on-chain-solutio-IQUIuZ3 montserrat-semi-bold-ebony-clay-14px">
               Our blockchain-based approach leverages the added security benefits of sending monies and payment metadata over the same secure system
               </div>
-              <Link to="/contact">
+              <Link to="/contact-us">
                 <ButtonWhite text='LEARN MORE' />
               </Link>
               <div class="secure-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Secure</div>
@@ -408,7 +408,7 @@ export const Homepage = () => {
         <img class="section-3-hLpjsq" src="img/homepage/section-3@1x.png" />
         <img class="asset-1bg1-1-1-hLpjsq" src="img/homepage/asset-1bg1-1-1@1x.png" />
         <img class="asset-1-1-hLpjsq" src="img/homepage/image-platform.svg" />
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="button-hLpjsq">
           <div class="learn-more-UCT1KW montserrat-bold-eerie-black-14px">LEARN MORE</div>
         </div>
@@ -436,7 +436,7 @@ export const Homepage = () => {
           <span class="span0-nxQf97 montserrat-extra-bold-white-36px-2">Our remittance API </span
           ><span class="span1-nxQf97">seamlessly connects customers to a suite of multi-chain payment tools</span>
         </div>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="rectangle-108-h3fqsu smart-layers-pointers">
         <div class="learn-more-h3fqsu montserrat-bold-ebony-clay-14px">LEARN MORE</div>
         </div>
@@ -453,11 +453,11 @@ export const Homepage = () => {
                       <Tab>
                       <div class="rectangle-110-c0Knzr smart-layers-pointers border-1px-black-2">
                         <div class="smart-layers-pointers bp1-animate-enter22" />
-                        <div class="code-c0Knzr montserrat-bold-ebony-clay-14px">Code</div>
+                        <div class="code-c0Knzr montserrat-bold-ebony-clay-14px">Code Sample</div>
                       </div>
                     </Tab>
 
-                      <Tab>
+                      {/* <Tab>
                       <div class="rectangle-111-c0Knzr smart-layers-pointers border-1px-black-2">
                         <div class="smart-layers-pointers bp1-animate-enter22" />
                         <div class="get-fx-rate-c0Knzr montserrat-bold-ebony-clay-14px">Get FX Rate</div>
@@ -469,7 +469,7 @@ export const Homepage = () => {
                         <div class="smart-layers-pointers bp1-animate-enter22" />
                          <div class="get-price-c0Knzr montserrat-bold-ebony-clay-14px">Get Price</div>
                       </div>
-                    </Tab>
+                    </Tab> */}
 
                   </TabList>
 
@@ -477,13 +477,13 @@ export const Homepage = () => {
                   <img class="api-async-c0Knzr animate-enter22" show-on-scroll src='img/homepage/api-async-1@2x.png' />
                   </TabPanel>
 
-                  <TabPanel>
+                  {/* <TabPanel>
                   <img class="api-async-c0Knzr animate-enter22" show-on-scroll src="img/homepage/api-second.jpeg" />
                   </TabPanel>
 
                   <TabPanel>
                   <img class="api-async-c0Knzr animate-enter22" show-on-scroll src='img/homepage/api-third.jpeg' />
-                  </TabPanel>
+                  </TabPanel> */}
 
                 </Tabs>
         
@@ -552,7 +552,7 @@ export const Homepage = () => {
         We are cheaper, faster, and more reliable and secure.
       </div>
       <div class="contact-us-qujsfd bp2-animate-enter4" show-on-scroll>
-      <Link to="/contact">
+      <Link to="/contact-us">
         <div class="rectangle-1-kXqD6c smart-layers-pointers"></div>
         <div class="contact-us-kXqD6c valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
         </Link>
@@ -583,7 +583,7 @@ export const Homepage = () => {
       </div>
       <img class="rectangle-124-qujsfd" src="img/rectangle-124-1@1x.png" />
       <div class="group-122-qujsfd bp2-animate-enter17" show-on-scroll>
-        <HashLink to="/contact">
+        <HashLink to="/contact-us">
         <div class="rectangle-1-0LGubN smart-layers-pointers"></div>
         <div class="learn-more-0LGubN valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </HashLink>
@@ -621,10 +621,10 @@ export const Homepage = () => {
               <Tab>
               <div class="code-LkwvPL">
                 
-                <div class="code-rpFmxG valign-text-middle">Code</div>
+                <div class="code-rpFmxG valign-text-middle">Code Sample</div>
               </div>
               </Tab>
-              <Tab>
+              {/* <Tab>
               <div class="get-fx-LkwvPL">
                
                 <div class="get-fx-rate-O4lNUx valign-text-middle">Get FX Rate</div>
@@ -635,7 +635,7 @@ export const Homepage = () => {
                 
                 <div class="get-price-kUWRox valign-text-middle">Get Price</div>
               </div>
-              </Tab>
+              </Tab> */}
             </TabList>
             <TabPanel>
             <div class="image-LkwvPL">
@@ -643,7 +643,7 @@ export const Homepage = () => {
           <img class="api-async-cdudrr bp2-animate-enter20" show-on-scroll src='img/homepage/api-async-1@2x.png'  />
         </div>
             </TabPanel>
-            <TabPanel>
+            {/* <TabPanel>
             <div class="image-LkwvPL">
           <div class="rectangle-109-cdudrr"></div>
           <img class="api-async-cdudrr bp2-animate-enter20" show-on-scroll src="img/homepage/api-second.jpeg" />
@@ -654,7 +654,7 @@ export const Homepage = () => {
           <div class="rectangle-109-cdudrr"></div>
           <img class="api-async-cdudrr bp2-animate-enter20" show-on-scroll src='img/homepage/api-third.jpeg'  />
         </div>
-            </TabPanel>
+            </TabPanel> */}
           </Tabs>
         
         
@@ -849,7 +849,7 @@ export const Homepage = () => {
         we leverage blockchain networks and other non-traditional rails for more cost-effective settlement
       </div>
       <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </Link>
@@ -933,7 +933,7 @@ export const Homepage = () => {
       Both our on- and off-chain solutions leverage nimble systems to settle payments in nearly real-time
       </div>
       <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </Link>
@@ -1012,7 +1012,7 @@ payment systems</span>
       We aim to offer multiple blockchain-enabled payment routing options depending on the use case, geography, and least-cost routing method
       </div>
       <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </Link>
@@ -1073,7 +1073,7 @@ payment systems</span>
       Our blockchain-based approach leverages the added security benefits of sending monies and payment metadata over the same secure system
       </div>
       <div class="group-121-qujsfd1 bp2-animate-enter15" show-on-scroll>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
         </Link>

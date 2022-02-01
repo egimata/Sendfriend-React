@@ -324,6 +324,7 @@
     background-color: var(--eerie-black);
     height: 63px;
     left: 0px;
+    z-index: 2;
     mix-blend-mode: normal;
     position: absolute;
     top: 0px;

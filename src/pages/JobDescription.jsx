@@ -58,7 +58,7 @@ const JobDescription = ({job}) => {
                   </div>
                   <div className="col-xl-3 col-lg-4 offset-xl-1">
                     <div className="widget widget-job-details">
-                    <Link to={job.applypath} className="job-apply-btn mg-bottom-50">
+                    <Link to={job.applypath} className="job-apply-btn mg-bottom-50 mg-left-9">
                       Apply Now
                     </Link>
                       <h3 className="widget-title">Job Details</h3>

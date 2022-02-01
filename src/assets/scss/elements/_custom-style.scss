@@ -23,11 +23,20 @@ a:hover {
 .bg-custom{
     background-color: #f6f6f6;
   }
+.bg-transparent{
+    background-color: transparent !important;
+}
 .pd-top-120 {
     padding-top: 120px;
 }
 .pd-bottom-60{
     padding-bottom: 60px;
+}
+.pd-bottom-112{
+    padding-bottom: 112px;
+}
+.pd-right-70{
+    padding-right: 70px;
 }
 .padding-custom {
     padding: 0px 60px;
@@ -39,7 +48,23 @@ a:hover {
 .mg-top-50{
     margin-top: 50px !important;
 }
+.mg-left-9{
+    margin-left: 9px;
+}
+.display-block{
+    display: block !important;
+}
+.main-color{
+    color: var(--main-color);
+}
 
+
+input::placeholder {
+    color: #97A1B2;
+  }
+input:focus::placeholder {
+    color: transparent;
+  }
 .comment-form-area {
 	.single-input-wrap .single-input.textarea {
 		margin-bottom: 10px;
@@ -47,6 +72,12 @@ a:hover {
 	.riyaqas-form-wrap .btn {
 	    padding: 0 30px;
 	}
+}
+.main-color{
+    color: var(--main-color) !important;
+}
+.right{
+    float: right;
 }
 
 @media (max-width: 600px){
@@ -56,5 +87,8 @@ a:hover {
     }
     .d-none-mobile{
         display:none;
+    }
+    .pd-right-70{
+        padding-right: 0px;
     }
 }

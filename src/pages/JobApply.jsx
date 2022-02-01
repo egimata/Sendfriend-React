@@ -18,7 +18,7 @@ const JobApply = ({job}) => {
     return (
         <>
           <SEO title={'Apply for - ' + job.jobtitle} />
-          <div class="udaap screen">
+          <div class="udaap screen bg-transparent">
             <Nav />
             <div>
                 <div className= { "job-listing-page pd-top-120 pd-bottom-60" } >
@@ -26,11 +26,11 @@ const JobApply = ({job}) => {
                         <div className="row justify-content-center">
                             <div className="col-xl-8 col-lg-10">
                                 <div className="section-title text-center">
-                                    <h2 className="title">{ data.sectiontitle }</h2>
+                                    <h2 className="title main-color">{ data.sectiontitle }</h2>
                                     <p>{ data.sectionsubtitle }</p>
                                 </div>
                                 <div className="job-apply-area">
-                                    <form className="riyaqas-form-wrap" action="https://formspree.io/f/xgedavpk" method="POST" enctype="multipart/form-data">
+                                    <form className="riyaqas-form-wrap" action="https://formspree.io/f/xgedavpk" method="POST" encType="multipart/form-data">
                                         <div className="row">
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
@@ -52,7 +52,7 @@ const JobApply = ({job}) => {
                                         </div>
                                         <div className="col-md-12">
                                             <div className="single-input-wrap mg-bottom-50">
-                                            <select selected class="form-select custom-dropdown" name="Job-Selected" aria-label="Default select example" required>
+                                            <select defaultValue={job.jobtitle} class="form-select custom-dropdown" name="Job-Selected" required>
                                             { jobtitle.job.map(( item, i )=>
                                                 <option  value={item.jobtitle}>{item.jobtitle}</option>
                                             )}
@@ -78,7 +78,7 @@ const JobApply = ({job}) => {
             </div>
             <Footer custom_class="section footer-section" />
           </div>
-          <div class="mobile-udaap screen">
+          <div class="mobile-udaap screen bg-transparent">
             <NavMobile />
             <div>
                 <div className= { "job-listing-page pd-top-120 pd-bottom-60" } >
@@ -86,35 +86,35 @@ const JobApply = ({job}) => {
                         <div className="row justify-content-center">
                             <div className="col-xl-8 col-lg-10">
                                 <div className="section-title text-center">
-                                    <h2 className="title">{ data.sectiontitle }</h2>
+                                    <h2 className="title main-color">{ data.sectiontitle }</h2>
                                     <p>{ data.sectionsubtitle }</p>
                                 </div>
                                 <div className="job-apply-area">
-                                    <form className="riyaqas-form-wrap">
+                                    <form className="riyaqas-form-wrap" action="https://formspree.io/f/xgedavpk" method="POST" encType="multipart/form-data">
                                         <div className="row">
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <input type="text" className="single-input" required />
-                                            <label>First Name</label>
+                                            <input type="text" name="Full Name" className="single-input" required />
+                                            <label>Full Name</label>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <input type="email" className="single-input" required />
+                                            <input type="email" name="Email" className="single-input" required />
                                             <label>E-mail</label>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <input type="text" className="single-input"  required/>
+                                            <input type="text" name="Country" className="single-input"  required/>
                                             <label>Country</label>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <select class="form-select custom-dropdown" aria-label="Default select example" required>
+                                            <select defaultValue={job.jobtitle} class="form-select custom-dropdown" required>
                                             { jobtitle.job.map(( item, i )=>
-                                                <option selected={item.jobtitle} value={item.jobtitle}>{item.jobtitle}</option>
+                                                <option value={item.jobtitle}>{item.jobtitle}</option>
                                             )}
                                             </select>
                                             </div>
@@ -126,7 +126,7 @@ const JobApply = ({job}) => {
                                             </div>
                                         </div>
                                         <div className="col-12 text-center">
-                                            <button className="btn btn-blue" href="#">Submit</button>
+                                            <button className="job-apply-btn mg-bottom-50 mg-top-50" type="submit">Submit</button>
                                         </div> 
                                         </div>
                                     </form>

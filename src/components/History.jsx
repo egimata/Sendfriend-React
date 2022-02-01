@@ -174,7 +174,7 @@ export const History = () => {
             innovation fund to build next-generation blockchain-based payment solutions for business and consumer
             customers
           </div>
-          <Link to="/contact">
+          <Link to="/contact-us">
             <div class="rectangle-108-iU7JjP smart-layers-pointers">
               <div class="learn-more-iVdtxd montserrat-bold-ebony-clay-14px">LEARN MORE</div>
             </div>
@@ -239,7 +239,7 @@ export const History = () => {
             <img class="vector-X4Kxpx" src="img/vector-35@2x.png" />
           </div>
         </div>
-        <Link to="/contact">
+        <Link to="/contact-us">
         <img class="learn-more-Obxx5p" src="img/learn-more@2x.png" />
         </Link>
       </div>
