@@ -26,13 +26,13 @@ class ContactForm extends Component {
                                     <div className="col-md-6">
                                         <div className="single-input-wrap">
                                             <input name="Full-Name" type="text" className="single-input" required/>
-                                            <label>Full Name</label>
+                                            <label>Full Name *</label>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="single-input-wrap">
                                             <input type="text" name="Email" className="single-input" required/>
-                                            <label>E-mail</label>
+                                            <label>E-mail *</label>
                                         </div>
                                     </div>
                                     <div className="col-md-12">
@@ -50,10 +50,10 @@ class ContactForm extends Component {
                                     <div className="col-md-12">
                                         <div className="single-input-wrap">
                                             <textarea name="Message" className="single-input textarea" cols="20" required></textarea>
-                                            <label className="single-input-label">Message</label>
+                                            <label className="single-input-label">Message *</label>
                                         </div>
                                     </div>
-                                    <div className="col-12">
+                                    <div className="col-12 text-center">
                                         <button className="job-apply-btn right" type="submit">Submit</button>
                                     </div> 
                                 </div>
@@ -67,15 +67,15 @@ class ContactForm extends Component {
                                     <h4 className="title">Technical support:</h4>
                                     
                                     <p className="sub-title">For technical support, please email: <a className="main-color" href="mailto:support@sendfriend.io">support@sendfriend.io</a></p>
-                                    <p className="sub-title">Hours of operation: M-F 8-6pm EST</p>
+                                    <p className="sub-title">Hours of operation: M-F, 24H</p>
                                     
                                     <h4 className="title">Careers:</h4>
                                     
                                     <p className="sub-title">To view our job openings, please visit our job board: <a className="main-color" href="/careers">CAREERS</a></p>
                                     <h4 className="title">Additional contact information:</h4>
-                                    <p><span>Address:</span> SendFriend Inc.101 Hudson St Suite 21099 Jersey City, NJ 07302</p>
+                                    <p><span>Address:</span> SendFriend Inc. 101 Hudson St., Suite 21099, Jersey City, NJ 07302</p>
                                     <p><span>Mobile:</span> (917) 592-9956</p>
-                                    <p><span>General hours of operation:</span>  M-F 9-5pm EST</p>
+                                    <p><span>General hours of operation:</span> M-F, 9-5pm EST</p>
                                 </div>
                             </div>
                         </div>

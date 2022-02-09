@@ -58,7 +58,6 @@ a:hover {
     color: var(--main-color);
 }
 
-
 input::placeholder {
     color: #97A1B2;
   }
@@ -77,7 +76,7 @@ input:focus::placeholder {
     color: var(--main-color) !important;
 }
 .right{
-    float: right;
+    float: right !important;
 }
 
 @media (max-width: 600px){
@@ -90,5 +89,17 @@ input:focus::placeholder {
     }
     .pd-right-70{
         padding-right: 0px;
+    }
+    .pd-bottom-112{
+        padding-bottom: 0px;
+    }
+    .pd-top-112 {
+        padding-top: 40px;
+    }
+    .text-center{
+        text-align: center !important;
+    }
+    .right{
+        float: none !important;
     }
 }
