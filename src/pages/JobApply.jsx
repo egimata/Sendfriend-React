@@ -8,13 +8,33 @@ import Footer from '../components/Footer/Footer';
 import FooterMobile from '../components/Footer/FooterMobile';
 import '../assets/css/bootstrap.min.css';
 
-const JobApply = ({job}) => {
+const JobApply = ({job}, props) => {
 
     const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
     const data = sectiondata.JobAplly
     const jobtitle = sectiondata.joblisting
+    const handleFocus = e => {
+        e.target.nextSibling.classList.add("active");
+    };
+    const handleBlur = e => {
+        e.target.nextSibling.classList.remove("active");
+    };
 
+    const handleFileSubmit = e => {
+        const fileName = e.target.value.split("\\").pop();
+        e.target.nextSibling.classList.add("selected");
+        e.target.nextSibling.innerText = fileName;
+
+    }
+
+    // if($('.riyaqas-file-input').length){
+    //     $(".riyaqas-file-input").on("change", function() {
+    //       var fileName = $(this).val().split("\\").pop();
+    //       $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    //     });
+    // }
+    
     return (
         <>
           <SEO title={'Apply for - ' + job.jobtitle} />
@@ -34,19 +54,19 @@ const JobApply = ({job}) => {
                                         <div className="row">
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <input type="text" className="single-input" name="Full Name" required />
+                                            <input onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} type="text" className="single-input" name="Full Name" required />
                                             <label>Full Name</label>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <input type="email" className="single-input" name="Email" required />
+                                            <input onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} type="email" className="single-input" name="Email" required />
                                             <label>E-mail</label>
                                             </div>
                                         </div>
                                         <div className="col-md-12">
                                             <div className="single-input-wrap">
-                                            <input type="text" className="single-input" name="Country"  required/>
+                                            <input onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} type="text" className="single-input" name="Country"  required/>
                                             <label>Country</label>
                                             </div>
                                         </div>
@@ -61,7 +81,7 @@ const JobApply = ({job}) => {
                                         </div>
                                         <div className="col-12">
                                             <div className="custom-file riyaqas-file-input-wrap">
-                                            <input type="file" className="riyaqas-file-input" name="resume" id="sb-file-input" required />
+                                            <input onChange={handleFileSubmit} type="file" className="riyaqas-file-input" name="resume" id="sb-file-input" required />
                                             <label className="custom-file-label" htmlFor="sb-file-input">Upload Resume</label>
                                             </div>
                                         </div>

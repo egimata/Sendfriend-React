@@ -10,6 +10,7 @@ import ButtonWhite from  './Buttons/ButtonWhite'
 import Header from './Headers/Header';
 import Footer from './Footer/Footer';
 import FooterMobile from './Footer/FooterMobile';
+import Client from './Clients/clients';
 
 
  
@@ -378,7 +379,8 @@ export const Homepage = () => {
           </TabPanel>
 
         </Tabs>
-
+        <Client />
+        
       <div class="platform-section-zYNucu" id="platform-section">
         <div class="a-flexible-cross-bor-ukK2kV montserrat-extra-bold-white-36px animate-enter18" show-on-scroll>
           <span class="span0-MPLrMf">A flexible cross-border payment solution<br /></span
@@ -544,6 +546,7 @@ export const Homepage = () => {
       <img class="slider-homepage-1-qujsfd bp2-animate-enter1" src="img/slider-homepage-1@1x.jpg" />
       <div class="rectangle-126-qujsfd"></div>
       <NavMobile />
+      <Client />
       <div class="faster-cheaper-multi-qujsfd bp2-animate-enter2">
         <span class="span0-GBW4Tf">Faster, Cheaper<br />Multi-Chain<br />Payments </span
         ><span class="span1-GBW4Tf montserrat-extra-bold-caribbean-green-30px">Service.</span>

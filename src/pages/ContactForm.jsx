@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 
-class ContactForm extends Component {
+const ContactForm = props => {
 
-    render() {
         let imgalt = 'image'
         let publicUrl = process.env.PUBLIC_URL+'/'
+        let className = 'menu';
+        const handleFocus = e => {
+            e.target.nextSibling.classList.add("active");
+        };
+        const handleBlur = e => {
+            e.target.nextSibling.classList.remove("active");
+        };
    
     return <div>
             <div className="contact-form-area pd-top-112 pd-bottom-112">
@@ -25,31 +31,31 @@ class ContactForm extends Component {
                                 <div className="row custom-gutters-16">
                                     <div className="col-md-6">
                                         <div className="single-input-wrap">
-                                            <input name="Full-Name" type="text" className="single-input" required/>
+                                            <input  onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} name="Full-Name" type="text" className="single-input" required/>
                                             <label>Full Name *</label>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="single-input-wrap">
-                                            <input type="text" name="Email" className="single-input" required/>
+                                            <input onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} type="text" name="Email" className="single-input" required/>
                                             <label>E-mail *</label>
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="single-input-wrap">
-                                            <input type="text" name="company" className="single-input"/>
+                                            <input onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} type="text" name="company" className="single-input"/>
                                             <label>Company</label>
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="single-input-wrap">
-                                            <input type="text" name="mobile" className="single-input"/>
+                                            <input onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} type="text" name="mobile" className="single-input"/>
                                             <label>Mobile</label>
                                         </div>
                                     </div>
                                     <div className="col-md-12">
                                         <div className="single-input-wrap">
-                                            <textarea name="Message" className="single-input textarea" cols="20" required></textarea>
+                                            <textarea onFocus={handleFocus} onBlur={handleBlur} onChange={props.changed} name="Message" className="single-input textarea" cols="20" required></textarea>
                                             <label className="single-input-label">Message *</label>
                                         </div>
                                     </div>
@@ -85,7 +91,6 @@ class ContactForm extends Component {
             </div>
         </div>
      }
-}
 
 export default ContactForm
 

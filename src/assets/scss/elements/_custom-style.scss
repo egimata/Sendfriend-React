@@ -102,4 +102,14 @@ input:focus::placeholder {
     .right{
         float: none !important;
     }
+    .client-area{
+        position: absolute;
+        top: 1601px;
+        width: 100%;
+    }
+}
+.client-area{
+    position: absolute;
+    top: 1601px;
+    width: 100%;
 }

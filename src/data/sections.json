@@ -1,50 +1,53 @@
 {
    "client" :{
-      "sectiontitle": "Our Clients",
-      "sectiontitle_color": "Client",
-      "short_description":"egitest",
+      "sectiontitle": "Trusted by",
+      "sectiontitle_color": "world’s leading",
+      "short_description":"companies",
       "list_item":[
         {
-          "image": "assets/img/startup/client/1.svg"
+          "image": "img/startup/client/1.svg"
         },        
         {
-          "image": "assets/img/startup/client/2.svg"
+          "image": "img/startup/client/2.svg"
         },        
         {
-          "image": "assets/img/startup/client/3.svg"
+          "image": "img/startup/client/3.svg"
         },        
         {
-          "image": "assets/img/startup/client/4.svg"
+          "image": "img/startup/client/4.svg"
         },        
         {
-          "image": "assets/img/startup/client/5.svg"
+          "image": "img/startup/client/5.svg"
         },
         {
-          "image": "assets/img/startup/client/1.svg"
+          "image": "img/startup/client/1.svg"
         }
       ]
   },
   "clientv3" :{
+    "sectiontitle": "Trusted by",
+    "sectiontitle_color": "world’s leading",
+    "sectiontitle2":"companies",
     "list_item":[
       { 
         "url":"https://www.forbes.com/",
-        "image": "assets/img/client/1.svg"
+        "image": "img/client/1.svg"
       },        
       { 
         "url":"https://www.nytimes.com/international/",
-        "image": "assets/img/client/2.svg"
+        "image": "img/client/2.svg"
       },        
       { 
         "url":"https://www.entrepreneur.com/",
-        "image": "assets/img/client/3.svg"
+        "image": "img/client/3.svg"
       },        
       {
         "url":"https://www.bloomberg.com/",
-        "image": "assets/img/client/4.svg"
+        "image": "img/client/4.svg"
       },        
       { 
         "url":"https://www.marketwatch.com/",
-        "image": "assets/img/client/5.svg"
+        "image": "img/client/5.svg"
       }
       
     ]
