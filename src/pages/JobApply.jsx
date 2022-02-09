@@ -10,7 +10,6 @@ import '../assets/css/bootstrap.min.css';
 
 const JobApply = ({job}, props) => {
 
-    const publicUrl = process.env.PUBLIC_URL+'/'
     const imgattr = 'SendFriend Job Application'
     const data = sectiondata.JobAplly
     const jobtitle = sectiondata.joblisting
@@ -27,13 +26,6 @@ const JobApply = ({job}, props) => {
         e.target.nextSibling.innerText = fileName;
 
     }
-
-    // if($('.riyaqas-file-input').length){
-    //     $(".riyaqas-file-input").on("change", function() {
-    //       var fileName = $(this).val().split("\\").pop();
-    //       $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-    //     });
-    // }
     
     return (
         <>

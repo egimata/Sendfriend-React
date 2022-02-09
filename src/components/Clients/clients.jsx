@@ -4,17 +4,12 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-
-
-
 class Client extends Component {
 
     render() {
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
         let imgattr = 'image'
         let data = sectiondata.clientv3
-        let anchor = '#'
 
     return <div>
             <div className="client-area text-center padding-top-40">
