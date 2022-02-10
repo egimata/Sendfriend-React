@@ -239,6 +239,23 @@
   padding-top:112px;
 }
 
+.client-slider-title {
+  font-size: 32px;
+  line-height: 62px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.64px;
+  color: #ffffff;
+  font-weight: 600; }
+  .client-slider-title span {
+    color: var(--main-color-one);
+    font-weight: 600; }
+
+    .owl-carousel{
+      box-shadow: 0px 7px 20px 0px #00000024;
+      padding: 20px;
+      border-radius: 10px;
+      }
+
 /*----------------------------------------
     ## All form
 ------------------------------------------*/

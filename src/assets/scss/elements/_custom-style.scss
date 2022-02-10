@@ -103,13 +103,16 @@ input:focus::placeholder {
         float: none !important;
     }
     .client-area{
-        position: absolute;
-        top: 1601px;
-        width: 100%;
+        top: 5073px !important;
+        padding-left: 68px;
+        padding-right: 68px;
     }
 }
 .client-area{
     position: absolute;
-    top: 1601px;
+    top: 5124px;
+    z-index: 2;
     width: 100%;
+    padding-left: 68px;
+    padding-right: 68px;
 }

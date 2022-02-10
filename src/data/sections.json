@@ -1,8 +1,8 @@
 {
    "client" :{
-      "sectiontitle": "Trusted by",
-      "sectiontitle_color": "world’s leading",
-      "short_description":"companies",
+      "sectiontitle": "As ",
+      "sectiontitle_color": "Seen",
+      "short_description":" On",
       "list_item":[
         {
           "image": "img/startup/client/1.svg"
@@ -25,9 +25,9 @@
       ]
   },
   "clientv3" :{
-    "sectiontitle": "Trusted by",
-    "sectiontitle_color": "world’s leading",
-    "sectiontitle2":"companies",
+    "sectiontitle": "As ",
+    "sectiontitle_color": "Seen",
+    "sectiontitle2":" On",
     "list_item":[
       { 
         "url":"https://www.forbes.com/",

@@ -506,8 +506,9 @@ export const Homepage = () => {
           Following the latest security standards, tested by time, our API is ready to handle millions of transactions per second.
         </div>
       </div>
+      <img class="section-5-ZmCudT" src="img/homepage/section-5@1x.png" />
       <div id="partners" class="section-5-zYNucu">
-        <img class="section-5-ZmCudT" src="img/homepage/section-5@1x.png" />
+        
         <div class="partnerships-ZmCudT">
           <div class="rectangle-91-5wTBPE"></div>
           <img class="line-2-5wTBPE" src="img/homepage/line-clock.svg" />
