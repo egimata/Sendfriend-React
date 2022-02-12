@@ -6,7 +6,7 @@ const Header = ({subtitle, text, green_text, image, under_text }) => {
 
   return ( 
     <>
-      <div className="section section-header slider-homepage-1-zYNucu " style={{backgroundImage: `url(${image})`}}>
+      <div className="section section-header slider-homepage-1-zYNucu" style={{backgroundImage: `url(${image})`}}>
         <div className="header-container">
             <div className="header-row">
                 <div className="col-6"></div>

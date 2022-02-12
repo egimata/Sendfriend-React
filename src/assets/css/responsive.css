@@ -989,7 +989,7 @@
         left: 28px;
     }
     .client-slider-title {
-        font-size: 25px;
+        font-size: 36px;
     }
     .single-case-studies .details h6 a {
         font-size: 18px;
@@ -1960,7 +1960,8 @@
 
     /********* home 7 *********/
     .client-slider-title {
-        font-size: 16px;
+        font-size: 21px;
+        font-weight: 800;
         line-height: 27px;
 
     }

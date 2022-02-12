@@ -367,9 +367,7 @@ input:focus {
   border: 1px solid var(--mist-gray);
 }
 
-.border-1px-black-2 {
-  border: 1px solid var(--black-2);
-}
+
 
 .border-5px-caribbean-green {
   border: 5px solid var(--caribbean-green);

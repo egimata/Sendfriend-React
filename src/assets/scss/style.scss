@@ -26,10 +26,12 @@
 
 
 /**************************************
-    Theme Styles
+    Globals
 ***************************************/
 
-// @import 'color/themebg';
+@import "global/_variables";
+@import "global/_global";
+
 
 /**************************************
     Header Styles
@@ -54,13 +56,12 @@
 // @import 'elements/portfolio';
 // @import 'elements/social';
 @import 'elements/team';
+@import 'elements/homepage';
 @import 'elements/dropdown';
-@import 'elements/custom-style';
-@import 'elements/variables';
 @import 'elements/job';
 @import 'elements/all-form';
 @import 'elements/map';
-@import 'elements/globals';
+@import 'elements/headers';
 
 // @import 'elements/timeline';
 // @import 'elements/testimonial';

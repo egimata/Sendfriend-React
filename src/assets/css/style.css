@@ -240,12 +240,13 @@
 }
 
 .client-slider-title {
-  font-size: 32px;
+  font-size: 36px;
   line-height: 62px;
   font-family: 'Montserrat';
   letter-spacing: 0.64px;
   color: #ffffff;
-  font-weight: 600; }
+  font-weight: 700;
+}
   .client-slider-title span {
     color: var(--main-color-one);
     font-weight: 600; }

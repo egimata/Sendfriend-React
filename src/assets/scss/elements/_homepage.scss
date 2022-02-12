@@ -1,0 +1,51 @@
+.features-section{
+    position: relative;
+    width: 100%;
+}
+
+// Homepage Section
+
+.bg-green-tilt{
+    background-color: var(--main-color);
+}
+
+.tab-cheaper {
+    height: 116px;
+    left: calc(50.00% - 421px);
+    position: absolute;
+    top: 0;
+    width: 212px;}
+    .cheaper-border {
+        background-color: var(--white);
+        cursor: pointer;
+        height: 116px;
+        left: calc(50.00% - 106px);
+        mix-blend-mode: normal;
+        pointer-events: auto;
+        position: absolute;
+        top: 0px;
+        transition: all 0.2s ease-in-out;
+        width: 210px;
+        z-index: 1;
+    &:hover {
+        transform: translate(0, -5px);
+        }
+    }
+
+.client-area{
+    position: absolute;
+    top: 5038px;
+    z-index: 2;
+    width: 100%;
+    padding-left: 68px;
+    padding-right: 68px;
+}
+
+@media (max-width: 600px){
+    .client-area{
+        top: 5026px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+    

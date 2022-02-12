@@ -397,9 +397,6 @@
     border: 5px solid var(--caribbean-green);
   }
   
-  .border-1px-black-2 {
-    border: 1px solid var(--black-2);
-  }
   @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,300,500,600,800");
 
 .screen textarea:focus,

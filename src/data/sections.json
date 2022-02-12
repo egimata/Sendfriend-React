@@ -25,28 +25,22 @@
       ]
   },
   "clientv3" :{
-    "sectiontitle": "As ",
-    "sectiontitle_color": "Seen",
-    "sectiontitle2":" On",
+    "sectiontitle": "As Seen On",
     "list_item":[
       { 
-        "url":"https://www.forbes.com/",
+        
         "image": "img/client/1.svg"
       },        
       { 
-        "url":"https://www.nytimes.com/international/",
         "image": "img/client/2.svg"
       },        
       { 
-        "url":"https://www.entrepreneur.com/",
         "image": "img/client/3.svg"
       },        
       {
-        "url":"https://www.bloomberg.com/",
         "image": "img/client/4.svg"
       },        
       { 
-        "url":"https://www.marketwatch.com/",
         "image": "img/client/5.svg"
       }
       

@@ -19,6 +19,7 @@ import ScrollButton from './components/ScrollButton';
 import ScrollToTop from './components/ScrollToTop';
 import sectiondata from './data/jobdata.json';
 import { ESignPolicy } from "./components/Policies/ESignPolicy";
+import TestPage from "./components/TestPage";
 
 //Css Here 
 import './assets/scss/style.scss';
@@ -47,7 +48,8 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/careers" element ={<JobList />} />
           <Route path="/contact-us" element ={<ContactUs />} />
-          { data.job.map(( item, i )=>
+          <Route path="/test-page" element ={<TestPage />} />
+           { data.job.map(( item, i )=>
             <Route key={i} path={item.path} element={<JobDescription job={item} />} />
           )}
           { data.job.map(( item, i )=>

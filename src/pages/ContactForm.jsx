@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 const ContactForm = props => {
 
@@ -77,7 +78,7 @@ const ContactForm = props => {
                                     
                                     <h4 className="title">Careers:</h4>
                                     
-                                    <p className="sub-title">To view our job openings, please visit our job board: <a className="main-color" href="/careers">CAREERS</a></p>
+                                    <p className="sub-title">To view our job openings, please visit our job board: <Link className="main-color" to="/careers">CAREERS</Link></p>
                                     <h4 className="title">Additional contact information:</h4>
                                     <p><span>Address:</span> SendFriend Inc. 101 Hudson St., Suite 21099, Jersey City, NJ 07302</p>
                                     <p><span>Mobile:</span> (917) 592-9956</p>
