@@ -18,11 +18,11 @@
     --font-size-xxxl: 32px;
     --font-size-xxxxl: 36px;
    
-    --font-family-montserrat: "Montserrat", Helvetica;
+    --main-font: "Montserrat", Helvetica;
   }
   .montserrat-bold-white-14px {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 700;
@@ -30,7 +30,7 @@
   
   .montserrat-medium-white-14px {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 500;
@@ -38,7 +38,7 @@
   
   .montserrat-bold-ebony-clay-14px {
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 700;
@@ -46,7 +46,7 @@
   
   .montserrat-medium-white-11px {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 500;
@@ -54,7 +54,7 @@
   
   .montserrat-semi-bold-ebony-clay-10px {
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 10px;
     font-style: normal;
     font-weight: 600;
@@ -62,7 +62,7 @@
   
   .montserrat-normal-quick-silver-11px {
     color: var(--quick-silver);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 400;
@@ -70,7 +70,7 @@
   
   .montserrat-normal-quick-silver-16px {
     color: var(--quick-silver);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-l);
     font-style: normal;
     font-weight: 400;
@@ -78,7 +78,7 @@
   
   .montserrat-medium-white-16px {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-l);
     font-style: normal;
     font-weight: 500;
@@ -86,7 +86,7 @@
   
   .montserrat-bold-white-8px {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 8px;
     font-style: normal;
     font-weight: 700;
@@ -94,7 +94,7 @@
   
   .montserrat-semi-bold-ebony-clay-14px {
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 600;
@@ -102,14 +102,14 @@
   
   .montserrat-bold-ebony-clay-16px {
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-l);
     font-style: normal;
     font-weight: 700;
   }
   
   .montserrat-extra-bold-white-36px {
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxxxl);
     font-style: normal;
     font-weight: 800;
@@ -117,7 +117,7 @@
   
   .montserrat-semi-bold-black-24px {
     color: var(--black);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxl);
     font-style: normal;
     font-weight: 600;
@@ -125,14 +125,14 @@
   
   .montserrat-normal-ebony-clay-13px {
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
   }
   
   .montserrat-bold-white-32px {
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxxl);
     font-style: normal;
     font-weight: 700;
@@ -140,7 +140,7 @@
   
   .montserrat-bold-white-32px-2 {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxxl);
     font-style: normal;
     font-weight: 700;
@@ -148,7 +148,7 @@
   
   .montserrat-bold-eerie-black-14px {
     color: var(--eerie-black);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-m);
     font-style: normal;
     font-weight: 700;
@@ -156,7 +156,7 @@
   
   .montserrat-extra-bold-white-36px-2 {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxxxl);
     font-style: normal;
     font-weight: 800;
@@ -164,7 +164,7 @@
   
   .montserrat-bold-ebony-clay-18px {
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 18px;
     font-style: normal;
     font-weight: 700;

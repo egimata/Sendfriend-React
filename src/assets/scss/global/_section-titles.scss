@@ -1,0 +1,109 @@
+.section-title {
+    margin-bottom: 65px;
+    .title {
+        color: var(--eerie-black);
+        opacity: 1;
+        letter-spacing: 0.00px;
+        line-height: 38.7px;
+        font-weight: 800;
+        margin-bottom: 0;
+        font-family: var(--main-font);
+        span {
+            color: var(--white);
+        }
+    }
+    .title-2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    p {
+        letter-spacing: 0.32px;
+        color: var(--ebony-clay);
+        opacity: 1;
+        font-size: var(--font-size-m);
+        margin-top: 18px;
+        margin-bottom: 0;
+        font-weight: 600;
+        letter-spacing: 0.00px;
+        line-height: normal;
+        width: 75%;
+    }
+    a {
+        font-size: var(--body-font-size);
+        line-height: var(--line-height30);
+        font-weight: 500;
+        letter-spacing: 0.45px;
+        color: #97A1B3;
+        margin-top: 24px;
+        display: inline-block;
+        position: relative;
+        img {
+            margin-left: 6px;
+            transition: 0.3s;
+        }
+        &:hover img {
+            margin-left: 9px;
+        }
+        &.read-more i {
+            font-size: 35px;
+            position: absolute;
+            right: -42px;
+            bottom: -3px;
+        }
+        &:hover {
+            color: var(--main-color-one);
+        }
+    }
+    &.style-two {
+        margin-bottom: 44px;
+    }
+    &.style-two-custom{
+        margin-bottom: 10px;
+    }
+    &.style-three {
+        max-width: 80%;
+        margin-bottom: 45px;
+    }
+    &.style-four {
+        .title {
+            font-size: 36px;
+            line-height: 1.2;
+        }
+        p{
+            line-height: 26px;
+        }
+    }
+    &.style-five {
+        .sub-title {
+            font-size: 18px;
+            font-weight: 500;
+            span {
+                color: var(--main-color-one);
+            }
+        }
+    }
+    &.ui-element-section-title {
+        margin-bottom: 0;
+        .title {
+            font-size: 32px;
+            line-height: 1.2;
+            color: $gray;
+        }
+        p{
+            font-size: 16px;
+            line-height: 26px;
+            color: $gray;
+            position: relative;
+            display: inline-block;
+            &:after {
+                content: '';
+                position: absolute;
+                right: -50px;
+                top: 50%;
+                background: #4B4B4B;
+                height: 1px;
+                width: 30px;
+            }
+        }
+    }
+}

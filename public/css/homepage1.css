@@ -13,13 +13,6 @@
   width: 100%;
 }
 
-
-
-
-
-
-
-
 .homepage .rectangle-106-zYNucu {
   background-color: transparent;
   height: 16.92%;
@@ -480,7 +473,7 @@ to{opacity: 1;
 
 .homepage .span0-vBeqzr {
   color: var(--eerie-black);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 800;
@@ -491,7 +484,7 @@ to{opacity: 1;
 
 .homepage .span2-vBeqzr {
   color: var(--eerie-black);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 800;
@@ -1236,7 +1229,7 @@ transform: scale(1);
 
 .homepage .span0-MPLrMf {
   color: var(--caribbean-green);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 800;
@@ -1244,7 +1237,7 @@ transform: scale(1);
 
 .homepage .span1-MPLrMf {
   color: var(--ebony-clay);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 800;
@@ -1463,7 +1456,7 @@ to{opacity: 1;
 .homepage .our-api-based-platfo-kSsxZv {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 600;
@@ -1481,7 +1474,7 @@ to{opacity: 1;
 .homepage .in-short-we-are-buil-kSsxZv {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 600;
@@ -1521,7 +1514,7 @@ to{opacity: 1;
 
 .homepage .span0-GtZLxa {
   color: var(--caribbean-green);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 800;
@@ -1582,7 +1575,7 @@ to{opacity: 1;
 
 .homepage .span1-nxQf97 {
   color: var(--ebony-clay);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 800;
@@ -2083,7 +2076,7 @@ to{opacity: 1;
 .homepage .celo-g5uSpk {
   background-color: transparent;
   color: var(--white);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 300;
@@ -2123,7 +2116,7 @@ to{opacity: 1;
 .homepage .partners-5wTBPE {
   background-color: transparent;
   color: var(--caribbean-green);
-  font-family: var(--font-family-montserrat);
+  font-family: var(--main-font);
   font-size: var(--font-size-xxxxl);
   font-style: normal;
   font-weight: 700;
@@ -2200,7 +2193,7 @@ to{opacity: 1;
     background-color: transparent;
     color: transparent;
     display: block;
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 30px;
     font-style: normal;
     font-weight: 800;
@@ -3128,7 +3121,7 @@ to{opacity: 1;
   .mobile-homepage .our-on-chain-solutio-qujsfd {
     background-color: transparent;
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 600;
@@ -3145,7 +3138,7 @@ to{opacity: 1;
   .mobile-homepage .our-on-chain-solutio-qujsfd6 {
     background-color: transparent;
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 600;
@@ -3162,7 +3155,7 @@ to{opacity: 1;
   .mobile-homepage .our-on-chain-solutio-qujsfd4 {
     background-color: transparent;
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 600;
@@ -3475,7 +3468,7 @@ to{opacity: 1;
   .mobile-homepage .our-api-based-platfo-qujsfd {
     background-color: transparent;
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 700;
@@ -3493,7 +3486,7 @@ to{opacity: 1;
   .mobile-homepage .in-short-we-are-buil-qujsfd {
     background-color: transparent;
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 700;
@@ -3682,7 +3675,7 @@ to{opacity: 1;
   .mobile-homepage .get-fx-rate-O4lNUx {
     background-color: #ececec;
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 700;
@@ -3719,7 +3712,7 @@ to{opacity: 1;
   .mobile-homepage .get-price-kUWRox {
     background-color: #ececec;
     color: var(--ebony-clay);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 700;
@@ -3756,7 +3749,7 @@ to{opacity: 1;
   .mobile-homepage .code-rpFmxG {
     background-color: #ececec;
     color: #263238;
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 700;
@@ -4157,7 +4150,7 @@ to{opacity: 1;
   .mobile-homepage .we-are-fortunate-to-RBdLCu {
     background-color: transparent;
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-s);
     font-style: normal;
     font-weight: 500;

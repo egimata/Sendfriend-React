@@ -13,6 +13,7 @@ const JobApply = ({job}, props) => {
     const imgattr = 'SendFriend Job Application'
     const data = sectiondata.JobAplly
     const jobtitle = sectiondata.joblisting
+    
     const handleFocus = e => {
         e.target.nextSibling.classList.add("active");
     };

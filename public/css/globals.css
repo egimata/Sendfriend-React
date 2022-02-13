@@ -183,23 +183,7 @@ input:focus {
 * {
   box-sizing: border-box;
 }
-.react-tabs__tab--selected {
-  background: #fff;
-  border-color: #aaa;
-  color: black;
-  border-radius: 5px 5px 0 0;
-  /* visibility: hidden; */
 
-}
-.react-tabs__tab--selected div{
-  background-color: #252A30 !important;
-  color: #ffffff !important;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-.react-tabs__tab-list{
-  list-style:none;
-}
 
 .company-dropdown-kYUAzc {
   background-color: transparent;

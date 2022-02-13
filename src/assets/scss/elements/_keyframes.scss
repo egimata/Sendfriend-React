@@ -1,0 +1,136 @@
+/*-----------------------------------
+    KeyFrames
+--------------------------------------*/
+  
+@keyframes animate-enter-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+}
+
+@keyframes animate-enter4-frames {
+    from{opacity: 0;
+  transform: translate(100px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+}
+
+@keyframes animate-enter3-frames {
+    from{opacity: 0;
+  transform: scale(1.1);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+}
+
+@keyframes animate-enter-frames {
+    from{opacity: 0;
+  transform: translate(50px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+}
+
+@keyframes animate-enter8-frames {
+    from{opacity: 0;
+  transform: rotate(90deg);
+  }
+  to{opacity: 1;
+  transform: rotate(0);
+  }
+}
+
+@keyframes animate-enter9-frames {
+    from{opacity: 0;
+  transform: rotate(40deg);
+  }
+  to{opacity: 1;
+  transform: rotate(0);
+  }
+}
+
+@keyframes animate-enter10-frames {
+    from{opacity: 0;
+  transform: translate(-25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+}
+
+@keyframes animate-enter11-frames {
+    from{opacity: 0;
+  transform: translate(0, 25px);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+}
+
+@keyframes animate-enter13-frames {
+    from{opacity: 0;
+  transform: scale(0.67);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+}
+
+@keyframes animate-enter14-frames {
+    from{opacity: 0;
+  }
+  to{opacity: 1;
+  }
+}
+  
+@keyframes stretch {
+    0% {
+      transform: scale(.5);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+}
+
+@keyframes animate-enter15-frames {
+    from{opacity: 0;
+  transform: translate(25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+}
+
+ 
+@keyframes animate-enter5-frames {
+    from{opacity: 0;
+    }
+    to{opacity: 1;
+    }
+}
+
+@keyframes animate-enter16-frames {
+    from{opacity: 0;
+  transform: translate(-25px, 0);
+  }
+  to{opacity: 1;
+  transform: translate(0,0);
+  }
+}
+
+  
+@keyframes animate-enter17-frames {
+    from{opacity: 0;
+  transform: scale(0.9);
+  }
+  to{opacity: 1;
+  transform: scale(1);
+  }
+}

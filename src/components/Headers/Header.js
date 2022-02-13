@@ -1,6 +1,5 @@
 
 import { Link } from 'react-router-dom';
-import './header.css';
 import ButtonWhite from  '../Buttons/ButtonWhite';
 const Header = ({subtitle, text, green_text, image, under_text }) => {
 

@@ -16,13 +16,6 @@ const ContactForm = props => {
     return <div>
             <div className="contact-form-area pd-top-112 pd-bottom-112">
                 <div className="container display-block">
-                    {/* <div className="row justify-content-center">
-                        <div className="col-xl-6 col-lg-8">
-                            <div className="section-title text-center w-100">
-                                <h2 className="title">Have a question about our product and service offerings?<br /> <span>Please drop us a line below</span></h2>
-                            </div>
-                        </div>
-                    </div> */}
                     <div className="row justify-content-center">
                         <div className="col-lg-7">
                             <div className="section-title text-center w-100">

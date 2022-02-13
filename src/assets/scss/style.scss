@@ -31,7 +31,8 @@
 
 @import "global/_variables";
 @import "global/_global";
-
+@import "global/typography";
+@import "global/section-titles";
 
 /**************************************
     Header Styles
@@ -62,6 +63,8 @@
 @import 'elements/all-form';
 @import 'elements/map';
 @import 'elements/headers';
+@import 'elements/buttons';
+@import 'elements/keyframes';
 
 // @import 'elements/timeline';
 // @import 'elements/testimonial';

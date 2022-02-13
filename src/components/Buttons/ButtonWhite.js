@@ -1,9 +1,11 @@
-import "./buttons.css"
-
-const ButtonWhite = ({text}) => {
+const ButtonWhite = ({text, custom_style}) => {
 
   return ( 
-    <button className='buttonwhite'>{text}</button>
+    <div className={custom_style}>
+      <div className="style">
+        {text}
+      </div>
+    </div>
   )
 }
 

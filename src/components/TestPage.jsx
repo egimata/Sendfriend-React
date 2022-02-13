@@ -12,10 +12,11 @@ import Footer from './Footer/Footer';
 import FooterMobile from './Footer/FooterMobile';
 import Client from './Clients/clients';
 import FeaturesSection from './Homepage/FeaturesSection';
-import HeaderTest from './HeaderTest';
+import HeaderTest from './Headers/HeaderTest';
+import PlatformSection from './Homepage/PlatformSection';
 
 
-const TestPage = () => {
+const TestPage = ({tabPanel}) => {
     return (
       <div>
        <input type="hidden" id="anPageName" name="page" value="homepage" />
@@ -28,34 +29,11 @@ const TestPage = () => {
             image='img/homepage/slider-homepage-1@1x.jpg'
             under_text='We are cheaper, faster, and more reliable and secure.'
           />
-        <FeaturesSection />
-        <Client />
-        
-      <div class="platform-section-zYNucu" id="platform-section">
-        <div class="a-flexible-cross-bor-ukK2kV montserrat-extra-bold-white-36px animate-enter18" show-on-scroll>
-          <span class="span0-MPLrMf">A flexible cross-border payment solution<br /></span
-          ><span class="span1-MPLrMf">expanding its international reach</span>
-        </div>
-        <div class="group-98-ukK2kV">
-          <div class="servicing-internatio-hKfoR6 montserrat-bold-ebony-clay-14px">
-            Servicing international remittance corridors in high-volume regions with traditionally burdensome costs and
-            regulations
-          </div>
-          <div class="our-network-is-expan-hKfoR6 montserrat-bold-ebony-clay-14px">
-            Our network is expanding as we develop new integrations and financial relationships
-          </div>
-          <div class="whether-fiat-to-fiat-hKfoR6 montserrat-bold-ebony-clay-14px">
-            Whether fiat-to-fiat, crypto-to-fiat, or fiat-to-crypto, we are developing capabilities to meet a multitude
-            of B2B and B2C remittance use cases
-          </div>
-          <div class="settling-payments-mo-hKfoR6 montserrat-bold-ebony-clay-14px">
-            Settling payments more seamlessly across a variety of currency exchanges, including fiat and crypto
-          </div>
-        </div>
-        <img class="group-102-ukK2kV animate-enter19" show-on-scroll src="img/homepage/group-102@2x.svg" />
-        <img class="line-15-ukK2kV" src="img/homepage/line-15@2x.png" />
-        <img class="group-128-ukK2kV" src="img/homepage/group-128@1x.png" />
-      </div>
+        <FeaturesSection item={tabPanel} />
+        <PlatformSection />
+        {/* <Client /> */}
+{/*         
+    
       <div class="section-3-zYNucu">
         <img class="section-3-hLpjsq" src="img/homepage/section-3@1x.png" />
         <img class="asset-1bg1-1-1-hLpjsq" src="img/homepage/asset-1bg1-1-1@1x.png" />
@@ -109,7 +87,7 @@ const TestPage = () => {
                 </div>
               </Tab>
 
-                {/* <Tab>
+                 <Tab>
                 <div class="rectangle-111-c0Knzr smart-layers-pointers border-1px-black-2">
                   <div class="smart-layers-pointers bp1-animate-enter22" />
                   <div class="get-fx-rate-c0Knzr montserrat-bold-ebony-clay-14px">Get FX Rate</div>
@@ -121,7 +99,7 @@ const TestPage = () => {
                   <div class="smart-layers-pointers bp1-animate-enter22" />
                     <div class="get-price-c0Knzr montserrat-bold-ebony-clay-14px">Get Price</div>
                 </div>
-              </Tab> */}
+              </Tab> 
 
             </TabList>
 
@@ -135,7 +113,7 @@ const TestPage = () => {
 
             <TabPanel>
             <img class="api-async-c0Knzr animate-enter22" show-on-scroll src='img/homepage/api-third.jpeg' />
-            </TabPanel> */}
+            </TabPanel> 
 
           </Tabs>
         
@@ -189,7 +167,7 @@ const TestPage = () => {
           <div  class="partners-5wTBPE">Partners</div>
         </div>
       </div>
-      
+       */}
       <Footer custom_class="section footer-section" />
     </div>
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import SEO from '../components/common/SEO';
-import sectiondata from '../data/jobdata.json';
 import { Link } from 'react-router-dom';
 import Nav from '../components/Navs/Nav';
 import NavMobile from '../components/Navs/NavMobile';
@@ -11,8 +10,6 @@ import '../assets/css/bootstrap.min.css';
 const JobDescription = ({job}) => {
 
     const publicUrl = process.env.PUBLIC_URL+'/'
-    const imgattr = 'SendFriend Job Application'
-    const data = sectiondata.joblisting
     const jobDuties = job.duties;
     const jobReq = job.requirements;
     const jobNTH = job.nice_to_have;

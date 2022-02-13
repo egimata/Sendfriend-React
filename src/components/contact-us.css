@@ -15,21 +15,21 @@
 @media only screen and (max-width: 600px) {
   .montserrat-light-white-11px {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xs);
     font-style: normal;
     font-weight: 300;
   }
   .montserrat-bold-white-50px-2 {
     color: var(--white);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 50px;
     font-style: normal;
     font-weight: 700;
   }
   .montserrat-bold-caribbean-green-50px {
     color: var(--caribbean-green);
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: 50px;
     font-style: normal;
     font-weight: 700;

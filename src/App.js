@@ -18,6 +18,7 @@ import Team from "./components/TestPage";
 import ScrollButton from './components/ScrollButton';
 import ScrollToTop from './components/ScrollToTop';
 import sectiondata from './data/jobdata.json';
+import tabsdata from './data/tabsdata.json';
 import { ESignPolicy } from "./components/Policies/ESignPolicy";
 import TestPage from "./components/TestPage";
 
@@ -29,7 +30,8 @@ import { keyframes } from "styled-components";
 
 function App() {
 
-  let data = sectiondata.joblisting
+  let data = sectiondata.joblisting;
+  let tabdata = tabsdata.tabslisting;
 
     return (
       
@@ -48,8 +50,10 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/careers" element ={<JobList />} />
           <Route path="/contact-us" element ={<ContactUs />} />
-          <Route path="/test-page" element ={<TestPage />} />
-           { data.job.map(( item, i )=>
+          { tabdata.tabPanel.map(( item, i )=>
+            <Route key={i} path="/test-page" element ={<TestPage tabPanel={item} />} />
+          )}
+          { data.job.map(( item, i )=>
             <Route key={i} path={item.path} element={<JobDescription job={item} />} />
           )}
           { data.job.map(( item, i )=>

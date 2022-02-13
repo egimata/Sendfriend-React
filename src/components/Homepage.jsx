@@ -7,7 +7,7 @@ import './homepage.css';
 import Nav from './Navs/Nav';
 import NavMobile from './Navs/NavMobile';
 import ButtonWhite from  './Buttons/ButtonWhite'
-import Header from './Headers/Header';
+import HeaderTest from './Headers/HeaderTest';
 import Footer from './Footer/Footer';
 import FooterMobile from './Footer/FooterMobile';
 import Client from './Clients/clients';
@@ -22,13 +22,14 @@ export const Homepage = () => {
        <input type="hidden" id="anPageName" name="page" value="homepage" />
        <div class="homepage main-wrapper">
          <Nav />
-         <Header 
+         <HeaderTest 
             text=" Faster, Cheaper Multi-Chain Payments"
             green_text='Service.'
             subtitle='SendFriend'
             image='img/homepage/slider-homepage-1@1x.jpg'
             under_text='We are cheaper, faster, and more reliable and secure.'
           />
+           <img className="rectangle-106-zYNucu" src="img/homepage/rectangle-106@1x.png" />
         <Tabs>
           <TabList>
             <Tab>

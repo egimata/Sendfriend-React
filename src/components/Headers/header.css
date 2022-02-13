@@ -139,7 +139,7 @@
     background-color: transparent;
     color: var(--caribbean-green);
     display: block;
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxl);
     font-style: normal;
     font-weight: 700;
@@ -219,7 +219,7 @@
     background-color: transparent;
     color: var(--white);
     display: block;
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxl);
     font-style: normal;
     font-weight: 600;
@@ -322,7 +322,7 @@
 .under-text{
     color: var(--white);
     display: block;
-    font-family: var(--font-family-montserrat);
+    font-family: var(--main-font);
     font-size: var(--font-size-xxl);
     font-style: normal;
     font-weight: 500;
