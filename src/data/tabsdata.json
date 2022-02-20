@@ -1,86 +1,136 @@
 {
     "tabslisting": {
-        "tabPanel":[
-           {
-            "main_title1": "SendFriend delivers a",
-            "title_span": "cheaper solution",
-            "main_title2": "for transferring money across borders",
-            "main_subtitle": "Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
-            "checkBox":[
-              {
-                "textSpan": "Lower FX costs"
-              },
-              {
-                "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
-              },
-              {
-                "textSpan": "No pre-funding burden"
-              },
-              {
-                "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
-              }
-            ]
-           },
-           {
-            "main_title1": "SendFriend delivers a",
-            "title_span": "cheaper solution",
-            "main_title2": "for transferring money across borders",
-            "main_subtitle": "Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
-            "checkBox":[
-              {
-                "textSpan": "Lower FX costs"
-              },
-              {
-                "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
-              },
-              {
-                "textSpan": "No pre-funding burden"
-              },
-              {
-                "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
-              }
-            ]
-           },
-           {
-            "main_title1": "SendFriend delivers a",
-            "title_span": "cheaper solution",
-            "main_title2": "for transferring money across borders",
-            "main_subtitle": "Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
-            "checkBox":[
-              {
-                "textSpan": "Lower FX costs"
-              },
-              {
-                "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
-              },
-              {
-                "textSpan": "No pre-funding burden"
-              },
-              {
-                "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
-              }
-            ]
-           },
-           {
-            "main_title1": "SendFriend delivers a",
-            "title_span": "cheaper solution",
-            "main_title2": "for transferring money across borders",
-            "main_subtitle": "Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
-            "checkBox":[
-              {
-                "textSpan": "Lower FX costs"
-              },
-              {
-                "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
-              },
-              {
-                "textSpan": "No pre-funding burden"
-              },
-              {
-                "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
-              }
-            ]
-           }
-        ]
-      }
+      "tab": [
+        {
+          "tabTitle": "CHEAPER",
+          "icon": "cheaper.png"
+        },
+        {
+          "tabTitle": "FASTER",
+          "icon": "faster.png"
+        },
+        {
+          "tabTitle": "MULTICHAIN",
+          "icon": "multichain.png"
+        },
+        {
+          "tabTitle": "MORE SECURE",
+          "icon": "more-secure.png"
+        }
+      ],
+      "tabPanel":[
+          {
+          "main_title1": "SendFriend delivers a",
+          "title_span": "cheaper solution",
+          "main_title2": "for transferring money across borders",
+          "main_subtitle": "Our on-chain solutions avoid traditional payment rails that carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
+          "checkBox":[
+            {
+              "textSpan": "Lower FX costs"
+            },
+            {
+              "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
+            },
+            {
+              "textSpan": "No pre-funding burden"
+            },
+            {
+              "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
+            }
+          ],
+          "animation1": "",
+          "animation4": "",
+          "animation5": "animate-enter11",
+          "animation6": "",
+          "popout1": "popout",
+          "popout2": "",
+          "popout3": "",
+          "popout4": ""
+          },
+          {
+          "main_title1": "SendFriend offers a",
+          "title_span": "speed advantage",
+          "main_title2": "to traditional payment rails",
+          "main_subtitle": "Both our on- and off-chain solutions leverage nimble systems to settle payments in nearly real-time",
+          "checkBox":[
+            {
+              "textSpan": "Near-instant settlement"
+            },
+            {
+              "textSpan": "Blockchain-enabled payments are inherently faster, avoiding cumbersome traditional intermediaries"
+            },
+            {
+              "textSpan": "Money and payment metadata flow over the same systems, ensuring faster settlement"
+            },
+            {
+              "textSpan": "For off-chain solutions, we leverage blockchain to route payment metadata faster"
+            }
+          ],
+          "animation1": "",
+          "animation4": "animate-enter16",
+          "animation5": "",
+          "animation6": "",
+          "popout1": "",
+          "popout2": "popout",
+          "popout3": "",
+          "popout4": ""
+          },
+          {
+          "main_title1": "SendFriend delivers a",
+          "title_span": "cheaper solution",
+          "main_title2": "for transferring money across borders",
+          "main_subtitle": "Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
+          "checkBox":[
+            {
+              "textSpan": "Lower FX costs"
+            },
+            {
+              "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
+            },
+            {
+              "textSpan": "No pre-funding burden"
+            },
+            {
+              "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
+            }
+          ],
+          "animation1": "",
+          "animation4": "",
+          "animation5": "",
+          "animation6": "animate-enter13",
+          "popout1": "",
+          "popout2": "",
+          "popout3": "popout",
+          "popout4": ""
+          },
+          {
+          "main_title1": "SendFriend delivers a",
+          "title_span": "cheaper solution",
+          "main_title2": "for transferring money across borders",
+          "main_subtitle": "Our on-chain solutions avoid traditional payment rails that <br />carry high FX and other transaction fees. In short, we leverage blockchain networks and other non-traditional rails for more cost-effective settlement",
+          "checkBox":[
+            {
+              "textSpan": "Lower FX costs"
+            },
+            {
+              "textSpan": "Fewer correspondent and intermediary banks mean lower fees"
+            },
+            {
+              "textSpan": "No pre-funding burden"
+            },
+            {
+              "textSpan": "Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network"
+            }
+          ],
+          "animation1": "animate-enter13",
+          "animation4": "",
+          "animation5": "",
+          "animation6": "",
+          "popout1": "",
+          "popout2": "",
+          "popout3": "",
+          "popout4": "popout"
+          }
+      ]
+    }
 }

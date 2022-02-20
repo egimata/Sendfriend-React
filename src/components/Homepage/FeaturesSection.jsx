@@ -1,5 +1,4 @@
 import React from 'react';
-import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "../Navbar.css";
@@ -20,42 +19,16 @@ const FeaturesSection = ({tabPanel}) => {
             <Tabs>
             <TabList>
                 <div className="row justify-content-center">
+                {data.tab.map( ( item, i ) => 
                     <Tab>
                         <div class="tab-features">
                             <div class="tab-border border-1px-black-2">
-                            <img alt={imgattr} class="img-tab animate-enter5" src="img/icons/cheaper.png" />
-                            <p class="text-under">CHEAPER</p>
+                            <img alt={imgattr} class="img-tab animate-enter5" src={`img/icons/${item.icon}`} />
+                            <p class="text-under">{item.tabTitle}</p>
                             </div>
                         </div>
                     </Tab>
-
-                    <Tab>
-                        <div class="tab-features">
-                            <div class="tab-border border-1px-black-2">
-                                <img alt={imgattr} class="img-tab animate-enter5" src="img/icons/faster.png" />
-                                <p class="text-under">FASTER</p>
-                            </div>
-                        </div>
-                    </Tab>
-
-                    <Tab>
-                        <div class="tab-features">
-                            <div class="tab-border border-1px-black-2">
-                                <img alt={imgattr} class="img-tab animate-enter5" src="img/icons/multichain.png" />
-                                <p class="text-under">MULTICHAIN</p>
-                            </div>
-                        </div>
-                    </Tab>
-
-                    <Tab>
-                        <div class="tab-features">
-                            <div class="tab-border border-1px-black-2">
-                                <img alt={imgattr} class="img-tab animate-enter5" src="img/icons/more-secure.png" />
-                                <p class="text-under">MORE SECURE</p>
-                            </div>
-                        </div>
-                    </Tab>
-
+                )}
                 </div>
             </TabList>
             {data.tabPanel.map( ( item, i ) => 
@@ -85,30 +58,7 @@ const FeaturesSection = ({tabPanel}) => {
                                         </div>
                                     </div>
                                     )}
-                                    <div className="col-md-12">
-                                        <div className="check-list display-inline">
-                                            <img alt={imgattr} src="img/icons/checkbox.svg"/>
-                                            <div>
-                                                <span>Fewer correspondent and intermediary banks mean lower fees</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12">
-                                        <div className="check-list display-inline">
-                                            <img alt={imgattr} src="img/icons/checkbox.svg"/>
-                                            <div>
-                                                <span>No pre-funding burden</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-12">
-                                        <div className="check-list display-inline">
-                                            <img alt={imgattr} src="img/icons/checkbox.svg"/>
-                                            <div>
-                                            <span>Access to a least-cost routing AI/ML algorithm to optimally select payment route via our multi-chain network</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <div className="col-md-4">
                                         <Link to="/contact-us">
                                             <ButtonWhite text='LEARN MORE' custom_style="button-cta buttonWhite mg-top-20" />
@@ -130,45 +80,31 @@ const FeaturesSection = ({tabPanel}) => {
                                 
                                 <div class="white-image animate-enter8" >
                                     <img alt={imgattr} class="width" src="img/homepage/white-image.png" />
-                                    <div class="group-101-vMHBtP">
-                                        <img alt={imgattr} src="img/homepage/backcircle.svg" />
-                                    </div>
+                                    <img alt={imgattr} className="backCircle" src="img/homepage/backcircle.svg" />
                                 </div>  
 
-                                <div class="uiwsetting-IQUIuZ">
-                                    <div class="group-122-1t5IQi animate-enter9" show-on-scroll>
-                                    <img alt={imgattr} class="vector-kr4CWH" src="img/homepage/vector-31@2x.png" />
-                                    <div class="ellipse-16-kr4CWH"></div>
-                                    </div>
-                                    <img alt={imgattr} class="group-48-1t5IQi" src="img/homepage/group-48@1x.png" />
+                                <div class="middle-img ">
+                                    <img alt={imgattr} class="inner animate-enter9" src="img/icons/setting.svg" />
+                                    <img alt={imgattr} class="logo" src="img/icons/sf-icon.svg" />
                                 </div>
+                                
+                                <img alt={imgattr} class={`arrow-1 ${item.animation1}`} src="img/icons/arrow-1.svg" />
+                                <img alt={imgattr} class="arrow-2" src="img/icons/arrow-2.svg" />
+                                <img alt={imgattr} class="arrow-3" src="img/icons/arrow-3.svg" />
+                                <img alt={imgattr} class={`arrow-4 ${item.animation4}`} src="img/icons/arrow-4.svg" />
+                                <img alt={imgattr} class={`arrow-5 ${item.animation5}`} src="img/icons/arrow-5.svg" />
+                                <img alt={imgattr} class={`arrow-6 ${item.animation6}`} src="img/icons/arrow-6.svg" />
 
-                                <img alt={imgattr} class="arrow-3-IQUIuZ" show-on-scroll src="img/homepage/arrow-3@2x.png" />
-                                <img alt={imgattr} class="arrow-5-IQUIuZ1 animate-enter11" show-on-scroll src="img/homepage/arrow-5@2x.png" />
-                                <img alt={imgattr} class="arrow-2-IQUIuZ" show-on-scroll src="img/homepage/arrow-2@2x.png" />
-                                <img alt={imgattr} class="arrow-1-IQUIuZ " show-on-scroll src="img/homepage/arrow-1@2x.png" />
-                                <img alt={imgattr} class="arrow-6-IQUIuZ" src="img/homepage/arrow-6@2x.png" />
-                                <img alt={imgattr} class="x3-IQUIuZ popout" src="img/homepage/3@2x.png" />
-                                <img alt={imgattr} class="group-IQUIuZ" src="img/homepage/secureicon.svg" />
-                                <img alt={imgattr}
-                                    class="eos-iconsblockchain-IQUIuZ"
-                                    show-on-scroll
-                                    src="img/homepage/multichainicon.svg"
-                                />
-                                <div class="carbonapi-1-IQUIuZ" show-on-scroll>
-                                    <img alt={imgattr} class="vector-8rmPPA" src="img/homepage/vector-32@2x.png" />
-                                    <img alt={imgattr} class="vector-6hpN4R" src="img/homepage/vector-33@2x.png" />
-                                    <img alt={imgattr} class="vector-mMifHY" src="img/homepage/vector-34@2x.png" />
+                                <div className="world-icons">
+                                    <img alt={imgattr} class={`cheaper ${item.popout1}`} src="img/icons/cheaper-black.png" />
+                                    <img alt={imgattr} class={`faster ${item.popout2}`} src="img/icons/faster-black.svg" />
+                                    <img alt={imgattr} class={`multichain ${item.popout3}`} src="img/icons/multchain-black.svg" />
+                                    <img alt={imgattr} class={`secure ${item.popout4}`} src="img/icons/more-secure-black.svg" />
+                                    <img alt={imgattr} class="api" src="img/icons/api.svg" />
+                                    <img alt={imgattr} class="blockchain"  src="img/icons/blockchain-black.png" />
                                 </div>
-                                <img alt={imgattr} class="x2-IQUIuZ" src="img/homepage/clock.svg" />
-                                <img alt={imgattr} class="arrow-4-IQUIuZ" show-on-scroll src="img/homepage/arrow-4@2x.png" />
-                                <img alt={imgattr} class="blockchain-1-IQUIuZ " show-on-scroll src="img/homepage/blockchain-1@2x.png" />
                             </div>
                         </div>
-                        
-                    
-                    
-                    
                     </div>
                 </div>
                 </TabPanel>

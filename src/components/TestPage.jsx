@@ -14,6 +14,7 @@ import Client from './Clients/clients';
 import FeaturesSection from './Homepage/FeaturesSection';
 import HeaderTest from './Headers/HeaderTest';
 import PlatformSection from './Homepage/PlatformSection';
+import SectionThree from './Homepage/SectionThree';
 
 
 const TestPage = ({tabPanel}) => {
@@ -29,8 +30,9 @@ const TestPage = ({tabPanel}) => {
             image='img/homepage/slider-homepage-1@1x.jpg'
             under_text='We are cheaper, faster, and more reliable and secure.'
           />
-        <FeaturesSection item={tabPanel} />
+        <FeaturesSection tabPanel={tabPanel} />
         <PlatformSection />
+        <SectionThree />
         {/* <Client /> */}
 {/*         
     

@@ -1,12 +1,29 @@
 .features-section{
     position: relative;
     width: 100%;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
     // overflow: hidden;
-    .react-tabs{
-        transform: skew(0deg, -10deg);
+    
+}
+
+.platform-section{
+    position: relative;
+    padding-top: 250px;
+    width: 100%;
+    padding-bottom: 250px;
+    p{
+        font-weight: 700;
+        font-size: var(--font-size-m);
+        color: var(--ebony-clay);
+        line-height: normal;
+        position: relative;
+        width: 257px;
+    }
+    img{
+        float:right;
     }
 }
+
 
 /* ---------------------------------------
     Homepage Section
@@ -16,7 +33,16 @@
 // Feature Section Tabs
 .bg-green-tilt{
     background-color: var(--main-color);
-    transform: skew(0deg, 10deg);
+    &::before {
+        content: "";
+        background-color: var(--main-color);
+        position: absolute;
+        width: 110%;
+        height: 51%;
+        top: 68%;
+        z-index: 0;
+        transform: rotate(7deg);
+    }
 }
 
 .tab-features {
@@ -60,9 +86,6 @@
             }
         }
     }
-
-
-
 
 .check-list {
     margin-bottom: 15px;
@@ -116,9 +139,7 @@
         left: calc(50.00% + 108px);
         top: 650px;
     }
-}
-  
-.white-image {
+    .white-image {
     background-color: transparent;
     display: block;
     height: 364px;
@@ -128,463 +149,170 @@
     top: 298px;
     transform: rotate(90deg);
     width: 324px;
-    &.animate-enter8 {
-        animation: animate-enter8-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+        &.animate-enter8 {
+            animation: animate-enter8-frames 0.50s ease-in-out 0.00s 1 normal forwards;
+            display: block;
+            opacity: 0;
+            transform: rotate(90deg);
+        }
+        .width {
+            width: 324px;
+        } 
+        .backCircle {
+            left: calc(50.00% - 96px);
+            position: absolute;
+            top: 86px;
+        }
+    }
+    .middle-img {
+        height: 106px;
+        left: calc(50.00% + 302px);
+        overflow: hidden;
+        position: absolute;
+        top: 427px;
+        width: 106px; 
+        .inner {
+            height: 100.47%;
+            left: -0.47%;
+            position: absolute;
+            opacity: 0;
+            transform: rotate(40deg);
+            top: -0.24%;
+            width: 100.94%;
+        }
+        .inner.animate-enter9 {
+        animation: animate-enter9-frames 2.00s ease-in-out 1.00s 1 normal forwards;
         display: block;
         opacity: 0;
-        transform: rotate(90deg);
+        transform: rotate(40deg);
+        }
+        .logo {
+            height: 72px;
+            left: 28px;
+            position: absolute;
+            top: 17px;
+            width: 52px;
+        }
     }
-    .width {
-        width: 324px;
+    .arrow-1 {
+        display: block;
+        height: 124px;
+        left: calc(50.00% + 183px);
+        position: absolute;
+        top: 319px;
+        width: 136px;
+        &.animate-enter13 {
+            animation: animate-enter13-frames 0.70s ease-in-out 0.001s 1 normal forwards;
+            display: block;
+            transform: scale(0.67);
+        }
+    }
+    .arrow-2 {
+        display: block;
+        height: 124px;
+        left: calc(50.00% + 398px);
+        position: absolute;
+        top: 322px;
+        width: 135px;
+    }
+    .arrow-3 {
+        display: block;
+        height: 112px;
+        left: calc(50.00% + 396px);
+        position: absolute;
+        top: 514px;
+        width: 154px;
+    }
+    .arrow-4 {
+        display: block;
+        height: 106px;
+        left: calc(50.00% + 175px);
+        position: absolute;
+        top: 514px;
+        width: 148px;
+        &.animate-enter16 {
+            animation: animate-enter16-frames 0.60s ease-in-out 0.001s 1 normal forwards;
+            display: block;
+            transform: translate(-25px, 0);
+        }
+    }
+    .arrow-5 {
+        display: block;
+        height: 166px;
+        left: calc(50.00% + 350px);
+        position: absolute;
+        top: 532px;
+        width: 15px;
+        &.animate-enter11 {
+            animation: animate-enter11-frames 0.70s ease-in-out 0.001s 1 normal forwards;
+            display: block;
+            transform: translate(0, 25px);
+        }
+    }
+    .arrow-6 {
+        height: 184px;
+        left: calc(50.00% + 346px);
+        position: absolute;
+        top: 242px;
+        width: 15px;
+        &.animate-enter13 {
+            animation: animate-enter13-frames 0.70s ease-in-out 0.001s 1 normal forwards;
+            display: block;
+            transform: scale(0.67);
+        }
+    }
+    .popout {
+        animation: popout 1s ease;
+        -webkit-animation: popout 1s ease;
+    }
+    .world-icons{
+        .cheaper {
+            height: 45px;
+            left: calc(50.00% + 327px);
+            mix-blend-mode: normal;
+            object-fit: fill;
+            position: absolute;
+            top: 701px;
+            width: 46px;
+        }
+        .secure {
+            height: 37px;
+            left: calc(50.00% + 137px);
+            object-fit: fill;
+            position: absolute;
+            top: 290px;
+            width: 32px;
+        }
+        .multichain {
+            height: 38px;
+            left: calc(50.00% + 336px);
+            position: absolute;
+            top: 169px;
+            width: 38px;
+        }
+        .api {
+            left: calc(50.00% + 548px);
+            position: absolute;
+            top: 306px;
+        }
+        .faster {
+            height: 26px;
+            left: calc(50.00% + 138px);
+            position: absolute;
+            top: 617px;
+            width: 26px;
+        }
+        .blockchain {
+            height: 34px;
+            left: calc(50.00% + 558px);
+            position: absolute;
+            top: 615px;
+            width: 34px;
+        }
+
     }
 }
   
-
-  
-  
-  
-   .group-101-vMHBtP {
-    left: calc(50.00% - 96px);
-    position: absolute;
-    top: 86px;
-  }
-  
-   .vector-4zDvQN {
-    background-color: transparent;
-    height: 68px;
-    left: calc(50.00% + 3px);
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 100px;
-    width: 68px;
-  }
-  
-   .vector-7a4eDp {
-    background-color: transparent;
-    height: 68px;
-    left: calc(50.00% - 72px);
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 24px;
-    width: 70px;
-  }
-  
-   .vector-aVzPZM {
-    background-color: transparent;
-    height: 68px;
-    left: calc(50.00% + 3px);
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 24px;
-    width: 68px;
-  }
-  
-   .vector-bbHgiR {
-    background-color: transparent;
-    height: 68px;
-    left: calc(50.00% - 72px);
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 100px;
-    width: 70px;
-  }
-  
-   .vector-cj5ELa {
-    background-color: transparent;
-    height: 138px;
-    left: calc(50.00% - 69px);
-    position: absolute;
-    top: 26px;
-    width: 139px;
-  }
-  
-   .uiwsetting-IQUIuZ {
-    background-color: transparent;
-    height: 106px;
-    left: calc(50.00% + 302px);
-    mix-blend-mode: normal;
-    overflow: hidden;
-    position: absolute;
-    top: 427px;
-    width: 106px;
-  }
-  
-   .group-122-1t5IQi {
-    background-color: transparent;
-    display: block;
-    height: 100.00%;
-    left: 0px;
-    opacity: 0;
-    position: absolute;
-    top: 0px;
-    transform: rotate(40deg);
-    width: 100.00%;
-  }
-  
-   .group-122-1t5IQi.animate-enter9 {
-    animation: animate-enter9-frames 2.00s ease-in-out 1.00s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: rotate(40deg);
-  }
-  
-
-  
-   .vector-kr4CWH {
-    background-color: transparent;
-    height: 100.47%;
-    left: -0.47%;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: -0.24%;
-    width: 100.94%;
-  }
-  
-   .ellipse-16-kr4CWH {
-    background-color: var(--eerie-black);
-    border-radius: 18px;
-    height: 33.96%;
-    left: 33.02%;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 33.02%;
-    width: 33.96%;
-  }
-  
-   .group-48-1t5IQi {
-    background-color: transparent;
-    height: 72px;
-    left: 28px;
-    position: absolute;
-    top: 17px;
-    width: 52px;
-  }
-  
-   .arrow-3-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 112px;
-    left: calc(50.00% + 396px);
-    position: absolute;
-    top: 514px;
-    width: 154px;
-  }
-  
-  
-
-  
-   .arrow-5-IQUIuZ1 {
-    background-color: transparent;
-    display: block;
-    height: 166px;
-    left: calc(50.00% + 350px);
-    opacity: 0;
-    position: absolute;
-    top: 532px;
-    transform: translate(0, 25px);
-    width: 15px;
-  }
-   .arrow-5-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 166px;
-    left: calc(50.00% + 350px);
-    position: absolute;
-    top: 532px;
-    width: 15px;
-  }
-  
-   .arrow-5-IQUIuZ1.animate-enter11 {
-    animation: animate-enter11-frames 0.70s ease-in-out 0.50s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(0, 25px);
-  }
-  
- 
-  
-   .arrow-2-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 124px;
-    left: calc(50.00% + 398px);
-    position: absolute;
-    top: 322px;
-    width: 135px;
-  }
-  
-  
-   .arrow-1-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 124px;
-    left: calc(50.00% + 183px);
-    position: absolute;
-    top: 319px;
-    width: 136px;
-  }
-   .arrow-1-IQUIuZ1 {
-    background-color: transparent;
-    display: block;
-    height: 124px;
-    left: calc(50.00% + 183px);
-    opacity: 0;
-    position: absolute;
-    top: 319px;
-    transform: scale(0.67);
-    width: 136px;
-  }
-  
-   .arrow-1-IQUIuZ1.animate-enter13 {
-    animation: animate-enter13-frames 0.70s ease-in-out 0.40s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: scale(0.67);
-  }
-  
-   .arrow-6-IQUIuZ1 {
-    background-color: transparent;
-    height: 184px;
-    left: calc(50.00% + 346px);
-    position: absolute;
-    opacity: 0;
-    top: 242px;
-    transform: scale(0.67);
-    width: 15px;
-  }
-   .arrow-6-IQUIuZ {
-    background-color: transparent;
-    height: 184px;
-    left: calc(50.00% + 346px);
-    position: absolute;
-    top: 242px;
-    width: 15px;
-  }
-  
-   .arrow-6-IQUIuZ1.animate-enter13 {
-    animation: animate-enter13-frames 0.70s ease-in-out 0.40s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: scale(0.67);
-  }
-  
-
-  
-   .x3-IQUIuZ {
-    background-color: transparent;
-    height: 45px;
-    left: calc(50.00% + 327px);
-    mix-blend-mode: normal;
-    object-fit: fill;
-    position: absolute;
-    top: 701px;
-    width: 46px;
-  }
-  
-   .group-IQUIuZ {
-    background-color: transparent;
-    height: 37px;
-    left: calc(50.00% + 137px);
-    object-fit: fill;
-    position: absolute;
-    top: 290px;
-    width: 32px;
-  }
-  
-   .eos-iconsblockchain-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 38px;
-    left: calc(50.00% + 336px);
-    mix-blend-mode: normal;
-    object-fit:fill;
-    position: absolute;
-    top: 169px;
-    width: 38px;
-    display: block;
-  
-  }
-  
-
-   .carbonapi-1-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 40px;
-    left: calc(50.00% + 521px);
-    mix-blend-mode: normal;
-    opacity: 1;
-    position: absolute;
-    top: 297px;
-    transform: translate(25px, 0);
-    width: 40px;
-  }
-  
-   .carbonapi-1-IQUIuZ.animate-enter15 {
-    animation: animate-enter15-frames 1.00s ease-in-out 0.40s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(25px, 0);
-  }
-  
-
-  
-   .vector-8rmPPA {
-    background-color: transparent;
-    height: 45.00%;
-    left: 6.25%;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 27.50%;
-    width: 25.00%;
-  }
-  
-   .vector-6hpN4R {
-    background-color: transparent;
-    height: 45.00%;
-    left: 68.75%;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 27.50%;
-    width: 25.00%;
-  }
-  
-   .vector-mMifHY {
-    background-color: transparent;
-    height: 45.00%;
-    left: 37.50%;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 27.50%;
-    width: 25.00%;
-  }
-  
-   .x2-IQUIuZ {
-    background-color: transparent;
-    height: 26px;
-    left: calc(50.00% + 138px);
-    mix-blend-mode: normal;
-    object-fit: fill;
-    position: absolute;
-    top: 617px;
-    width: 26px;
-  }
-  
-  
-   .arrow-4-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 106px;
-    left: calc(50.00% + 175px);
-    position: absolute;
-    top: 514px;
-    width: 148px;
-  }
-   .arrow-4-IQUIuZ1 {
-    background-color: transparent;
-    display: block;
-    height: 106px;
-    left: calc(50.00% + 175px);
-    opacity: 0;
-    position: absolute;
-    top: 514px;
-    transform: translate(-25px, 0);
-    width: 148px;
-  }
-  
-   .arrow-4-IQUIuZ1.animate-enter16 {
-    animation: animate-enter16-frames 0.60s ease-in-out 0.50s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: translate(-25px, 0);
-  }
-  
-
-  
-   .blockchain-1-IQUIuZ {
-    background-color: transparent;
-    display: block;
-    height: 34px;
-    left: calc(50.00% + 558px);
-    mix-blend-mode: normal;
-    object-fit: cover;
-    opacity: 1;
-    position: absolute;
-    top: 615px;
-    transform: scale(0.9);
-    width: 34px;
-  }
-  
-   .blockchain-1-IQUIuZ.animate-enter17 {
-    animation: animate-enter17-frames 1.00s ease-in 0.60s 1 normal forwards;
-    display: block;
-    opacity: 0;
-    transform: scale(0.9);
-  }
-  
-   .line-13-IQUIuZ {
-    background-color: transparent;
-    cursor: pointer;
-    height: 5.4px;
-    left: calc(50.00% - 421px);
-    pointer-events: auto;
-    position: absolute;
-    top: 54.5px;
-    transition: all 0.2s ease-in-out;
-    width: 842px;
-  }
-  
-  
-   .fewer-correspondent-IQUIuZ {
-    background-color: transparent;
-    height: auto;
-    left: calc(50.00% - 498px);
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: left;
-    top: 417px;
-    width: auto;
-  }
-   .fewer-correspondent-IQUIuZ1 {
-    background-color: transparent;
-    height: auto;
-    left: calc(50.00% - 498px);
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: left;
-    top: 414px;
-    width: 500px;
-  }
-  
-   .access-to-a-least-co-IQUIuZ {
-    background-color: transparent;
-    height: auto;
-    left: calc(50.00% - 498px);
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: left;
-    top: 498px;
-    width: 432px;
-  }
-   .access-to-a-least-co-IQUIuZ1 {
-    background-color: transparent;
-    height: auto;
-    left: calc(50.00% - 498px);
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: left;
-    top: 472px;
-    width: 432px;
-  }
-      
-    
 // Other Section for now this comment
 .client-area{
     position: absolute;
@@ -594,6 +322,66 @@
     padding-left: 68px;
     padding-right: 68px;
 }
+
+
+/* ---------------------------------------
+    Platform Section
+------------------------------------------*/
+
+.vertical-line {
+    position: relative;
+    width: 1px;
+}
+
+@media(min-width: 1100px){
+    .platform-section{
+        p{
+            &.text1{
+                left: calc(50.00% - 16px);
+            }
+            &.text2{
+                left: calc(50.00% - 223px);
+            }
+        }
+    }
+}
+@media(min-width: 1600px){
+    .platform-section{
+        p{
+            &.text1{
+                left: calc(50.00% - -34px);
+            }
+            &.text2{
+                left: calc(50.00% - 270px);
+            }
+        }
+    }
+}
+@media(min-width: 1700px){
+    .platform-section{
+        p{
+            &.text1{
+                left: calc(50.00% - 41px);
+            }
+            &.text2{
+                left: calc(50.00% - 197px);
+            }
+        }
+    }
+}
+@media(min-width: 1900px){
+    .platform-section{
+        p{
+            &.text1{
+                left: calc(50.00% - -84px);
+            }
+            &.text2{
+                left: calc(50.00% - 321px);
+            }
+        }
+    }
+}
+
 
 @media (max-width: 600px){
     .client-area{
