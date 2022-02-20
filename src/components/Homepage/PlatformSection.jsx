@@ -42,14 +42,6 @@ const PlatformSection = () => {
                     </div>
                 </div>
             </div>
-
-            <div class="platform-section-zYNucu" id="platform-section">
-                
-
-                {/* <img class="group-102-ukK2kV animate-enter19" src="img/homepage/group-102@2x.svg" />
-                <img class="line-15-ukK2kV" src="img/homepage/line-15@2x.png" />
-                <img class="group-128-ukK2kV" src="img/homepage/group-128@1x.png" /> */}
-            </div>
         </div>
        </>
     );

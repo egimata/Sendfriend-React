@@ -15,6 +15,7 @@ import FeaturesSection from './Homepage/FeaturesSection';
 import HeaderTest from './Headers/HeaderTest';
 import PlatformSection from './Homepage/PlatformSection';
 import SectionThree from './Homepage/SectionThree';
+import APISection from './Homepage/APISection';
 
 
 const TestPage = ({tabPanel}) => {
@@ -33,6 +34,7 @@ const TestPage = ({tabPanel}) => {
         <FeaturesSection tabPanel={tabPanel} />
         <PlatformSection />
         <SectionThree />
+        {/* <APISection /> */}
         {/* <Client /> */}
 {/*         
     

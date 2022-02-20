@@ -6,6 +6,7 @@
     .style{
         text-align: center;
         padding-top: 12px;
+        padding-bottom: 12px;
         width: 100%;
         font-size: var(--font-size-m);
         font-style: normal;
@@ -37,11 +38,22 @@
 
 .buttonWhite {
     background-color: var(--white);
-    border: 5px solid #ffffff;
+    border: 5px solid var(--white);
     color: var(--eerie-black);
         &:hover {
-        background-color: #0FCFB0;
-        border: 5px solid #ffffff;
+        background-color: var(--main-color);
+        border: 5px solid var(--white);
+    }
+    &.style-two{
+        &:hover{
+            background-color: var(--ebony-clay);
+            border: 5px solid var(--main-color);
+        }
+        .style{
+            &:hover{
+                color: var(--white);
+            }
+        }
     }
 }
 

@@ -382,6 +382,198 @@
     }
 }
 
+/* ---------------------------------------
+    Third Section
+------------------------------------------*/
+.third-section{
+    padding-top:100px;
+    padding-bottom: 120px;
+    &.bg-dark-one{
+        background: var(--dark);
+        &::before{
+            content: "";
+            background-color: var(--dark);
+            position: absolute;
+            width: 110%;
+            height: 20%;
+            top: 76%;
+            z-index: 0;
+            transform: rotate(-7deg);
+        }
+        &::after{
+            content: "";
+            background-color: var(--dark);
+            position: absolute;
+            width: 110%;
+            height: 51%;
+            top: 52%;
+            z-index: -1;
+            transform: rotate(7deg);
+        }
+    }
+    .section-title{
+        p{
+            color: var(--white);
+        }
+    }
+    .platform-img{
+        position: absolute;
+        top: 10%;
+        img{
+            width: 121%;
+        }
+    }
+}
+.section-3-zYNucu {
+    background-color: transparent;
+    height: 20.17%;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 43.60%;
+    width: 100%;
+  }
+  
+  .section-3-hLpjsq {
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .asset-1bg1-1-1-hLpjsq {
+    background-color: transparent;
+    height: 736px;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 243px;
+    width: 149px;
+  }
+  
+  .asset-1-1-hLpjsq {
+    background-color: transparent;
+    height: 47.91%;
+    left: 49.24%;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 23.27%;
+    object-fit: cover;
+    width: 40%;
+  }
+  
+  .button-hLpjsq {
+    background-color: var(--white);
+    height: 54px;
+    border: 5px solid #ffffff;
+    left: calc(50.00% - 523px);
+    mix-blend-mode: normal;
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+    cursor:pointer;
+    top: 739px;
+    width: 197px;
+  }
+  .button-hLpjsq:hover {
+      background-color: #263238;
+      border: 5px solid #0FCFB0;
+      color: #ffffff;
+  
+  }
+  .button-hLpjsq div:hover {
+  
+      color: #ffffff;
+  
+  }
+  
+  .learn-more-UCT1KW {
+    background-color: transparent;
+    height: 100.48%;
+    left: 0;
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    top: 0;
+    width: 100.51%;
+  }
+  
+  
+  .group-97-hLpjsq {
+    background-color: transparent;
+    height: 149px;
+    left: calc(50.00% - 523px);
+    position: absolute;
+    top: 516px;
+    width: 436px;
+  }
+  
+  .our-api-based-platfo-kSsxZv {
+    left: calc(50.00% - 218px);
+    letter-spacing: 0.00px;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 432px;
+  }
+  
+  .in-short-we-are-buil-kSsxZv {
+    background-color: transparent;
+    color: var(--white);
+    font-family: var(--main-font);
+    font-size: var(--font-size-m);
+    font-style: normal;
+    font-weight: 600;
+    height: auto;
+    left: calc(50.00% - 218px);
+    letter-spacing: 0.00px;
+    line-height: normal;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 81px;
+    width: 432px;
+  }
+  
+  .group-106-hLpjsq {
+    background-color: transparent;
+    height: 261px;
+    left: calc(50.00% - 523px);
+    position: absolute;
+    top: 286px;
+    width: 442px;
+  }
+  
+  .servicing-a-variety-1TtheY {
+    background-color: transparent;
+    display: block;
+    height: auto;
+    left: calc(50.00% - 221px);
+    letter-spacing: 0.00px;
+    line-height: 38.7px;
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 440px;
+  }
+  
+  .span0-GtZLxa {
+    color: var(--caribbean-green);
+    font-family: var(--main-font);
+    font-size: var(--font-size-xxxxl);
+    font-style: normal;
+    font-weight: 800;
+  }
+  
+  
 
 @media (max-width: 600px){
     .client-area{

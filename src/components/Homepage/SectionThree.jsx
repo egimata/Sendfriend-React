@@ -1,58 +1,48 @@
 import React from 'react';
 import sectiondata from "../../data/sections.json"
+import { Link } from 'react-router-dom';
+import ButtonWhite from  '../Buttons/ButtonWhite'
 
-const PlatformSection = () => {
+const SectionThree = () => {
 
-    const data = sectiondata.platform_section
+    const data = sectiondata.third_section
     const altimg = "Sendfriend Platform"
 
     return (
         <>
-        <div className="platform-section" id="platform-section">
+        <div className="third-section bg-dark-one">
             <div className="container">
-                <div className="section-title style-two-custom text-center">
-                    <h3 className="title-2">{data.title1}<br /> <span>{data.span}</span></h3>
-                </div>
-                <div className="row justify-content-center pd-top-80">
-                    <div className="col-6 text-center">
-                        <p className="text1">Servicing international remittance corridors in high-volume regions with traditionally burdensome costs and
-                        regulations</p>
-                    </div>
-                    <div className="col-6 text-center">
-                        <p className="text2">Settling payments more seamlessly across a variety of currency exchanges, including fiat and crypto</p>
-                    </div>
-                </div>
                 <div className="row justify-content-center">
-                    <div>
-                        <img alt={altimg} src="img/homepage/group-128@1x.png" />
+                    <div className="col-lg-6">
+                        <div className="row">
+                            <div className="section-title style-four">
+                                <h3 className="title">{data.title1} <span>{data.span}</span></h3>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="section-title">
+                                <p>Our API-based platform enables customers to seamlessly gain access to a suite of 
+                                    B2B and B2C payment tools. With that in mind, we can offer bespoke solutions for MSB partners</p>
+                                <p>In short, we are building a team to develop solutions across a range of use cases, 
+                                    where traditional payment rails come up short for small and medium size business with thorny cross-border remittance needs</p>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <Link to="/contact-us">
+                                <ButtonWhite text='LEARN MORE' custom_style="button-cta buttonWhite style-two mg-top-20" />
+                            </Link>
+                        </div>
                     </div>
-                    <div>
-                        <img class="vertical-line" alt={altimg} src="img/homepage/line-15@2x.png" />
-                    </div>
-                    <div>
-                        <img className="pd-left-30" alt={altimg} src="img/homepage/group-102@2x.svg" />
+                    <div className="col-6 col-md-4">
+                        <div className="platform-img">
+                            <img alt={altimg} src="img/homepage/platform-sendfriend.svg" />
+                        </div>
                     </div>
                 </div>
-                <div className="row justify-content-center">
-                    <div className="col-6 text-center">
-                        <p className="text1">Our network is expanding as we develop new integrations and financial relationships</p>
-                    </div>
-                    <div className="col-6 text-center">
-                        <p className="text2">Whether fiat-to-fiat, crypto-to-fiat, or fiat-to-crypto, we are developing capabilities to meet a multitude of B2B and B2C remittance use cases</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="platform-section-zYNucu" id="platform-section">
-                
-
-                {/* <img class="group-102-ukK2kV animate-enter19" src="img/homepage/group-102@2x.svg" />
-                <img class="line-15-ukK2kV" src="img/homepage/line-15@2x.png" />
-                <img class="group-128-ukK2kV" src="img/homepage/group-128@1x.png" /> */}
             </div>
         </div>
        </>
     );
 }
 
-export default PlatformSection;
+export default SectionThree;

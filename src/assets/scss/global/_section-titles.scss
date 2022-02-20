@@ -69,9 +69,14 @@
         margin-bottom: 45px;
     }
     &.style-four {
+        margin-bottom: 30px;
         .title {
-            font-size: 36px;
-            line-height: 1.2;
+            color: var(--main-color);
+            font-weight: 800;
+            line-height: 38.7px;
+                span{
+                    color: var(--white)
+                }
         }
         p{
             line-height: 26px;
