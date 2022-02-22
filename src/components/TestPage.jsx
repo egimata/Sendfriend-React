@@ -34,7 +34,7 @@ const TestPage = ({tabPanel}) => {
         <FeaturesSection tabPanel={tabPanel} />
         <PlatformSection />
         <SectionThree />
-        {/* <APISection /> */}
+        <APISection />
         {/* <Client /> */}
 {/*         
     

@@ -20,6 +20,15 @@
             color: var(--ebony-clay)
         }
     }
+    h6{
+        font-weight: 700;
+        font-size: var(--font-size-ll);
+        color: var(--ebony-clay);
+    }
+    .p {
+        font-weight: 700;
+        width:240px;
+    }
     p {
         letter-spacing: 0.32px;
         color: var(--ebony-clay);
@@ -59,6 +68,14 @@
         }
     }
     &.style-two {
+        .title{
+            color: var(--white);
+            padding-right: 0px;
+            width: 105%;
+            span{
+                color: var(--eerie-black);
+            }
+        }
         margin-bottom: 30px;
     }
     &.style-two-custom{

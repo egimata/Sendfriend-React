@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import "../Navbar.css";
-import '../homepage.css';
 import ButtonWhite from  '../Buttons/ButtonWhite'
 import '../../assets/css/bootstrap.min.css';
 import tabdata from '../../data/tabsdata.json';
@@ -21,8 +20,8 @@ const FeaturesSection = ({tabPanel}) => {
                 <div className="row justify-content-center">
                 {data.tab.map( ( item, i ) => 
                     <Tab>
-                        <div class="tab-features">
-                            <div class="tab-border border-1px-black-2">
+                        <div class="tab-features style-one">
+                            <div class="tab-border style-one border-1px-black-2">
                             <img alt={imgattr} class="img-tab animate-enter5" src={`img/icons/${item.icon}`} />
                             <p class="text-under">{item.tabTitle}</p>
                             </div>
@@ -33,7 +32,7 @@ const FeaturesSection = ({tabPanel}) => {
             </TabList>
             {data.tabPanel.map( ( item, i ) => 
                 <TabPanel>
-                <div key={i} className="container">
+                <div key={i} className="container pd-left-140-xl">
                     <div className="section-title style-two-custom pd-left-70 width-70">
                         <h3 className="title">{item.main_title1}<span> {item.title_span}</span> {item.main_title2}</h3>
                     </div>

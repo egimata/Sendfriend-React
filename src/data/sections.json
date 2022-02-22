@@ -48,12 +48,29 @@
   },
   "platform_section": {
     "title1": "A flexible cross-border payment solution",
-    "span": "expanding its international reach",
-    "title2":""
+    "span": "expanding its international reach"
   },
   "third_section": {
     "title1": "Servicing a variety of cross-border payment use cases,",
-    "span": "while adapting to customer needs",
-    "title2":""
+    "span": "while adapting to customer needs"
+  },
+  "APISection": {
+    "title1": "Our remittance API",
+    "span": "seamlessly connects customers to a suite of multi-chain payment tools",
+    "bottom_text": [
+      {
+        "main_text": "Robust",
+        "p": "Our API architecture follows the latest technologies and code standards to be robust."
+      },
+      {
+        "main_text": "Scalable",
+        "p": "Serve millions of users and clients worldwide with an easy integration of our API."
+      },
+      {
+        "main_text": "Secure",
+        "p": "Following the latest security standards, tested by time, our API is ready to handle millions of transactions per second."
+      }
+    ]
+    
   }
 }

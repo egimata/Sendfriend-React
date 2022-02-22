@@ -2,8 +2,6 @@
     position: relative;
     width: 100%;
     padding-bottom: 100px;
-    // overflow: hidden;
-    
 }
 
 .platform-section{
@@ -26,11 +24,89 @@
 
 
 /* ---------------------------------------
+    Tabs
+------------------------------------------*/
+
+.tab-features {
+    &.style-one{
+        position: relative;
+        top: -58px;
+        width: 212px;
+    }
+    &.style-two{
+        position: relative;
+        text-align: center;
+        cursor: pointer;
+        background-color: var(--white);
+        transition: all 0.2s ease-in-out;
+        top: 27px;
+        left: -4px;
+        &:hover{
+            transform: translate(0, -5px);
+            background-color: #252A30;
+        }
+        .text-under{
+            &:hover{
+                color: var(--white);
+            }
+        }
+    }
+    .text-under{
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 16px;
+    }
+}
+.tab-border {
+    &.style-one{
+        background-color: var(--white);
+        cursor: pointer;
+        height: 116px;
+        left: calc(50.00% - 106px);
+        transition: all 0.2s ease-in-out;
+        width: 212px;
+        text-align: -webkit-center;
+        align-content: center;
+        &:hover {
+            transform: translate(0, -5px);
+            border-bottom: 6px solid var(--shark);
+        }
+    }
+    .text-under {
+        color: var(--ebony-clay);
+        font-size: var(--font-size-l);
+        font-weight: 700;
+        padding-top: 16px;
+        width: 100%;
+    }
+    .img-tab {
+        cursor: pointer;
+        opacity: 0;
+        position: relative;
+        top: 14px;
+        width: 56px;
+        transition: all 0.2s ease-in;
+            &.animate-enter5 {
+            animation: animate-enter5-frames 0.20s ease-in 0.00s 1 normal forwards;
+            display: block;
+            opacity: 0;
+        }
+        &:hover {
+            transform: translate(0, -5px);
+        }
+    }
+}
+
+/* ---------------------------------------
     Homepage Section
 ------------------------------------------*/
 
 
 // Feature Section Tabs
+.bg-green{
+    background-color: var(--main-color);
+}
 .bg-green-tilt{
     background-color: var(--main-color);
     &::before {
@@ -44,49 +120,6 @@
         transform: rotate(7deg);
     }
 }
-
-.tab-features {
-    position: relative;
-    top: -58px;
-    width: 212px;}
-    .tab-border {
-        background-color: var(--white);
-        cursor: pointer;
-        height: 116px;
-        left: calc(50.00% - 106px);
-        transition: all 0.2s ease-in-out;
-        width: 212px;
-        text-align: -webkit-center;
-        align-content: center;
-        &:hover {
-            transform: translate(0, -5px);
-            border-bottom: 6px solid var(--shark);
-        }
-        .text-under {
-            color: var(--ebony-clay);
-            font-size: var(--font-size-l);
-            font-weight: 700;
-            padding-top: 16px;
-            width: 100%;
-        }
-        .img-tab {
-            cursor: pointer;
-            opacity: 0;
-            position: relative;
-            top: 14px;
-            width: 56px;
-            transition: all 0.2s ease-in;
-                &.animate-enter5 {
-                animation: animate-enter5-frames 0.20s ease-in 0.00s 1 normal forwards;
-                display: block;
-                opacity: 0;
-            }
-            &:hover {
-                transform: translate(0, -5px);
-            }
-        }
-    }
-
 .check-list {
     margin-bottom: 15px;
     width: 83%;
@@ -387,7 +420,8 @@
 ------------------------------------------*/
 .third-section{
     padding-top:100px;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
+    position: relative;
     &.bg-dark-one{
         background: var(--dark);
         &::before{
@@ -395,8 +429,8 @@
             background-color: var(--dark);
             position: absolute;
             width: 110%;
-            height: 20%;
-            top: 76%;
+            height: 55%;
+            top: -20%;
             z-index: 0;
             transform: rotate(-7deg);
         }
@@ -405,9 +439,9 @@
             background-color: var(--dark);
             position: absolute;
             width: 110%;
-            height: 51%;
-            top: 52%;
-            z-index: -1;
+            height: 55%;
+            top: 66%;
+            z-index: 1;
             transform: rotate(7deg);
         }
     }
@@ -419,160 +453,38 @@
     .platform-img{
         position: absolute;
         top: 10%;
+        z-index: 2;
         img{
             width: 121%;
         }
     }
 }
-.section-3-zYNucu {
-    background-color: transparent;
-    height: 20.17%;
-    left: 0px;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    position: absolute;
-    top: 43.60%;
-    width: 100%;
-  }
-  
-  .section-3-hLpjsq {
-    background-color: transparent;
-    height: 100%;
-    left: 0px;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 0px;
-    width: 100%;
-  }
-  
-  .asset-1bg1-1-1-hLpjsq {
-    background-color: transparent;
-    height: 736px;
-    left: 0px;
-    mix-blend-mode: normal;
-    object-fit: cover;
-    position: absolute;
-    top: 243px;
-    width: 149px;
-  }
-  
-  .asset-1-1-hLpjsq {
-    background-color: transparent;
-    height: 47.91%;
-    left: 49.24%;
-    mix-blend-mode: normal;
-    position: absolute;
-    top: 23.27%;
-    object-fit: cover;
-    width: 40%;
-  }
-  
-  .button-hLpjsq {
-    background-color: var(--white);
-    height: 54px;
-    border: 5px solid #ffffff;
-    left: calc(50.00% - 523px);
-    mix-blend-mode: normal;
-    position: absolute;
-    transition: all 0.2s ease-in-out;
-    cursor:pointer;
-    top: 739px;
-    width: 197px;
-  }
-  .button-hLpjsq:hover {
-      background-color: #263238;
-      border: 5px solid #0FCFB0;
-      color: #ffffff;
-  
-  }
-  .button-hLpjsq div:hover {
-  
-      color: #ffffff;
-  
-  }
-  
-  .learn-more-UCT1KW {
-    background-color: transparent;
-    height: 100.48%;
-    left: 0;
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: center;
-    padding-top: 15px;
-    top: 0;
-    width: 100.51%;
-  }
-  
-  
-  .group-97-hLpjsq {
-    background-color: transparent;
-    height: 149px;
-    left: calc(50.00% - 523px);
-    position: absolute;
-    top: 516px;
-    width: 436px;
-  }
-  
-  .our-api-based-platfo-kSsxZv {
-    left: calc(50.00% - 218px);
-    letter-spacing: 0.00px;
-    position: absolute;
-    text-align: left;
-    top: 0px;
-    width: 432px;
-  }
-  
-  .in-short-we-are-buil-kSsxZv {
-    background-color: transparent;
-    color: var(--white);
-    font-family: var(--main-font);
-    font-size: var(--font-size-m);
-    font-style: normal;
-    font-weight: 600;
-    height: auto;
-    left: calc(50.00% - 218px);
-    letter-spacing: 0.00px;
-    line-height: normal;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: left;
-    top: 81px;
-    width: 432px;
-  }
-  
-  .group-106-hLpjsq {
-    background-color: transparent;
-    height: 261px;
-    left: calc(50.00% - 523px);
-    position: absolute;
-    top: 286px;
-    width: 442px;
-  }
-  
-  .servicing-a-variety-1TtheY {
-    background-color: transparent;
-    display: block;
-    height: auto;
-    left: calc(50.00% - 221px);
-    letter-spacing: 0.00px;
-    line-height: 38.7px;
-    opacity: 0;
-    position: absolute;
-    text-align: left;
-    top: 0px;
-    width: 440px;
-  }
-  
-  .span0-GtZLxa {
-    color: var(--caribbean-green);
-    font-family: var(--main-font);
-    font-size: var(--font-size-xxxxl);
-    font-style: normal;
-    font-weight: 800;
-  }
-  
+
+
+/* ---------------------------------------
+    API Section
+------------------------------------------*/
+
+.api-img {
+    .bg-url{
+        background: url(../../images/homepage/square-style.svg) no-repeat;
+        width: 110%;
+        height: 100%;
+        padding-bottom: 100px;
+    }
+    .inner-img{
+        opacity: 0;
+        width: 615px;
+        padding-top: 22px;
+        padding-left: 22px;
+        box-shadow: 21px 23px 20px 0px #00000029;
+        &.animate-enter22{
+            animation: animate-enter22-frames 0.20s ease-in-out 0.70s 1 normal forwards;
+            display: block;
+            opacity: 0;
+        }
+    }
+}
   
 
 @media (max-width: 600px){
@@ -588,5 +500,10 @@
             padding-right: 250px;
         }
     }
+    .section-title.style-two{
+        .title{
+            width:90%;
+        }
+    } 
 }
     

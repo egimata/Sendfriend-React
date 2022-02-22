@@ -1,71 +1,72 @@
 import React from 'react';
-import sectiondata from "../../data/sections.json"
 import { Link } from 'react-router-dom';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import "../Navbar.css";
 import ButtonWhite from  '../Buttons/ButtonWhite'
+import '../../assets/css/bootstrap.min.css';
+import tabdata from '../../data/tabsdata.json';
+import sectiondata from '../../data/sections.json';
 
 const APISection = () => {
 
-    const data = sectiondata.third_section
-    const altimg = "Sendfriend Platform"
+    const imgattr = 'SendFriend'
+    const data = tabdata.tabImg
+    const texts = sectiondata.APISection
 
+
+    
     return (
-      
-        <div className="third-section bg-dark-one">
+        <>
+        <div className="features-section bg-green pd-top-190">
             <div className="container">
-                <div className="row">
-
-                    <div className="col-6 justify-content-center">
-                        <div className="row">
-                            <div className="section-title style-four text-center">
-                                <h3 className="title">{data.title1}<br /> <span>{data.span}</span></h3>
-                            </div>
+                <div className="row justify-content-center">
+                    <div className="col-lg-4 pd-top-30">
+                        <div className="section-title style-two">
+                            <h3 className="title">{texts.title1}<br /><span> {texts.span}</span></h3>
                         </div>
-                        <div className="row">
-                            <div className="section-title">
-                                <p>Our API-based platform enables customers to seamlessly gain access to a suite of 
-                                    B2B and B2C payment tools. With that in mind, we can offer bespoke solutions for MSB partners</p>
-                                <p>In short, we are building a team to develop solutions across a range of use cases, 
-                                    where traditional payment rails come up short for small and medium size business with thorny cross-border remittance needs</p>
-                            </div>
-                        </div>
-                        <div className="row">
-                        <Link to="/contact-us">
-                            <ButtonWhite text='LEARN MORE' custom_style="button-cta buttonWhite mg-top-20" />
+                        <Link to="/contact-us" className="z-2">
+                            <ButtonWhite text='LEARN MORE' custom_style="button-cta buttonWhite mg-top-100" />
                         </Link>
-                        </div>
-                        
                     </div>
-                    <div className="col-6 justify-content-center">
-                        <div>
-                            <img alt={altimg} src="img/homepage/group-128@1x.png" />
-                        </div>
-                    </div>
+                    <div className="col-lg-5">
+                        <Tabs>
+                            <TabList>
+                            <div className="row">
+                                {data.tab.map( ( item, i ) => 
+                                    <Tab>
+                                        <div class="tab-features style-two">
+                                            <div class="tab-border">
+                                                <p class="text-under">{item.tabTitle}</p>
+                                            </div>
+                                        </div>
+                                    </Tab>
+                                )}
+                                </div>
+                            </TabList>
+                            {data.tabPanel.map( ( item, i ) => 
+                                <TabPanel>
+                                    <div className="api-img">
+                                        <div className="bg-url">
 
+                                        <img class="inner-img animate-enter22" src={`img/homepage/${item.img}`} />
+                                        </div>
+                                    </div>
+                                </TabPanel>
+                            )}  
+                        </Tabs>
+                    </div>
                 </div>
-                <div class="section-3-zYNucu">
-                    {/* <img class="asset-1bg1-1-1-hLpjsq" src="img/homepage/asset-1bg1-1-1@1x.png" />
-                    <img class="asset-1-1-hLpjsq" src="img/homepage/image-platform.svg" /> */}
-                    
-                    <div class="group-97-hLpjsq">
-                    <div class="our-api-based-platfo-kSsxZv">
-                        Our API-based platform enables customers to seamlessly gain access to a suite of B2B and B2C payment tools.
-                        With that in mind, we can offer bespoke solutions for MSB partners
+                <div className="row justify-content-end">
+                {texts.bottom_text.map( ( item, i ) => 
+                    <div className="col-lg-3  section-title">
+                        <h6>{item.main_text}</h6>
+                        <p className="p">{item.p}</p>
                     </div>
-                    <div class="in-short-we-are-buil-kSsxZv">
-                        In short, we are building a team to develop solutions across a range of use cases, where traditional payment
-                        rails come up short for small and medium size business with thorny cross-border remittance needs
-                    </div>
-                    </div>
-                    <div class="group-106-hLpjsq">
-                    <div class="servicing-a-variety-1TtheY montserrat-extra-bold-white-36px animate-enter20">
-                        <span class="span0-GtZLxa">Servicing a variety of cross-border payment use cases, </span
-                        ><span class="span1-GtZLxa montserrat-extra-bold-white-36px-2">while adapting to customer needs</span>
-                    </div>
-                    </div>
+                )}
                 </div>
             </div>
         </div>
-      
+       </>
     );
 }
 

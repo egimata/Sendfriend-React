@@ -132,5 +132,17 @@
           "popout4": "popout"
           }
       ]
+    },
+    "tabImg": {
+      "tab":[
+        {
+          "tabTitle": "Code Sample"
+        }
+      ],
+      "tabPanel":[
+        {
+          "img": "api-async-1@2x.png"
+        }
+      ]
     }
 }
