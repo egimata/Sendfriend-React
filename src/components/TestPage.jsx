@@ -35,7 +35,7 @@ const TestPage = ({tabPanel}) => {
         <PlatformSection />
         <SectionThree />
         <APISection />
-        {/* <Client /> */}
+        <Client />
 {/*         
     
       <div class="section-3-zYNucu">

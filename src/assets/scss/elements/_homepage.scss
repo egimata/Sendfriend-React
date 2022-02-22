@@ -348,8 +348,7 @@
   
 // Other Section for now this comment
 .client-area{
-    position: absolute;
-    top: 5038px;
+    position: relative;
     z-index: 2;
     width: 100%;
     padding-left: 68px;
@@ -485,7 +484,63 @@
         }
     }
 }
+
+/* ---------------------------------------
+    Platform Part
+------------------------------------------*/
+
+.partners-section {
+    position: relative;
+  }
   
+.bottom-image {
+    height: 46%;
+    position: absolute;
+    top: 54%;
+    width: 100%;
+}
+  
+.partnerships-table {
+    height: 660px;
+    left: calc(50.00% - 496px);
+    position: relative;
+    top: 0px;
+    width: 1000px;
+    .bg-border{
+        background-color: var(--shark);
+        border: 5px solid var(--white);
+        height: 660px;
+    }
+    .group-icons {
+        left: 143px;
+        position: absolute;
+        top: 159px;
+        width: 754px;
+    }
+    .partners-text {
+        font-weight: 700;
+        left: calc(50.00% - 78px);
+        letter-spacing: 0.00px;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 56px;
+        width: auto;
+    }
+    .partners-sub {
+        left: calc(50.00% - 334px);
+        font-size: var(--font-size-m);
+        font-weight: 500;
+        color: var(--white);
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 105px;
+        width: 680px;
+    } 
+}
+
+
 
 @media (max-width: 600px){
     .client-area{

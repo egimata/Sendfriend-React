@@ -47,8 +47,7 @@ const APISection = () => {
                                 <TabPanel>
                                     <div className="api-img">
                                         <div className="bg-url">
-
-                                        <img class="inner-img animate-enter22" src={`img/homepage/${item.img}`} />
+                                            <img class="inner-img animate-enter22" src={`img/homepage/${item.img}`} />
                                         </div>
                                     </div>
                                 </TabPanel>
@@ -63,6 +62,20 @@ const APISection = () => {
                         <p className="p">{item.p}</p>
                     </div>
                 )}
+                </div>
+            </div>
+            <img class="bottom-image" src="img/homepage/section-5@1x.png" />
+            <div id="partners" class="partners-section">
+                <div class="partnerships-table">
+                    <div class="bg-border"></div>
+                    <div className="group-icons">
+                        <img src="img/homepage/partners-group.svg" />
+                    </div>
+                    <p class="partners-sub">
+                        We are fortunate to be parterned with the following leaders in our space and global influencers of financial
+                        technology:
+                    </p>
+                    <h3 class="partners-text">Partners</h3>
                 </div>
             </div>
         </div>

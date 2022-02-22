@@ -1,4 +1,3 @@
-import './Footer.css';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 
@@ -8,9 +7,9 @@ export const Footer = ({custom_class}) => {
         <>
         <div class={custom_class}>
 
-            <div className="footer-container">
+            <div className="container">
                 <div className="footer-widget-wrap">
-                    <div className="footer-row">
+                    <div className="row">
                         <div className="col-footer">
                             <div className="subscribe-section"> 
                                 <div className="footer-row">
