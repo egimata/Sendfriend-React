@@ -55,6 +55,15 @@
             }
         }
     }
+    &.style-three{
+        background-color: var(--main-color);
+        border: 5px solid var(--main-color);
+        color: var(--white);
+        &:hover{
+            background-color: var(--ebony-clay);
+            border: 5px solid var(--main-color);
+        }
+    }
 }
 
 .rectangle-108-iU7JjP {

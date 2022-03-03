@@ -3,7 +3,6 @@ import { HashLink } from 'react-router-hash-link';
 import "../Navbar.css";
 import { Link } from 'react-router-dom';
 import Dropdown from '../Dropdown';
-import '../homepage.css'
 import { hideOverlay, showOverlay, showPopup } from '../../Helpers';
 
 

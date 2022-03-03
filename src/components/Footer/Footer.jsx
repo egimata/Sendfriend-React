@@ -1,7 +1,53 @@
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
+import ButtonWhite from  '../Buttons/ButtonWhite';
 
 export const Footer = ({custom_class}) => {
+
+    const dataItems = [{
+        title: "COMPANY",
+        content: [
+            {
+                path: "/about-us",
+                title: "History",
+            },
+            {
+                path: "/leadership",
+                title: "Leadership",
+            },
+            {
+                path: "/careers",
+                title: "Careers",
+            },
+            {
+                path: "/contact-us",
+                title: "Contact Us",
+            }
+        ]
+      },
+      {
+        title: "SUPPORT",
+        content: [
+            {  
+                title: "Privacy Policy",
+                path: "/privacy-policy"
+            },
+            {  
+                title: "User Agreement",
+                path: "/terms-of-use"
+            },
+            {  
+                title: "E-sign Policy",
+                path: "/esign-policy"
+            },
+            {  
+                title: "File a Complaint",
+                path: "/file-complaint"
+            }
+        ]
+      }
+    ];
+    const altimg = "SendFriend"
     
     return (
         <>
@@ -9,126 +55,77 @@ export const Footer = ({custom_class}) => {
 
             <div className="container">
                 <div className="footer-widget-wrap">
-                    <div className="row">
-                        <div className="col-footer">
+                    <div className="row justify-content-center"> 
+                        <div className="col-10">
                             <div className="subscribe-section"> 
-                                <div className="footer-row">
+                                <div className="row justify-content-center align-items-center text-center">
                                     <div className="col-6">
-                                        <div class="to-learn-more-about-send-friend-1xViFa valign-text-middle montserrat-bold-white-32px">
-                                            <span>
-                                                <span class="span0-FBAgGT montserrat-bold-white-32px-2">To learn more about</span>
-                                                <span class="span1-FBAgGT"> SendFriend</span>
-                                            </span>
+                                        <div className="subs-title">
+                                            <h4>To learn more about <span> SendFriend</span> </h4>
                                         </div>
                                     </div>
                                     <div className="col-6">
-                                        <div class="contact-us-1xViFa">
-                                            <Link style={{color: 'transparent'}} to="/contact-us">
-                                                <div class="rectangle-1-yTZA7h ">
-                                                    <div class="contact-us-yTZA7h">CONTACT US</div>
-                                                </div>
+                                        <div className="right">
+                                            <Link to="/contact-us">
+                                                <ButtonWhite text='CONTACT US' custom_style="button-cta buttonWhite style-three" />
                                             </Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="row justify-content-center">
                         <div className="col-lg-3 col-sm-6">
                             <HashLink smooth to="/">
-                                <div class="footer-logo"><img src="img/homepage/logo-menu-2-3@2x.png" /></div>
+                                <div class="footer-logo"><img alt={altimg} src="img/homepage/logo-menu-2-3@2x.png" /></div>
                             </HashLink>
                         </div>
-                        <div className="col-lg-3 col-sm-6">
-                            <h4 className="footer-title">COMPANY</h4>
-                            <div className="widget-link">
-                                <ul className="list-style">
-                                    <li>
-                                        <Link className="list-link" to="/history">
-                                            History
-                                        </Link>
-                                    </li>
-                                    <li >
-                                        <Link className="list-link" to="/leadership">
-                                            Leadership
-                                        </Link>
-                                    </li>
-                                    <li >
-                                        <Link className="list-link" to="/careers">
-                                            Careers
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link className="list-link" to="/contact-us">
-                                            Contact Us
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-lg-3 col-sm-6">
-                        <h4 className="footer-title">SUPPORT</h4>
-                            <div className="widget-link">
-                                <ul className="list-style">
-                                    <li>
-                                        <Link className="list-link" to="/privacy-policy">
-                                            Privacy Policy
-                                        </Link>
-                                    </li>
-                                    <li >
-                                        <Link className="list-link" to="/terms-of-use">
-                                            User Agreement
-                                        </Link>
-                                    </li>
-                                    <li >
-                                        <Link className="list-link" to="/esign-policy">
-                                            E-sign Policy
-                                        </Link>
-                                    </li>
-                                   
-                                    <li>
-                                        <Link className="list-link" to="/file-complaint">
-                                            File a Complaint
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div className="footer-copyright-area border-top-custom">
-                <div className="footer-container">
-                    <div className="footer-row align-items-center">
-                        <div className="col-6">
-                            <div class="x2021-send-friend-all-rights-reserved-bUVegb montserrat-medium-white-14px">
-                                © 2022 SendFriend. All Rights Reserved <br /> <span className="montserrat-normal-white-13px">SendFriend is licensed as a money transmitter with the State of New Jersey's Department of Banking & Insurance, License No. L070801. </span>
-                            </div>
-                        </div>
-                        <div className="col-6">
-                            <div class="socials">
+                        {dataItems.map((item, index) => 
+                        <div className="col-lg-3 col-sm-6" key={index}>
+                            <h4 className="footer-title">{item.title}</h4>
                             <ul className="list-style">
-                                 <li >
-                                    <a class="text-decoration-none" href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">Facebook</div></a>
-                                </li>
-                                <span>|</span>
-                                <li >
-                                    <a class="text-decoration-none" href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">Twitter</div></a>
-                                </li>
-                                <span>|</span>
-                                <li>
-                                    <a class="text-decoration-none" href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">LinkedIn</div></a>
-                                </li>
+                                { item.content.map((c, i) =>
+                                    <li>
+                                        <Link key={i} className="list-link" to={c.path}>
+                                            {c.title}
+                                        </Link>
+                                    </li>
+                                    )}
                             </ul>
-                                
+                        </div>
+                        )}
+                    </div>
+                    <div className="footer-copyright-area border-top-custom">
+                        <div className="row justify-content-center align-items-center">
+                            <div className="col-lg-6">
+                                <div class="left-text montserrat-medium-white-14px">
+                                    © 2022 SendFriend. All Rights Reserved <br /> <span className="montserrat-normal-white-13px">SendFriend is licensed as a money transmitter with the State of New Jersey's Department of Banking & Insurance, License No. L070801. </span>
+                                </div>
+                            </div>
+                            <div className="col-lg-4">
+                                <div class="socials">
+                                <ul className="list-style">
+                                    <li >
+                                        <a class="text-decoration-none" href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">Facebook</div></a>
+                                    </li>
+                                    <span>|</span>
+                                    <li >
+                                        <a class="text-decoration-none" href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">Twitter</div></a>
+                                    </li>
+                                    <span>|</span>
+                                    <li>
+                                        <a class="text-decoration-none" href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">LinkedIn</div></a>
+                                    </li>
+                                </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <img class="asset-1bg1-1-2-bUVegb" src="img/homepage/asset-1bg1-1-2-1@2x.png" />
+            <img alt={altimg} class="left-img" src="img/homepage/asset-1bg1-1-2-1@2x.png" />
         </div>
-        
         </>
             
     );

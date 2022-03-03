@@ -6,11 +6,10 @@ import ButtonWhite from  '../Buttons/ButtonWhite'
 import '../../assets/css/bootstrap.min.css';
 import tabdata from '../../data/tabsdata.json';
 
-const FeaturesSection = ({tabPanel}) => {
+const FeaturesSection = () => {
 
     const imgattr = 'SendFriend'
     const data = tabdata.tabslisting
-    const box = tabPanel.checkBox;
     
     return (
         <>
@@ -47,7 +46,7 @@ const FeaturesSection = ({tabPanel}) => {
                                 </div>
                                 
                                 <div className="row">
-                                    {box.map((item) => 
+                                    
                                     <div className="col-md-12">
                                         <div className="check-list display-inline">
                                             <img alt={imgattr} src="img/icons/checkbox.svg"/>
@@ -56,7 +55,6 @@ const FeaturesSection = ({tabPanel}) => {
                                             </div>
                                         </div>
                                     </div>
-                                    )}
                                     
                                     <div className="col-md-4">
                                         <Link to="/contact-us">

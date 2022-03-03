@@ -34,7 +34,7 @@ class Client extends Component {
         let data = sectiondata.clientv3
 
     return <div>
-            <div className="client-area text-center padding-top-40">
+            <div className="client-area text-center pd-bottom-100 dark-bg ">
               <div className="container">
                 <h3 className="client-slider-title">{ data.sectiontitle } <span>{ data.sectiontitle_color }</span> { data.sectiontitle2 }</h3>
                 <div className="row justify-content-center">
@@ -48,7 +48,6 @@ class Client extends Component {
                         </div>
                      ) }
                   </OwlCarousel>
-                    
                   </div>
                 </div>
               </div>

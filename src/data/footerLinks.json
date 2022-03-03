@@ -1,0 +1,46 @@
+{
+    "footer": [
+        {
+            "title": "COMPANY",
+            "footerItems": [
+                {
+                    "title": "History",
+                    "path": "/about-us"
+                },
+                {
+                    "title": "Leadership",
+                    "path": "/leadership"
+                },
+                {
+                    "title": "Careers",
+                    "path": "/careers"
+                },
+                {
+                    "title": "Contact Us",
+                    "path": "/contact-us"
+                }
+            ]
+        },
+        {
+            "title": "SUPPORT",
+            "footerItems": [
+                {  
+                    "title": "Privacy Policy",
+                    "path": "/privacy-policy"
+                },
+                {  
+                    "title": "User Agreement",
+                    "path": "/terms-of-use"
+                },
+                {  
+                    "title": "E-sign Policy",
+                    "path": "/esign-policy"
+                },
+                {  
+                    "title": "File a Complaint",
+                    "path": "/file-complaint"
+                }
+            ]
+        }
+    ]
+}
