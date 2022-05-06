@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {Link} from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
 import ScrollAnimation from "react-animate-on-scroll";
@@ -27,6 +27,11 @@ const teamData = [
 
 
 const TeamOne = ({column , teamStyle}) => {
+    const [opacity, setOpacity] = useState(0);
+
+    const changeOpacity = (opac) => {
+        setOpacity(opac);
+    }
     return (<>
 <div className="third-section bg-dark-two">
 
@@ -99,7 +104,7 @@ const TeamOne = ({column , teamStyle}) => {
         <div className="third-section bg-dark-two">
            <div className={`row ${column}`}>
                {teamData.map((data, index) => (
-                   <div className={data.column} key={index}>
+                   <div className={data.column} key={index} onMouseEnter = {()=>changeOpacity(1)} onMouseLeave = {()=>changeOpacity(0)}>
                        <div className={`rn-team ${teamStyle}`}>
                            <ScrollAnimation 
                                animateIn="fadeInUp"
@@ -115,7 +120,7 @@ const TeamOne = ({column , teamStyle}) => {
                                    </HashLink>
                                    <figcaption className="content">
                                   
-                                       <div class="bio-x0uKuI" style={{content: `${data.content}`}} >
+                                       <div class="bio-x0uKuI" style={{opacity: opacity}} >
                                            <div class="rectangle-45-rs3s2b"></div>
                                            <p className="title">{data.name}</p>
                                            <p className="subtitle theme-gradient">{data.designation}</p>
