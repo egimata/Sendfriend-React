@@ -216,6 +216,9 @@ code {
 .padding-custom {
     padding: 0px 60px;
 }
+.pd-left-15{
+    padding-left: 15px;
+}
 .pd-left-60{
     padding-left: 60px;
 }
@@ -241,6 +244,9 @@ code {
 }
 .pd-top-50 {
     padding-top: 50px;
+}
+.pd-top-60 {
+    padding-top: 60px;
 }
 .pd-top-80 {
     padding-top: 80px;
@@ -296,7 +302,9 @@ code {
 .pd-default-two {
     padding: 110px 0 120px 0;
 }
-
+.full-width{
+    width: 100% !important;
+}
 .width-70{
     width: 70%;
 }
@@ -568,5 +576,8 @@ code {
     }
     .right{
         float: none !important;
+    }
+    .pd-bottom-100-mobile {
+        padding-bottom: 0px !important;
     }
 }

@@ -1,9 +1,52 @@
 
-import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
+import ButtonWhite from  '../Buttons/ButtonWhite';
 
 export const Footer = ({custom_class}) => {
-    
+  const dataItems = [{
+    title: "COMPANY",
+    content: [
+        {
+            path: "/about-us",
+            title: "History",
+        },
+        {
+            path: "/leadership",
+            title: "Leadership",
+        },
+        {
+            path: "/careers",
+            title: "Careers",
+        },
+        {
+            path: "/contact-us",
+            title: "Contact Us",
+        }
+    ]
+  },
+  {
+    title: "SUPPORT",
+    content: [
+        {  
+            title: "Privacy Policy",
+            path: "/privacy-policy"
+        },
+        {  
+            title: "User Agreement",
+            path: "/terms-of-use"
+        },
+        {  
+            title: "E-sign Policy",
+            path: "/esign-policy"
+        },
+        {  
+            title: "File a Complaint",
+            path: "/file-complaint"
+        }
+    ]
+  }
+];
+const altimg = "SendFriend"
     return (
         <>
       <div class={custom_class}>

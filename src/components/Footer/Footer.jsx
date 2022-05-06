@@ -78,7 +78,7 @@ export const Footer = ({custom_class}) => {
                     <div className="row justify-content-center">
                         <div className="col-lg-3 col-sm-6">
                             <HashLink smooth to="/">
-                                <div class="footer-logo"><img alt={altimg} src="img/homepage/logo-menu-2-3@2x.png" /></div>
+                                <div class="footer-logo"><img alt={altimg} src="img/homepage/logo-menu-footer.png" /></div>
                             </HashLink>
                         </div>
                         {dataItems.map((item, index) => 

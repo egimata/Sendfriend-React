@@ -25,7 +25,7 @@ const JobDescription = ({job}) => {
                 <div className="row justify-content-center">
                   <div className="col-xl-6 col-lg-8 offset-xl-1">
                     <div className="section-title">
-                      <h2 className="title">Job <span>Details</span></h2>
+                      <h2 className="title">Job <span className='career-span'>Details</span></h2>
                     </div>
                     <h6 className="title">{job.jobtitle}</h6>
                     <span>{job.subtitle}</span>

@@ -5,7 +5,7 @@ import {
   Link
 } from "react-router-dom";
 import Homepage from "./components/Homepage"; 
-import { History } from "./components/History";
+import { AboutUs } from "./components/AboutUs";
 import { Leadership } from "./components/Leadership";
 import { PrivacyPolicy } from "./components/Policies/PrivacyPolicy";
 import { TermsOfUse } from "./components/Policies/TermsOfUse";
@@ -33,7 +33,7 @@ function App() {
         
         <Routes >
           <Route path="/" element ={<Homepage />} />
-          <Route path="/about-us" element={<History />} />
+          <Route path="/about-us" element={<AboutUs />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-use" element={<TermsOfUse />} />

@@ -72,5 +72,59 @@
       }
     ]
     
+  },
+  "AboutUs": {
+    "title": "Our story",
+    "subtitle": "SendFriend began its journey as an MIT Sloan-incubated peer-to-peer remittance start-up in 2017. The company launched its initial product - a US-to-Phillipines personal payments platform leveraging RippleNet - in 2018, enjoying some initial success servicing the Phillipine ex-pat community in New Jersey, USA. In late 2019, we pivoted the business model to focus on small and medium-sized enterprise customers requiring a more flexible transparent cost-effective, blockchain-enabled mode of sending payments internationally.",
+    "checkBox":[
+      {
+        "text": "We are alumni of several top fintech start-up incubators"
+      },
+      {
+        "text": "Our team is comprised of international finance experts and innovative technologists"
+      },
+      {
+        "text": "We recently won a grant from a Polish-based EU innovation fund to build next-generation blockchain-based payment solutions for business and consumer customers"
+      }
+    ],
+    "img": "img/man-phone-sendy-1@1x.png"
+  },
+  "evolution":{
+    "title1": "evolution",
+    "span": "SendFriend’s",
+    "years": [
+      {
+        "year":"2017"
+      },
+      {
+        "year":"2018"
+      },
+      {
+        "year":"2019"
+      },
+      {
+        "year":"2020"
+      },
+      {
+        "year":"2021"
+      }
+    ],
+    "year_text": [
+      {
+        "text": "Incorporated in 2017 within the context of MIT Sloan’s Full-time MBA program.  Participated in MIT's delta V NYC summer start-up accelerator"
+      },
+      {
+        "text": "Participated in Barclays’ Techstars accelerator.  Partnered with Ripple to co-develop P2P remittance application. Raised pre-seed round"
+      },
+      {
+        "text": "Launched beta test of P2P remittance platform servicing US-Phillipine corridor. Continued pre-seed funding with 8 Decimal Capital and Knickerbocker Capital."
+      },
+      {
+        "text": "Pivoted business model to focus on business-to-business cross-border remittances. Secured European Union Growth Funds grant to develop B2B technology"
+      },
+      {
+        "text": "Re-launching SendFriend B2B / B2C cross-border remittance platform. Securing new payment infrastructure partners and onboarding initial customers"
+      }
+    ]
   }
 }

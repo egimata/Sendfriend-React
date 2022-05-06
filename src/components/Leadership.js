@@ -2,7 +2,7 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
-import Dropdown from './Dropdown';
+import HeaderTest from './Headers/HeaderTest';
 import "./leadership-style.css"
 import Nav from './Navs/Nav';
 import NavMobile from './Navs/NavMobile';
@@ -16,8 +16,16 @@ export const Leadership = () => {
  
     return (
       <div>
-    <input type="hidden" id="anPageName" name="page" value="leadership" />
     <div class="leadership screen">
+      <Nav />
+      <HeaderTest 
+            text=" Faster, Cheaper Multi-Chain Payments"
+            green_text='Service.'
+            subtitle='SendFriend'
+            image='img/homepage/slider-homepage-1@1x.jpg'
+            under_text='We are cheaper, faster, and more reliable and secure.'
+            button={true}
+        />
       <div class="rectangle-118-T3zxx0"></div>
       <img class="unsplashrxp-th-owu-vg-e-T3zxx0" src="img/leadership/leadership-page.png" />
       <div class="rectangle-87-T3zxx0"></div>
@@ -93,6 +101,7 @@ export const Leadership = () => {
         companies with their expansion into Polish and European Markets. He also holds a Board Member position at
         Sendfriend Polska Sp. z o.o. He is a graduate of INSEAD, as well as the Warsaw School of Economics.
       </div>
+
       <div class="team1-T3zxx0">
         <img class="image-2-2x9LGi " src="img/leadership/image-2@2x.png" />
         <div class="bio-2x9LGi smart-layers-pointers">
@@ -143,9 +152,9 @@ export const Leadership = () => {
           </div>
         </div>
       </div>
-      <Footer custom_class="section footer-section footer-section-leadership" />
+      <Footer custom_class="section footer-section leadership-footer footer-section-leadership" />
 
-      <Nav />
+      
       
       <div class="header-text-T3zxx0 bp2-animate-enter1" show-on-scroll>
         <div class="send-friend-team-z4pxzX">
@@ -157,6 +166,8 @@ export const Leadership = () => {
         <div class="leadership-z4pxzX montserrat-bold-caribbean-green-24px">Leadership</div>
       </div>
     </div>
+    {/* Desktop End */}
+    {/* Mobile Start */}
     <div class="mobile-leadership screen">
       <img class="unsplashrxp-th-owu-vg-e-KMEx58" src="img/leadership/leadership-page.png" />
       <div class="rectangle-87-KMEx58"></div>

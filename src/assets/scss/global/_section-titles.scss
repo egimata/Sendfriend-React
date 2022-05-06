@@ -1,5 +1,6 @@
 .section-title {
     margin-bottom: 65px;
+    
     .title {
         color: var(--eerie-black);
         opacity: 1;
@@ -10,6 +11,12 @@
         font-family: var(--main-font);
         span {
             color: var(--white);
+        }
+        .career-span{
+            color: var(--main-color)
+        }
+        &.career{
+            padding-right: 0px;
         }
     }
     .title-2 {
@@ -40,6 +47,9 @@
         letter-spacing: 0.00px;
         line-height: normal;
         width: 75%;
+        &.career{
+            width: 100%
+        }
     }
     a {
         font-size: var(--body-font-size);
@@ -80,6 +90,9 @@
     }
     &.style-two-custom{
         margin-bottom: 10px;
+        .text-under {
+            width:100%
+        }
     }
     &.style-three {
         max-width: 80%;
@@ -94,6 +107,18 @@
                 span{
                     color: var(--white)
                 }
+        }
+        p{
+            line-height: 26px;
+        }
+    }
+    &.style-four-career {
+        margin-bottom: 30px;
+        .title{
+            font-weight: 700;
+        }
+        span{
+            color: var(--main-color)
         }
         p{
             line-height: 26px;

@@ -18,15 +18,15 @@ import APISection from './Homepage/APISection';
 const Homepage = () => {
     return (
       <div>
-       <input type="hidden" id="anPageName" name="page" value="homepage" />
        <div class="udaap screen">
          <Nav />
          <HeaderTest 
             text=" Faster, Cheaper Multi-Chain Payments"
             green_text='Service.'
             subtitle='SendFriend'
-            image='img/homepage/slider-homepage-1@1x.jpg'
+            image='img/homepage/slider-homepage.jpg'
             under_text='We are cheaper, faster, and more reliable and secure.'
+            button={true}
           />
         <FeaturesSection />
         <PlatformSection />
@@ -37,10 +37,11 @@ const Homepage = () => {
     </div>
 
     <div class="mobile-homepage screen">
-      <img class="slider-homepage-1-qujsfd bp2-animate-enter1" src="img/slider-homepage-1@1x.jpg" />
-      <div class="rectangle-126-qujsfd"></div>
       <NavMobile />
       <Client />
+      {/* Header  */}
+      <img class="slider-homepage-1-qujsfd bp2-animate-enter1" src="img/slider-homepage-1@1x.jpg" />
+      <div class="rectangle-126-qujsfd"></div>
       <div class="faster-cheaper-multi-qujsfd bp2-animate-enter2">
         <span class="span0-GBW4Tf">Faster, Cheaper<br />Multi-Chain<br />Payments </span
         ><span class="span1-GBW4Tf montserrat-extra-bold-caribbean-green-30px">Service.</span>
@@ -54,6 +55,7 @@ const Homepage = () => {
         <div class="contact-us-kXqD6c valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
         </Link>
       </div>
+      {/* Header End */}
       <img class="rectangle-106-qujsfd" src="img/rectangle-106-1@1x.png" />
       
       <div id="platform-section-mobile" class="a-flexible-cross-bor-qujsfd montserrat-extra-bold-white-21px bp2-animate-enter16" >

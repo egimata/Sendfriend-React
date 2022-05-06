@@ -114,7 +114,7 @@
         background-color: var(--main-color);
         position: absolute;
         width: 110%;
-        height: 51%;
+        height: 59%;
         top: 68%;
         z-index: 0;
         transform: rotate(7deg);
@@ -128,7 +128,6 @@
     }
     span {
         color: var(--ebony-clay);
-        line-height: normal;
         font-size: var(--font-size-m);
         font-weight: 600;
         line-height: normal;
@@ -136,8 +135,8 @@
 }
 // IMG ANIMATION - Features Section
 .img-animation{
-    position: absolute;
-    top: -260px;
+    position: relative;
+    top: -423px;
     left: calc(-28% - 5px);
     .texts p{
         color: var(--ebony-clay);
@@ -364,7 +363,13 @@
     position: relative;
     width: 1px;
 }
-
+.evo-img{
+    float:none !important;
+    margin-bottom: 19px;
+}
+.place-center{
+    place-self: center;
+}
 @media(min-width: 1100px){
     .platform-section{
         p{
@@ -421,29 +426,43 @@
     padding-top:100px;
     padding-bottom: 50px;
     position: relative;
-    &.bg-dark-one{
-        background: var(--dark);
-        &::before{
-            content: "";
-            background-color: var(--dark);
-            position: absolute;
-            width: 110%;
-            height: 55%;
-            top: -20%;
-            z-index: 0;
-            transform: rotate(-7deg);
+        &.bg-dark-one{
+            background: var(--dark);
+            &::before{
+                content: "";
+                background-color: var(--dark);
+                position: absolute;
+                width: 110%;
+                height: 55%;
+                top: -20%;
+                z-index: 0;
+                transform: rotate(-7deg);
+            }
+            &::after{
+                content: "";
+                background-color: var(--dark);
+                position: absolute;
+                width: 110%;
+                height: 55%;
+                top: 66%;
+                z-index: 1;
+                transform: rotate(7deg);
+            }
         }
-        &::after{
-            content: "";
-            background-color: var(--dark);
-            position: absolute;
-            width: 110%;
-            height: 55%;
-            top: 66%;
-            z-index: 1;
-            transform: rotate(7deg);
-        }
-    }
+        &.bg-dark-two{
+            background: var(--dark);
+            &::before{
+                content: "";
+                background-color: var(--dark);
+                position: absolute;
+                width: 110%;
+                height: 8%;
+                top: -4%;
+                z-index: 0;
+                transform: rotate(-7deg);
+                }
+            }
+        
     .section-title{
         p{
             color: var(--white);
@@ -472,7 +491,6 @@
         padding-bottom: 100px;
     }
     .inner-img{
-        opacity: 0;
         width: 615px;
         padding-top: 22px;
         padding-left: 22px;
@@ -480,7 +498,7 @@
         &.animate-enter22{
             animation: animate-enter22-frames 0.20s ease-in-out 0.70s 1 normal forwards;
             display: block;
-            opacity: 0;
+            opacity: 1;
         }
     }
 }
@@ -540,6 +558,41 @@
     } 
 }
 
+/* ---------------------------------------
+    About Us Page
+------------------------------------------*/
+
+.years{
+    h3{
+        font-weight: 600;
+        color: var(--ebony-clay)
+    }
+    img{
+        margin-left: 119px;
+        width: 81%;
+        float: none;
+    }
+    p{
+        font-weight: 400;
+        width: 181px;
+        left: 44px;
+        text-align: start;
+    }
+    
+}
+.max-w-20{
+    max-width: 20%;
+}
+.rn-team{
+    img{
+        width:80%;
+    }
+}
+
+// Leadership
+.leadership-footer{
+    position: absolute !important;
+}
 
 
 @media (max-width: 600px){

@@ -39,8 +39,8 @@ const JobApply = ({job}, props) => {
                         <div className="row justify-content-center">
                             <div className="col-xl-8 col-lg-10">
                                 <div className="section-title text-center">
-                                    <h2 className="title main-color">{ data.sectiontitle }</h2>
-                                    <p>{ data.sectionsubtitle }</p>
+                                    <h2 className="title career main-color">{ data.sectiontitle }</h2>
+                                    <p className='career'>{ data.sectionsubtitle }</p>
                                 </div>
                                 <div className="job-apply-area">
                                     <form className="riyaqas-form-wrap" action="https://formspree.io/f/xgedavpk" method="POST" encType="multipart/form-data">

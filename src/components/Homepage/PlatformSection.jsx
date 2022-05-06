@@ -24,13 +24,13 @@ const PlatformSection = () => {
                 </div>
                 <div className="row justify-content-center">
                     <div>
-                        <img alt={altimg} src="img/homepage/group-128@1x.png" />
+                        <img alt={altimg} src="img/homepage/left-world.png" />
                     </div>
                     <div>
-                        <img class="vertical-line" alt={altimg} src="img/homepage/line-15@2x.png" />
+                        <img class="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
                     </div>
                     <div>
-                        <img className="pd-left-30" alt={altimg} src="img/homepage/group-102@2x.svg" />
+                        <img className="pd-left-30" alt={altimg} src="img/homepage/right-world.svg" />
                     </div>
                 </div>
                 <div className="row justify-content-center">

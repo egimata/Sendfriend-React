@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import "../Navbar.css";
 import ButtonWhite from  '../Buttons/ButtonWhite'
 import '../../assets/css/bootstrap.min.css';
 import tabdata from '../../data/tabsdata.json';
@@ -12,8 +11,6 @@ const APISection = () => {
     const imgattr = 'SendFriend'
     const data = tabdata.tabImg
     const texts = sectiondata.APISection
-
-
     
     return (
         <>
@@ -55,27 +52,27 @@ const APISection = () => {
                         </Tabs>
                     </div>
                 </div>
-                <div className="row justify-content-end">
+                <div className="row justify-content-center">
                 {texts.bottom_text.map( ( item, i ) => 
-                    <div className="col-lg-3  section-title">
+                    <div className="col-lg-3 section-title">
                         <h6>{item.main_text}</h6>
                         <p className="p">{item.p}</p>
                     </div>
                 )}
                 </div>
             </div>
-            <img alt={imgattr} class="bottom-image" src="img/homepage/section-5@1x.png" />
+            <img alt={imgattr} class="bottom-image" src="img/homepage/dark-bg-tilted.png" />
             <div id="partners" class="partners-section">
                 <div class="partnerships-table">
-                    <div class="bg-border"></div>
-                    <div className="group-icons">
-                        <img alt={imgattr} src="img/homepage/partners-group.svg" />
-                    </div>
+                    <h3 class="partners-text">Partners</h3>
                     <p class="partners-sub">
                         We are fortunate to be parterned with the following leaders in our space and global influencers of financial
                         technology:
                     </p>
-                    <h3 class="partners-text">Partners</h3>
+                    <div class="bg-border"></div>
+                    <div className="group-icons">
+                        <img alt={imgattr} src="img/homepage/partners-group.svg" />
+                    </div>
                 </div>
             </div>
         </div>

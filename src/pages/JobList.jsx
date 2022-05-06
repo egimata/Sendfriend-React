@@ -8,6 +8,7 @@ import NavMobile from '../components/Navs/NavMobile';
 import Footer from '../components/Footer/Footer';
 import FooterMobile from '../components/Footer/FooterMobile';
 import '../assets/css/bootstrap.min.css';
+import HeaderTest from '../components/Headers/HeaderTest';
 
 const JobList = () => {
 
@@ -21,7 +22,7 @@ const JobList = () => {
             <SEO title="Careers" />
                 <div class="udaap screen bg-custom">
                 <Nav />
-                <Careers 
+                <HeaderTest 
                     text="SendFriend"
                     green_text='Careers'
                     subtitle='Careers'
@@ -34,9 +35,9 @@ const JobList = () => {
                         <div className="job-position-area">
                         <div className="row justify-content-center">
                             <div className="col-xl-8">
-                            <div className="section-title style-four">
-                                <h2 className="title"  dangerouslySetInnerHTML={{__html: data.sectiontitle}}> 
-                                </h2>
+                            <div className="section-title style-four-career">
+                                <h3 className="title"  dangerouslySetInnerHTML={{__html: data.sectiontitle}}> 
+                                </h3>
                             </div>
                             {/* single job list */}
                             { data.job.map(( item, i )=>

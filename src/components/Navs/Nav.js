@@ -86,7 +86,7 @@ function Nav() {
         </Link>
         </div>
         <HashLink smooth to="/">
-        <div class="logo-menu-num0gs"><img class="logo_menu-2-a4JE9e" src="img/homepage/logo-menu-2-2@2x.png" /></div>
+        <div class="logo-menu-num0gs"><img class="logo_menu-2-a4JE9e" src="img/logo/logo-menu.png" /></div>
         </HashLink>
     </div>
     )

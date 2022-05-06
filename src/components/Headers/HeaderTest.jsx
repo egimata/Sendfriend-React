@@ -1,8 +1,18 @@
 
 import { Link } from 'react-router-dom';
 import ButtonWhite from '../Buttons/ButtonWhite';
-const HeaderTest = ({subtitle, text, green_text, image, under_text }) => {
+const HeaderTest = ({subtitle, text, green_text, image, under_text, button }) => {
 
+    function ButtonBol(props) {
+        const hasBtn = props.hasBtn;
+        if (hasBtn) {
+          return <Link to="/contact-us">
+                    <ButtonWhite text='LEARN MORE' custom_style="button-cta header-button animate-enter4" />
+                </Link>
+                ;
+        }
+        return null;
+      }
   return ( 
     <>
       <div className="section-header slider-homepage" style={{backgroundImage: `url(${image})`}}>
@@ -20,9 +30,11 @@ const HeaderTest = ({subtitle, text, green_text, image, under_text }) => {
                             <h5 className="main-subtitle-header animate-enter2" >
                                 {under_text}
                             </h5>
-                            <Link to="/contact-us">
-                                <ButtonWhite text='LEARN MORE' custom_style="button-cta header-button animate-enter4" />
-                            </Link>
+                            <ButtonBol hasBtn={button}>
+                                <Link to="/contact-us">
+                                    <ButtonWhite text='LEARN MORE' custom_style="button-cta header-button animate-enter4" />
+                                </Link>
+                            </ButtonBol>
                         </div>
                     </div>
                 </div>

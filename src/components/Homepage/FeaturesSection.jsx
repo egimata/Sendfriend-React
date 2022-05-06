@@ -10,6 +10,25 @@ const FeaturesSection = () => {
 
     const imgattr = 'SendFriend'
     const data = tabdata.tabslisting
+    function CheckBoxLoop(props) {
+        const key = props.key;
+        const textSpan = props.textSpan;
+        return <div key={key} className="col-md-12">
+                    <div className="check-list display-inline">
+                        <img alt={imgattr} src="img/icons/checkbox.svg"/>
+                        <div>
+                            <span>{textSpan}</span>
+                        </div>
+                    </div>
+                </div>
+    }
+    function checkBoxBol(props) {
+        const hasCheckBox = props.hasCheckBox;
+        if (hasCheckBox) {
+            return <CheckBoxLoop />;
+        }
+        return null;
+    }
     
     return (
         <>
@@ -33,7 +52,7 @@ const FeaturesSection = () => {
                 <TabPanel>
                 <div key={i} className="container pd-left-140-xl">
                     <div className="section-title style-two-custom pd-left-70 width-70">
-                        <h3 className="title">{item.main_title1}<span> {item.title_span}</span> {item.main_title2}</h3>
+                        <h3 className="title">{item.main_title1}<span> {item.title_span}</span> {item.main_title2} <span>{item.title_span_2}</span></h3>
                     </div>
                     <div className="row ">
                         <div className="col-xl-7 col-lg-7 desktop-center-item">
@@ -46,15 +65,13 @@ const FeaturesSection = () => {
                                 </div>
                                 
                                 <div className="row">
-                                    
-                                    <div className="col-md-12">
-                                        <div className="check-list display-inline">
-                                            <img alt={imgattr} src="img/icons/checkbox.svg"/>
-                                            <div>
-                                                <span>{item.textSpan}</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <checkBoxBol hasCheckBox={item.checkBoxBol} >
+                                            { item.checkBox.map( (i, k) => 
+
+                                                <CheckBoxLoop key={k} textSpan={i.textSpan}  />
+
+                                                )}
+                                    </checkBoxBol>
                                     
                                     <div className="col-md-4">
                                         <Link to="/contact-us">
