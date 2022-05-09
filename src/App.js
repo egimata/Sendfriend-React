@@ -2,7 +2,6 @@ import {
   BrowserRouter as Router,
   Routes ,
   Route,
-  Link
 } from "react-router-dom";
 import Homepage from "./components/Homepage"; 
 import { AboutUs } from "./components/AboutUs";
@@ -13,9 +12,9 @@ import { FileComplaint } from "./components/Policies/FileComplaint";
 import JobList from './pages/JobList';
 import JobDescription from "./pages/JobDescription";
 import JobApply from "./pages/JobApply";
-import ContactUs from "./pages/ContactUs";
-import ScrollButton from './components/ScrollButton';
-import ScrollToTop from './components/ScrollToTop';
+import ContactUs from "./pages/Contact/ContactUs";
+import ScrollButton from './components/common/ScrollButton';
+import ScrollToTop from './components/common/ScrollToTop';
 import sectiondata from './data/jobdata.json';
 import { ESignPolicy } from "./components/Policies/ESignPolicy";
 
@@ -46,7 +45,7 @@ function App() {
             <Route key={i} path={item.path} element={<JobDescription job={item} />} />
           )}
           { data.job.map(( item, i )=>
-          <Route path={item.applypath} element={<JobApply  job={item} />} />
+          <Route path={item.applypath} element={<JobApply job={item} />} />
           )}
         </Routes >
         <ScrollButton />

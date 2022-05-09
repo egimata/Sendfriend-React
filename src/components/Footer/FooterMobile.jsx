@@ -1,6 +1,5 @@
 
 import { Link } from 'react-router-dom';
-import ButtonWhite from  '../Buttons/ButtonWhite';
 
 export const Footer = ({custom_class}) => {
   const dataItems = [{
@@ -8,7 +7,7 @@ export const Footer = ({custom_class}) => {
     content: [
         {
             path: "/about-us",
-            title: "History",
+            title: "About Us",
         },
         {
             path: "/leadership",
@@ -50,7 +49,7 @@ const altimg = "SendFriend"
     return (
         <>
       <div class={custom_class}>
-        <img class="asset-1bg1-1-2-gBjW7Z" src="img/asset-1bg1-1-2@2x.png" />
+        <img alt={altimg} class="asset-1bg1-1-2-gBjW7Z" src="img/asset-1bg1-1-2@2x.png" />
         <div class="rectangle-40-gBjW7Z"></div>
         <div class="to-learn-more-about-send-friend-gBjW7Z valign-text-middle montserrat-bold-white-14px-2">
           <span
@@ -59,14 +58,14 @@ const altimg = "SendFriend"
           </span>
         </div>
         <Link to="/contact-us">
-        <div class="contact-us-gBjW7Z bp2-animate-enter7" show-on-scroll>
+        <div class="contact-us-gBjW7Z bp2-animate-enter7" >
           <div class="rectangle-1-XbWypM smart-layers-pointers"></div>
           <div class="contact-us-XbWypM valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
         </div>
         </Link>
         <Link to="/">
         <div class="logo-gBjW7Z">
-          <div class="frame-131-h0Texg"><img class="logo_menu-2-K8SRLr" src="img/logo-menu-2@2x.png" /></div>
+          <div class="frame-131-h0Texg"><img alt={altimg} class="logo_menu-2-K8SRLr" src="img/logo-menu-2@2x.png" /></div>
         </div>
         </Link>
         
@@ -101,7 +100,7 @@ const altimg = "SendFriend"
             </Link> */}
         </div>
         <div class="bottom-footer-gBjW7Z">
-          <img class="line-1-o8Fgec" src="img/line-1@2x.png" />
+          <img alt={altimg} class="line-1-o8Fgec" src="img/line-1@2x.png" />
           <div class="x-o8Fgec montserrat-medium-white-14px">|</div>
           <div class="x-ag0KtK montserrat-medium-white-14px">|</div>
           <Link to="https://www.linkedin.com/company/sendfriend/" target="_blank"

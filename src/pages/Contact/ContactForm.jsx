@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import ContactInfo from './ContactInfo';
 
 const ContactForm = props => {
-
-        let imgalt = 'image'
-        let publicUrl = process.env.PUBLIC_URL+'/'
-        let className = 'menu';
         const handleFocus = e => {
             e.target.nextSibling.classList.add("active");
         };
@@ -19,7 +15,7 @@ const ContactForm = props => {
                     <div className="row justify-content-center">
                         <div className="col-lg-7">
                             <div className="section-title text-center w-100">
-                                <h2 className="title">Have a question about our product and service offerings?<br /> <span>Please drop us a line below</span></h2>
+                                <h3 className="title">Have a question about our product and service offerings?<br /> <span className='career-span'>Please drop us a line below</span></h3>
                             </div>
                             <form action="https://formspree.io/f/xlezgwwv" method="POST" className="riyaqas-form-wrap mt-5 mt-lg-0 pd-right-70">
                                 <div className="row custom-gutters-16">
@@ -59,26 +55,7 @@ const ContactForm = props => {
                                 </div>
                             </form>
                         </div>
-                        <div className="col-xl-4 col-lg-5 desktop-center-item map-area-wrap">
-                            <div>
-                                <div className="contact-info">
-                                    <h4 className="title">General business inquiries:</h4>
-                                    <p className="sub-title">For general information about our product and pricing, please email: <a className="main-color" href="mailto:info@sendfriend.io">info@sendfriend.io</a></p>
-                                    <h4 className="title">Technical support:</h4>
-                                    
-                                    <p className="sub-title">For technical support, please email: <a className="main-color" href="mailto:support@sendfriend.io">support@sendfriend.io</a></p>
-                                    <p className="sub-title">Hours of operation: M-F, 24H</p>
-                                    
-                                    <h4 className="title">Careers:</h4>
-                                    
-                                    <p className="sub-title">To view our job openings, please visit our job board: <Link className="main-color" to="/careers">CAREERS</Link></p>
-                                    <h4 className="title">Additional contact information:</h4>
-                                    <p><span>Address:</span> SendFriend Inc. 101 Hudson St., Suite 21099, Jersey City, NJ 07302</p>
-                                    <p><span>Mobile:</span> (917) 592-9956</p>
-                                    <p><span>General hours of operation:</span> M-F, 9-5pm EST</p>
-                                </div>
-                            </div>
-                        </div>
+                        <ContactInfo />
                         
                     </div>
                 </div>

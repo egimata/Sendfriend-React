@@ -200,6 +200,72 @@
             "icon": "img/icons/sf-icon.svg",
             "path": "/cloud-engineer",
             "applypath": "/apply-cloud-engineer"
+           },
+           {
+            "jobtitle": "Enterprise Infrastructure Manager",
+            "subtitle": "As a Senior Enterprise Infrastructure Manager at SendFriend, your role will be to ensure that all SendFriend operations are performed securely and reliably. This role is an opportunity for a highly motivated individual to join an expanding company, wherein you can architect Security Operations in the early stages of development and implement new methodologies used for cyber security disciplines. ",
+            "widgetData":[
+              {
+                "icon": "img/icons/department.png",
+                "name": "Department",
+                "description": "Engineer"
+              },
+              {
+                "icon": "img/icons/location.png",
+                "name": "Location",
+                "description": "Remote / Krakow, PL"
+              },
+              {
+                "icon": "img/icons/jobtype.png",
+                "name": "Job Type",
+                "description": "Full Time"
+              },
+              {
+                "icon": "img/icons/experience.png",
+                "name": "Experience",
+                "description": "3 Years"
+              }
+            ],
+            "duties": [
+              "Build and maintain our enterprise security infrastructure",
+              "Cooperate tightly with DevOps ",
+              "User directory management, device policy management, storage and database management",
+              "Architect, design and providing implementation patterns of security controls throughout solution delivery lifecycle",
+              "Taking part in brainstorming and research process about solutions, traits, trends, security measures required for establishing robust system architecture with the proper integration of blockchain technology. Conduct best practices for full software development life cycle (SDLC).",
+              "Maintain knowledge of the latest cloud security threats and implement mitigations to protect SendFriend and our customers",
+              "Designing and developing generic security patterns and guidelines to enable applications stay compliant - integrate them into Application and DevOps processes and CI/CD pipelines from early stages of the lifecycle",
+              "Evaluating and on-boarding security tools, vulnerability, and open-source scanning ",
+              "Monitoring the health of our applications ",
+              "Develop innovative solutions to protect the SendFriend brand, networks, assets and products by implementing state-of-the-art detection, prevention, and response capabilities",
+              "Create company policies and procedures governing corporate security, email, Internet usage, and access control and incident response",
+              "Design, engineer, operationalise and maintain the secure systems which support continuous deployment/integration solutions with strong focus towards innovation",
+              "Support compliance initiatives (contractual, regulatory, and internal) by creating and delivering appropriate data-driven dashboards, reports, and other supporting artifacts.",
+              "Recommend configuration changes to improve the performance, usability, and value of cloud security tools",
+              "Proactively participating in team meetings and Agile ceremonies."
+            ],
+            "requirements": [
+              "10+ years of experience in systems administration, including network engineering and enterprise systems administration",
+              "Experience configuring Google Workspace and associated systems",
+              "Experience working in an agile DevOps/SecDevOps environment, preferably AWS cloud provider.",
+              "Sufficient knowledge in monitoring API performance",
+              "Experience working in a Software Engineering role, Security role supporting & managing cloud environments including AWS & Google",
+              "Experience in a similar Cybersecurity related position",
+              "Curious, self-motivated, and confident to challenge when appropriate.",
+              "Technical problem-solving abilities.",
+              "Experience designing, developing, administering, and/or maintaining the security of cloud environments with a clear passion for cloud security and cloud technologies",
+              "Experience implementing static and dynamic analysis tools, integrating security into CI/CD workflows for everyday deployments",
+              "Extensive knowledge of cloud networking architecture, cloud operations, security, automation, and orchestration",
+              "Extensive knowledge of several key security practices in access control, application security, network security, security architecture, and security strategy"
+            ],
+            "nice_to_have": [
+             	"Financial services, payments, consumer finance & insurance experience",
+             	"In-depth knowledge of container orchestration tools (Kubernetes)",
+             	"Basic coding / scripting skills"
+            ],
+            "date": "Please click the button for full job description",
+            "icon": "img/icons/sf-icon.svg",
+            "path": "/infrastructure-manager",
+            "applypath": "/apply-infrastructure-manager"
            }
         ]
       },

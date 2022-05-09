@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {FaArrowCircleUp} from 'react-icons/fa';
 import { Button, ButtonMobile } from './Styles';
-import { mediaQueries } from '../responsive';
+import { mediaQueries } from '../../responsive';
 import { useMediaQuery } from 'react-responsive';
   
 const ScrollButton = () =>{

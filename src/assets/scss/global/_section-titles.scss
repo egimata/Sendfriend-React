@@ -48,7 +48,9 @@
         line-height: normal;
         width: 75%;
         &.career{
-            width: 100%
+            width: 100%;
+            font-weight: 500;
+            color: $gray;
         }
     }
     a {
@@ -131,6 +133,24 @@
             span {
                 color: var(--main-color-one);
             }
+        }
+    }
+    &.style-poland{
+        .title{
+            width: 100%;
+            color: var(--white);
+            padding-right: 0px;
+            padding-top: 40px;
+            span{
+                color: var(--ebony-clay);
+            }
+        }
+        p{
+            width:100%;
+            padding: 0px 100px;
+        }
+        h4{
+            color: var(--ebony-clay);
         }
     }
     &.ui-element-section-title {

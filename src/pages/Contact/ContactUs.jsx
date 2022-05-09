@@ -1,12 +1,12 @@
 import React from 'react';
-import Nav from '../components/Navs/Nav';
-import SEO from '../components/common/SEO';
-import Careers from '../components/Headers/Careers';
-import HeaderTest from '../components/Headers/HeaderTest';
+import Nav from '../../components/Navs/Nav';
+import SEO from '../../components/common/SEO';
+import Careers from '../../components/Headers/Careers';
+import HeaderTest from '../../components/Headers/HeaderTest';
 import ContactForm from './ContactForm';
-import Footer from '../components/Footer/Footer';
-import NavMobile from '../components/Navs/NavMobile';
-import FooterMobile from '../components/Footer/FooterMobile';
+import Footer from '../../components/Footer/Footer';
+import NavMobile from '../../components/Navs/NavMobile';
+import FooterMobile from '../../components/Footer/FooterMobile';
 
 const ContactUs = () => {
     return <>

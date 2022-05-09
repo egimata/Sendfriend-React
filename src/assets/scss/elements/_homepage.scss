@@ -455,10 +455,10 @@
                 content: "";
                 background-color: var(--dark);
                 position: absolute;
-                width: 110%;
-                height: 8%;
-                top: -4%;
-                z-index: 0;
+                width: 112%;
+                height: 28%;
+                top: -14%;
+                z-index: -1;
                 transform: rotate(-7deg);
                 }
             }
@@ -580,27 +580,72 @@
     }
     
 }
-.max-w-20{
-    max-width: 20%;
+.logo-img{
+    width: 400px;
 }
-.rn-team{
-    img{
-        width:80%;
-    }
-}
+
 
 // Leadership
 .leadership-footer{
     position: absolute !important;
 }
 
+@media (max-width: 1500px) {
+    .logo-img{
+        width: 282px;
+    }
+}
 
-@media (max-width: 600px){
+@media (max-width: 780px){
     .client-area{
         top: 5026px !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
+    .evolution-section{
+        position: relative;
+        width: 100%;
+    }
+    .mobile-history {
+        background-color: var(--caribbean-green);
+        min-width: 360px;
+        overflow: hidden;
+        overflow-x: hidden;
+        position: relative;
+        width: 100%;
+    
+        .white-wrapper{
+            background-color: var(--white);
+            position: relative;
+        }
+        .send-friends-evolution-P2zxrg {
+            position: relative;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .vertical-line-mobile {
+            left: calc(50.00% - 145px);
+            position: relative;
+            top: 48px;
+            width: 13px;
+        }
+        .line-dots {
+            left: calc(50.00% - 152px);
+            position: relative;
+            bottom: 1268px;
+        }
+        .line-texts-logos {
+            left: calc(50.00% - 105px);
+            position: absolute;
+            top: 138px;
+            width: 285px;
+        }
+    }
+
+    .third-section.bg-dark-two::before{
+        top: -5%;
+    }
+
 }
 @media (min-width: 1720px){
     .section-title{

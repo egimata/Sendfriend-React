@@ -42,7 +42,7 @@ class Client extends Component {
                   <OwlCarousel className='owl-theme owl-carousel' loop margin={10} autoplay autoplayHoverPause animateIn stagePadding={20} items={5} center={true} {...options}>
                     { data.list_item.map( ( item, i ) =>
                         <div key={ i } className="item">
-                          <a href={ item.url } target="_blank" className="thumb">
+                          <a href={ item.url } target="_blank" rel="noreferrer" className="thumb">
                             <img src={ item.image } alt={ imgattr } />
                           </a>
                         </div>

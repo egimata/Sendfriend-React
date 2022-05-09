@@ -1,0 +1,17 @@
+@media (max-width: 800px){
+    .section-title {
+        &.style-poland{
+            p{
+                padding:0px;
+            }
+        }
+    }
+}
+
+// Globals
+
+@media (max-width: 800px){
+    .top-0{
+        top: 0 !important;
+    }
+}

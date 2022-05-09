@@ -1,8 +1,5 @@
 import React from "react";
-import { HashLink } from 'react-router-hash-link';
 import "../Navbar.css";
-import '../contact-us.css'
-import {Link} from 'react-router-dom';
 import Nav from "../Navs/Nav";
 import NavMobile from "../Navs/NavMobile";
 import FooterMobile from "../Footer/FooterMobile";

@@ -10,13 +10,13 @@ const Header = ({subtitle, text, green_text, image, under_text }) => {
             <div className="header-row">
                 <div className="col-6"></div>
                 <div className="col-6">
-                    <div id="top" className="rectangle-87-zYNucu animate-enter" show-on-scroll>
+                    <div id="top" className="rectangle-87-zYNucu animate-enter" >
                     <div className="header-text-zYNucu">
-                        <div className="send-friend-n1joYR animate-enter3" show-on-scroll>{subtitle}</div>
+                        <div className="send-friend-n1joYR animate-enter3" >{subtitle}</div>
                         <div className="faster-cheaper-multi-n1joYR animate-enter1">
                         {text} <span className="span1-kjm5Mi">{green_text}</span>
                         </div>
-                        <div className="we-are-cheaper-faste-n1joYR animate-enter2" show-on-scroll>
+                        <div className="we-are-cheaper-faste-n1joYR animate-enter2" >
                             {under_text}
                         </div>
                         

@@ -1772,7 +1772,7 @@
 
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 780px) {
     .screen.udaap { 
       display: none;
      }
@@ -1782,7 +1782,7 @@
       display: none;
      }
   }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 780px) {
     .screen.mobile-udaap { 
       display: none;
      }

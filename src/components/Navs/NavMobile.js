@@ -1,17 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import "../Navbar.css";
 import { Link } from 'react-router-dom';
-import Dropdown from '../Dropdown';
-import { hideOverlay, showOverlay, showPopup } from '../../Helpers';
-
-
+import { hideOverlay, showOverlay } from '../../Helpers';
 
 function NavMobile() {
-    const [click, setClick] = useState(false);
-    const [dropdown, setDropdown] = useState(false);
+    const altimg = "SendFriend";
+    // const [click, setClick] = useState(false);
+    // const [dropdown, setDropdown] = useState(false);
     
-    const handleClick = () => setClick(!click);
     const closeMobileMenu = () => {
       hideOverlay ('mobile-menu', 'animate-disappear');
     }
@@ -23,20 +20,20 @@ function NavMobile() {
     }
     return (
     <div class="header-qujsfd">
-        <a onClick={openMobileMenu} >
+        <a href="#!" onClick={openMobileMenu} >
           <div class="hamburger-smneFN">
-            <img class="vector-16-y8AOCp" src="img/vector-16-1@2x.svg" />
-            <img class="vector-17-y8AOCp" src="img/vector-16-1@2x.svg" /> 
-            <img class="vector-18-y8AOCp" src="img/vector-16-1@2x.svg" />
+            <img alt={altimg} class="vector-16-y8AOCp" src="img/vector-16-1@2x.svg" />
+            <img alt={altimg} class="vector-17-y8AOCp" src="img/vector-16-1@2x.svg" /> 
+            <img alt={altimg} class="vector-18-y8AOCp" src="img/vector-16-1@2x.svg" />
           </div>
         </a>
         <div id="overlay-mobile-menu" class="overlay" style={{minHeight: '5881px'}}>
                  <div class="container-center-horizontal">
                      <div class="mobile-menu screen">
-                         <a onClick={closeMobileMenu}>
+                         <a href="#!" onClick={closeMobileMenu}>
                             <div class="close-jxzQz0">
-                            <img class="line-17-6rcJjs" src="img/line-17-1@2x.svg" />
-                            <img class="line-18-6rcJjs" src="img/line-18-1@2x.svg" />
+                            <img alt={altimg} class="line-17-6rcJjs" src="img/line-17-1@2x.svg" />
+                            <img alt={altimg} class="line-18-6rcJjs" src="img/line-18-1@2x.svg" />
                             </div>
                         </a>
                         <div>
@@ -56,14 +53,14 @@ function NavMobile() {
                             </div>
                         </div>
                         
-                        <Link class="contact-jxzQz0 montserrat-bold-white-8px" onClick={closeMobileMenu} to="/contact-us" onClick={closeMobileMenu} style={{ textDecoration: 'none' }}>
+                        <Link class="contact-jxzQz0 montserrat-bold-white-8px" onClick={closeMobileMenu} to="/contact-us" style={{ textDecoration: 'none' }}>
                             <div > 
                             Contact
                             </div>
                         </Link>
                         
                             <div class="login-button-mobile-jxzQz0">
-                            <a onClick={openPopupOverlay}>
+                            <a href="#!" onClick={openPopupOverlay}>
                             <div class="group-123-tg1hNG">
                                 <div class="rectangle-100-UNPDgx smart-layers-pointers"></div>
                                 <div class="login-UNPDgx montserrat-bold-white-8px">LOGIN</div>
@@ -76,7 +73,7 @@ function NavMobile() {
                     </div>
                     <Link onClick={closeMobileMenu} to="/">
                       <div class="logo-smneFN">
-                        <div class="frame-131-oxZ3QX"><img class="logo_menu-2-ILoGHQ" src="img/logo-menu-2@2x.png" /></div>
+                        <div class="frame-131-oxZ3QX"><img alt={altimg} class="logo_menu-2-ILoGHQ" src="img/logo-menu-2@2x.png" /></div>
                       </div>
                     </Link>
       </div>

@@ -113,7 +113,7 @@ export const Homepage = () => {
               <div class="blockchain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
               <div class="cost-effective-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
               <div class="fast-payment-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-              <div class="world-group-IQUIuZ animate-enter8" show-on-scroll>
+              <div class="world-group-IQUIuZ animate-enter8" >
                 <img
                   class="kisspng-clip-art-cit-vMHBtP"
                   src="img/homepage/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png"
@@ -123,32 +123,32 @@ export const Homepage = () => {
                 </div>
               </div>
               <div class="uiwsetting-IQUIuZ">
-                <div class="group-122-1t5IQi animate-enter9" show-on-scroll>
+                <div class="group-122-1t5IQi animate-enter9" >
                   <img class="vector-kr4CWH" src="img/homepage/vector-31@2x.png" />
                   <div class="ellipse-16-kr4CWH"></div>
                 </div>
                 <img class="group-48-1t5IQi" src="img/homepage/group-48@1x.png" />
               </div>
-              <img class="arrow-3-IQUIuZ" show-on-scroll src="img/homepage/arrow-3@2x.png" />
-              <img class="arrow-5-IQUIuZ1 animate-enter11" show-on-scroll src="img/homepage/arrow-5@2x.png" />
-              <img class="arrow-2-IQUIuZ" show-on-scroll src="img/homepage/arrow-2@2x.png" />
-              <img class="arrow-1-IQUIuZ " show-on-scroll src="img/homepage/arrow-1@2x.png" />
+              <img class="arrow-3-IQUIuZ"  src="img/homepage/arrow-3@2x.png" />
+              <img class="arrow-5-IQUIuZ1 animate-enter11"  src="img/homepage/arrow-5@2x.png" />
+              <img class="arrow-2-IQUIuZ"  src="img/homepage/arrow-2@2x.png" />
+              <img class="arrow-1-IQUIuZ "  src="img/homepage/arrow-1@2x.png" />
               <img class="arrow-6-IQUIuZ" src="img/homepage/arrow-6@2x.png" />
               <img class="x3-IQUIuZ popout" src="img/homepage/3@2x.png" />
               <img class="group-IQUIuZ" src="img/homepage/secureicon.svg" />
               <img
                 class="eos-iconsblockchain-IQUIuZ"
-                show-on-scroll
+                
                 src="img/homepage/multichainicon.svg"
               />
-              <div class="carbonapi-1-IQUIuZ" show-on-scroll>
+              <div class="carbonapi-1-IQUIuZ" >
                 <img class="vector-8rmPPA" src="img/homepage/vector-32@2x.png" />
                 <img class="vector-6hpN4R" src="img/homepage/vector-33@2x.png" />
                 <img class="vector-mMifHY" src="img/homepage/vector-34@2x.png" />
               </div>
               <img class="x2-IQUIuZ" src="img/homepage/clock.svg" />
-              <img class="arrow-4-IQUIuZ" show-on-scroll src="img/homepage/arrow-4@2x.png" />
-              <img class="blockchain-1-IQUIuZ " show-on-scroll src="img/homepage/blockchain-1@2x.png" />
+              <img class="arrow-4-IQUIuZ"  src="img/homepage/arrow-4@2x.png" />
+              <img class="blockchain-1-IQUIuZ "  src="img/homepage/blockchain-1@2x.png" />
               <img class="line-13-IQUIuZ smart-layers-pointers" src="img/homepage/line-13@1x.png" />
               <div class="fewer-correspondent-IQUIuZ montserrat-semi-bold-ebony-clay-14px">
                 Fewer correspondent and intermediary banks mean lower fees
@@ -196,7 +196,7 @@ export const Homepage = () => {
               <div class="blockchain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
               <div class="cost-effective-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
               <div class="fast-payment-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-              <div class="world-group-IQUIuZ animate-enter8" show-on-scroll>
+              <div class="world-group-IQUIuZ animate-enter8" >
               <img
                 class="kisspng-clip-art-cit-vMHBtP"
                 src="img/homepage/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png"
@@ -206,32 +206,32 @@ export const Homepage = () => {
               </div>
               </div>
               <div class="uiwsetting-IQUIuZ">
-              <div class="group-122-1t5IQi animate-enter9" show-on-scroll>
+              <div class="group-122-1t5IQi animate-enter9" >
                 <img class="vector-kr4CWH" src="img/homepage/vector-31@2x.png" />
                 <div class="ellipse-16-kr4CWH"></div>
               </div>
               <img class="group-48-1t5IQi" src="img/homepage/group-48@1x.png" />
               </div>
-              <img class="arrow-3-IQUIuZ" show-on-scroll src="img/homepage/arrow-3@2x.png" />
-              <img class="arrow-5-IQUIuZ " show-on-scroll src="img/homepage/arrow-5@2x.png" />
-              <img class="arrow-2-IQUIuZ" show-on-scroll src="img/homepage/arrow-2@2x.png" />
-              <img class="arrow-1-IQUIuZ " show-on-scroll src="img/homepage/arrow-1@2x.png" />
+              <img class="arrow-3-IQUIuZ"  src="img/homepage/arrow-3@2x.png" />
+              <img class="arrow-5-IQUIuZ "  src="img/homepage/arrow-5@2x.png" />
+              <img class="arrow-2-IQUIuZ"  src="img/homepage/arrow-2@2x.png" />
+              <img class="arrow-1-IQUIuZ "  src="img/homepage/arrow-1@2x.png" />
               <img class="arrow-6-IQUIuZ" src="img/homepage/arrow-6@2x.png" />
               <img class="x3-IQUIuZ" src="img/homepage/3@2x.png" />
               <img class="group-IQUIuZ " src="img/homepage/secureicon.svg" />
               <img
               class="eos-iconsblockchain-IQUIuZ"
-              show-on-scroll
+              
               src="img/homepage/multichainicon.svg"
               />
-              <div class="carbonapi-1-IQUIuZ" show-on-scroll>
+              <div class="carbonapi-1-IQUIuZ" >
               <img class="vector-8rmPPA" src="img/homepage/vector-32@2x.png" />
               <img class="vector-6hpN4R" src="img/homepage/vector-33@2x.png" />
               <img class="vector-mMifHY" src="img/homepage/vector-34@2x.png" />
               </div>
               <img class="x2-IQUIuZ popout" src="img/homepage/clock.svg" />
-              <img class="arrow-4-IQUIuZ1 animate-enter16" show-on-scroll src="img/homepage/arrow-4@2x.png" />
-              <img class="blockchain-1-IQUIuZ " show-on-scroll src="img/homepage/blockchain-1@2x.png" />
+              <img class="arrow-4-IQUIuZ1 animate-enter16"  src="img/homepage/arrow-4@2x.png" />
+              <img class="blockchain-1-IQUIuZ "  src="img/homepage/blockchain-1@2x.png" />
               <img class="line-13-IQUIuZ smart-layers-pointers" src="img/homepage/line-13@1x.png" />
               <div class="fewer-correspondent-IQUIuZ1 montserrat-semi-bold-ebony-clay-14px">
               Blockchain-enabled payments are inherently faster, avoiding cumbersome traditional intermediaries
@@ -271,7 +271,7 @@ export const Homepage = () => {
               <div class="blockchain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
               <div class="cost-effective-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
               <div class="fast-payment-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-              <div class="world-group-IQUIuZ animate-enter8" show-on-scroll>
+              <div class="world-group-IQUIuZ animate-enter8" >
               <img
                 class="kisspng-clip-art-cit-vMHBtP"
                 src="img/homepage/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png"
@@ -281,16 +281,16 @@ export const Homepage = () => {
               </div>
               </div>
               <div class="uiwsetting-IQUIuZ">
-              <div class="group-122-1t5IQi animate-enter9" show-on-scroll>
+              <div class="group-122-1t5IQi animate-enter9" >
                 <img class="vector-kr4CWH" src="img/homepage/vector-31@2x.png" />
                 <div class="ellipse-16-kr4CWH"></div>
               </div>
               <img class="group-48-1t5IQi" src="img/homepage/group-48@1x.png" />
               </div>
-              <img class="arrow-3-IQUIuZ" show-on-scroll src="img/homepage/arrow-3@2x.png" />
-              <img class="arrow-5-IQUIuZ " show-on-scroll src="img/homepage/arrow-5@2x.png" />
-              <img class="arrow-2-IQUIuZ" show-on-scroll src="img/homepage/arrow-2@2x.png" />
-              <img class="arrow-1-IQUIuZ " show-on-scroll src="img/homepage/arrow-1@2x.png" />
+              <img class="arrow-3-IQUIuZ"  src="img/homepage/arrow-3@2x.png" />
+              <img class="arrow-5-IQUIuZ "  src="img/homepage/arrow-5@2x.png" />
+              <img class="arrow-2-IQUIuZ"  src="img/homepage/arrow-2@2x.png" />
+              <img class="arrow-1-IQUIuZ "  src="img/homepage/arrow-1@2x.png" />
               <img class="arrow-6-IQUIuZ1 animate-enter13" src="img/homepage/arrow-6@2x.png" />
               <img class="x3-IQUIuZ" src="img/homepage/3@2x.png" />
               <img class="group-IQUIuZ" src="img/homepage/secureicon.svg" />
@@ -298,14 +298,14 @@ export const Homepage = () => {
               class="eos-iconsblockchain-IQUIuZ popout"
               src="img/homepage/multichainicon.svg"
               />
-              <div class="carbonapi-1-IQUIuZ" show-on-scroll>
+              <div class="carbonapi-1-IQUIuZ" >
               <img class="vector-8rmPPA" src="img/homepage/vector-32@2x.png" />
               <img class="vector-6hpN4R" src="img/homepage/vector-33@2x.png" />
               <img class="vector-mMifHY" src="img/homepage/vector-34@2x.png" />
               </div>
               <img class="x2-IQUIuZ" src="img/homepage/clock.svg" />
-              <img class="arrow-4-IQUIuZ" show-on-scroll src="img/homepage/arrow-4@2x.png" />
-              <img class="blockchain-1-IQUIuZ " show-on-scroll src="img/homepage/blockchain-1@2x.png" />
+              <img class="arrow-4-IQUIuZ"  src="img/homepage/arrow-4@2x.png" />
+              <img class="blockchain-1-IQUIuZ "  src="img/homepage/blockchain-1@2x.png" />
               <img class="line-13-IQUIuZ smart-layers-pointers" src="img/homepage/line-13@1x.png" />
               <div class="fewer-correspondent-IQUIuZ1 montserrat-semi-bold-ebony-clay-14px">
               RippleNet has been our founding partner and fundamental to our initial cross-border remittance success
@@ -336,7 +336,7 @@ export const Homepage = () => {
               <div class="blockchain-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
               <div class="cost-effective-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
               <div class="fast-payment-IQUIuZ montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-              <div class="world-group-IQUIuZ animate-enter8" show-on-scroll>
+              <div class="world-group-IQUIuZ animate-enter8" >
               <img
               class="kisspng-clip-art-cit-vMHBtP"
               src="img/homepage/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a@2x.png"
@@ -346,32 +346,32 @@ export const Homepage = () => {
               </div>
               </div>
               <div class="uiwsetting-IQUIuZ">
-              <div class="group-122-1t5IQi animate-enter9" show-on-scroll>
+              <div class="group-122-1t5IQi animate-enter9" >
               <img class="vector-kr4CWH" src="img/homepage/vector-31@2x.png" />
               <div class="ellipse-16-kr4CWH"></div>
               </div>
               <img class="group-48-1t5IQi" src="img/homepage/group-48@1x.png" />
               </div>
-              <img class="arrow-3-IQUIuZ" show-on-scroll src="img/homepage/arrow-3@2x.png" />
-              <img class="arrow-5-IQUIuZ " show-on-scroll src="img/homepage/arrow-5@2x.png" />
-              <img class="arrow-2-IQUIuZ" show-on-scroll src="img/homepage/arrow-2@2x.png" />
-              <img class="arrow-1-IQUIuZ1 animate-enter13" show-on-scroll src="img/homepage/arrow-1@2x.png" />
+              <img class="arrow-3-IQUIuZ"  src="img/homepage/arrow-3@2x.png" />
+              <img class="arrow-5-IQUIuZ "  src="img/homepage/arrow-5@2x.png" />
+              <img class="arrow-2-IQUIuZ"  src="img/homepage/arrow-2@2x.png" />
+              <img class="arrow-1-IQUIuZ1 animate-enter13"  src="img/homepage/arrow-1@2x.png" />
               <img class="arrow-6-IQUIuZ" src="img/homepage/arrow-6@2x.png" />
               <img class="x3-IQUIuZ" src="img/homepage/3@2x.png" />
               <img class="group-IQUIuZ popout" src="img/homepage/secureicon.svg" />
               <img
               class="eos-iconsblockchain-IQUIuZ"
-              show-on-scroll
+              
               src="img/homepage/multichainicon.svg"
               />
-              <div class="carbonapi-1-IQUIuZ" show-on-scroll>
+              <div class="carbonapi-1-IQUIuZ" >
               <img class="vector-8rmPPA" src="img/homepage/vector-32@2x.png" />
               <img class="vector-6hpN4R" src="img/homepage/vector-33@2x.png" />
               <img class="vector-mMifHY" src="img/homepage/vector-34@2x.png" />
               </div>
               <img class="x2-IQUIuZ" src="img/homepage/clock.svg" />
-              <img class="arrow-4-IQUIuZ" show-on-scroll src="img/homepage/arrow-4@2x.png" />
-              <img class="blockchain-1-IQUIuZ " show-on-scroll src="img/homepage/blockchain-1@2x.png" />
+              <img class="arrow-4-IQUIuZ"  src="img/homepage/arrow-4@2x.png" />
+              <img class="blockchain-1-IQUIuZ "  src="img/homepage/blockchain-1@2x.png" />
               <img class="line-13-IQUIuZ smart-layers-pointers" src="img/homepage/line-13@1x.png" />
 
             </div>
@@ -381,7 +381,7 @@ export const Homepage = () => {
         <Client />
         
       <div class="platform-section-zYNucu" id="platform-section">
-        <div class="a-flexible-cross-bor-ukK2kV montserrat-extra-bold-white-36px animate-enter18" show-on-scroll>
+        <div class="a-flexible-cross-bor-ukK2kV montserrat-extra-bold-white-36px animate-enter18" >
           <span class="span0-MPLrMf">A flexible cross-border payment solution<br /></span
           ><span class="span1-MPLrMf">expanding its international reach</span>
         </div>
@@ -401,7 +401,7 @@ export const Homepage = () => {
             Settling payments more seamlessly across a variety of currency exchanges, including fiat and crypto
           </div>
         </div>
-        <img class="group-102-ukK2kV animate-enter19" show-on-scroll src="img/homepage/group-102@2x.svg" />
+        <img class="group-102-ukK2kV animate-enter19"  src="img/homepage/group-102@2x.svg" />
         <img class="line-15-ukK2kV" src="img/homepage/line-15@2x.png" />
         <img class="group-128-ukK2kV" src="img/homepage/group-128@1x.png" />
       </div>
@@ -433,7 +433,7 @@ export const Homepage = () => {
       </div>
       <img class="rectangle-92-zYNucu" src="img/homepage/rectangle-92@1x.png" />
       <div class="group-99-zYNucu">
-        <div class="our-remittance-api-s-h3fqsu montserrat-extra-bold-white-36px animate-enter21" show-on-scroll>
+        <div class="our-remittance-api-s-h3fqsu montserrat-extra-bold-white-36px animate-enter21" >
           <span class="span0-nxQf97 montserrat-extra-bold-white-36px-2">Our remittance API </span
           ><span class="span1-nxQf97">seamlessly connects customers to a suite of multi-chain payment tools</span>
         </div>
@@ -475,15 +475,15 @@ export const Homepage = () => {
                   </TabList>
 
                   <TabPanel>
-                  <img class="api-async-c0Knzr animate-enter22" show-on-scroll src='img/homepage/api-async-1@2x.png' />
+                  <img class="api-async-c0Knzr animate-enter22"  src='img/homepage/api-async-1@2x.png' />
                   </TabPanel>
 
                   {/* <TabPanel>
-                  <img class="api-async-c0Knzr animate-enter22" show-on-scroll src="img/homepage/api-second.jpeg" />
+                  <img class="api-async-c0Knzr animate-enter22"  src="img/homepage/api-second.jpeg" />
                   </TabPanel>
 
                   <TabPanel>
-                  <img class="api-async-c0Knzr animate-enter22" show-on-scroll src='img/homepage/api-third.jpeg' />
+                  <img class="api-async-c0Knzr animate-enter22"  src='img/homepage/api-third.jpeg' />
                   </TabPanel> */}
 
                 </Tabs>
@@ -551,10 +551,10 @@ export const Homepage = () => {
         <span class="span0-GBW4Tf">Faster, Cheaper<br />Multi-Chain<br />Payments </span
         ><span class="span1-GBW4Tf montserrat-extra-bold-caribbean-green-30px">Service.</span>
       </div>
-      <div class="we-are-cheaper-faste-qujsfd montserrat-semi-bold-white-16px bp2-animate-enter3" show-on-scroll>
+      <div class="we-are-cheaper-faste-qujsfd montserrat-semi-bold-white-16px bp2-animate-enter3" >
         We are cheaper, faster, and more reliable and secure.
       </div>
-      <div class="contact-us-qujsfd bp2-animate-enter4" show-on-scroll>
+      <div class="contact-us-qujsfd bp2-animate-enter4" >
       <Link to="/contact-us">
         <div class="rectangle-1-kXqD6c smart-layers-pointers"></div>
         <div class="contact-us-kXqD6c valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
@@ -585,7 +585,7 @@ export const Homepage = () => {
         B2B and B2C remittance use cases
       </div>
       <img class="rectangle-124-qujsfd" src="img/rectangle-124-1@1x.png" />
-      <div class="group-122-qujsfd bp2-animate-enter17" show-on-scroll>
+      <div class="group-122-qujsfd bp2-animate-enter17" >
         <HashLink to="/contact-us">
         <div class="rectangle-1-0LGubN smart-layers-pointers"></div>
         <div class="learn-more-0LGubN valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
@@ -609,7 +609,7 @@ export const Homepage = () => {
       <img class="section-4-nifty-1-qujsfd" src="img/homepage/image-platform.svg" />
       <div class="rectangle-42-qujsfd"></div>
       <img class="rectangle-92-qujsfd" src="img/rectangle-92@1x.png" />
-      <div class="our-remittance-api-s-qujsfd montserrat-extra-bold-white-21px bp2-animate-enter19" show-on-scroll>
+      <div class="our-remittance-api-s-qujsfd montserrat-extra-bold-white-21px bp2-animate-enter19" >
         <span class="span0-R3hwcY montserrat-extra-bold-white-21px-2">Our Remittance API </span
         ><span class="span1-R3hwcY montserrat-extra-bold-ebony-clay-21px"
           >Seamlessly Connects Customers to a Suite of Multi-Chain Payment Tools</span
@@ -643,19 +643,19 @@ export const Homepage = () => {
             <TabPanel>
             <div class="image-LkwvPL">
           <div class="rectangle-109-cdudrr"></div>
-          <img class="api-async-cdudrr bp2-animate-enter20" show-on-scroll src='img/homepage/api-async-1@2x.png'  />
+          <img class="api-async-cdudrr bp2-animate-enter20"  src='img/homepage/api-async-1@2x.png'  />
         </div>
             </TabPanel>
             {/* <TabPanel>
             <div class="image-LkwvPL">
           <div class="rectangle-109-cdudrr"></div>
-          <img class="api-async-cdudrr bp2-animate-enter20" show-on-scroll src="img/homepage/api-second.jpeg" />
+          <img class="api-async-cdudrr bp2-animate-enter20"  src="img/homepage/api-second.jpeg" />
         </div>
             </TabPanel>
             <TabPanel>
             <div class="image-LkwvPL">
           <div class="rectangle-109-cdudrr"></div>
-          <img class="api-async-cdudrr bp2-animate-enter20" show-on-scroll src='img/homepage/api-third.jpeg'  />
+          <img class="api-async-cdudrr bp2-animate-enter20"  src='img/homepage/api-third.jpeg'  />
         </div>
             </TabPanel> */}
           </Tabs>
@@ -725,7 +725,7 @@ export const Homepage = () => {
         </div>
         <div class="partners-RBdLCu montserrat-extra-bold-caribbean-green-21px">Partners</div>
       </div>
-      <div class="send-friend-qujsfd montserrat-bold-caribbean-green-18px bp2-animate-enter21" show-on-scroll>
+      <div class="send-friend-qujsfd montserrat-bold-caribbean-green-18px bp2-animate-enter21" >
         SendFriend
       </div>
       <FooterMobile custom_class="footer footer-homepage" />
@@ -785,14 +785,14 @@ export const Homepage = () => {
       <div class="blockchain-qujsfd montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
       <div class="cost-effective-qujsfd montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
       <div class="fast-payment-qujsfd montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-      <div class="world-group-qujsfd bp2-animate-enter5" show-on-scroll>
+      <div class="world-group-qujsfd bp2-animate-enter5" >
         <img
           class="kisspng-clip-art-cit-H6QPKS"
           src="img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a-1@2x.png"
         />
       </div>
       <div class="setting-qujsfd">
-        <div class="setting-ipYMsR bp2-animate-enter6" show-on-scroll>
+        <div class="setting-ipYMsR bp2-animate-enter6" >
           <img class="vector-ylfIro" src="img/homepage/vector-31@2x.png" />
           <div class="ellipse-16-ylfIro"></div>
         </div>
@@ -802,7 +802,7 @@ export const Homepage = () => {
         </div>
       </div>
       <img class="arrow-3-qujsfd" src="img/arrow-3@2x.png" />
-      <img class="arrow-5-qujsfd1 bp2-animate-enter8" show-on-scroll src="img/arrow-5@2x.png" />
+      <img class="arrow-5-qujsfd1 bp2-animate-enter8"  src="img/arrow-5@2x.png" />
       <img class="arrow-2-qujsfd" src="img/arrow-2@2x.png" />
       <img class="arrow-1-qujsfd" src="img/arrow-1@2x.png" />
       <img class="arrow-6-qujsfd" src="img/arrow-6@2x.png" />
@@ -811,16 +811,16 @@ export const Homepage = () => {
       <div class="more-secure-qujsfd"><img class="vector-mwnNe7" src="img/homepage/secureicon.svg" /></div>
       <img
         class="eos-iconsblockchain-qujsfd"
-        show-on-scroll
+        
         src="img/homepage/multichainicon.svg"
       />
-      <div class="carbonapi-1-qujsfd" show-on-scroll>
+      <div class="carbonapi-1-qujsfd" >
         <img class="vector-gVtUPU" src="img/homepage/vector-32@2x.png" />
         <img class="vector-1nNpxD" src="img/homepage/vector-33@2x.png" />
         <img class="vector-ptvkUL" src="img/homepage/vector-34@2x.png" />
       </div>
       <img class="x2-qujsfd" src="img/homepage/clock.svg" />
-      <img class="blockchain-1-qujsfd" show-on-scroll src="img/blockchain-1-1@2x.png" />
+      <img class="blockchain-1-qujsfd"  src="img/blockchain-1-1@2x.png" />
       <div class="check-box-1-qujsfd">
         <img class="vector-w3wMdL" src="img/homepage/vector-15@2x.png" />
         <img class="vector-zTwIkB" src="img/homepage/vector-19@2x.png" />
@@ -851,7 +851,7 @@ export const Homepage = () => {
         Our on-chain solutions avoid traditional payment rails that carry high FX and other transaction fees. In short,
         we leverage blockchain networks and other non-traditional rails for more cost-effective settlement
       </div>
-      <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
+      <div class="group-121-qujsfd bp2-animate-enter15" >
         <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
@@ -871,14 +871,14 @@ export const Homepage = () => {
       <div class="blockchain-qujsfd montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
       <div class="cost-effective-qujsfd montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
       <div class="fast-payment-qujsfd montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-      <div class="world-group-qujsfd bp2-animate-enter5" show-on-scroll>
+      <div class="world-group-qujsfd bp2-animate-enter5" >
         <img
           class="kisspng-clip-art-cit-H6QPKS"
           src="img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a-1@2x.png"
         />
       </div>
       <div class="setting-qujsfd">
-        <div class="setting-ipYMsR bp2-animate-enter6" show-on-scroll>
+        <div class="setting-ipYMsR bp2-animate-enter6" >
           <img class="vector-ylfIro" src="img/homepage/vector-31@2x.png" />
           <div class="ellipse-16-ylfIro"></div>
         </div>
@@ -899,13 +899,13 @@ export const Homepage = () => {
         class="eos-iconsblockchain-qujsfd"
         src="img/homepage/multichainicon.svg"
       />
-      <div class="carbonapi-1-qujsfd" show-on-scroll>
+      <div class="carbonapi-1-qujsfd" >
         <img class="vector-gVtUPU" src="img/homepage/vector-32@2x.png" />
         <img class="vector-1nNpxD" src="img/homepage/vector-33@2x.png" />
         <img class="vector-ptvkUL" src="img/homepage/vector-34@2x.png" />
       </div>
       <img class="x2-qujsfd popout" src="img/homepage/clock.svg" />
-      <img class="blockchain-1-qujsfd" show-on-scroll src="img/blockchain-1-1@2x.png" />
+      <img class="blockchain-1-qujsfd"  src="img/blockchain-1-1@2x.png" />
       <div class="check-box-1-qujsfd">
         <img class="vector-w3wMdL" src="img/homepage/vector-15@2x.png" />
         <img class="vector-zTwIkB" src="img/homepage/vector-19@2x.png" />
@@ -935,7 +935,7 @@ export const Homepage = () => {
       <div class="our-on-chain-solutio-qujsfd6">
       Both our on- and off-chain solutions leverage nimble systems to settle payments in nearly real-time
       </div>
-      <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
+      <div class="group-121-qujsfd bp2-animate-enter15" >
         <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
@@ -957,14 +957,14 @@ payment systems</span>
       <div class="blockchain-qujsfd montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
       <div class="cost-effective-qujsfd montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
       <div class="fast-payment-qujsfd montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-      <div class="world-group-qujsfd bp2-animate-enter5" show-on-scroll>
+      <div class="world-group-qujsfd bp2-animate-enter5" >
         <img
           class="kisspng-clip-art-cit-H6QPKS"
           src="img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a-1@2x.png"
         />
       </div>
       <div class="setting-qujsfd">
-        <div class="setting-ipYMsR bp2-animate-enter6" show-on-scroll>
+        <div class="setting-ipYMsR bp2-animate-enter6" >
           <img class="vector-ylfIro" src="img/homepage/vector-31@2x.png" />
           <div class="ellipse-16-ylfIro"></div>
         </div>
@@ -985,13 +985,13 @@ payment systems</span>
         class="eos-iconsblockchain-qujsfd popout"
         src="img/homepage/multichainicon.svg"
       />
-      <div class="carbonapi-1-qujsfd" show-on-scroll>
+      <div class="carbonapi-1-qujsfd" >
         <img class="vector-gVtUPU" src="img/homepage/vector-32@2x.png" />
         <img class="vector-1nNpxD" src="img/homepage/vector-33@2x.png" />
         <img class="vector-ptvkUL" src="img/homepage/vector-34@2x.png" />
       </div>
       <img class="x2-qujsfd" src="img/homepage/clock.svg" />
-      <img class="blockchain-1-qujsfd" show-on-scroll src="img/blockchain-1-1@2x.png" />
+      <img class="blockchain-1-qujsfd"  src="img/blockchain-1-1@2x.png" />
       <div class="check-box-1-qujsfd3">
         <img class="vector-w3wMdL" src="img/homepage/vector-15@2x.png" />
         <img class="vector-zTwIkB" src="img/homepage/vector-19@2x.png" />
@@ -1014,7 +1014,7 @@ payment systems</span>
       <div class="our-on-chain-solutio-qujsfd">
       We aim to offer multiple blockchain-enabled payment routing options depending on the use case, geography, and least-cost routing method
       </div>
-      <div class="group-121-qujsfd bp2-animate-enter15" show-on-scroll>
+      <div class="group-121-qujsfd bp2-animate-enter15" >
         <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>
@@ -1034,14 +1034,14 @@ payment systems</span>
       <div class="blockchain-qujsfd montserrat-semi-bold-ebony-clay-10px">Blockchain</div>
       <div class="cost-effective-qujsfd montserrat-semi-bold-ebony-clay-10px">Cost<br />Effective</div>
       <div class="fast-payment-qujsfd montserrat-semi-bold-ebony-clay-10px">Fast<br />Payment</div>
-      <div class="world-group-qujsfd bp2-animate-enter5" show-on-scroll>
+      <div class="world-group-qujsfd bp2-animate-enter5" >
         <img
           class="kisspng-clip-art-cit-H6QPKS"
           src="img/kisspng-clip-art-cities-skylines-image-frankfurt-how-to-become-a-1@2x.png"
         />
       </div>
       <div class="setting-qujsfd">
-        <div class="setting-ipYMsR bp2-animate-enter6" show-on-scroll>
+        <div class="setting-ipYMsR bp2-animate-enter6" >
           <img class="vector-ylfIro" src="img/homepage/vector-31@2x.png" />
           <div class="ellipse-16-ylfIro"></div>
         </div>
@@ -1060,22 +1060,22 @@ payment systems</span>
       <div class="more-secure-qujsfd popout"><img class="vector-mwnNe7" src="img/homepage/secureicon.svg" /></div>
       <img
         class="eos-iconsblockchain-qujsfd"
-        show-on-scroll
+        
         src="img/homepage/multichainicon.svg"
       />
-      <div class="carbonapi-1-qujsfd" show-on-scroll>
+      <div class="carbonapi-1-qujsfd" >
         <img class="vector-gVtUPU" src="img/homepage/vector-32@2x.png" />
         <img class="vector-1nNpxD" src="img/homepage/vector-33@2x.png" />
         <img class="vector-ptvkUL" src="img/homepage/vector-34@2x.png" />
       </div>
       <img class="x2-qujsfd" src="img/homepage/clock.svg" />
-      <img class="blockchain-1-qujsfd" show-on-scroll src="img/blockchain-1-1@2x.png" />
+      <img class="blockchain-1-qujsfd"  src="img/blockchain-1-1@2x.png" />
       
       
       <div class="our-on-chain-solutio-qujsfd4">
       Our blockchain-based approach leverages the added security benefits of sending monies and payment metadata over the same secure system
       </div>
-      <div class="group-121-qujsfd1 bp2-animate-enter15" show-on-scroll>
+      <div class="group-121-qujsfd1 bp2-animate-enter15" >
         <Link to="/contact-us">
         <div class="rectangle-1-dolwXC smart-layers-pointers"></div>
         <div class="learn-more-dolwXC valign-text-middle montserrat-bold-eerie-black-11px">LEARN MORE</div>

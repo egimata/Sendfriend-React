@@ -22,13 +22,6 @@ const FeaturesSection = () => {
                     </div>
                 </div>
     }
-    function checkBoxBol(props) {
-        const hasCheckBox = props.hasCheckBox;
-        if (hasCheckBox) {
-            return <CheckBoxLoop />;
-        }
-        return null;
-    }
     
     return (
         <>

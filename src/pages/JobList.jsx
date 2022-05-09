@@ -78,7 +78,7 @@ const JobList = () => {
                     <div className="job-position-area">
                     <div className="row justify-content-center">
                         <div className="col-xl-8">
-                        <div className="section-title style-four">
+                        <div className="section-title  style-four-career">
                             <h2 className="title"  dangerouslySetInnerHTML={{__html: data.sectiontitle}}> 
                             </h2>
                         </div>

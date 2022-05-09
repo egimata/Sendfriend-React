@@ -205,7 +205,7 @@ code {
     padding-top: 120px;
 }
 .pd-bottom-60{
-    padding-bottom: 60px;
+    padding-bottom: 60px !important;
 }
 .pd-bottom-112{
     padding-bottom: 112px;
@@ -234,8 +234,13 @@ code {
 .pd-right-20{
     padding-right: 20px;
 }
+.pd-right-10{
+    padding-right: 10px;
+}
 
-
+.pd-top-0{
+    padding-top:0px !important;
+}
 .pd-top-30 {
     padding-top: 30px;
 }
@@ -554,10 +559,10 @@ code {
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 780px){
     .mg-top-custom-footer{
         margin-top: 80px;
-        top: 0;
+        top: 0 !important;
     }
     .d-none-mobile{
         display:none;
@@ -569,7 +574,7 @@ code {
         padding-bottom: 0px;
     }
     .pd-top-112 {
-        padding-top: 40px;
+        padding-top: 10px;
     }
     .text-center{
         text-align: center !important;

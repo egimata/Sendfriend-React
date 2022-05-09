@@ -9,7 +9,7 @@ export const Footer = ({custom_class}) => {
         content: [
             {
                 path: "/about-us",
-                title: "History",
+                title: "About Us",
             },
             {
                 path: "/leadership",

@@ -1,7 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import ButtonWhite from  '../Buttons/ButtonWhite'
-import '../../assets/css/bootstrap.min.css';
 import sectionData from '../../data/sections.json';
     
 const EvolutionSection = () => {
@@ -10,8 +7,7 @@ const EvolutionSection = () => {
     const altimg = "Sendfriend Platform"
 
     return (
-        <>
-        <div className="platform-section">
+        <div className="platform-section pd-bottom-60">
             <div className="container">
                 <div className="row justify-content-center pd-top-100">
                     <div className="col-9">
@@ -63,10 +59,8 @@ const EvolutionSection = () => {
                         <img alt={altimg} className="evo-img" src="img/partners/enlogo.png" />
                     </div>
                 </div>
-            
             </div>
         </div>
-        </>
     );
 }
 

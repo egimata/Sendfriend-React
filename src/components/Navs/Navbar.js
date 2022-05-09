@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Dropdown from './Dropdown';
+import Dropdown from '../common/Dropdown';
 
 function Navbar() {
   const [click, setClick] = useState(false);

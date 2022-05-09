@@ -2,22 +2,21 @@ import React, { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
 import "../Navbar.css";
 import { Link } from 'react-router-dom';
-import Dropdown from '../Dropdown';
-import { hideOverlay, showOverlay, showPopup } from '../../Helpers';
-
-
+import Dropdown from '../common/Dropdown';
+import { hideOverlay, showOverlay } from '../../Helpers';
 
 function Nav() {
-    const [click, setClick] = useState(false);
+    const altimg = "SendFriend";
+    const [click] = useState(false);
     const [dropdown, setDropdown] = useState(false);
 
-    const handleClick = () => setClick(!click);
+    // const handleClick = () => setClick(!click);
     const closeMobileMenu = () => {
     hideOverlay ('mobile-menu', 'animate-disappear');
     }
-    const openMobileMenu = () => {
-    showOverlay ('mobile-menu', 'animate-appear')
-    }
+    // const openMobileMenu = () => {
+    // showOverlay ('mobile-menu', 'animate-appear')
+    // }
     const openPopupOverlay = () => {
     showOverlay ('frame-6', 'animate-appear')
     }
@@ -41,19 +40,19 @@ function Nav() {
         <div class="header-zYNucu">
         <div class="top-header-num0gs">
         <a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer">
-            <img class="facebook-icon-EMXBRh" src="img/homepage/facebook-icon@2x.png" /> 
+            <img alt={altimg} class="facebook-icon-EMXBRh" src="img/homepage/facebook-icon@2x.png" /> 
         </a>
         <a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer">
-            <img class="twitter-icon-EMXBRh" src="img/homepage/twitter-icon@2x.png" />
+            <img alt={altimg} class="twitter-icon-EMXBRh" src="img/homepage/twitter-icon@2x.png" />
         </a>
         <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer">
-            <img class="linkedin-icon-EMXBRh" src="img/homepage/linkedin-icon@2x.svg" />
+            <img alt={altimg} class="linkedin-icon-EMXBRh" src="img/homepage/linkedin-icon@2x.svg" />
         </a>
         </div>
-        <a onClick={openPopupOverlay}>
-        <div class="login-button-default-num0gs smart-layers-pointers">
-            <div class="login-Aoc3Ls montserrat-bold-white-14px">LOGIN</div>
-        </div>
+        <a href="#!" onClick={openPopupOverlay}>
+            <div class="login-button-default-num0gs smart-layers-pointers">
+                <div class="login-Aoc3Ls montserrat-bold-white-14px">LOGIN</div>
+            </div>
         </a>
 
         <div class="menu-num0gs">
@@ -86,7 +85,7 @@ function Nav() {
         </Link>
         </div>
         <HashLink smooth to="/">
-        <div class="logo-menu-num0gs"><img class="logo_menu-2-a4JE9e" src="img/logo/logo-menu.png" /></div>
+        <div class="logo-menu-num0gs"><img alt={altimg} class="logo_menu-2-a4JE9e" src="img/logo/logo-menu.png" /></div>
         </HashLink>
     </div>
     )
