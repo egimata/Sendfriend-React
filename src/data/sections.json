@@ -85,6 +85,10 @@
     ],
     "img": "img/man-phone-sendy-1@1x.png"
   },
+  "PolandSection":{
+    "main_title": "SendFriend Poland",
+    "description": "SendFriend Poland sp. z o.o. based in Katowice is carrying out a project co-financed by European Funds entitled \"SendFriend - an innovative system of cross-border transfers based on blockchain technology and AI/ML algorithms\".The aim of the project is to create a global network of international payments, democratizing access to cheaper, fast and personalized payments 24 hours a day."
+  },
   "evolution":{
     "title1": "evolution",
     "span": "SendFriend’s",

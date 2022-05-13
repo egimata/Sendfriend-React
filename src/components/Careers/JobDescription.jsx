@@ -1,11 +1,10 @@
 import React from 'react';
-import SEO from '../components/common/SEO';
+import SEO from '../common/SEO';
 import { Link } from 'react-router-dom';
-import Nav from '../components/Navs/Nav';
-import NavMobile from '../components/Navs/NavMobile';
-import Footer from '../components/Footer/Footer';
-import FooterMobile from '../components/Footer/FooterMobile';
-import '../assets/css/bootstrap.min.css';
+import Nav from '../Navs/Nav';
+import NavMobile from '../Navs/NavMobile';
+import Footer from '../Footer/Footer';
+import FooterMobile from '../Footer/FooterMobile';
 
 const JobDescription = ({job}) => {
 

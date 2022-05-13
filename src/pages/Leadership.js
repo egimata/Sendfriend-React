@@ -1,13 +1,13 @@
 import React from 'react';
-import "./Navbar.css";
-import HeaderTest from './Headers/HeaderTest';
-import "./leadership-style.css"
-import Nav from './Navs/Nav';
-import NavMobile from './Navs/NavMobile';
-import Footer from './Footer/Footer';
-import FooterMobile from './Footer/FooterMobile';
-import TeamBio from './Leadership/TeamBio';
-import TeamBioMobile from './Leadership/TeamBioMobile';
+import "../components/Navbar.css";
+import HeaderTest from '../components/Headers/HeaderTest';
+import "../components/leadership-style.css"
+import Nav from '../components/Navs/Nav';
+import NavMobile from '../components/Navs/NavMobile';
+import Footer from '../components/Footer/Footer';
+import FooterMobile from '../components/Footer/FooterMobile';
+import TeamBio from '../components/Leadership/TeamBio';
+import TeamBioMobile from '../components/Leadership/TeamBioMobile';
 
 export const Leadership = () => {
     const altImg = "SendFriend"

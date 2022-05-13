@@ -4,7 +4,7 @@ import ButtonWhite from  '../Buttons/ButtonWhite'
 import ScrollAnimation from "react-animate-on-scroll";
 
 const SectionPoland = () => {
-
+    
     const imgattr = 'SendFriend'
     return( 
         <div className="features-section bg-green pd-top-50">
@@ -64,8 +64,8 @@ const SectionPoland = () => {
                     </div>
              
                 </div>
-                <div className="row justify-content-center pd-bottom-60">
-                    <Link to="/contact-us">
+                <div className="row justify-content-center pd-bottom-100 pd-top-40">
+                    <Link to="/poland">
                         <ButtonWhite text='Find Out More' custom_style="button-cta buttonWhite mg-top-20 mg-bottom-30" />
                     </Link>
                 </div>

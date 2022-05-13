@@ -1,17 +1,17 @@
 import React from "react";
-import "./Navbar.css";
-import './history.css';
-import Nav from './Navs/Nav';
-import NavMobile from './Navs/NavMobile';
-import HeaderTest from "./Headers/HeaderTest";
-import Footer from './Footer/Footer';
-import FooterMobile from './Footer/FooterMobile';
-import SectionOne from "./AboutUs/SectionOne";
-import EvolutionSection from "./AboutUs/EvolutionSection";
-import TeamOne from "./Teams/Team";
-import Careers from "./Headers/Careers";
-import SectionPoland from "./AboutUs/SectionPoland";
-import EvolutionSectionMobile from "./AboutUs/EvolutionSectionMobile";
+import "../components/Navbar.css";
+import '../components/history.css';
+import Nav from '../components/Navs/Nav';
+import NavMobile from '../components/Navs/NavMobile';
+import HeaderTest from "../components/Headers/HeaderTest";
+import Footer from '../components/Footer/Footer';
+import FooterMobile from '../components/Footer/FooterMobile';
+import SectionOne from "../components/AboutUs/SectionOne";
+import EvolutionSection from "../components/AboutUs/EvolutionSection";
+import TeamOne from "../components/Teams/Team";
+import Careers from "../components/Headers/Careers";
+import SectionPoland from "../components/AboutUs/SectionPoland";
+import EvolutionSectionMobile from "../components/AboutUs/EvolutionSectionMobile";
 
 export const AboutUs = () => {
 
@@ -30,7 +30,7 @@ export const AboutUs = () => {
         />
         <SectionOne />
         <EvolutionSection />
-        <SectionPoland />
+        <SectionPoland data$={SectionPoland} />
         <TeamOne column={"justify-content-center text-center"}/>
         <Footer custom_class="footer-section" />
       </div>

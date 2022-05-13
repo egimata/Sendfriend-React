@@ -2,17 +2,17 @@ import React from 'react';
 import { HashLink } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import "./Navbar.css";
-import Nav from './Navs/Nav';
-import NavMobile from './Navs/NavMobile';
-import Footer from './Footer/Footer';
-import FooterMobile from './Footer/FooterMobile';
-import Client from './Clients/clients';
-import FeaturesSection from './Homepage/FeaturesSection';
-import HeaderTest from './Headers/HeaderTest';
-import PlatformSection from './Homepage/PlatformSection';
-import SectionThree from './Homepage/SectionThree';
-import APISection from './Homepage/APISection';
+import "../components/Navbar.css";
+import Nav from '../components/Navs/Nav';
+import NavMobile from '../components/Navs/NavMobile';
+import Footer from '../components/Footer/Footer';
+import FooterMobile from '../components/Footer/FooterMobile';
+import Client from '../components/Clients/clients';
+import FeaturesSection from '../components/Homepage/FeaturesSection';
+import HeaderTest from '../components/Headers/HeaderTest';
+import PlatformSection from '../components/Homepage/PlatformSection';
+import SectionThree from '../components/Homepage/SectionThree';
+import APISection from '../components/Homepage/APISection';
 
 
 const Homepage = () => {
