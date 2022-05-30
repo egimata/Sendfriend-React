@@ -10,12 +10,12 @@ export const ESignPolicy = () => {
 
   return (
 <div>
-    <div class="mobile-udaap screen">
+    <div className="mobile-udaap screen">
       <NavMobile />
-      <div class="unfair-deceptive-and-6PeLo1 montserrat-bold-caribbean-green-21px bp2-animate-enter2">
+      <div className="unfair-deceptive-and-6PeLo1 montserrat-bold-caribbean-green-21px bp2-animate-enter2">
         ELECTRONIC TRANSACTIONS, RECORDS AND SIGNATURES (E-SIGN) CONSENT AND POLICY
       </div>
-      <div class="x1-introduction-polic-6PeLo1 montserrat-medium-black-14px">
+      <div className="x1-introduction-polic-6PeLo1 montserrat-medium-black-14px">
       <ol>
                 <li>
                     <h1><strong>Introduction</strong></h1>
@@ -131,12 +131,12 @@ export const ESignPolicy = () => {
       </div>
       <FooterMobile custom_class="footer footer-udaap" />
     </div>
-    <div class="udaap screen">
+    <div className="udaap screen">
         <Nav />
-        <div class="unfair-deceptive-and-xlDY6Y montserrat-bold-caribbean-green-32px bp1-animate-enter4">
+        <div className="unfair-deceptive-and-xlDY6Y montserrat-bold-caribbean-green-32px bp1-animate-enter4">
             ELECTRONIC TRANSACTIONS, RECORDS AND SIGNATURES (E-SIGN) CONSENT AND POLICY
         </div>
-        <div class="x1-introduction-polic-xlDY6Y montserrat-medium-black-14px">
+        <div className="x1-introduction-polic-xlDY6Y montserrat-medium-black-14px">
             <ol>
                 <li>
                     <h1><strong>Introduction</strong></h1>

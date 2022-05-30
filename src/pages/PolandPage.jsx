@@ -11,7 +11,7 @@ const PolandPage = () => {
     return(
         <>
         {/* Desktop */}
-        <div class="udaap screen">
+        <div className="udaap screen">
             <Nav />
             <HeaderTest 
                 text="SendFriend "
@@ -25,7 +25,7 @@ const PolandPage = () => {
             <Footer custom_class="footer-section" />
         </div>
         {/* Desktop End */}
-        <div class="mobile-udaap screen bg-custom">
+        <div className="mobile-udaap screen bg-custom">
             <NavMobile />
             <Careers 
                  text="SendFriend "

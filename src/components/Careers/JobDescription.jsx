@@ -17,7 +17,7 @@ const JobDescription = ({job}) => {
     return (
         <>
           <SEO title={'Careers - ' + job.jobtitle} />
-          <div class="udaap screen">
+          <div className="udaap screen">
             <Nav />
             <div className= { "job-details-area pd-top-112 " }>
               <div className="container">
@@ -74,7 +74,7 @@ const JobDescription = ({job}) => {
             </div>
             <Footer custom_class="section footer-section" />
           </div>
-          <div class="mobile-udaap screen">
+          <div className="mobile-udaap screen">
             <NavMobile />
             <div className= { "job-details-area pd-top-112 " }>
               <div className="container padding-custom">

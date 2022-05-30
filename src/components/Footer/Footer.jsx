@@ -51,7 +51,7 @@ export const Footer = ({custom_class}) => {
     
     return (
         <>
-        <div class={custom_class}>
+        <div className={custom_class}>
 
             <div className="container">
                 <div className="footer-widget-wrap">
@@ -78,7 +78,7 @@ export const Footer = ({custom_class}) => {
                     <div className="row justify-content-center">
                         <div className="col-lg-3 col-sm-6">
                             <HashLink smooth to="/">
-                                <div class="footer-logo"><img alt={altimg} src="img/homepage/logo-menu-footer.png" /></div>
+                                <div className="footer-logo"><img alt={altimg} src="img/homepage/logo-menu-footer.png" /></div>
                             </HashLink>
                         </div>
                         {dataItems.map((item, index) => 
@@ -99,23 +99,23 @@ export const Footer = ({custom_class}) => {
                     <div className="footer-copyright-area border-top-custom">
                         <div className="row justify-content-center align-items-center">
                             <div className="col-lg-6">
-                                <div class="left-text montserrat-medium-white-14px">
+                                <div className="left-text montserrat-medium-white-14px">
                                     © 2022 SendFriend. All Rights Reserved <br /> <span className="montserrat-normal-white-13px">SendFriend is licensed as a money transmitter with the State of New Jersey's Department of Banking & Insurance, License No. L070801. </span>
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div class="socials">
+                                <div className="socials">
                                 <ul className="list-style">
                                     <li >
-                                        <a class="text-decoration-none" href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">Facebook</div></a>
+                                        <a className="text-decoration-none" href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer"><div className="social-link montserrat-medium-white-14px">Facebook</div></a>
                                     </li>
                                     <span>|</span>
                                     <li >
-                                        <a class="text-decoration-none" href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">Twitter</div></a>
+                                        <a className="text-decoration-none" href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer"><div className="social-link montserrat-medium-white-14px">Twitter</div></a>
                                     </li>
                                     <span>|</span>
                                     <li>
-                                        <a class="text-decoration-none" href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"><div class="social-link montserrat-medium-white-14px">LinkedIn</div></a>
+                                        <a className="text-decoration-none" href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer"><div className="social-link montserrat-medium-white-14px">LinkedIn</div></a>
                                     </li>
                                 </ul>
                                 </div>
@@ -124,7 +124,7 @@ export const Footer = ({custom_class}) => {
                     </div>
                 </div>
             </div>
-            <img alt={altimg} class="left-img" src="img/homepage/asset-1bg1-1-2-1@2x.png" />
+            <img alt={altimg} className="left-img" src="img/homepage/asset-1bg1-1-2-1@2x.png" />
         </div>
         </>
             

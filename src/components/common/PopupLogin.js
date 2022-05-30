@@ -22,22 +22,22 @@ return (
         <div className="header"> SendFriend </div>
         <div className="content">
           {' '}
-          <div id="overlay-frame-6" class="overlay" style={{minHeight: '5881px'}}>
-            <div class="container-center-horizontal">
-            <div class="frame-6 screen">
-                <div class="frame-6-MzyH1D">
-                <div class="our-platform-is-laun-zNGeUl">
-                <span class="span0-D6bUCI montserrat-semi-bold-black-24px">Our</span>
-                <span class="span1-D6bUCI">Platform</span>
-                <span class="span2-D6bUCI montserrat-semi-bold-black-24px"> is launching soon. <br />Please </span>
+          <div id="overlay-frame-6" className="overlay" style={{minHeight: '5881px'}}>
+            <div className="container-center-horizontal">
+            <div className="frame-6 screen">
+                <div className="frame-6-MzyH1D">
+                <div className="our-platform-is-laun-zNGeUl">
+                <span className="span0-D6bUCI montserrat-semi-bold-black-24px">Our</span>
+                <span className="span1-D6bUCI">Platform</span>
+                <span className="span2-D6bUCI montserrat-semi-bold-black-24px"> is launching soon. <br />Please </span>
                 <a href="/#/contact">
-                    <span class="span3-D6bUCI">CONTACT US</span></a>
-                    <span class="span4-D6bUCI montserrat-semi-bold-black-24px"> for more details</span>
+                    <span className="span3-D6bUCI">CONTACT US</span></a>
+                    <span className="span4-D6bUCI montserrat-semi-bold-black-24px"> for more details</span>
                 </div>
-                <img class="friend-zNGeUl" src={overlay_friend} />
-                <img class="send-zNGeUl" src={overlay_send} />
-                <img class="line-16-zNGeUl" src={overlay_line} />
-                <img class="original-logo-zNGeUl" src={logo} />
+                <img className="friend-zNGeUl" src={overlay_friend} />
+                <img className="send-zNGeUl" src={overlay_send} />
+                <img className="line-16-zNGeUl" src={overlay_line} />
+                <img className="original-logo-zNGeUl" src={logo} />
                 </div>
             </div>
             </div>

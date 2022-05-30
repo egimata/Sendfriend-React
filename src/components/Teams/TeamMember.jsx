@@ -27,10 +27,10 @@ export const TeamMember = ({memmberInfo, teamStyle}) => {
                         </figure>
                         <figcaption className="content">
                         <HashLink smooth to={memmberInfo.link}>
-                            <div class="green-box" >
+                            <div className="green-box" >
                                 <p className="title">{memmberInfo.name}</p>
                                 <p className="under-title">{memmberInfo.designation}</p>
-                                <div class="text-box">
+                                <div className="text-box">
                                     <p className="subtitle theme-gradient">{memmberInfo.content}</p>
                                 </div>
                             </div>

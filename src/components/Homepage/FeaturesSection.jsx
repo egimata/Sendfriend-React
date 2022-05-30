@@ -31,10 +31,10 @@ const FeaturesSection = () => {
                 <div className="row justify-content-center">
                 {data.tab.map( ( item, i ) => 
                     <Tab>
-                        <div class="tab-features style-one">
-                            <div class="tab-border style-one border-1px-black-2">
-                            <img alt={imgattr} class="img-tab animate-enter5" src={`img/icons/${item.icon}`} />
-                            <p class="text-under">{item.tabTitle}</p>
+                        <div key={i} className="tab-features style-one">
+                            <div className="tab-border style-one border-1px-black-2">
+                            <img alt={imgattr} className="img-tab animate-enter5" src={`img/icons/${item.icon}`} />
+                            <p className="text-under">{item.tabTitle}</p>
                             </div>
                         </div>
                     </Tab>
@@ -77,38 +77,38 @@ const FeaturesSection = () => {
                         <div className="col-xl-4 col-lg-4 desktop-center-item">
                             <div className="img-animation">
                                 <div className="texts">
-                                    <p class="secure">Secure</p>
-                                    <p class="multichain">Multichain</p>
-                                    <p class="api-connection">1 API<br />Connection</p>
-                                    <p class="blockchain">Blockchain</p>
-                                    <p class="cost-effective">Cost<br />Effective</p>
-                                    <p class="fast-payment">Fast<br />Payment</p>
+                                    <p className="secure">Secure</p>
+                                    <p className="multichain">Multichain</p>
+                                    <p className="api-connection">1 API<br />Connection</p>
+                                    <p className="blockchain">Blockchain</p>
+                                    <p className="cost-effective">Cost<br />Effective</p>
+                                    <p className="fast-payment">Fast<br />Payment</p>
                                 </div>
                                 
-                                <div class="white-image animate-enter8" >
-                                    <img alt={imgattr} class="width" src="img/homepage/white-image.png" />
+                                <div className="white-image animate-enter8" >
+                                    <img alt={imgattr} className="width" src="img/homepage/white-image.png" />
                                     <img alt={imgattr} className="backCircle" src="img/homepage/backcircle.svg" />
                                 </div>  
 
-                                <div class="middle-img ">
-                                    <img alt={imgattr} class="inner animate-enter9" src="img/icons/setting.svg" />
-                                    <img alt={imgattr} class="logo" src="img/icons/sf-icon.svg" />
+                                <div className="middle-img ">
+                                    <img alt={imgattr} className="inner animate-enter9" src="img/icons/setting.svg" />
+                                    <img alt={imgattr} className="logo" src="img/icons/sf-icon.svg" />
                                 </div>
                                 
-                                <img alt={imgattr} class={`arrow-1 ${item.animation1}`} src="img/icons/arrow-1.svg" />
-                                <img alt={imgattr} class="arrow-2" src="img/icons/arrow-2.svg" />
-                                <img alt={imgattr} class="arrow-3" src="img/icons/arrow-3.svg" />
-                                <img alt={imgattr} class={`arrow-4 ${item.animation4}`} src="img/icons/arrow-4.svg" />
-                                <img alt={imgattr} class={`arrow-5 ${item.animation5}`} src="img/icons/arrow-5.svg" />
-                                <img alt={imgattr} class={`arrow-6 ${item.animation6}`} src="img/icons/arrow-6.svg" />
+                                <img alt={imgattr} className={`arrow-1 ${item.animation1}`} src="img/icons/arrow-1.svg" />
+                                <img alt={imgattr} className="arrow-2" src="img/icons/arrow-2.svg" />
+                                <img alt={imgattr} className="arrow-3" src="img/icons/arrow-3.svg" />
+                                <img alt={imgattr} className={`arrow-4 ${item.animation4}`} src="img/icons/arrow-4.svg" />
+                                <img alt={imgattr} className={`arrow-5 ${item.animation5}`} src="img/icons/arrow-5.svg" />
+                                <img alt={imgattr} className={`arrow-6 ${item.animation6}`} src="img/icons/arrow-6.svg" />
 
                                 <div className="world-icons">
-                                    <img alt={imgattr} class={`cheaper ${item.popout1}`} src="img/icons/cheaper-black.png" />
-                                    <img alt={imgattr} class={`faster ${item.popout2}`} src="img/icons/faster-black.svg" />
-                                    <img alt={imgattr} class={`multichain ${item.popout3}`} src="img/icons/multchain-black.svg" />
-                                    <img alt={imgattr} class={`secure ${item.popout4}`} src="img/icons/more-secure-black.svg" />
-                                    <img alt={imgattr} class="api" src="img/icons/api.svg" />
-                                    <img alt={imgattr} class="blockchain"  src="img/icons/blockchain-black.png" />
+                                    <img alt={imgattr} className={`cheaper ${item.popout1}`} src="img/icons/cheaper-black.png" />
+                                    <img alt={imgattr} className={`faster ${item.popout2}`} src="img/icons/faster-black.svg" />
+                                    <img alt={imgattr} className={`multichain ${item.popout3}`} src="img/icons/multchain-black.svg" />
+                                    <img alt={imgattr} className={`secure ${item.popout4}`} src="img/icons/more-secure-black.svg" />
+                                    <img alt={imgattr} className="api" src="img/icons/api.svg" />
+                                    <img alt={imgattr} className="blockchain"  src="img/icons/blockchain-black.png" />
                                 </div>
                             </div>
                         </div>

@@ -31,9 +31,9 @@ const APISection = () => {
                             <div className="row">
                                 {data.tab.map( ( item, i ) => 
                                     <Tab>
-                                        <div class="tab-features style-two">
-                                            <div class="tab-border">
-                                                <p class="text-under">{item.tabTitle}</p>
+                                        <div key={i} className="tab-features style-two">
+                                            <div className="tab-border">
+                                                <p className="text-under">{item.tabTitle}</p>
                                             </div>
                                         </div>
                                     </Tab>
@@ -42,9 +42,9 @@ const APISection = () => {
                             </TabList>
                             {data.tabPanel.map( ( item, i ) => 
                                 <TabPanel>
-                                    <div className="api-img">
+                                    <div key={i} className="api-img">
                                         <div className="bg-url">
-                                            <img alt={imgattr} class="inner-img animate-enter22" src={`img/homepage/${item.img}`} />
+                                            <img alt={imgattr} className="inner-img animate-enter22" src={`img/homepage/${item.img}`} />
                                         </div>
                                     </div>
                                 </TabPanel>
@@ -54,22 +54,22 @@ const APISection = () => {
                 </div>
                 <div className="row justify-content-center">
                 {texts.bottom_text.map( ( item, i ) => 
-                    <div className="col-lg-3 section-title">
+                    <div key={i} className="col-lg-3 section-title">
                         <h6>{item.main_text}</h6>
                         <p className="p">{item.p}</p>
                     </div>
                 )}
                 </div>
             </div>
-            <img alt={imgattr} class="bottom-image" src="img/homepage/dark-bg-tilted.png" />
-            <div id="partners" class="partners-section">
-                <div class="partnerships-table">
-                    <h3 class="partners-text">Partners</h3>
-                    <p class="partners-sub">
+            <img alt={imgattr} className="bottom-image" src="img/homepage/dark-bg-tilted.png" />
+            <div id="partners" className="partners-section">
+                <div className="partnerships-table">
+                    <h3 className="partners-text">Partners</h3>
+                    <p className="partners-sub">
                         We are fortunate to be parterned with the following leaders in our space and global influencers of financial
                         technology:
                     </p>
-                    <div class="bg-border"></div>
+                    <div className="bg-border"></div>
                     <div className="group-icons">
                         <img alt={imgattr} src="img/homepage/partners-group.svg" />
                     </div>

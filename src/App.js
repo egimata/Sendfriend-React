@@ -5,7 +5,6 @@ import {
 } from "react-router-dom";
 import Homepage from "./pages/Homepage"; 
 import { AboutUs } from "./pages/AboutUs";
-import { Leadership } from "./pages/Leadership";
 import { PrivacyPolicy } from "./components/Policies/PrivacyPolicy";
 import { TermsOfUse } from "./components/Policies/TermsOfUse";
 import { FileComplaint } from "./components/Policies/FileComplaint";
@@ -20,6 +19,7 @@ import  PolandPage from "./pages/PolandPage";
 import { ESignPolicy } from "./components/Policies/ESignPolicy";
 
 import './assets/scss/style.scss'
+import Leadership from "./pages/Leadership";
 
 
 function App() {

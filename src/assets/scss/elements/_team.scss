@@ -104,6 +104,25 @@
     Team Style Two  
 -----------------------*/
 .team-style-two {
+    
+        .leadership-p{
+            color: var(--white);
+            font-family: var(--main-font);
+            font-size: 16px;
+            line-height: 22px;
+            font-style: normal;
+            text-align: left;
+            font-weight: 400;
+        }
+        @media(max-width: 800px){
+            .leadership-p{
+                font-size: 14px;
+                line-height: 20px;
+                padding-left: 55px;
+                padding-right: 18px;
+            }
+        }
+    
     .inner {
         .thumbnail {
             img {

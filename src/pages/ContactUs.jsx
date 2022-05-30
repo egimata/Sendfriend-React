@@ -11,7 +11,7 @@ import FooterMobile from '../components/Footer/FooterMobile';
 const ContactUs = () => {
     return <>
         <SEO title={'Contact Us'} />
-        <div class="udaap screen bg-transparent">
+        <div className="udaap screen bg-transparent">
             <Nav />
             <HeaderTest 
                 text="Contact"
@@ -24,7 +24,7 @@ const ContactUs = () => {
             <ContactForm />
             <Footer custom_class="section footer-section" />
         </div>
-        <div class="mobile-udaap screen bg-transparent">
+        <div className="mobile-udaap screen bg-transparent">
             <NavMobile />
             <Careers 
                     text="Contact"

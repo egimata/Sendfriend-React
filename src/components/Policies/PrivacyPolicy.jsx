@@ -10,12 +10,12 @@ export const PrivacyPolicy = () => {
 
   return (
 <div>
-    <div class="mobile-udaap screen">
+    <div className="mobile-udaap screen">
       <NavMobile />
-      <div class="unfair-deceptive-and-6PeLo1 montserrat-bold-caribbean-green-21px bp2-animate-enter2">
+      <div className="unfair-deceptive-and-6PeLo1 montserrat-bold-caribbean-green-21px bp2-animate-enter2">
       Privacy Policy
       </div>
-      <div class="x1-introduction-polic-6PeLo1-table montserrat-medium-black-14px break-word">
+      <div className="x1-introduction-polic-6PeLo1-table montserrat-medium-black-14px break-word">
             <h1  >Overview</h1>
             <p  >This privacy policy explains how and why SendFriend Inc. (&ldquo;<strong>SendFriend</strong>&rdquo;) collects, stores, uses, and shares personal data when you visit our websites or use our services. Reading it will help you understand your privacy rights and choices. &ldquo;<strong>Personal data</strong>&rdquo; in this policy means information about you, including your identity, finances, and online behavior.</p>
             <h1  >Your Privacy Rights &amp; Choices</h1>
@@ -136,29 +136,29 @@ export const PrivacyPolicy = () => {
             <p  >If you have questions about this privacy policy or your personal data, contact us at <a href="mailto:info@sendfriend.io">info@sendfriend.io</a>.</p>
             <h1>Consumer Privacy Notice</h1>
             <p  >This Consumer Privacy Notice applies to you if you are an individual who resides in the United States and uses SendFriend sites or services for your own personal, family or household purposes.</p>
-            <table class="table-style">
+            <table className="table-style">
             <tbody>
             <tr>
-            <td class="td-1">
+            <td className="td-1">
             <p ><strong>Facts</strong></p>
             </td>
-            <td class="td-2">
+            <td className="td-2">
             <p ><strong>What does SendFriend do with your Personal Data?</strong></p>
             </td>
             </tr>
             <tr>
-            <td class="td-3">
+            <td className="td-3">
             <p >Why?</p>
             </td>
-            <td class="td-4">
+            <td className="td-4">
             <p>Financial companies choose how they share your personal information. Federal law gives consumers the right to limit some but not all sharing. Federal law also requires us to tell you how we collect, share, and protect your personal information. Please read this notice carefully to understand what we do.</p>
             </td>
             </tr>
             <tr>
-            <td class="td-3">
+            <td className="td-3">
             <p>What?</p>
             </td>
-            <td class="td-4">
+            <td className="td-4">
             <p>The types of personal information we collect and share depend on the product or service you have with us. This information can include:</p>
             <div>
             <ul >
@@ -170,124 +170,124 @@ export const PrivacyPolicy = () => {
             </td>
             </tr>
             <tr>
-            <td class="td-3">
+            <td className="td-3">
             <p>How?</p>
             </td>
-            <td class="td-4">
+            <td className="td-4">
             <p>All financial companies need to share customers&rsquo; personal information to run their everyday business. In the section below, we list the reasons financial companies can share their customers&rsquo; personal information; the reasons SendFriend chooses to share; and whether you can limit this sharing.</p>
             </td>
             </tr>
             </tbody>
             </table>
-            <table class="table-style">
+            <table className="table-style">
             <tbody>
             <tr>
-            <td class="td-1">
-            <p class="p-1"><strong>Reasons we can share your personal information</strong></p>
+            <td className="td-1">
+            <p className="p-1"><strong>Reasons we can share your personal information</strong></p>
             </td>
-            <td class="td-5">
-            <p class="p-2"><strong>Does SendFriend share?</strong></p>
+            <td className="td-5">
+            <p className="p-2"><strong>Does SendFriend share?</strong></p>
             </td>
-            <td class="td-6">
-            <p class="p-2"><strong>Can you limit this sharing?</strong></p>
-            </td>
-            </tr>
-            <tr>
-            <td class="td-7">
-            <p class="p-1">For our everyday business purposes such as to process your transactions, maintain your account(s), respond to court orders and legal investigations, or report to credit bureaus</p>
-            </td>
-            <td class="td-8">
-            <p class="p-2">Yes</p>
-            </td>
-            <td class="td-9">
-            <p class="p-2">No</p>
+            <td className="td-6">
+            <p className="p-2"><strong>Can you limit this sharing?</strong></p>
             </td>
             </tr>
             <tr>
-            <td class="td-7">
-            <p class="p-1">For our marketing purposes to offer our products and services to you</p>
+            <td className="td-7">
+            <p className="p-1">For our everyday business purposes such as to process your transactions, maintain your account(s), respond to court orders and legal investigations, or report to credit bureaus</p>
             </td>
-            <td class="td-8">
-            <p class="p-2">Yes</p>
+            <td className="td-8">
+            <p className="p-2">Yes</p>
             </td>
-            <td class="td-9">
-            <p class="p-2">No</p>
-            </td>
-            </tr>
-            <tr>
-            <td class="td-7">
-            <p class="p-1">For joint marketing with other financial companies</p>
-            </td>
-            <td class="td-8">
-            <p class="p-2">No</p>
-            </td>
-            <td class="td-9">
-            <p class="p-2">We don&rsquo;t share</p>
+            <td className="td-9">
+            <p className="p-2">No</p>
             </td>
             </tr>
             <tr>
-            <td class="td-7">
-            <p class="p-1">For our affiliates&rsquo; everyday business purposes information about your transactions and experiences</p>
+            <td className="td-7">
+            <p className="p-1">For our marketing purposes to offer our products and services to you</p>
             </td>
-            <td class="td-8">
-            <p class="p-2">Yes</p>
+            <td className="td-8">
+            <p className="p-2">Yes</p>
             </td>
-            <td class="td-9">
-            <p class="p-2">No</p>
-            </td>
-            </tr>
-            <tr>
-            <td class="td-10">
-            <p class="p-1"><span class="colorspan">For our affiliates to market to you</span></p>
-            </td>
-            <td class="td-11">
-            <p class="p-2">No</p>
-            </td>
-            <td class="td-12">
-            <p class="p-2">We don&rsquo;t share</p>
+            <td className="td-9">
+            <p className="p-2">No</p>
             </td>
             </tr>
             <tr>
-            <td class="td-10">
-            <p class="p-1"><span class="colorspan">For nonaffiliates to market to you</span></p>
+            <td className="td-7">
+            <p className="p-1">For joint marketing with other financial companies</p>
             </td>
-            <td class="td-11">
-            <p class="p-2">No</p>
+            <td className="td-8">
+            <p className="p-2">No</p>
             </td>
-            <td class="td-12">
-            <p class="p-2">We don&rsquo;t share</p>
+            <td className="td-9">
+            <p className="p-2">We don&rsquo;t share</p>
             </td>
             </tr>
             <tr>
-            <td class="td-13" colspan="3">
-            <p class="p-1"><strong>Questions? Contact us by email at</strong> <a href="mailto:info@sendfriend.io">info@sendfriend.io</a><strong>, or reach out through our website at&nbsp;</strong><a href="http://www.sendfriend.io/contact">www.sendfriend.io/contact</a><strong>.&nbsp;</strong></p>
+            <td className="td-7">
+            <p className="p-1">For our affiliates&rsquo; everyday business purposes information about your transactions and experiences</p>
+            </td>
+            <td className="td-8">
+            <p className="p-2">Yes</p>
+            </td>
+            <td className="td-9">
+            <p className="p-2">No</p>
+            </td>
+            </tr>
+            <tr>
+            <td className="td-10">
+            <p className="p-1"><span className="colorspan">For our affiliates to market to you</span></p>
+            </td>
+            <td className="td-11">
+            <p className="p-2">No</p>
+            </td>
+            <td className="td-12">
+            <p className="p-2">We don&rsquo;t share</p>
+            </td>
+            </tr>
+            <tr>
+            <td className="td-10">
+            <p className="p-1"><span className="colorspan">For nonaffiliates to market to you</span></p>
+            </td>
+            <td className="td-11">
+            <p className="p-2">No</p>
+            </td>
+            <td className="td-12">
+            <p className="p-2">We don&rsquo;t share</p>
+            </td>
+            </tr>
+            <tr>
+            <td className="td-13" colspan="3">
+            <p className="p-1"><strong>Questions? Contact us by email at</strong> <a href="mailto:info@sendfriend.io">info@sendfriend.io</a><strong>, or reach out through our website at&nbsp;</strong><a href="http://www.sendfriend.io/contact">www.sendfriend.io/contact</a><strong>.&nbsp;</strong></p>
             </td>
             </tr>
             </tbody>
             </table>
-            <table class="table-style">
+            <table className="table-style">
             <tbody>
             <tr>
-            <td class="td-14">
-            <p class="p-1"><strong>Who we are</strong></p>
+            <td className="td-14">
+            <p className="p-1"><strong>Who we are</strong></p>
             </td>
-            <td class="td-15">
+            <td className="td-15">
             <p >This privacy notice is provided by SendFriend, Inc. and is applicable to your personal U.S. SendFriend account(s).</p>
             </td>
             </tr>
             <tr>
-            <td class="td-16">
-            <p class="p-1"><strong>How does SendFriend protect my Personal Data?</strong></p>
+            <td className="td-16">
+            <p className="p-1"><strong>How does SendFriend protect my Personal Data?</strong></p>
             </td>
-            <td class="td-17">
+            <td className="td-17">
             <p >We implemented robust security measures to protect your personal information from unauthorized access and use. These measures include computer safeguards and secured files and buildings.</p>
             </td>
             </tr>
             <tr>
-            <td class="td-16">
-            <p class="p-1"><strong>How does SendFriend collect my Personal Data?</strong></p>
+            <td className="td-16">
+            <p className="p-1"><strong>How does SendFriend collect my Personal Data?</strong></p>
             </td>
-            <td class="td-17">
+            <td className="td-17">
             <p >We collect your personal information, for example, when you</p>
             <div>
             <ul >
@@ -300,10 +300,10 @@ export const PrivacyPolicy = () => {
             </td>
             </tr>
             <tr>
-            <td class="td-16">
-            <p class="p-1"><strong>Why can&rsquo;t I limit all sharing?</strong></p>
+            <td className="td-16">
+            <p className="p-1"><strong>Why can&rsquo;t I limit all sharing?</strong></p>
             </td>
-            <td class="td-17">
+            <td className="td-17">
             <p >Federal law gives you the right to limit only:</p>
             <div>
             <ul >
@@ -322,12 +322,12 @@ export const PrivacyPolicy = () => {
       </div>
       <FooterMobile custom_class="footer footer-udaap" />
     </div>
-    <div class="udaap screen">
+    <div className="udaap screen">
         <Nav />
-        <div class="unfair-deceptive-and-xlDY6Y montserrat-bold-caribbean-green-32px bp1-animate-enter4">
+        <div className="unfair-deceptive-and-xlDY6Y montserrat-bold-caribbean-green-32px bp1-animate-enter4">
         Privacy Policy
         </div>
-        <div class="x1-introduction-polic-xlDY6Y montserrat-medium-black-14px">
+        <div className="x1-introduction-polic-xlDY6Y montserrat-medium-black-14px">
             <h1  >Overview</h1>
             <p  >This privacy policy explains how and why SendFriend Inc. (&ldquo;<strong>SendFriend</strong>&rdquo;) collects, stores, uses, and shares personal data when you visit our websites or use our services. Reading it will help you understand your privacy rights and choices. &ldquo;<strong>Personal data</strong>&rdquo; in this policy means information about you, including your identity, finances, and online behavior.</p>
             <h1  >Your Privacy Rights &amp; Choices</h1>
@@ -448,29 +448,29 @@ export const PrivacyPolicy = () => {
             <p  >If you have questions about this privacy policy or your personal data, contact us at <a href="mailto:info@sendfriend.io">info@sendfriend.io</a>.</p>
             <h1>Consumer Privacy Notice</h1>
             <p  >This Consumer Privacy Notice applies to you if you are an individual who resides in the United States and uses SendFriend sites or services for your own personal, family or household purposes.</p>
-            <table class="table-style">
+            <table className="table-style">
             <tbody>
             <tr>
-            <td class="td-1">
+            <td className="td-1">
             <p ><strong>Facts</strong></p>
             </td>
-            <td class="td-2">
+            <td className="td-2">
             <p ><strong>What does SendFriend do with your Personal Data?</strong></p>
             </td>
             </tr>
             <tr>
-            <td class="td-3">
+            <td className="td-3">
             <p >Why?</p>
             </td>
-            <td class="td-4">
+            <td className="td-4">
             <p>Financial companies choose how they share your personal information. Federal law gives consumers the right to limit some but not all sharing. Federal law also requires us to tell you how we collect, share, and protect your personal information. Please read this notice carefully to understand what we do.</p>
             </td>
             </tr>
             <tr>
-            <td class="td-3">
+            <td className="td-3">
             <p>What?</p>
             </td>
-            <td class="td-4">
+            <td className="td-4">
             <p>The types of personal information we collect and share depend on the product or service you have with us. This information can include:</p>
             <div>
             <ul >
@@ -482,124 +482,124 @@ export const PrivacyPolicy = () => {
             </td>
             </tr>
             <tr>
-            <td class="td-3">
+            <td className="td-3">
             <p>How?</p>
             </td>
-            <td class="td-4">
+            <td className="td-4">
             <p>All financial companies need to share customers&rsquo; personal information to run their everyday business. In the section below, we list the reasons financial companies can share their customers&rsquo; personal information; the reasons SendFriend chooses to share; and whether you can limit this sharing.</p>
             </td>
             </tr>
             </tbody>
             </table>
-            <table class="table-style">
+            <table className="table-style">
             <tbody>
             <tr>
-            <td class="td-1">
-            <p class="p-1"><strong>Reasons we can share your personal information</strong></p>
+            <td className="td-1">
+            <p className="p-1"><strong>Reasons we can share your personal information</strong></p>
             </td>
-            <td class="td-5">
-            <p class="p-2"><strong>Does SendFriend share?</strong></p>
+            <td className="td-5">
+            <p className="p-2"><strong>Does SendFriend share?</strong></p>
             </td>
-            <td class="td-6">
-            <p class="p-2"><strong>Can you limit this sharing?</strong></p>
-            </td>
-            </tr>
-            <tr>
-            <td class="td-7">
-            <p class="p-1">For our everyday business purposes such as to process your transactions, maintain your account(s), respond to court orders and legal investigations, or report to credit bureaus</p>
-            </td>
-            <td class="td-8">
-            <p class="p-2">Yes</p>
-            </td>
-            <td class="td-9">
-            <p class="p-2">No</p>
+            <td className="td-6">
+            <p className="p-2"><strong>Can you limit this sharing?</strong></p>
             </td>
             </tr>
             <tr>
-            <td class="td-7">
-            <p class="p-1">For our marketing purposes to offer our products and services to you</p>
+            <td className="td-7">
+            <p className="p-1">For our everyday business purposes such as to process your transactions, maintain your account(s), respond to court orders and legal investigations, or report to credit bureaus</p>
             </td>
-            <td class="td-8">
-            <p class="p-2">Yes</p>
+            <td className="td-8">
+            <p className="p-2">Yes</p>
             </td>
-            <td class="td-9">
-            <p class="p-2">No</p>
-            </td>
-            </tr>
-            <tr>
-            <td class="td-7">
-            <p class="p-1">For joint marketing with other financial companies</p>
-            </td>
-            <td class="td-8">
-            <p class="p-2">No</p>
-            </td>
-            <td class="td-9">
-            <p class="p-2">We don&rsquo;t share</p>
+            <td className="td-9">
+            <p className="p-2">No</p>
             </td>
             </tr>
             <tr>
-            <td class="td-7">
-            <p class="p-1">For our affiliates&rsquo; everyday business purposes information about your transactions and experiences</p>
+            <td className="td-7">
+            <p className="p-1">For our marketing purposes to offer our products and services to you</p>
             </td>
-            <td class="td-8">
-            <p class="p-2">Yes</p>
+            <td className="td-8">
+            <p className="p-2">Yes</p>
             </td>
-            <td class="td-9">
-            <p class="p-2">No</p>
-            </td>
-            </tr>
-            <tr>
-            <td class="td-10">
-            <p class="p-1"><span class="colorspan">For our affiliates to market to you</span></p>
-            </td>
-            <td class="td-11">
-            <p class="p-2">No</p>
-            </td>
-            <td class="td-12">
-            <p class="p-2">We don&rsquo;t share</p>
+            <td className="td-9">
+            <p className="p-2">No</p>
             </td>
             </tr>
             <tr>
-            <td class="td-10">
-            <p class="p-1"><span class="colorspan">For nonaffiliates to market to you</span></p>
+            <td className="td-7">
+            <p className="p-1">For joint marketing with other financial companies</p>
             </td>
-            <td class="td-11">
-            <p class="p-2">No</p>
+            <td className="td-8">
+            <p className="p-2">No</p>
             </td>
-            <td class="td-12">
-            <p class="p-2">We don&rsquo;t share</p>
+            <td className="td-9">
+            <p className="p-2">We don&rsquo;t share</p>
             </td>
             </tr>
             <tr>
-            <td class="td-13" colspan="3">
-            <p class="p-1"><strong>Questions? Contact us by email at</strong> <a href="mailto:info@sendfriend.io">info@sendfriend.io</a><strong>, or reach out through our website at&nbsp;</strong><a href="http://www.sendfriend.io/contact">www.sendfriend.io/contact</a><strong>.&nbsp;</strong></p>
+            <td className="td-7">
+            <p className="p-1">For our affiliates&rsquo; everyday business purposes information about your transactions and experiences</p>
+            </td>
+            <td className="td-8">
+            <p className="p-2">Yes</p>
+            </td>
+            <td className="td-9">
+            <p className="p-2">No</p>
+            </td>
+            </tr>
+            <tr>
+            <td className="td-10">
+            <p className="p-1"><span className="colorspan">For our affiliates to market to you</span></p>
+            </td>
+            <td className="td-11">
+            <p className="p-2">No</p>
+            </td>
+            <td className="td-12">
+            <p className="p-2">We don&rsquo;t share</p>
+            </td>
+            </tr>
+            <tr>
+            <td className="td-10">
+            <p className="p-1"><span className="colorspan">For nonaffiliates to market to you</span></p>
+            </td>
+            <td className="td-11">
+            <p className="p-2">No</p>
+            </td>
+            <td className="td-12">
+            <p className="p-2">We don&rsquo;t share</p>
+            </td>
+            </tr>
+            <tr>
+            <td className="td-13" colspan="3">
+            <p className="p-1"><strong>Questions? Contact us by email at</strong> <a href="mailto:info@sendfriend.io">info@sendfriend.io</a><strong>, or reach out through our website at&nbsp;</strong><a href="http://www.sendfriend.io/contact">www.sendfriend.io/contact</a><strong>.&nbsp;</strong></p>
             </td>
             </tr>
             </tbody>
             </table>
-            <table class="table-style">
+            <table className="table-style">
             <tbody>
             <tr>
-            <td class="td-14">
-            <p class="p-1"><strong>Who we are</strong></p>
+            <td className="td-14">
+            <p className="p-1"><strong>Who we are</strong></p>
             </td>
-            <td class="td-15">
+            <td className="td-15">
             <p >This privacy notice is provided by SendFriend, Inc. and is applicable to your personal U.S. SendFriend account(s).</p>
             </td>
             </tr>
             <tr>
-            <td class="td-16">
-            <p class="p-1"><strong>How does SendFriend protect my Personal Data?</strong></p>
+            <td className="td-16">
+            <p className="p-1"><strong>How does SendFriend protect my Personal Data?</strong></p>
             </td>
-            <td class="td-17">
+            <td className="td-17">
             <p >We implemented robust security measures to protect your personal information from unauthorized access and use. These measures include computer safeguards and secured files and buildings.</p>
             </td>
             </tr>
             <tr>
-            <td class="td-16">
-            <p class="p-1"><strong>How does SendFriend collect my Personal Data?</strong></p>
+            <td className="td-16">
+            <p className="p-1"><strong>How does SendFriend collect my Personal Data?</strong></p>
             </td>
-            <td class="td-17">
+            <td className="td-17">
             <p >We collect your personal information, for example, when you</p>
             <div>
             <ul >
@@ -612,10 +612,10 @@ export const PrivacyPolicy = () => {
             </td>
             </tr>
             <tr>
-            <td class="td-16">
-            <p class="p-1"><strong>Why can&rsquo;t I limit all sharing?</strong></p>
+            <td className="td-16">
+            <p className="p-1"><strong>Why can&rsquo;t I limit all sharing?</strong></p>
             </td>
-            <td class="td-17">
+            <td className="td-17">
             <p >Federal law gives you the right to limit only:</p>
             <div>
             <ul >

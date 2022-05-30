@@ -51,9 +51,9 @@ const JobApplyForm = ({job}, props) => {
                                 </div>
                                 <div className="col-md-12">
                                     <div className="single-input-wrap mg-bottom-50">
-                                    <select defaultValue={job.jobtitle} class="form-select custom-dropdown" name="Job-Selected" required>
+                                    <select defaultValue={job.jobtitle} className="form-select custom-dropdown" name="Job-Selected" required>
                                     { jobtitle.job.map(( item, i )=>
-                                        <option  value={item.jobtitle}>{item.jobtitle}</option>
+                                        <option key={i} value={item.jobtitle}>{item.jobtitle}</option>
                                     )}
                                     </select>
                                     </div>

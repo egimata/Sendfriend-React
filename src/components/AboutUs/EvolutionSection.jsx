@@ -37,23 +37,23 @@ const EvolutionSection = () => {
                     <div className="col-2 place-center">
                         <img alt={altimg} src="img/partners/mit.png" />
                     </div>
-                    <img class="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
+                    <img className="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
                     <div className="col-2 place-center">
                         <img alt={altimg} className="evo-img" src="img/partners/ripple.svg" />
                         <img alt={altimg} className="evo-img" src="img/partners/barclays.png" />
                         <img alt={altimg} className="evo-img" src="img/partners/mit-media.svg" />
                     </div>
-                    <img class="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
+                    <img className="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
                     <div className="col-2 place-center">
                         <img alt={altimg} className="evo-img" src="img/partners/8decimal.svg" />
                         <img alt={altimg} className="evo-img" src="img/partners/knick.png" />
                         <img alt={altimg} className="evo-img" src="img/partners/coins.png" />
                     </div>
-                    <img class="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
+                    <img className="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
                     <div className="col-2 place-center">
                         <img alt={altimg} className="evo-img" src="img/partners/celo.svg" />
                     </div>
-                    <img class="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
+                    <img className="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
                     <div className="col-2 place-center">
                         <img alt={altimg} className="evo-img" src="img/partners/european-funds.png" />
                         <img alt={altimg} className="evo-img" src="img/partners/enlogo.png" />

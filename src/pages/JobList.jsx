@@ -20,7 +20,7 @@ const JobList = () => {
     return (
         <>
             <SEO title="Careers" />
-                <div class="udaap screen bg-custom">
+                <div className="udaap screen bg-custom">
                 <Nav />
                 <HeaderTest 
                     text="SendFriend"
@@ -63,7 +63,7 @@ const JobList = () => {
                 </div>
                 <Footer custom_class="section footer-section" />
                 </div>
-            <div class="mobile-udaap screen bg-custom">
+            <div className="mobile-udaap screen bg-custom">
                 <NavMobile />
                 <Careers 
                     text="SendFriend"

@@ -37,31 +37,31 @@ function Nav() {
     }
     };
     return (
-        <div class="header-zYNucu">
-        <div class="top-header-num0gs">
+        <div className="header-zYNucu">
+        <div className="top-header-num0gs">
         <a href="https://www.facebook.com/sendfriendinc/" target="_blank" rel="noreferrer">
-            <img alt={altimg} class="facebook-icon-EMXBRh" src="img/homepage/facebook-icon@2x.png" /> 
+            <img alt={altimg} className="facebook-icon-EMXBRh" src="img/homepage/facebook-icon@2x.png" /> 
         </a>
         <a href="https://twitter.com/sendfriendinc" target="_blank" rel="noreferrer">
-            <img alt={altimg} class="twitter-icon-EMXBRh" src="img/homepage/twitter-icon@2x.png" />
+            <img alt={altimg} className="twitter-icon-EMXBRh" src="img/homepage/twitter-icon@2x.png" />
         </a>
         <a href="https://www.linkedin.com/company/sendfriend/" target="_blank" rel="noreferrer">
-            <img alt={altimg} class="linkedin-icon-EMXBRh" src="img/homepage/linkedin-icon@2x.svg" />
+            <img alt={altimg} className="linkedin-icon-EMXBRh" src="img/homepage/linkedin-icon@2x.svg" />
         </a>
         </div>
         <a href="#!" onClick={openPopupOverlay}>
-            <div class="login-button-default-num0gs smart-layers-pointers">
-                <div class="login-Aoc3Ls montserrat-bold-white-14px">LOGIN</div>
+            <div className="login-button-default-num0gs smart-layers-pointers">
+                <div className="login-Aoc3Ls montserrat-bold-white-14px">LOGIN</div>
             </div>
         </a>
 
-        <div class="menu-num0gs">
+        <div className="menu-num0gs">
         
         
-        <HashLink smooth to="/#platform-section"><div class="platform-kYUAzc montserrat-bold-white-14px">PLATFORM</div></HashLink>
-        <HashLink smooth to="/#partners"><div class="partners-kYUAzc montserrat-bold-white-14px">PARTNERS</div></HashLink>
+        <HashLink smooth to="/#platform-section"><div className="platform-kYUAzc montserrat-bold-white-14px">PLATFORM</div></HashLink>
+        <HashLink smooth to="/#partners"><div className="partners-kYUAzc montserrat-bold-white-14px">PARTNERS</div></HashLink>
 
-            <div class="company-dropdown-kYUAzc">
+            <div className="company-dropdown-kYUAzc">
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li
                 className='nav-item'
@@ -81,11 +81,11 @@ function Nav() {
             </div>
 
         <Link to="/contact-us">
-        <div class="contact-us-kYUAzc montserrat-bold-white-14px">CONTACT US</div>
+        <div className="contact-us-kYUAzc montserrat-bold-white-14px">CONTACT US</div>
         </Link>
         </div>
         <HashLink smooth to="/">
-        <div class="logo-menu-num0gs"><img alt={altimg} class="logo_menu-2-a4JE9e" src="img/logo/logo-menu.png" /></div>
+        <div className="logo-menu-num0gs"><img alt={altimg} className="logo_menu-2-a4JE9e" src="img/logo/logo-menu.png" /></div>
         </HashLink>
     </div>
     )

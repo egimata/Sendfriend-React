@@ -27,7 +27,7 @@ const PlatformSection = () => {
                         <img alt={altimg} src="img/homepage/left-world.png" />
                     </div>
                     <div>
-                        <img class="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
+                        <img className="vertical-line" alt={altimg} src="img/homepage/vertical-line.png" />
                     </div>
                     <div>
                         <img className="pd-left-30" alt={altimg} src="img/homepage/right-world.svg" />

@@ -18,7 +18,7 @@ export const AboutUs = () => {
   return (
     <div>
     {/* Desktop */}
-      <div class="udaap screen">
+      <div className="udaap screen">
         <Nav />
         <HeaderTest 
             text="One connection to the world of"
@@ -35,7 +35,7 @@ export const AboutUs = () => {
         <Footer custom_class="footer-section" />
       </div>
       {/* Desktop End */}
-      <div class="mobile-history screen">
+      <div className="mobile-history screen">
         <NavMobile />
         <Careers 
               text="One connection to the world of"

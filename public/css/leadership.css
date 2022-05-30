@@ -4,7 +4,7 @@
     background-color: var(--white);
     height: 100vh;
     margin: 0px;
-    min-height: 5844px;
+    min-height: 4580px;
     min-width: 1200px;
     mix-blend-mode: normal;
     overflow: hidden;
@@ -128,7 +128,7 @@
     mix-blend-mode: normal;
     position: absolute;
     text-align: left;
-    top: 2792px;
+    top: 1844px;
     width: 553px;
   }
   
@@ -141,7 +141,7 @@
     mix-blend-mode: normal;
     position: absolute;
     text-align: left;
-    top: 3630px;
+    top: 2509px;
     width: 553px;
   }
   
@@ -154,7 +154,7 @@
     mix-blend-mode: normal;
     position: absolute;
     text-align: left;
-    top: 4432px;
+    top: 3187px;
     width: 553px;
   }
   
@@ -410,7 +410,7 @@
     height: 481px;
     left: calc(50.00% - 487px);
     position: absolute;
-    top: 2795px;
+    top: 1847px;
     width: 377px;
   }
   
@@ -489,7 +489,7 @@
     height: 483px;
     left: calc(50.00% - 489px);
     position: absolute;
-    top: 3636px;
+    top: 2513px;
     width: 377px;
   }
   
@@ -568,7 +568,7 @@
     height: 487px;
     left: calc(50.00% - 489px);
     position: absolute;
-    top: 4431px;
+    top: 3194px;
     width: 377px;
   }
   
