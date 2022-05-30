@@ -3170,9 +3170,6 @@
     .search-popup .search-form .form-group .form-control {
         padding: 0 85px 0 22px;
         font-size: 14px;
-        &:placeholder {
-            font-size: 14px;
-        }
     }
     .login-register-popup {
         width: 85%;

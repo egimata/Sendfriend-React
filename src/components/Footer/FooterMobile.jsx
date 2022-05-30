@@ -7,25 +7,30 @@ const altimg = "SendFriend"
     return (
         <>
       <div className={custom_class}>
-        <img alt={altimg} className="asset-1bg1-1-2-gBjW7Z" src="img/asset-1bg1-1-2@2x.png" />
-        <div className="rectangle-40-gBjW7Z"></div>
-        <div className="to-learn-more-about-send-friend-gBjW7Z valign-text-middle montserrat-bold-white-14px-2">
-          <span
-            ><span className="span0-RsYvf7 montserrat-bold-white-14px">To learn more about</span
-            ><span className="span1-RsYvf7 montserrat-bold-caribbean-green-14px"> SendFriend</span>
-          </span>
+        <img alt={altimg} className="left-img-footer" src="img/footer/left-img.png" />
+        <div className="row justify-content-center">
+          <div className="subscription-box">
+            <p>
+              To learn more about<span > SendFriend</span>
+            </p>
+          </div>
         </div>
-        <Link to="/contact-us">
-        <div className="contact-us-gBjW7Z bp2-animate-enter7" >
-          <div className="rectangle-1-XbWypM smart-layers-pointers"></div>
-          <div className="contact-us-XbWypM valign-text-middle montserrat-bold-eerie-black-11px">CONTACT US</div>
+        
+        <div className="row justify-content-center">
+          <div className="col-md-4">
+              <div className="logo-footer">
+                <Link to="/">
+                  <img alt={altimg} src="img/logo-menu-2@2x.png" />
+                </Link>
+              </div>
+
+              <div className="contact-button animate-enter" >
+                <Link to="/contact-us">
+                  <p>CONTACT US</p>
+                </Link>
+              </div>
+          </div>
         </div>
-        </Link>
-        <Link to="/">
-        <div className="logo-gBjW7Z">
-          <div className="frame-131-h0Texg"><img alt={altimg} className="logo_menu-2-K8SRLr" src="img/logo-menu-2@2x.png" /></div>
-        </div>
-        </Link>
         
         <div className="middle-footer-gBjW7Z">
           <div className="company-k8XR3z valign-text-middle montserrat-bold-coconut-14px">COMPANY</div>

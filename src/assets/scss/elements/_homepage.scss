@@ -608,6 +608,48 @@
     .evolution-section{
         position: relative;
         width: 100%;
+        .barclays{
+            width: 132px;
+            padding-top: 30px;
+        }
+        .mit-delta{
+            left: calc(50.00% - 120px);
+            width: 195px;
+        }
+        .knick{
+            width: 64px;
+        }
+        .mit-media-lab{
+            width: 75px;
+            padding-top: 30px;
+        }
+        .ripple-img{
+            padding-top: 30px;
+            width: 80px;
+        }
+        .coins{
+            width: 78px;
+            height: 22px;
+            position: relative;
+            top: 20px;
+        }
+        .decimal{
+            width: 90px;
+        }
+        .celo{
+            height: 46px;
+            top: 10px;
+            position: relative;
+            width: 252px;
+        }
+        .european{
+            height: 43px;
+            width: 78px;
+        }
+        .en-logo{
+            height: 25px;
+            width: 87px;
+        }
     }
     .mobile-history {
         background-color: var(--caribbean-green);
@@ -629,11 +671,10 @@
         .vertical-line-mobile {
             left: calc(50.00% - 145px);
             position: relative;
-            top: 48px;
-            width: 13px;
+            top: 41px;
         }
         .line-dots {
-            left: calc(50.00% - 152px);
+            left: calc(50.00% - 153px);
             position: relative;
             bottom: 1268px;
         }
@@ -642,6 +683,60 @@
             position: absolute;
             top: 138px;
             width: 285px;
+            h6{
+                font-weight: 600;
+                color: var(--dark)
+            }
+            p{
+                padding-top: 25px;
+                line-height: normal;
+                width:90%;
+            }
+        }
+        .ellipse1{
+            background-color: var(--ebony-clay);
+            border-radius: 11px;
+            height: 22px;
+            left: 2px;
+            position: absolute;
+            width: 22px;
+            top: 2px;
+        }
+        .ellipse2{
+            background-color: var(--ebony-clay);
+            border-radius: 11px;
+            height: 22px;
+            left: 2px;
+            position: absolute;
+            width: 22px;
+            top: 250px;
+        }
+        .ellipse3{
+            background-color: var(--ebony-clay);
+            border-radius: 11px;
+            height: 22px;
+            left: 2px;
+            position: absolute;
+            width: 22px;
+            top: 500px;
+        }
+        .ellipse4{
+            background-color: var(--ebony-clay);
+            border-radius: 11px;
+            height: 22px;
+            left: 2px;
+            position: absolute;
+            width: 22px;
+            top: 750px;
+        }
+        .ellipse5{
+            background-color: var(--ebony-clay);
+            border-radius: 11px;
+            height: 22px;
+            left: 2px;
+            position: absolute;
+            width: 22px;
+            top: 1000px;
         }
     }
 
