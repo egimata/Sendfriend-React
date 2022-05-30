@@ -3,15 +3,16 @@ import { TeamMember } from './TeamMember';
 
 const title = "Leadership";
 const teamData = [
-    {
-        image: 'team-01',
-        name: 'David Lighton',
-        designation: 'Cofounder/CEO',
-        description: 'Yes, I am a product designer. I have a passion for product design.',
-        column: 'col-lg-3',
-        link: '/leadership#david',
-        content: 'David Lighton is SendFriend’s Co-Founder and CEO. David developed the concept for SendFriend in 2017 while getting his MBA from MIT Sloan’s full-time program. David stewarded his early team into MIT’s delta V Accelerator and Barclays Accelerator TechStars.'
-    },
+    // {
+    //     image: 'team-01',
+    //     name: 'David Lighton',
+    //     designation: 'Cofounder/CEO',
+    //     description: 'Yes, I am a product designer. I have a passion for product design.',
+    //     column: 'col-lg-3',
+    //     link: '/leadership#david',
+    //     content: 'David Lighton is SendFriend’s Co-Founder and CEO. David developed the concept for SendFriend in 2017 while getting his MBA from MIT Sloan’s full-time program. David stewarded his early team into MIT’s delta V Accelerator and Barclays Accelerator TechStars.'
+    // },
+    
     {
         image: 'team-02',
         name: 'Will Ferrer',
@@ -21,8 +22,6 @@ const teamData = [
         link: '/leadership#will',
         content: 'Will Ferrer is SendFriend’s Director of Strategy & Operations, joining the team in late 2021. Will has diverse experience in strategy, finance, and operations across the finance and technology sectors. Prior to SendFriend, he worked at technology firm PTC on their Corporate Strategy team...'
     },
-]
-const teamDataDown = [
     {
         image: 'team-03',
         name: 'Sandra Ro',
@@ -32,6 +31,9 @@ const teamDataDown = [
         link: '/leadership#sandra',
         content: 'Sandra Ro is the current CEO of the Global Blockchain Business Council, and a recognized thought leader in the blockchain space, having built blockchain-based products at the Chicago Mercantile Exchange. She holds a BA from Yale and an MBA from the London Business School.'
     },
+]
+const teamDataDown = [
+    
     {
         image: 'team-04',
         name: 'Satwik Seshasai',
