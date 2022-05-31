@@ -29,9 +29,9 @@ export const TeamMember = ({memmberInfo, teamStyle}) => {
                         <HashLink smooth to={memmberInfo.link}>
                             <div className="green-box" >
                                 <p className="title">{memmberInfo.name}</p>
-                                <p className="under-title">{memmberInfo.designation}</p>
+                                <p className="under-title">{memmberInfo.position}</p>
                                 <div className="text-box">
-                                    <p className="subtitle theme-gradient">{memmberInfo.content}</p>
+                                    <p className="subtitle theme-gradient">{memmberInfo.description}</p>
                                 </div>
                             </div>
                             </HashLink>
